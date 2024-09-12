@@ -15,7 +15,7 @@ knitr::opts_chunk$set(
 
 get_pubs <- function() {
   pubs <- gsheet::gsheet2tbl(
-    url = 'https://docs.google.com/spreadsheets/d/1eCDMQyzpL4fll3f4Co2UF4biDvxvEbaFJ8_8x03WYZA')
+    url = 'https://docs.google.com/spreadsheets/d/1fEQHOFmbsoz2YuCLVOMR7aAGsRMgD6Rz4TJVvf4hoIo')
   pubs <- make_citations(pubs)
   pubs$summary <- ifelse(is.na(pubs$summary), FALSE, pubs$summary)
   pubs$stub <- make_stubs(pubs)
