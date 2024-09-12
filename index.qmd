@@ -1,0 +1,50 @@
+---
+title: Alistair Bailey
+execute: 
+  echo: false
+  message: false
+  warning: false
+about:
+  id: hero-heading
+  template: solana
+  image: "img/avatar.jpg"
+  image-shape: round
+  image-width: 13em
+  links:
+    - text: "{{< iconify fa6-brands:bluesky size=2em title='Bluesky'>}}"
+      aria-label: "Bluesky"
+      href: https://bsky.app/profile/ab604.uk
+    - text: "{{< iconify bi github size=2em title='GitHub' >}}"
+      aria-label: "Github"
+      href: https://github.com/ab604
+    - text: "{{< iconify simple-icons:orcid size=2em title='ORCiD' >}}"
+      aria-label: "ORCiD"
+      href: https://orcid.org/0000-0003-0023-8679
+    - text: "{{< iconify academicons:google-scholar size=2em title='Google Scholar' >}}"
+      href: https://scholar.google.co.uk/citations?user=Xq7lwXEAAAAJ&hl=en
+      aria-label: "Google Scholar"
+---
+
+```{r setup}
+source("_common.R")
+```
+
+:::{#hero-heading}
+
+### Biography
+
+An engineer by training, my research career has been as a scientist and informatician  investigating antigen processing and presentation by major histocompatibility molecules using multi-omics methods.<br><br>I currently work as a learning technologist supporting Librarians at the [University of Southampton.](https://www.soton.ac.uk) 
+
+### Interests
+
+My most recent project was [CRUK Accelerator: Improving immunotherapy treatment for cancer patients.](https://www.cancerresearchuk.org/funding-for-researchers/accelerator-award/portfolio-funded-projects-outputs) Other projects have included research into influenza, COVID-19, skin sensitization to chemical allergens, asthma and contagious cancer in the Tasmanian Devil. I am also a [Data and Software Carpentry](https://carpentries.org/) instructor.
+
+### Education
+
+{{< iconify lets-icons:mortarboard-light size=1.75em title="PhD in Immunology 2013 University of Southampton" >}} PhD in Immunology 2013<br>University of Southampton
+
+{{< iconify lets-icons:mortarboard-light size=1.75em title="BEng in Civil Engineering 2008 University of Southampton">}} BEng in Civil Engineering 2008<br>University of Southampton
+
+{{< iconify lets-icons:mortarboard-light size=1.75em title="BTEC ND in Audio-Visual Production 1994 Bournemouth & Poole College of Art & Design">}} BTEC ND in Audio-Visual Production 1994<br>Bournemouth & Poole College of Art & Design
+
+:::

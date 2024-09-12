@@ -1,0 +1,49 @@
+/*-- scss:defaults --*/
+@import url('https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:wght@400;700&display=swap');
+
+// fonts
+$font-family-sans-serif: 'Atkinson Hyperlegible',Atkinson+Hyperlegible
+  FreeSerif, serif !default;
+
+$font-size-root: 18px !default;
+
+$white:    #fff !default;
+$black: black !default;
+$marine1: #005C84 !default;
+$marine2: #74C9E5 !default;
+$marine3: #3CBAC6 !default;
+$marine4: #B3DBD2 !default;
+$marine5: #4BB694 !default;
+$marine6: #C1D100 !default;
+$horizon1: #FCBC00 !default;
+$horizon2: #EF7D00 !default;
+$horizon3: #E73037 !default;
+$horizon4: #D5007F !default;
+$horizon5: #8D3970 !default;
+$shamrock: #1E8765 !default;
+$neutral1: #495961 !default;
+$neutral2: #758D9A !default;
+$link-color: $marine1 !default;
+
+$headings-color: $marine1 !default;
+$code-color: $horizon4 !default;
+$code-bg: $white !default;
+
+/*-- scss:rules --*/
+.highlight {
+  color: $horizon3;
+  font-weight: bold;
+}
+.sidebar-title {
+  color: $marine1;
+}
+
+.header-section-number {
+  color: $marine1;
+}
+
+.quarto-title-meta-heading {
+  color: $marine1;
+}
+
+

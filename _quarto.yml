@@ -1,0 +1,58 @@
+project:
+  type: website
+  output-dir: _site
+  preview:
+    port: 5896
+    browser: true
+  render:
+    - "index.qmd"
+    - "research.qmd"
+    - "projects.qmd"
+    #- "404.qmd"
+  resources:
+    - "content/"
+    - "css"
+
+website:
+  title: "Dr Alistair Bailey"
+  image: img/avatar.jpg
+  site-url: https://ab604
+  favicon: img/hla.ico
+  #repo-url: 
+  search:
+    location: navbar
+    type: overlay
+  back-to-top-navigation: true
+  #google-analytics: ""
+  open-graph:
+    locale: en_GB
+    site-name: https://ab604.uk
+  navbar:
+    right:
+      #- text: "Home"
+        #href: index.qmd
+      - text: "Publications"
+        href: research.qmd
+      - text: "Projects"
+        href: projects.qmd
+      - text: CV
+        href: content/cv.html
+  page-footer:
+    right: |
+      Created with <a href='https://quarto.org/' target='_blank'><img src='https://quarto.org/favicon.png' width=12> quarto</a>
+format:
+  html:
+    link-external-icon: true
+    link-external-newwindow: true
+    theme:
+      #light:
+      - cosmo
+      - css/dark.scss
+      #dark:
+      #- cosmo
+      #- css/styles.scss
+    anchor-sections: true
+    smooth-scroll: true
+    # This is to include fontawesome and academic icons in the headers:
+    include-in-header: "_includes/header.html"
+    
