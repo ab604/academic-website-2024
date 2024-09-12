@@ -43,6 +43,7 @@ website:
         href: projects.qmd
       - text: CV
         href: cv/cv.html
+        target: _blank
   page-footer:
     right: |
       Created with <a href='https://quarto.org/' target='_blank'><img src='https://quarto.org/favicon.png' width=12> quarto</a>
