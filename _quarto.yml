@@ -42,7 +42,7 @@ website:
       - text: "Projects"
         href: projects.qmd
       - text: CV
-        href: content/cv.html
+        href: cv/cv.html
   page-footer:
     right: |
       Created with <a href='https://quarto.org/' target='_blank'><img src='https://quarto.org/favicon.png' width=12> quarto</a>
@@ -61,4 +61,6 @@ format:
     smooth-scroll: true
     # This is to include fontawesome and academic icons in the headers:
     include-in-header: "_includes/header.html"
+    date: last-modified
+    date-format: '[Last Updated on] YYYY-MM-DD'
     
