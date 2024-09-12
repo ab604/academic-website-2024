@@ -1,0 +1,113 @@
+/*-- scss:defaults --*/
+@import url('https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:wght@400;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Serif:ital,opsz,wght@0,8..144,100..900;1,8..144,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+// fonts
+$headings-font-family: 'Roboto Serif';
+$font-family-base: 'Atkinson Hyperlegible';
+
+body {
+  font-family: 'Atkinson Hyperlegible', $font-family-base, sans-serif;
+}
+
+$font-size-root: 1.2rem !default;
+
+$white:    #fff !default;
+$black: black !default;
+$marine1: #005C84 !default;
+$marine2: #74C9E5 !default;
+$marine3: #3CBAC6 !default;
+$marine4: #B3DBD2 !default;
+$marine5: #4BB694 !default;
+$marine6: #C1D100 !default;
+$horizon1: #FCBC00 !default;
+$horizon2: #EF7D00 !default;
+$horizon3: #E73037 !default;
+$horizon4: #D5007F !default;
+$horizon5: #8D3970 !default;
+$shamrock: #1E8765 !default;
+$neutral1: #495961 !default;
+$neutral2: #758D9A !default;
+$gray-900: #222 !default;
+
+$link-color: $marine2 !default;
+$headings-color: $marine2 !default;
+$code-color: $marine6 !default;
+$code-bg: $gray-900 !default;
+
+// Body
+
+$body-bg:                   $gray-900 !default;
+$body-color:                $white !default;
+@function body-mix($weight) {
+    @return mix($body-bg, $body-color, $weight);
+}
+
+//$primary:       $blue !default;
+//$secondary:     body-mix(85%) !default;
+$success:       $marine2 !default;
+//$info:          $cyan !default;
+//$warning:       $yellow !default;
+//$danger:        $red !default;
+// This is inconsistent with Bootstrap semantics. That is, $dark
+// should actually be a light color in a dark mode setting, :shrug:
+// https://github.com/thomaspark/bootswatch/issues/989
+$light:         body-mix(65%) !default;
+$dark:          body-mix(95%) !default;
+
+$min-contrast-ratio:   4.5 !default;
+
+// Links
+$link-color:                $success !default;
+
+/*-- scss:rules --*/
+.highlight {
+  color: $horizon3;
+  font-weight: bold;
+}
+.sidebar-title {
+  color: $marine2;
+}
+
+.header-section-number {
+  color: $marine2;
+}
+
+.quarto-title-meta-heading {
+  color: $marine2;
+}
+
+.sourceCode.markdown.code-with-copy {
+  background-color: #696969;
+  border-radius: 4px;
+}
+
+.sourceCode {
+  background-color: #696969;
+  border-radius: 4px;
+}
+
+.downlit.sourceCode {
+  background-color: #696969;
+  border-radius: 4px;
+}
+
+.cell-output-stdout {
+  background-color: #F5F5F5;
+  border-radius: 4px;
+}
+
+//.nav-footer {
+//  color: $white ;
+//}
+
+//.margin-sidebar {
+//  color: $white ;
+//}
+
+//.menu-text {
+//  color: $white;
+//}
+
+
