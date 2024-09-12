@@ -14,14 +14,18 @@ about:
     - text: "{{< iconify fa6-brands:bluesky size=2em title='Bluesky'>}}"
       aria-label: "Bluesky"
       href: https://bsky.app/profile/ab604.uk
+      target: _blank
     - text: "{{< iconify bi github size=2em title='GitHub' >}}"
       aria-label: "Github"
       href: https://github.com/ab604
+      target: _blank
     - text: "{{< iconify simple-icons:orcid size=2em title='ORCiD' >}}"
       aria-label: "ORCiD"
       href: https://orcid.org/0000-0003-0023-8679
+      target: _blank
     - text: "{{< iconify academicons:google-scholar size=2em title='Google Scholar' >}}"
       href: https://scholar.google.co.uk/citations?user=Xq7lwXEAAAAJ&hl=en
+      target: _blank
       aria-label: "Google Scholar"
 ---
 

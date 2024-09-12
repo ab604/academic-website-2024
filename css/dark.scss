@@ -31,10 +31,17 @@ $neutral1: #495961 !default;
 $neutral2: #758D9A !default;
 $gray-900: #222 !default;
 
-$link-color: $marine2 !default;
+$primary-color: $marine4;
+//$blue: $marine3;
+//$primary-color-dark: #2c3f51;
+$secondary-color: $marine2;
+$secondary-color-trans: rgba(86, 167, 84, 0.2);
+$link-color: $primary-color;
+
+//$link-color: $primary-color !default;
 $headings-color: $marine2 !default;
-$code-color: $marine6 !default;
-$code-bg: $gray-900 !default;
+//$code-color: $marine6 !default;
+//$code-bg: $gray-900 !default;
 
 // Body
 
@@ -46,7 +53,7 @@ $body-color:                $white !default;
 
 //$primary:       $blue !default;
 //$secondary:     body-mix(85%) !default;
-$success:       $marine2 !default;
+//$success:       $marine2 !default;
 //$info:          $cyan !default;
 //$warning:       $yellow !default;
 //$danger:        $red !default;
@@ -61,7 +68,27 @@ $min-contrast-ratio:   4.5 !default;
 // Links
 $link-color:                $success !default;
 
-/*-- scss:rules --*/
+/*--  scss:rules --*/
+ 
+div.quarto-about-solana .about-entity .about-link {
+    //background-color: white;
+    color: $primary-color;
+    text-decoration: none;
+    font-weight: 600;
+    border: none;
+    //border-color: $primary-color;
+}
+
+div.quarto-about-solana .about-entity .about-link:hover {
+    color: $neutral2;
+    text-decoration: none;
+    font-weight: 600;
+    border: none;
+    //border-color: $secondary-color;
+}
+
+
+
 .highlight {
   color: $horizon3;
   font-weight: bold;
@@ -75,7 +102,7 @@ $link-color:                $success !default;
 }
 
 .quarto-title-meta-heading {
-  color: $marine2;
+  color: $marine4;
 }
 
 .sourceCode.markdown.code-with-copy {
