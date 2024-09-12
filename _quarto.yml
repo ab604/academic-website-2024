@@ -13,6 +13,12 @@ project:
     - "content/"
     - "css"
 
+execute: 
+  echo: false
+  message: false
+  warning: false
+  freeze: auto
+
 website:
   title: "Dr Alistair Bailey"
   image: img/avatar.jpg

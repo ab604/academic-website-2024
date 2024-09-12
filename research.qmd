@@ -1,10 +1,6 @@
 ---
 title: "Publications"
 description: I am joint first author on all work with Ben Nicholas.
-execute: 
-  echo: false
-  message: false
-  warning: false
 ---
 
 <!-- Remove margin under list items -->
