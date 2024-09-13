@@ -19,7 +19,7 @@ execute:
   freeze: auto
 
 website:
-  title: "Dr Alistair Bailey"
+  title: ab604.uk
   image: img/avatar.jpg
   site-url: https://ab604
   favicon: img/hla.ico
