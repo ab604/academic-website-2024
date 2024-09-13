@@ -1,6 +1,26 @@
 ---
 title: "Projects"
 description: Things I've made and done
+toc: true
+toc-location: left
 ---
 
-Ta-da
+## Bluesky literature bot
+
+[![](img/hla-black.png){fig-alt="HLA molecule" width="50" height="90"}](https://bsky.app/profile/protpapers.bsky.social)
+
+Based on the bots of [\@roblanfear.bsky.social](https://bsky.app/profile/did:plc:kvlugcsdfxrn7bidtfzwusez) and [\@jbgruber.bsky.social](https://bsky.app/profile/jbgruber.bsky.social) I created a bot using R and Github actions to post journal articles published on PubMed and bioRxiv that are of interest to me to keep up with the literature. You can make your own.
+
+Code on Github: [prot-paper-bot](https://github.com/ab604/prot-paper-bot)
+
+Bot on Bluesky: [\@protpapers.bsky.social](https://bsky.app/profile/protpapers.bsky.social)
+
+## The Itchen Bridge: Construction in colour
+
+A local history project created with our intern Pardeep Panesar and the Digital Scholarship team at the University of Southampton. The results are on our [Itchen Bridge webpage](https://ab604.github.io/itchen-bridge/).
+
+::: {#fig-drone}
+{{< video img/Drone-Video-Itchen-Bridge-2024-Flypastfacingnorth4xspeed.mp4 title="The Itchen Bridge, April 2024, Drone footage by Jeremy Hayes." alt="The Itchen Bridge, April 2024, Drone footage by Jeremy Hayes." autoplay="true" >}}
+
+The Itchen Bridge, 17th April 2024, Drone footage by Jeremy Hayes.
+:::

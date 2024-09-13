@@ -41,6 +41,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
 <link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="dark">
+<script src="site_libs/quarto-contrib/videojs/video.min.js"></script>
+<link href="site_libs/quarto-contrib/videojs/video-js.css" rel="stylesheet">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -89,7 +91,7 @@ ul.task-list li input[type="checkbox"] {
 <meta property="og:locale" content="en_GB">
 </head>
 
-<body class="nav-fixed fullcontent">
+<body class="floating nav-fixed">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -128,8 +130,20 @@ ul.task-list li input[type="checkbox"] {
 <!-- content -->
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
+    <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#bluesky-literature-bot" id="toc-bluesky-literature-bot" class="nav-link active" data-scroll-target="#bluesky-literature-bot">Bluesky literature bot</a></li>
+  <li><a href="#the-itchen-bridge-construction-in-colour" id="toc-the-itchen-bridge-construction-in-colour" class="nav-link" data-scroll-target="#the-itchen-bridge-construction-in-colour">The Itchen Bridge: Construction in colour</a></li>
+  </ul>
+</nav>
+</nav>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
-    
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
+    </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
@@ -151,7 +165,7 @@ ul.task-list li input[type="checkbox"] {
     <div>
     <div class="quarto-title-meta-heading">Published</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">Last Updated on 2024-09-12</p>
+      <p class="date">Last Updated on 2024-09-13</p>
     </div>
   </div>
   
@@ -163,9 +177,29 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>Ta-da</p>
+<section id="bluesky-literature-bot" class="level2">
+<h2 class="anchored" data-anchor-id="bluesky-literature-bot">Bluesky literature bot</h2>
+<p><a href="https://bsky.app/profile/protpapers.bsky.social"><img src="img/hla-black.png" alt="HLA molecule" width="50" height="90"></a></p>
+<p>Based on the bots of <a href="https://bsky.app/profile/did:plc:kvlugcsdfxrn7bidtfzwusez">@roblanfear.bsky.social</a> and <a href="https://bsky.app/profile/jbgruber.bsky.social">@jbgruber.bsky.social</a> I created a bot using R and Github actions to post journal articles published on PubMed and bioRxiv that are of interest to me to keep up with the literature. You can make your own.</p>
+<p>Code on Github: <a href="https://github.com/ab604/prot-paper-bot">prot-paper-bot</a></p>
+<p>Bot on Bluesky: <a href="https://bsky.app/profile/protpapers.bsky.social">@protpapers.bsky.social</a></p>
+</section>
+<section id="the-itchen-bridge-construction-in-colour" class="level2">
+<h2 class="anchored" data-anchor-id="the-itchen-bridge-construction-in-colour">The Itchen Bridge: Construction in colour</h2>
+<p>A local history project created with our intern Pardeep Panesar and the Digital Scholarship team at the University of Southampton. The results are on our <a href="https://ab604.github.io/itchen-bridge/">Itchen Bridge webpage</a>.</p>
+<div id="fig-drone" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-drone-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<div class="quarto-video"><video id="video_shortcode_videojs_video1" class="video-js vjs-default-skin vjs-fluid" controls="" preload="auto" data-setup="{}" title="The Itchen Bridge, April 2024, Drone footage by Jeremy Hayes."><source src="img/Drone-Video-Itchen-Bridge-2024-Flypastfacingnorth4xspeed.mp4"></video></div>
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-drone-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;1: The Itchen Bridge, 17th April 2024, Drone footage by Jeremy Hayes.
+</figcaption>
+</figure>
+</div>
 
 
+</section>
 
 <a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
@@ -609,6 +643,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </div>
   </div>
 </footer>
+<script>videojs(video_shortcode_videojs_video1);</script>
 
 
 

@@ -11,7 +11,21 @@
     "href": "projects.html",
     "title": "Projects",
     "section": "",
-    "text": "Ta-da\n\n\n\n Back to top"
+    "text": "Based on the bots of @roblanfear.bsky.social and @jbgruber.bsky.social I created a bot using R and Github actions to post journal articles published on PubMed and bioRxiv that are of interest to me to keep up with the literature. You can make your own.\nCode on Github: prot-paper-bot\nBot on Bluesky: @protpapers.bsky.social"
+  },
+  {
+    "objectID": "projects.html#bluesky-literature-bot",
+    "href": "projects.html#bluesky-literature-bot",
+    "title": "Projects",
+    "section": "",
+    "text": "Based on the bots of @roblanfear.bsky.social and @jbgruber.bsky.social I created a bot using R and Github actions to post journal articles published on PubMed and bioRxiv that are of interest to me to keep up with the literature. You can make your own.\nCode on Github: prot-paper-bot\nBot on Bluesky: @protpapers.bsky.social"
+  },
+  {
+    "objectID": "projects.html#the-itchen-bridge-construction-in-colour",
+    "href": "projects.html#the-itchen-bridge-construction-in-colour",
+    "title": "Projects",
+    "section": "The Itchen Bridge: Construction in colour",
+    "text": "The Itchen Bridge: Construction in colour\nA local history project created with our intern Pardeep Panesar and the Digital Scholarship team at the University of Southampton. The results are on our Itchen Bridge webpage.\n\n\n\n\n\n\nFigure 1: The Itchen Bridge, 17th April 2024, Drone footage by Jeremy Hayes."
   },
   {
     "objectID": "index.html",
