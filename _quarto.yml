@@ -51,12 +51,12 @@ format:
     link-external-icon: true
     link-external-newwindow: true
     theme:
-      #light:
+      dark:
       - cosmo
       - css/dark.scss
-      #dark:
-      #- cosmo
-      #- css/styles.scss
+      light:
+      - cosmo
+      - css/styles.scss
     anchor-sections: true
     smooth-scroll: true
     # This is to include fontawesome and academic icons in the headers:
