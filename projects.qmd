@@ -17,7 +17,7 @@ Bot on Bluesky: [\@protpapers.bsky.social](https://bsky.app/profile/protpapers.b
 
 ## The Itchen Bridge: Construction in colour
 
-A local history project created with our intern Pardeep Panesar and the Digital Scholarship team at the University of Southampton. The results are on our [Itchen Bridge webpage](https://ab604.github.io/itchen-bridge/).
+A local history project created with our intern Pardeep Panesar and the Digital Scholarship team at the University of Southampton. The results are on our [Itchen Bridge webpage](https://ab604.github.io/itchen-bridge){.external target="_blank"}.
 
 ::: {#fig-drone}
 {{< video img/Drone-Video-Itchen-Bridge-2024-Flypastfacingnorth4xspeed.mp4 title="The Itchen Bridge, April 2024, Drone footage by Jeremy Hayes." alt="The Itchen Bridge, April 2024, Drone footage by Jeremy Hayes." autoplay="true" >}}
@@ -27,57 +27,57 @@ The Itchen Bridge, 17th April 2024, Drone footage by Jeremy Hayes.
 
 ## Webpage Design Guide 2024
 
-[My 2024 guide to webpage design for text and links webpages for University of Southampton librarians.](https://ab604.github.io/webpage-design/)
+My 2024 guide to [design for text and links webpages](https://ab604.github.io){.external target="_blank"} for University of Southampton librarians.
 
 ## R for Librarians 2024
 
-[WORK IN PROGRESS Training materials in R for the Bibliometrics Team at the University of Southampton (UoS) Library Service.](https://ab604.github.io/library-r/)
+[WORK IN PROGRESS Training materials in R for the Bibliometrics Team at the University of Southampton (UoS) Library Service](https://ab604.github.io/library-r/){.external target="_blank"}.
 
 ## Premier League Predictions 2023/24
 
 ![](img/football.png){width="97"}
 
-[My super simple model attempting to predict the outcome of the second half of 2023/24 Premier League season.](https://ab604.github.io/premier-league-prediction-2024/) Wrong, but fun!
+[My super simple model attempting to predict the outcome of the second half of 2023/24 Premier League season.](https://ab604.github.io/premier-league-prediction-2024/){.external target="_blank"} Wrong, but fun!
 
 ## Coding togetheR 2019/20
 
 ![](img/knot.png){width="215"}
 
-[Materials for Coding togetheR. A series of collaborative workshops to teach foundational R coding and data science skills at the University of Southampton 2019-2020.](https://ab604.github.io/docs/coding-together-2019/index.html)
+[Materials for Coding togetheR. A series of collaborative workshops to teach foundational R coding and data science skills at the University of Southampton 2019-2020.](https://ab604.github.io/docs/coding-together-2019/index.html){.external target="_blank"}
 
 ## Creating and using a colour palette in R 2018
 
 ![](img/colour-wheel.png){width="215"}
 
-[A tutorial is to demonstrate one way to create a colour palette and corresponding gradients in R](http://ab604.github.io/docs/colour-palette-tutorial-10-11-2018.html).
+[A tutorial is to demonstrate one way to create a colour palette and corresponding gradients in R](http://ab604.github.io/docs/colour-palette-tutorial-10-11-2018.html){.external target="_blank"}.
 
 ## British Society for Proteomics 2018 Data Science Workshop
 
 ![](img/volcano-plot.png){width="200"}
 
-[Materials for proteomics data science workshop including introduction to R, Volcano plots, heatmaps and peptide logos](https://ab604.github.io/docs/bspr_workshop_2018/index.html).
+[Materials for proteomics data science workshop including introduction to R, Volcano plots, heatmaps and peptide logos](https://ab604.github.io/docs/bspr_workshop_2018/index.html){.external target="_blank"}.
 
 ## Machine Learning for MHC I peptide classification 2018
 
 ![](img/hla-logos.png){width="280"}
 
-[A toy model that attempts to classify peptides from my some of my experiments according to one of five MHC class I allotypes present in the cells I use.](http://ab604.github.io/docs/mhc_tensorflow_notebook.html)
+[A toy model that attempts to classify peptides from my some of my experiments according to one of five MHC class I allotypes present in the cells I use](http://ab604.github.io/docs/mhc_tensorflow_notebook.html){.external target="_blank"}.
 
 ## MHC dynamics dashboard 2017
 
 ![](img/mhc-hdx.gif){width="208"}
 
-[A dashboard to display the results of the MHC I MS-HDX project](https://ab604.github.io/docs/hdx_dashboard_jan_2017.html)
+[A dashboard to display the results of the MHC I MS-HDX project](https://ab604.github.io/docs/hdx_dashboard_jan_2017.html){.external target="_blank"}.
 
 ## Creating a heatmap using R d3heatmap 2015
 
 ![](img/heatmap.png){width="280"}
 
-[A short tutorial for producing heatmaps in R using some sample data.](https://rpubs.com/ab604/98032)
+[A short tutorial for producing heatmaps in R using some sample data](https://rpubs.com/ab604/98032){.external target="_blank"}.
 
 ## Selector function of MHC I molecules is determined by protein plasticity 2015
 
-![Mathematical model of MHC peptide selection](img/sci-rep-mhc-model.png){fig-alt="Diagram of a mathematical model of MHC peptide selection"}
+![Mathematical model of MHC peptide selection](img/sci-rep-mhc-model.png){fig-alt="Diagram of a mathematical model of MHC peptide selection" width="390"}
 
 This project sought to explain the mechanism of peptide selection by two functionally distinct MHC I allotypes using a combination of molecular dynamics and mathematical modelling of biochemical experiments.
 
@@ -87,10 +87,10 @@ This led to the proposal that MHC I cofactor tapasin modulates MHC I plasticity 
 
 Publication:
 
-**A. Bailey**, N. Dalchau, R. Carter, S. Emmott, A. Phillips, J. M. Werner, T. Elliott. Selector function of MHC I molecules is determined by protein plasticity. Sci Rep, (5), pp. 14928, https://doi.org/10.1038/srep14928, 2015.
+**A. Bailey**, N. Dalchau, R. Carter, S. Emmott, A. Phillips, J. M. Werner, T. Elliott. Selector function of MHC I molecules is determined by protein plasticity. Sci Rep, (5), pp. 14928, [10.1038/srep14928](https://doi.org/10.1038/srep14928), 2015.
 
 ## Biochem calculator 2015
 
 ![](img/shiny-hex.jpg){width="100"}
 
-A small [Shiny app for calculating the amount to weigh out or dilute for making solutions](https://ab604.shinyapps.io/biochem_calculator/).
+A small [Shiny app for calculating the amount to weigh out or dilute for making solutions](https://ab604.shinyapps.io/biochem_calculator/){.external target="_blank"}.

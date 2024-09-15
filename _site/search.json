@@ -32,7 +32,7 @@
     "href": "projects.html#webpage-design-guide-2024",
     "title": "Projects",
     "section": "Webpage Design Guide 2024",
-    "text": "Webpage Design Guide 2024\nMy 2024 guide to webpage design for text and links webpages for University of Southampton librarians."
+    "text": "Webpage Design Guide 2024\nMy 2024 guide to design for text and links webpages for University of Southampton librarians."
   },
   {
     "objectID": "projects.html#r-for-librarians-2024",
@@ -81,7 +81,7 @@
     "href": "projects.html#mhc-dynamics-dashboard-2017",
     "title": "Projects",
     "section": "MHC dynamics dashboard 2017",
-    "text": "MHC dynamics dashboard 2017\n\nA dashboard to display the results of the MHC I MS-HDX project"
+    "text": "MHC dynamics dashboard 2017\n\nA dashboard to display the results of the MHC I MS-HDX project."
   },
   {
     "objectID": "projects.html#creating-a-heatmap-using-r-d3heatmap-2015",
@@ -95,7 +95,7 @@
     "href": "projects.html#selector-function-of-mhc-i-molecules-is-determined-by-protein-plasticity-2015",
     "title": "Projects",
     "section": "Selector function of MHC I molecules is determined by protein plasticity 2015",
-    "text": "Selector function of MHC I molecules is determined by protein plasticity 2015\n\n\n\nMathematical model of MHC peptide selection\n\n\nThis project sought to explain the mechanism of peptide selection by two functionally distinct MHC I allotypes using a combination of molecular dynamics and mathematical modelling of biochemical experiments.\nIn collaboration with the Biological Computation Group at Microsoft Research Cambridge we used biochemical data to infer that a conformational intermediate of MHC I is significant for peptide selection, and molecular dynamics simulations to show that peptide selector function correlates with protein plasticity.\nThis led to the proposal that MHC I cofactor tapasin modulates MHC I plasticity by dynamically coupling the peptide binding region and membrane bound domain.\nPublication:\nA. Bailey, N. Dalchau, R. Carter, S. Emmott, A. Phillips, J. M. Werner, T. Elliott. Selector function of MHC I molecules is determined by protein plasticity. Sci Rep, (5), pp. 14928, https://doi.org/10.1038/srep14928, 2015."
+    "text": "Selector function of MHC I molecules is determined by protein plasticity 2015\n\n\n\nMathematical model of MHC peptide selection\n\n\nThis project sought to explain the mechanism of peptide selection by two functionally distinct MHC I allotypes using a combination of molecular dynamics and mathematical modelling of biochemical experiments.\nIn collaboration with the Biological Computation Group at Microsoft Research Cambridge we used biochemical data to infer that a conformational intermediate of MHC I is significant for peptide selection, and molecular dynamics simulations to show that peptide selector function correlates with protein plasticity.\nThis led to the proposal that MHC I cofactor tapasin modulates MHC I plasticity by dynamically coupling the peptide binding region and membrane bound domain.\nPublication:\nA. Bailey, N. Dalchau, R. Carter, S. Emmott, A. Phillips, J. M. Werner, T. Elliott. Selector function of MHC I molecules is determined by protein plasticity. Sci Rep, (5), pp. 14928, 10.1038/srep14928, 2015."
   },
   {
     "objectID": "projects.html#biochem-calculator-2015",
