@@ -28,6 +28,83 @@
     "text": "The Itchen Bridge: Construction in colour\nA local history project created with our intern Pardeep Panesar and the Digital Scholarship team at the University of Southampton. The results are on our Itchen Bridge webpage.\n\n\n\n\n\n\nFigure 1: The Itchen Bridge, 17th April 2024, Drone footage by Jeremy Hayes."
   },
   {
+    "objectID": "projects.html#webpage-design-guide-2024",
+    "href": "projects.html#webpage-design-guide-2024",
+    "title": "Projects",
+    "section": "Webpage Design Guide 2024",
+    "text": "Webpage Design Guide 2024\nMy 2024 guide to webpage design for text and links webpages for University of Southampton librarians."
+  },
+  {
+    "objectID": "projects.html#r-for-librarians-2024",
+    "href": "projects.html#r-for-librarians-2024",
+    "title": "Projects",
+    "section": "R for Librarians 2024",
+    "text": "R for Librarians 2024\nWORK IN PROGRESS Training materials in R for the Bibliometrics Team at the University of Southampton (UoS) Library Service."
+  },
+  {
+    "objectID": "projects.html#premier-league-predictions-202324",
+    "href": "projects.html#premier-league-predictions-202324",
+    "title": "Projects",
+    "section": "Premier League Predictions 2023/24",
+    "text": "Premier League Predictions 2023/24\n\nMy super simple model attempting to predict the outcome of the second half of 2023/24 Premier League season. Wrong, but fun!"
+  },
+  {
+    "objectID": "projects.html#coding-together-201920",
+    "href": "projects.html#coding-together-201920",
+    "title": "Projects",
+    "section": "Coding togetheR 2019/20",
+    "text": "Coding togetheR 2019/20\n\nMaterials for Coding togetheR. A series of collaborative workshops to teach foundational R coding and data science skills at the University of Southampton 2019-2020."
+  },
+  {
+    "objectID": "projects.html#creating-and-using-a-colour-palette-in-r-2018",
+    "href": "projects.html#creating-and-using-a-colour-palette-in-r-2018",
+    "title": "Projects",
+    "section": "Creating and using a colour palette in R 2018",
+    "text": "Creating and using a colour palette in R 2018\n\nA tutorial is to demonstrate one way to create a colour palette and corresponding gradients in R."
+  },
+  {
+    "objectID": "projects.html#british-society-for-proteomics-2018-data-science-workshop",
+    "href": "projects.html#british-society-for-proteomics-2018-data-science-workshop",
+    "title": "Projects",
+    "section": "British Society for Proteomics 2018 Data Science Workshop",
+    "text": "British Society for Proteomics 2018 Data Science Workshop\n\nMaterials for proteomics data science workshop including introduction to R, Volcano plots, heatmaps and peptide logos."
+  },
+  {
+    "objectID": "projects.html#machine-learning-for-mhc-i-peptide-classification-2018",
+    "href": "projects.html#machine-learning-for-mhc-i-peptide-classification-2018",
+    "title": "Projects",
+    "section": "Machine Learning for MHC I peptide classification 2018",
+    "text": "Machine Learning for MHC I peptide classification 2018\n\nA toy model that attempts to classify peptides from my some of my experiments according to one of five MHC class I allotypes present in the cells I use."
+  },
+  {
+    "objectID": "projects.html#mhc-dynamics-dashboard-2017",
+    "href": "projects.html#mhc-dynamics-dashboard-2017",
+    "title": "Projects",
+    "section": "MHC dynamics dashboard 2017",
+    "text": "MHC dynamics dashboard 2017\n\nA dashboard to display the results of the MHC I MS-HDX project"
+  },
+  {
+    "objectID": "projects.html#creating-a-heatmap-using-r-d3heatmap-2015",
+    "href": "projects.html#creating-a-heatmap-using-r-d3heatmap-2015",
+    "title": "Projects",
+    "section": "Creating a heatmap using R d3heatmap 2015",
+    "text": "Creating a heatmap using R d3heatmap 2015\n\nA short tutorial for producing heatmaps in R using some sample data."
+  },
+  {
+    "objectID": "projects.html#selector-function-of-mhc-i-molecules-is-determined-by-protein-plasticity-2015",
+    "href": "projects.html#selector-function-of-mhc-i-molecules-is-determined-by-protein-plasticity-2015",
+    "title": "Projects",
+    "section": "Selector function of MHC I molecules is determined by protein plasticity 2015",
+    "text": "Selector function of MHC I molecules is determined by protein plasticity 2015\n\n\n\nMathematical model of MHC peptide selection\n\n\nThis project sought to explain the mechanism of peptide selection by two functionally distinct MHC I allotypes using a combination of molecular dynamics and mathematical modelling of biochemical experiments.\nIn collaboration with the Biological Computation Group at Microsoft Research Cambridge we used biochemical data to infer that a conformational intermediate of MHC I is significant for peptide selection, and molecular dynamics simulations to show that peptide selector function correlates with protein plasticity.\nThis led to the proposal that MHC I cofactor tapasin modulates MHC I plasticity by dynamically coupling the peptide binding region and membrane bound domain.\nPublication:\nA. Bailey, N. Dalchau, R. Carter, S. Emmott, A. Phillips, J. M. Werner, T. Elliott. Selector function of MHC I molecules is determined by protein plasticity. Sci Rep, (5), pp. 14928, https://doi.org/10.1038/srep14928, 2015."
+  },
+  {
+    "objectID": "projects.html#biochem-calculator-2015",
+    "href": "projects.html#biochem-calculator-2015",
+    "title": "Projects",
+    "section": "Biochem calculator 2015",
+    "text": "Biochem calculator 2015\n\nA small Shiny app for calculating the amount to weigh out or dilute for making solutions."
+  },
+  {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Alistair Bailey",
