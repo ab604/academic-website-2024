@@ -17,6 +17,8 @@ After a bit of further browsing of the excellent sites linked from the Github is
 
 Additionally, there were a few bits of styling I wanted for an academic website, icons in particular (@sec-homepage-and-icons). So for (future) reference I've collated what I did here beyond following the [Quarto website documentation](https://quarto.org/docs/websites/) to customise things.
 
+The Github repo for my website is: <https://github.com/ab604/academic-website-2024>
+
 ## Set-up and YAML {#sec-set-up-and-yaml}
 
 To add things not include by default in a Quarto such as `css` styling, or a directory for my CV, use the `resources` section of `project:` in the `_quarto.yml` as below. Here the character vectors refer to directories and their contents, but they could also be individual files.
