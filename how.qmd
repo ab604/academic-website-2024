@@ -52,7 +52,7 @@ Everything else I've customised in the `_quarto.yml` is pretty well documented i
 
 For [my homepage](https://ab604.uk){.external target="_blank"} I went with an [about page with hero heading](https://quarto.org/docs/websites/website-about.html) using the `solana` template which is set in the page YAML of the `index.qmd` file:
 
-``` yaml
+```{.yaml shortcodes="false"}
 ---
 title: My Name
 about:
@@ -75,7 +75,7 @@ For link icons I installed the iconify extension: <https://github.com/mcanouil/q
 quarto add mcanouil/quarto-iconify
 ```
 
-Then search for your icon of interest on <https://icon-sets.iconify.design/> and then use the `text` field with a shortcode in quotes such as the one above for Bluesky `"{{< iconify fa6-brands:bluesky size=2em title='Bluesky'>}}"`. Note that I set `target: _blank` to make it open in a new tab/window.
+Then search for your icon of interest on <https://icon-sets.iconify.design/> and then use the `text` field with a shortcode in quotes such as the one above for Bluesky `"{{{< iconify fa6-brands:bluesky size=2em title='Bluesky'>}}}"`. Note that I set `target: _blank` to make it open in a new tab/window.
 
 Below the YAML is the `:::{#hero-heading}` container with my text and also some icons from iconify again. The shortcodes don't need quotes when used in-line. Iused a bit of in-line `html` for to tweak the formatting.
 
