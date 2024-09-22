@@ -9,7 +9,7 @@ toc-location: left
 
 [Notes on how I built this site and customised it](https://ab604.uk/how.html){.external target="_blank"} 
 
-These notes include how to update my publications page using a Google Sheet and notes on icons and styling.
+These notes include how to update my publications page using a Google Sheet and notes on icons and styling. 
 
 ## Bluesky literature bot
 
