@@ -8,10 +8,12 @@ project:
     - "index.qmd"
     - "research.qmd"
     - "projects.qmd"
+    - "how.qmd"
     #- "404.qmd"
   resources:
     - "css"
-
+    - "cv"
+    - ".well-known"
 execute: 
   echo: false
   message: false

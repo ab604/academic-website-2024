@@ -6,9 +6,9 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="description" content="Things I’ve made and done">
+<meta name="description" content="Moving from Hugo Academic to Quarto">
 
-<title>Projects – ab604.uk</title>
+<title>How I made this website – ab604.uk</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -20,6 +20,40 @@ ul.task-list li input[type="checkbox"] {
   width: 0.8em;
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
+}
+/* CSS for syntax highlighting */
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { display: inline-block; text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
 }
 </style>
 
@@ -43,8 +77,7 @@ ul.task-list li input[type="checkbox"] {
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
 <link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
 <link href="site_libs/bootstrap/bootstrap-dark.min.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
-<script src="site_libs/quarto-contrib/videojs/video.min.js"></script>
-<link href="site_libs/quarto-contrib/videojs/video-js.css" rel="stylesheet">
+<script src="site_libs/quarto-contrib/iconify-2.1.0/iconify-icon.min.js"></script>
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -86,8 +119,8 @@ ul.task-list li input[type="checkbox"] {
 
 
 
-<meta property="og:title" content="Projects – ab604.uk">
-<meta property="og:description" content="Things I’ve made and done">
+<meta property="og:title" content="How I made this website – ab604.uk">
+<meta property="og:description" content="Moving from Hugo Academic to Quarto">
 <meta property="og:image" content="https://ab604/img/avatar.jpg">
 <meta property="og:site_name" content="https://ab604.uk">
 <meta property="og:locale" content="en_GB">
@@ -115,7 +148,7 @@ ul.task-list li input[type="checkbox"] {
 <span class="menu-text">Publications</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="./projects.html" aria-current="page"> 
+    <a class="nav-link" href="./projects.html"> 
 <span class="menu-text">Projects</span></a>
   </li>  
   <li class="nav-item">
@@ -138,20 +171,15 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#moving-from-hugo-academic-to-a-quarto-website" id="toc-moving-from-hugo-academic-to-a-quarto-website" class="nav-link active" data-scroll-target="#moving-from-hugo-academic-to-a-quarto-website">Moving from Hugo Academic to a Quarto website</a></li>
-  <li><a href="#bluesky-literature-bot" id="toc-bluesky-literature-bot" class="nav-link" data-scroll-target="#bluesky-literature-bot">Bluesky literature bot</a></li>
-  <li><a href="#the-itchen-bridge-construction-in-colour" id="toc-the-itchen-bridge-construction-in-colour" class="nav-link" data-scroll-target="#the-itchen-bridge-construction-in-colour">The Itchen Bridge: Construction in colour</a></li>
-  <li><a href="#webpage-design-guide-2024" id="toc-webpage-design-guide-2024" class="nav-link" data-scroll-target="#webpage-design-guide-2024">Webpage Design Guide 2024</a></li>
-  <li><a href="#r-for-librarians-2024" id="toc-r-for-librarians-2024" class="nav-link" data-scroll-target="#r-for-librarians-2024">R for Librarians 2024</a></li>
-  <li><a href="#premier-league-predictions-202324" id="toc-premier-league-predictions-202324" class="nav-link" data-scroll-target="#premier-league-predictions-202324">Premier League Predictions 2023/24</a></li>
-  <li><a href="#coding-together-201920" id="toc-coding-together-201920" class="nav-link" data-scroll-target="#coding-together-201920">Coding togetheR 2019/20</a></li>
-  <li><a href="#creating-and-using-a-colour-palette-in-r-2018" id="toc-creating-and-using-a-colour-palette-in-r-2018" class="nav-link" data-scroll-target="#creating-and-using-a-colour-palette-in-r-2018">Creating and using a colour palette in R 2018</a></li>
-  <li><a href="#british-society-for-proteomics-2018-data-science-workshop" id="toc-british-society-for-proteomics-2018-data-science-workshop" class="nav-link" data-scroll-target="#british-society-for-proteomics-2018-data-science-workshop">British Society for Proteomics 2018 Data Science Workshop</a></li>
-  <li><a href="#machine-learning-for-mhc-i-peptide-classification-2018" id="toc-machine-learning-for-mhc-i-peptide-classification-2018" class="nav-link" data-scroll-target="#machine-learning-for-mhc-i-peptide-classification-2018">Machine Learning for MHC I peptide classification 2018</a></li>
-  <li><a href="#mhc-dynamics-dashboard-2017" id="toc-mhc-dynamics-dashboard-2017" class="nav-link" data-scroll-target="#mhc-dynamics-dashboard-2017">MHC dynamics dashboard 2017</a></li>
-  <li><a href="#creating-a-heatmap-using-r-d3heatmap-2015" id="toc-creating-a-heatmap-using-r-d3heatmap-2015" class="nav-link" data-scroll-target="#creating-a-heatmap-using-r-d3heatmap-2015">Creating a heatmap using R d3heatmap 2015</a></li>
-  <li><a href="#selector-function-of-mhc-i-molecules-is-determined-by-protein-plasticity-2015" id="toc-selector-function-of-mhc-i-molecules-is-determined-by-protein-plasticity-2015" class="nav-link" data-scroll-target="#selector-function-of-mhc-i-molecules-is-determined-by-protein-plasticity-2015">Selector function of MHC I molecules is determined by protein plasticity 2015</a></li>
-  <li><a href="#biochem-calculator-2015" id="toc-biochem-calculator-2015" class="nav-link" data-scroll-target="#biochem-calculator-2015">Biochem calculator 2015</a></li>
+  <li><a href="#sec-preamble" id="toc-sec-preamble" class="nav-link active" data-scroll-target="#sec-preamble">Preamble</a></li>
+  <li><a href="#sec-set-up-and-yaml" id="toc-sec-set-up-and-yaml" class="nav-link" data-scroll-target="#sec-set-up-and-yaml">Set-up and YAML</a></li>
+  <li><a href="#sec-homepage-and-icons" id="toc-sec-homepage-and-icons" class="nav-link" data-scroll-target="#sec-homepage-and-icons">Homepage and icons</a></li>
+  <li><a href="#sec-fonts-and-styles" id="toc-sec-fonts-and-styles" class="nav-link" data-scroll-target="#sec-fonts-and-styles">Fonts and styles</a></li>
+  <li><a href="#sec-journal-articles-page" id="toc-sec-journal-articles-page" class="nav-link" data-scroll-target="#sec-journal-articles-page">Publications page</a></li>
+  <li><a href="#bits-and-pieces" id="toc-bits-and-pieces" class="nav-link" data-scroll-target="#bits-and-pieces">Bits and pieces</a>
+  <ul class="collapse">
+  <li><a href="#netlify" id="toc-netlify" class="nav-link" data-scroll-target="#netlify">Netlify</a></li>
+  </ul></li>
   </ul>
 </nav>
 </nav>
@@ -164,12 +192,12 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Projects</h1>
+<h1 class="title">How I made this website</h1>
 </div>
 
 <div>
   <div class="description">
-    Things I’ve made and done
+    Moving from Hugo Academic to Quarto
   </div>
 </div>
 
@@ -192,94 +220,152 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="moving-from-hugo-academic-to-a-quarto-website" class="level2">
-<h2 class="anchored" data-anchor-id="moving-from-hugo-academic-to-a-quarto-website">Moving from Hugo Academic to a Quarto website</h2>
-<p>Notes on how I built this site and customised it. Including how to update my publications page using a Google Sheet and styling:</p>
+<section id="sec-preamble" class="level2">
+<h2 class="anchored" data-anchor-id="sec-preamble">Preamble</h2>
+<p>I wanted to move from Hugo to Quarto as I find the latter easier to work with. And I only need a simple static website, but I want to be able to update the information about my research publications and things I’ve made and done (aka Projects) relatively easily which isn’t functionality that is built into Quarto at the time of writing.</p>
+<p>I looked around at what others had done and wanted to know how others had dealt with publications and research (<a href="#sec-journal-articles-page" class="quarto-xref">Section&nbsp;5</a>), which led me to this Github issues page: <a href="https://github.com/quarto-dev/quarto-cli/issues/1324" class="uri">https://github.com/quarto-dev/quarto-cli/issues/1324</a></p>
+<p>After a bit of further browsing of the excellent sites linked from the Github issues, I decided that John Paul Helveston’s (JPH) approach was what I needed. His repo: <a href="https://github.com/jhelvy/jhelvy_quarto" class="uri">https://github.com/jhelvy/jhelvy_quarto</a> and his site: <a href="https://jhelvy.com/" class="uri">https://jhelvy.com/</a></p>
+<p>Additionally, there were a few bits of styling I wanted for an academic website, icons in particular (<a href="#sec-homepage-and-icons" class="quarto-xref">Section&nbsp;3</a>). So for (future) reference I’ve collated what I did here beyond following the <a href="https://quarto.org/docs/websites/">Quarto website documentation</a> to customise things.</p>
 </section>
-<section id="bluesky-literature-bot" class="level2">
-<h2 class="anchored" data-anchor-id="bluesky-literature-bot">Bluesky literature bot</h2>
-<p><a href="https://bsky.app/profile/protpapers.bsky.social"><img src="img/hla-black.png" class="img-fluid" alt="HLA molecule" width="56"></a></p>
-<p>Based on the bots of <a href="https://bsky.app/profile/did:plc:kvlugcsdfxrn7bidtfzwusez">@roblanfear.bsky.social</a> and <a href="https://bsky.app/profile/jbgruber.bsky.social">@jbgruber.bsky.social</a> I created a bot using R and Github actions to post journal articles published on PubMed and bioRxiv that are of interest to me to keep up with the literature. You can make your own.</p>
-<p>Code on Github: <a href="https://github.com/ab604/prot-paper-bot">prot-paper-bot</a></p>
-<p>Bot on Bluesky: <a href="https://bsky.app/profile/protpapers.bsky.social">@protpapers.bsky.social</a></p>
+<section id="sec-set-up-and-yaml" class="level2">
+<h2 class="anchored" data-anchor-id="sec-set-up-and-yaml">Set-up and YAML</h2>
+<p>To add things not include by default in a Quarto such as <code>css</code> styling, or a directory for my CV, use the <code>resources</code> section of <code>project:</code> in the <code>_quarto.yml</code> as below. Here the character vectors refer to directories and their contents, but they could also be individual files.</p>
+<div class="sourceCode" id="cb1"><pre class="sourceCode yaml code-with-copy"><code class="sourceCode yaml"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu">resources</span><span class="kw">:</span></span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="at">    </span><span class="kw">-</span><span class="at"> </span><span class="st">"css"</span></span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="at">    </span><span class="kw">-</span><span class="at"> </span><span class="st">"cv"</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<p>On the navigation, my CV links to a separate webpage that’s built from a spreadsheet, which is added via the <code>resources</code> above and then the file is linked to using <code>href</code> and I use <code>target: _blank</code> to ensure it opens in a new tab/window.</p>
+<div class="sourceCode" id="cb2"><pre class="sourceCode yaml code-with-copy"><code class="sourceCode yaml"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="kw">-</span><span class="at"> </span><span class="fu">text</span><span class="kw">:</span><span class="at"> CV</span></span>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a><span class="at">  </span><span class="fu">href</span><span class="kw">:</span><span class="at"> cv/cv.html</span></span>
+<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a><span class="at">  </span><span class="fu">target</span><span class="kw">:</span><span class="at"> _blank</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<p>Quarto use bootstrap icons, but this set doesn’t have all the icons I wanted and JPH has an <code>_includes</code> folder has a bit of <code>html</code> to load fontawesome icons, so I added that to my site too.</p>
+<div class="sourceCode" id="cb3"><pre class="sourceCode yaml code-with-copy"><code class="sourceCode yaml"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="co"># This is to include fontawesome and academic icons in the headers:</span></span>
+<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a><span class="at">    </span><span class="fu">include-in-header</span><span class="kw">:</span><span class="at"> </span><span class="st">"_includes/header.html"</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<p>Everything else I’ve customised in the <code>_quarto.yml</code> is pretty well documented in the <a href="https://quarto.org/docs/reference/formats/html.html">Quarto yaml html docs</a>.</p>
 </section>
-<section id="the-itchen-bridge-construction-in-colour" class="level2">
-<h2 class="anchored" data-anchor-id="the-itchen-bridge-construction-in-colour">The Itchen Bridge: Construction in colour</h2>
-<p>A local history project created with our intern Pardeep Panesar and the Digital Scholarship team at the University of Southampton. The results are on our <a href="https://ab604.github.io/itchen-bridge" class="external" target="_blank">Itchen Bridge webpage</a>.</p>
-<div id="fig-drone" class="quarto-float quarto-figure quarto-figure-center anchored">
-<figure class="quarto-float quarto-float-fig figure">
-<div aria-describedby="fig-drone-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<div class="quarto-video"><video id="video_shortcode_videojs_video1" class="video-js vjs-default-skin vjs-fluid" controls="" preload="auto" data-setup="{}" title="The Itchen Bridge, April 2024, Drone footage by Jeremy Hayes."><source src="img/Drone-Video-Itchen-Bridge-2024-Flypastfacingnorth4xspeed.mp4"></video></div>
+<section id="sec-homepage-and-icons" class="level2">
+<h2 class="anchored" data-anchor-id="sec-homepage-and-icons">Homepage and icons</h2>
+<p>For <a href="https://ab604.uk" class="external" target="_blank">my homepage</a> I went with an <a href="https://quarto.org/docs/websites/website-about.html">about page with hero heading</a> using the <code>solana</code> template which is set in the page YAML of the <code>index.qmd</code> file:</p>
+<div class="sourceCode" id="cb4"><pre class="sourceCode yaml code-with-copy"><code class="sourceCode yaml"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="pp">---</span></span>
+<span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a><span class="fu">title</span><span class="kw">:</span><span class="at"> My Name</span></span>
+<span id="cb4-3"><a href="#cb4-3" aria-hidden="true" tabindex="-1"></a><span class="fu">about</span><span class="kw">:</span></span>
+<span id="cb4-4"><a href="#cb4-4" aria-hidden="true" tabindex="-1"></a><span class="at">  </span><span class="fu">id</span><span class="kw">:</span><span class="at"> hero-heading</span></span>
+<span id="cb4-5"><a href="#cb4-5" aria-hidden="true" tabindex="-1"></a><span class="at">  </span><span class="fu">template</span><span class="kw">:</span><span class="at"> solana</span></span>
+<span id="cb4-6"><a href="#cb4-6" aria-hidden="true" tabindex="-1"></a><span class="at">  </span><span class="fu">image</span><span class="kw">:</span><span class="at"> </span><span class="st">"img/avatar.jpg"</span></span>
+<span id="cb4-7"><a href="#cb4-7" aria-hidden="true" tabindex="-1"></a><span class="at">  </span><span class="fu">image-shape</span><span class="kw">:</span><span class="at"> round</span></span>
+<span id="cb4-8"><a href="#cb4-8" aria-hidden="true" tabindex="-1"></a><span class="at">  </span><span class="fu">image-width</span><span class="kw">:</span><span class="at"> 13em</span></span>
+<span id="cb4-9"><a href="#cb4-9" aria-hidden="true" tabindex="-1"></a><span class="at">  </span><span class="fu">links</span><span class="kw">:</span></span>
+<span id="cb4-10"><a href="#cb4-10" aria-hidden="true" tabindex="-1"></a><span class="at">    </span><span class="kw">-</span><span class="at"> </span><span class="fu">text</span><span class="kw">:</span><span class="at"> </span><span class="st">""</span></span>
+<span id="cb4-11"><a href="#cb4-11" aria-hidden="true" tabindex="-1"></a><span class="at">      </span><span class="fu">aria-label</span><span class="kw">:</span><span class="at"> </span><span class="st">"Bluesky"</span></span>
+<span id="cb4-12"><a href="#cb4-12" aria-hidden="true" tabindex="-1"></a><span class="at">      </span><span class="fu">href</span><span class="kw">:</span><span class="at"> https://bsky.app/profile/profile-name.bsky.social</span></span>
+<span id="cb4-13"><a href="#cb4-13" aria-hidden="true" tabindex="-1"></a><span class="at">      </span><span class="fu">target</span><span class="kw">:</span><span class="at"> _blank</span></span>
+<span id="cb4-14"><a href="#cb4-14" aria-hidden="true" tabindex="-1"></a><span class="pp">---</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<p>For link icons I installed the iconify extension: <a href="https://github.com/mcanouil/quarto-iconify" class="uri">https://github.com/mcanouil/quarto-iconify</a> by Mickaël Canouil using:</p>
+<div class="sourceCode" id="cb5"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="ex">quarto</span> add mcanouil/quarto-iconify</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<p>Then search for your icon of interest on <a href="https://icon-sets.iconify.design/" class="uri">https://icon-sets.iconify.design/</a> and then use the <code>text</code> field with a shortcode in quotes such as the one above for Bluesky <code>""</code>. Note that I set <code>target: _blank</code> to make it open in a new tab/window.</p>
+<p>Below the YAML is the <code>:::{#hero-heading}</code> container with my text and also some icons from iconify again. The shortcodes don’t need quotes when used in-line. Iused a bit of in-line <code>html</code> for to tweak the formatting.</p>
+<div class="sourceCode" id="cb6"><pre class="sourceCode markdown code-with-copy"><code class="sourceCode markdown"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a>:::{#hero-heading}</span>
+<span id="cb6-2"><a href="#cb6-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-3"><a href="#cb6-3" aria-hidden="true" tabindex="-1"></a><span class="fu">### Biography</span></span>
+<span id="cb6-4"><a href="#cb6-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-5"><a href="#cb6-5" aria-hidden="true" tabindex="-1"></a>My biography</span>
+<span id="cb6-6"><a href="#cb6-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-7"><a href="#cb6-7" aria-hidden="true" tabindex="-1"></a><span class="fu">### Interests</span></span>
+<span id="cb6-8"><a href="#cb6-8" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-9"><a href="#cb6-9" aria-hidden="true" tabindex="-1"></a>My interests</span>
+<span id="cb6-10"><a href="#cb6-10" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-11"><a href="#cb6-11" aria-hidden="true" tabindex="-1"></a><span class="fu">### Education</span></span>
+<span id="cb6-12"><a href="#cb6-12" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-13"><a href="#cb6-13" aria-hidden="true" tabindex="-1"></a> PhD &lt;br&gt;University of Somewhere</span>
+<span id="cb6-14"><a href="#cb6-14" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-15"><a href="#cb6-15" aria-hidden="true" tabindex="-1"></a> BEng i&lt;br&gt;University of Somewhere</span>
+<span id="cb6-16"><a href="#cb6-16" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-17"><a href="#cb6-17" aria-hidden="true" tabindex="-1"></a> BTEC ND&lt;br&gt;College of Art &amp; Design</span>
+<span id="cb6-18"><a href="#cb6-18" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-19"><a href="#cb6-19" aria-hidden="true" tabindex="-1"></a>:::</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</section>
+<section id="sec-fonts-and-styles" class="level2">
+<h2 class="anchored" data-anchor-id="sec-fonts-and-styles">Fonts and styles</h2>
+<p>For fonts and styles I created a <code>scss</code> files in the <code>css</code> folder. The ones on my site have been hacked a lot, so they probably contain redundant code.</p>
+<p>For free fonts, choose whatever you like from <a href="https://fonts.google.com/">Google fonts</a> and then click get code and embed and then the select the import radio button and copy the code to the top of your <code>scss</code> file.</p>
+<p>Here’s Roboto - you don’t need the <code>&lt;style&gt;</code> tags.</p>
+<p><img src="images/clipboard-4074932312.png" class="img-fluid"></p>
+<p>Then you have to define which fonts you want to use for the various bits of the document. For example this would set the headings to use Roboto.</p>
+<div class="sourceCode" id="cb7"><pre class="sourceCode css code-with-copy"><code class="sourceCode css"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a><span class="er">// Set Heading font to Roboto</span></span>
+<span id="cb7-2"><a href="#cb7-2" aria-hidden="true" tabindex="-1"></a>$headings-font-family<span class="in">:</span> 'Roboto';</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<p>I’ll leave it to the reader to explore the rest and colours etc., but I have made some notes on font size and choices in the guide I made for how to <a href="https://ab604.github.io/webpage-design/" class="external" target="_blank">design for text and links webpages</a>.</p>
+<p>I also wanted a dark and light theme, so I have one <code>scss</code> file for each that augments the in-built <code>cosmo</code> styles called in the format section of the <code>_quarto.yml</code> :</p>
+<div class="sourceCode" id="cb8"><pre class="sourceCode yaml code-with-copy"><code class="sourceCode yaml"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a><span class="fu">theme</span><span class="kw">:</span></span>
+<span id="cb8-2"><a href="#cb8-2" aria-hidden="true" tabindex="-1"></a><span class="at">      </span><span class="fu">dark</span><span class="kw">:</span></span>
+<span id="cb8-3"><a href="#cb8-3" aria-hidden="true" tabindex="-1"></a><span class="at">      </span><span class="kw">-</span><span class="at"> cosmo</span></span>
+<span id="cb8-4"><a href="#cb8-4" aria-hidden="true" tabindex="-1"></a><span class="at">      </span><span class="kw">-</span><span class="at"> css/dark.scss</span></span>
+<span id="cb8-5"><a href="#cb8-5" aria-hidden="true" tabindex="-1"></a><span class="at">      </span><span class="fu">light</span><span class="kw">:</span></span>
+<span id="cb8-6"><a href="#cb8-6" aria-hidden="true" tabindex="-1"></a><span class="at">      </span><span class="kw">-</span><span class="at"> cosmo</span></span>
+<span id="cb8-7"><a href="#cb8-7" aria-hidden="true" tabindex="-1"></a><span class="at">      </span><span class="kw">-</span><span class="at"> css/styles.scss</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<p>To style the icons on the homepage I inspected the page for where the icons were styled and then added code to override it to my <code>scss</code> files. You’ll need to do this for both dark and light <code>scss</code> files.</p>
+<div class="sourceCode" id="cb9"><pre class="sourceCode css code-with-copy"><code class="sourceCode css"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a>div<span class="fu">.quarto-about-solana</span> <span class="fu">.about-entity</span> <span class="fu">.about-link</span> {</span>
+<span id="cb9-2"><a href="#cb9-2" aria-hidden="true" tabindex="-1"></a>    <span class="er">//background-color: white;</span></span>
+<span id="cb9-3"><a href="#cb9-3" aria-hidden="true" tabindex="-1"></a>    <span class="kw">color</span><span class="ch">:</span> $<span class="dv">primary-color</span><span class="op">;</span></span>
+<span id="cb9-4"><a href="#cb9-4" aria-hidden="true" tabindex="-1"></a>    <span class="kw">text-decoration</span><span class="ch">:</span> <span class="dv">none</span><span class="op">;</span></span>
+<span id="cb9-5"><a href="#cb9-5" aria-hidden="true" tabindex="-1"></a>    <span class="kw">font-weight</span><span class="ch">:</span> <span class="dv">600</span><span class="op">;</span></span>
+<span id="cb9-6"><a href="#cb9-6" aria-hidden="true" tabindex="-1"></a>    <span class="kw">border</span><span class="ch">:</span> <span class="dv">none</span><span class="op">;</span></span>
+<span id="cb9-7"><a href="#cb9-7" aria-hidden="true" tabindex="-1"></a>    <span class="er">//border-color: $primary-color;</span></span>
+<span id="cb9-8"><a href="#cb9-8" aria-hidden="true" tabindex="-1"></a>}</span>
+<span id="cb9-9"><a href="#cb9-9" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb9-10"><a href="#cb9-10" aria-hidden="true" tabindex="-1"></a>div<span class="fu">.quarto-about-solana</span> <span class="fu">.about-entity</span> <span class="fu">.about-link</span><span class="in">:hover</span> {</span>
+<span id="cb9-11"><a href="#cb9-11" aria-hidden="true" tabindex="-1"></a>    <span class="kw">color</span><span class="ch">:</span> $<span class="dv">neutral2</span><span class="op">;</span></span>
+<span id="cb9-12"><a href="#cb9-12" aria-hidden="true" tabindex="-1"></a>    <span class="kw">text-decoration</span><span class="ch">:</span> <span class="dv">none</span><span class="op">;</span></span>
+<span id="cb9-13"><a href="#cb9-13" aria-hidden="true" tabindex="-1"></a>    <span class="kw">font-weight</span><span class="ch">:</span> <span class="dv">600</span><span class="op">;</span></span>
+<span id="cb9-14"><a href="#cb9-14" aria-hidden="true" tabindex="-1"></a>    <span class="kw">border</span><span class="ch">:</span> <span class="dv">none</span><span class="op">;</span></span>
+<span id="cb9-15"><a href="#cb9-15" aria-hidden="true" tabindex="-1"></a>    <span class="er">//border-color: $secondary-color;</span></span>
+<span id="cb9-16"><a href="#cb9-16" aria-hidden="true" tabindex="-1"></a>}</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<p>Lastly I copied over <code>strapless.css</code> from JPH’s site to work with his <code>_common.R</code> functions for my publications page.</p>
+</section>
+<section id="sec-journal-articles-page" class="level2">
+<h2 class="anchored" data-anchor-id="sec-journal-articles-page">Publications page</h2>
+<p>Having settled on John Paul Helveston’s approach of creating a spreadsheet that I can update and is then read and updates the Publications page on my site.</p>
+<p>This is similar to how I maintain my CV (<a href="https://github.com/ab604/abailey-cv" class="uri">https://github.com/ab604/abailey-cv</a>) forked from Nick Strayer’s repo: <a href="https://github.com/nstrayer/cv" class="uri">https://github.com/nstrayer/cv</a> and also uses a spreadsheet.</p>
+<p>For the website I took the <code>_common.R</code> file from JPH’s Github repo which contains all the functions he wrote for reading a Google sheet and formatting it as a webpage (which uses fontawesome icons, hence needing them in the header) and adapted to use with my own Google sheet.</p>
+<p>Essentially I made it a bit simpler as I’m only interested in publications and not other types of activity and functionality that JPH has added. Here is a <a href="https://docs.google.com/spreadsheets/d/1eBPmTGxFttdxKFUCVoIkK1_Tt4vx4R1pt-W-8pZ8-hI/edit?usp=sharing">Google Sheet Template</a> that will work with the <code>_common.R</code> file.</p>
+<p>As mentioned in <a href="#sec-fonts-and-styles" class="quarto-xref">Section&nbsp;4</a>, I also needed the <code>strapless.css</code> file for styling and the <code>header.html</code> for the fontawesome icons (<a href="#sec-set-up-and-yaml" class="quarto-xref">Section&nbsp;2</a>).</p>
+<p>Then I created a Quarto file using JPH’s original with the code below containing:</p>
+<ul>
+<li><p>The document YAML</p></li>
+<li><p>Some in-line <code>css</code> to remove the divider lines between articles.</p></li>
+<li><p>Then a R chunk to source <code>_common.R</code> and read the Google Sheet, followed by some in-line R to print the journal articles using the <code>make_pub_list()</code> function from <code>_common.R</code>.</p></li>
+</ul>
+<div class="sourceCode" id="cb10"><pre class="sourceCode markdown code-with-copy"><code class="sourceCode markdown"><span id="cb10-1"><a href="#cb10-1" aria-hidden="true" tabindex="-1"></a><span class="co">---</span></span>
+<span id="cb10-2"><a href="#cb10-2" aria-hidden="true" tabindex="-1"></a><span class="an">title:</span><span class="co"> "Publications"</span></span>
+<span id="cb10-3"><a href="#cb10-3" aria-hidden="true" tabindex="-1"></a><span class="an">description:</span><span class="co"> I am joint first author on all work with Ben Nicholas. </span></span>
+<span id="cb10-4"><a href="#cb10-4" aria-hidden="true" tabindex="-1"></a><span class="co">---</span></span>
+<span id="cb10-5"><a href="#cb10-5" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb10-6"><a href="#cb10-6" aria-hidden="true" tabindex="-1"></a><span class="co">&lt;!-- Remove margin under list items --&gt;</span></span>
+<span id="cb10-7"><a href="#cb10-7" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb10-8"><a href="#cb10-8" aria-hidden="true" tabindex="-1"></a>&lt;style&gt;</span>
+<span id="cb10-9"><a href="#cb10-9" aria-hidden="true" tabindex="-1"></a>ol {</span>
+<span id="cb10-10"><a href="#cb10-10" aria-hidden="true" tabindex="-1"></a>    <span class="kw">margin-bottom</span><span class="ch">:</span> <span class="dv">5</span><span class="dt">px</span><span class="op">;</span></span>
+<span id="cb10-11"><a href="#cb10-11" aria-hidden="true" tabindex="-1"></a>}</span>
+<span id="cb10-12"><a href="#cb10-12" aria-hidden="true" tabindex="-1"></a>p {</span>
+<span id="cb10-13"><a href="#cb10-13" aria-hidden="true" tabindex="-1"></a>  <span class="kw">margin</span><span class="ch">:</span> <span class="dv">5</span><span class="dt">px</span> <span class="dv">0</span> <span class="dv">0</span> <span class="dv">0</span><span class="op">;</span></span>
+<span id="cb10-14"><a href="#cb10-14" aria-hidden="true" tabindex="-1"></a>}</span>
+<span id="cb10-15"><a href="#cb10-15" aria-hidden="true" tabindex="-1"></a>&lt;/style&gt;</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb11"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb11-1"><a href="#cb11-1" aria-hidden="true" tabindex="-1"></a><span class="fu">source</span>(<span class="st">"_common.R"</span>)</span>
+<span id="cb11-2"><a href="#cb11-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb11-3"><a href="#cb11-3" aria-hidden="true" tabindex="-1"></a><span class="co"># Get pubs from Google sheet</span></span>
+<span id="cb11-4"><a href="#cb11-4" aria-hidden="true" tabindex="-1"></a>pubs <span class="ot">&lt;-</span> <span class="fu">get_pubs</span>()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
-<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-drone-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Figure&nbsp;1: The Itchen Bridge, 17th April 2024, Drone footage by Jeremy Hayes.
-</figcaption>
-</figure>
-</div>
+<p><code>`r make_pub_list(pubs, 'peer_reviewed')`</code></p>
+<p>One note is that it won’t refresh the articles from the Google Sheet unless I edit <code>.qmd</code> file too. (Add a space, remove a space.)</p>
 </section>
-<section id="webpage-design-guide-2024" class="level2">
-<h2 class="anchored" data-anchor-id="webpage-design-guide-2024">Webpage Design Guide 2024</h2>
-<p>My 2024 guide to <a href="https://ab604.github.io/webpage-design/" class="external" target="_blank">design for text and links webpages</a> for University of Southampton librarians.</p>
-</section>
-<section id="r-for-librarians-2024" class="level2">
-<h2 class="anchored" data-anchor-id="r-for-librarians-2024">R for Librarians 2024</h2>
-<p><a href="https://ab604.github.io/library-r/" class="external" target="_blank">WORK IN PROGRESS Training materials in R for the Bibliometrics Team at the University of Southampton (UoS) Library Service</a>.</p>
-</section>
-<section id="premier-league-predictions-202324" class="level2">
-<h2 class="anchored" data-anchor-id="premier-league-predictions-202324">Premier League Predictions 2023/24</h2>
-<p><img src="img/football.png" class="img-fluid" width="97"></p>
-<p><a href="https://ab604.github.io/premier-league-prediction-2024/" class="external" target="_blank">My super simple model attempting to predict the outcome of the second half of 2023/24 Premier League season.</a> Wrong, but fun!</p>
-</section>
-<section id="coding-together-201920" class="level2">
-<h2 class="anchored" data-anchor-id="coding-together-201920">Coding togetheR 2019/20</h2>
-<p><img src="img/knot.png" class="img-fluid" width="215"></p>
-<p><a href="https://ab604.github.io/docs/coding-together-2019/index.html" class="external" target="_blank">Materials for Coding togetheR. A series of collaborative workshops to teach foundational R coding and data science skills at the University of Southampton 2019-2020.</a></p>
-</section>
-<section id="creating-and-using-a-colour-palette-in-r-2018" class="level2">
-<h2 class="anchored" data-anchor-id="creating-and-using-a-colour-palette-in-r-2018">Creating and using a colour palette in R 2018</h2>
-<p><img src="img/colour-wheel.png" class="img-fluid" width="215"></p>
-<p><a href="http://ab604.github.io/docs/colour-palette-tutorial-10-11-2018.html" class="external" target="_blank">A tutorial is to demonstrate one way to create a colour palette and corresponding gradients in R</a>.</p>
-</section>
-<section id="british-society-for-proteomics-2018-data-science-workshop" class="level2">
-<h2 class="anchored" data-anchor-id="british-society-for-proteomics-2018-data-science-workshop">British Society for Proteomics 2018 Data Science Workshop</h2>
-<p><img src="img/volcano-plot.png" class="img-fluid" width="200"></p>
-<p><a href="https://ab604.github.io/docs/bspr_workshop_2018/index.html" class="external" target="_blank">Materials for proteomics data science workshop including introduction to R, Volcano plots, heatmaps and peptide logos</a>.</p>
-</section>
-<section id="machine-learning-for-mhc-i-peptide-classification-2018" class="level2">
-<h2 class="anchored" data-anchor-id="machine-learning-for-mhc-i-peptide-classification-2018">Machine Learning for MHC I peptide classification 2018</h2>
-<p><img src="img/hla-logos.png" class="img-fluid" width="280"></p>
-<p><a href="http://ab604.github.io/docs/mhc_tensorflow_notebook.html" class="external" target="_blank">A toy model that attempts to classify peptides from my some of my experiments according to one of five MHC class I allotypes present in the cells I use</a>.</p>
-</section>
-<section id="mhc-dynamics-dashboard-2017" class="level2">
-<h2 class="anchored" data-anchor-id="mhc-dynamics-dashboard-2017">MHC dynamics dashboard 2017</h2>
-<p><img src="img/mhc-hdx.gif" class="img-fluid" width="208"></p>
-<p><a href="https://ab604.github.io/docs/hdx_dashboard_jan_2017.html" class="external" target="_blank">A dashboard to display the results of the MHC I MS-HDX project</a>.</p>
-</section>
-<section id="creating-a-heatmap-using-r-d3heatmap-2015" class="level2">
-<h2 class="anchored" data-anchor-id="creating-a-heatmap-using-r-d3heatmap-2015">Creating a heatmap using R d3heatmap 2015</h2>
-<p><img src="img/heatmap.png" class="img-fluid" width="280"></p>
-<p><a href="https://rpubs.com/ab604/98032" class="external" target="_blank">A short tutorial for producing heatmaps in R using some sample data</a>.</p>
-</section>
-<section id="selector-function-of-mhc-i-molecules-is-determined-by-protein-plasticity-2015" class="level2">
-<h2 class="anchored" data-anchor-id="selector-function-of-mhc-i-molecules-is-determined-by-protein-plasticity-2015">Selector function of MHC I molecules is determined by protein plasticity 2015</h2>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="img/sci-rep-mhc-model.png" class="img-fluid figure-img" alt="Diagram of a mathematical model of MHC peptide selection" width="390"></p>
-<figcaption>Mathematical model of MHC peptide selection</figcaption>
-</figure>
-</div>
-<p>This project sought to explain the mechanism of peptide selection by two functionally distinct MHC I allotypes using a combination of molecular dynamics and mathematical modelling of biochemical experiments.</p>
-<p>In collaboration with the Biological Computation Group at <a href="https://www.microsoft.com/en-us/research/lab/microsoft-research-cambridge/">Microsoft Research Cambridge</a> we used biochemical data to infer that a conformational intermediate of MHC I is significant for peptide selection, and molecular dynamics simulations to show that peptide selector function correlates with protein plasticity.</p>
-<p>This led to the proposal that MHC I cofactor tapasin modulates MHC I plasticity by dynamically coupling the peptide binding region and membrane bound domain.</p>
-<p>Publication:</p>
-<p><strong>A. Bailey</strong>, N. Dalchau, R. Carter, S. Emmott, A. Phillips, J. M. Werner, T. Elliott. Selector function of MHC I molecules is determined by protein plasticity. Sci Rep, (5), pp.&nbsp;14928, <a href="https://doi.org/10.1038/srep14928">10.1038/srep14928</a>, 2015.</p>
-</section>
-<section id="biochem-calculator-2015" class="level2">
-<h2 class="anchored" data-anchor-id="biochem-calculator-2015">Biochem calculator 2015</h2>
-<p><img src="img/shiny-hex.jpg" class="img-fluid" width="100"></p>
-<p>A small <a href="https://ab604.shinyapps.io/biochem_calculator/" class="external" target="_blank">Shiny app for calculating the amount to weigh out or dilute for making solutions</a>.</p>
+<section id="bits-and-pieces" class="level2">
+<h2 class="anchored" data-anchor-id="bits-and-pieces">Bits and pieces</h2>
+<p>If you need to force a link to open in a new tab/page, adding <code>{.external target="_blank"}</code> after the link in source mode will do it.</p>
+<section id="netlify" class="level3">
+<h3 class="anchored" data-anchor-id="netlify">Netlify</h3>
+<p>I push to Github and then to Netlify as described here: <a href="https://quarto.org/docs/publishing/netlify.html#publish-from-git-provider" class="uri">https://quarto.org/docs/publishing/netlify.html#publish-from-git-provider</a></p>
 
 
+</section>
 </section>
 
 <a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a></main> <!-- /main -->
@@ -868,7 +954,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </div>
   </div>
 </footer>
-<script>videojs(video_shortcode_videojs_video1);</script>
 
 
 

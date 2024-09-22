@@ -1,9 +1,5 @@
 ---
 title: Alistair Bailey
-execute: 
-  echo: false
-  message: false
-  warning: false
 about:
   id: hero-heading
   template: solana
@@ -28,10 +24,6 @@ about:
       target: _blank
       aria-label: "Google Scholar"
 ---
-
-```{r setup}
-source("_common.R")
-```
 
 :::{#hero-heading}
 

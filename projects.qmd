@@ -5,6 +5,12 @@ toc: true
 toc-location: left
 ---
 
+## Moving from Hugo Academic to a Quarto website
+
+[Notes on how I built this site and customised it](https://ab604.uk/how.html){.external target="_blank"} 
+
+These notes include how to update my publications page using a Google Sheet and notes on icons and styling.
+
 ## Bluesky literature bot
 
 [![](img/hla-black.png){fig-alt="HLA molecule" width="56"}](https://bsky.app/profile/protpapers.bsky.social)
@@ -27,7 +33,7 @@ The Itchen Bridge, 17th April 2024, Drone footage by Jeremy Hayes.
 
 ## Webpage Design Guide 2024
 
-My 2024 guide to [design for text and links webpages](https://ab604.github.io){.external target="_blank"} for University of Southampton librarians.
+My 2024 guide to [design for text and links webpages](https://ab604.github.io/webpage-design/){.external target="_blank"} for University of Southampton librarians.
 
 ## R for Librarians 2024
 
