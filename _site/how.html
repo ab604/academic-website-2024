@@ -178,7 +178,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   <li><a href="#sec-journal-articles-page" id="toc-sec-journal-articles-page" class="nav-link" data-scroll-target="#sec-journal-articles-page">Publications page</a></li>
   <li><a href="#bits-and-pieces" id="toc-bits-and-pieces" class="nav-link" data-scroll-target="#bits-and-pieces">Bits and pieces</a>
   <ul class="collapse">
-  <li><a href="#netlify" id="toc-netlify" class="nav-link" data-scroll-target="#netlify">Netlify</a></li>
+  <li><a href="#sec-netlify" id="toc-sec-netlify" class="nav-link" data-scroll-target="#sec-netlify">Netlify</a></li>
   </ul></li>
   </ul>
 </nav>
@@ -222,23 +222,24 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 
 <section id="sec-preamble" class="level2">
 <h2 class="anchored" data-anchor-id="sec-preamble">Preamble</h2>
-<p>I wanted to move from Hugo to Quarto as I find the latter easier to work with. And I only need a simple static website, but I want to be able to update the information about my research publications and things I’ve made and done (aka Projects) relatively easily which isn’t functionality that is built into Quarto at the time of writing.</p>
+<p>I wanted to move from Hugo to Quarto as I find the latter easier to work with. I only need a simple static website, but I want to be able to easily update the information about my research publications and things I’ve made and done (aka Projects).</p>
+<p>Not all of the functionality I wanted is built into Quarto at the time of writing.</p>
 <p>I looked around at what others had done and wanted to know how others had dealt with publications and research (<a href="#sec-journal-articles-page" class="quarto-xref">Section&nbsp;5</a>), which led me to this Github issues page: <a href="https://github.com/quarto-dev/quarto-cli/issues/1324" class="uri">https://github.com/quarto-dev/quarto-cli/issues/1324</a></p>
 <p>After a bit of further browsing of the excellent sites linked from the Github issues, I decided that John Paul Helveston’s (JPH) approach was what I needed. His repo: <a href="https://github.com/jhelvy/jhelvy_quarto" class="uri">https://github.com/jhelvy/jhelvy_quarto</a> and his site: <a href="https://jhelvy.com/" class="uri">https://jhelvy.com/</a></p>
 <p>Additionally, there were a few bits of styling I wanted for an academic website, icons in particular (<a href="#sec-homepage-and-icons" class="quarto-xref">Section&nbsp;3</a>). So for (future) reference I’ve collated what I did here beyond following the <a href="https://quarto.org/docs/websites/">Quarto website documentation</a> to customise things.</p>
-<p>The Github repo for my website is: <a href="https://github.com/ab604/academic-website-2024" class="uri">https://github.com/ab604/academic-website-2024</a></p>
+<p>The Github repo with the code for my website is: <a href="https://github.com/ab604/academic-website-2024" class="uri">https://github.com/ab604/academic-website-2024</a></p>
 </section>
 <section id="sec-set-up-and-yaml" class="level2">
 <h2 class="anchored" data-anchor-id="sec-set-up-and-yaml">Set-up and YAML</h2>
-<p>To add things not include by default in a Quarto such as <code>css</code> styling, or a directory for my CV, use the <code>resources</code> section of <code>project:</code> in the <code>_quarto.yml</code> as below. Here the character vectors refer to directories and their contents, but they could also be individual files.</p>
+<p>To add things not included by default in a Quarto such as <code>css</code> styling, or a directory for my CV, use the <code>resources</code> section of <code>project:</code> in the <code>_quarto.yml</code> as below. Here the character vectors refer to directories and their contents, but they could also be individual files.</p>
 <div class="sourceCode" id="cb1"><pre class="sourceCode yaml code-with-copy"><code class="sourceCode yaml"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu">resources</span><span class="kw">:</span></span>
 <span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="at">    </span><span class="kw">-</span><span class="at"> </span><span class="st">"css"</span></span>
 <span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="at">    </span><span class="kw">-</span><span class="at"> </span><span class="st">"cv"</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<p>On the navigation, my CV links to a separate webpage that’s built from a spreadsheet, which is added via the <code>resources</code> above and then the file is linked to using <code>href</code> and I use <code>target: _blank</code> to ensure it opens in a new tab/window.</p>
+<p>On the website navigation bar, my CV links to a separate webpage that’s built from a spreadsheet, which is added via the <code>resources</code> above and then the file is linked to using <code>href</code> and I use <code>target: _blank</code> to ensure it opens in a new tab/window.</p>
 <div class="sourceCode" id="cb2"><pre class="sourceCode yaml code-with-copy"><code class="sourceCode yaml"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="kw">-</span><span class="at"> </span><span class="fu">text</span><span class="kw">:</span><span class="at"> CV</span></span>
 <span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a><span class="at">  </span><span class="fu">href</span><span class="kw">:</span><span class="at"> cv/cv.html</span></span>
 <span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a><span class="at">  </span><span class="fu">target</span><span class="kw">:</span><span class="at"> _blank</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<p>Quarto use bootstrap icons, but this set doesn’t have all the icons I wanted and JPH has an <code>_includes</code> folder has a bit of <code>html</code> to load fontawesome icons, so I added that to my site too.</p>
+<p>Quarto use bootstrap icons, but this set doesn’t have all the icons I wanted and JPH has an <code>_includes</code> folder has a bit of <code>html</code> to load fontawesome icons which I need to use his publications R script <a href="#sec-journal-articles-page" class="quarto-xref">Section&nbsp;5</a>) so I added that to my site too.</p>
 <div class="sourceCode" id="cb3"><pre class="sourceCode yaml code-with-copy"><code class="sourceCode yaml"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="co"># This is to include fontawesome and academic icons in the headers:</span></span>
 <span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a><span class="at">    </span><span class="fu">include-in-header</span><span class="kw">:</span><span class="at"> </span><span class="st">"_includes/header.html"</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <p>Everything else I’ve customised in the <code>_quarto.yml</code> is pretty well documented in the <a href="https://quarto.org/docs/reference/formats/html.html">Quarto yaml html docs</a>.</p>
@@ -365,9 +366,9 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <li><p>If you want your own icon in the tab, this is set in the <code>favicon</code> property in the <code>website</code> section of the <code>_quarto.yml</code> . Make a 512x512 pixel <code>ico</code> file. I used Illustrator to save an image as <code>.png</code> and then changed the file extension to <code>.ico</code> .</p>
 <div class="sourceCode" id="cb12"><pre class="sourceCode yaml code-with-copy"><code class="sourceCode yaml"><span id="cb12-1"><a href="#cb12-1" aria-hidden="true" tabindex="-1"></a><span class="fu">favicon</span><span class="kw">:</span><span class="at"> image.ico</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div></li>
 </ul>
-<section id="netlify" class="level3">
-<h3 class="anchored" data-anchor-id="netlify">Netlify</h3>
-<p>I push to Github and then to Netlify as described here: <a href="https://quarto.org/docs/publishing/netlify.html#publish-from-git-provider" class="uri">https://quarto.org/docs/publishing/netlify.html#publish-from-git-provider</a></p>
+<section id="sec-netlify" class="level3">
+<h3 class="anchored" data-anchor-id="sec-netlify">Netlify</h3>
+<p>I bought a domain and deploy my site by pushing to Github and then to Netlify as described here: <a href="https://quarto.org/docs/publishing/netlify.html#publish-from-git-provider" class="uri">https://quarto.org/docs/publishing/netlify.html#publish-from-git-provider</a></p>
 
 
 </section>

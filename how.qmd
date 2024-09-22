@@ -9,7 +9,9 @@ execute:
 
 ## Preamble {#sec-preamble}
 
-I wanted to move from Hugo to Quarto as I find the latter easier to work with. And I only need a simple static website, but I want to be able to update the information about my research publications and things I've made and done (aka Projects) relatively easily which isn't functionality that is built into Quarto at the time of writing.
+I wanted to move from Hugo to Quarto as I find the latter easier to work with. I only need a simple static website, but I want to be able to easily update the information about my research publications and things I've made and done (aka Projects).
+
+Not all of the functionality I wanted is built into Quarto at the time of writing.
 
 I looked around at what others had done and wanted to know how others had dealt with publications and research (@sec-journal-articles-page), which led me to this Github issues page: <https://github.com/quarto-dev/quarto-cli/issues/1324>
 
@@ -17,11 +19,11 @@ After a bit of further browsing of the excellent sites linked from the Github is
 
 Additionally, there were a few bits of styling I wanted for an academic website, icons in particular (@sec-homepage-and-icons). So for (future) reference I've collated what I did here beyond following the [Quarto website documentation](https://quarto.org/docs/websites/) to customise things.
 
-The Github repo for my website is: <https://github.com/ab604/academic-website-2024>
+The Github repo with the code for my website is: <https://github.com/ab604/academic-website-2024>
 
 ## Set-up and YAML {#sec-set-up-and-yaml}
 
-To add things not include by default in a Quarto such as `css` styling, or a directory for my CV, use the `resources` section of `project:` in the `_quarto.yml` as below. Here the character vectors refer to directories and their contents, but they could also be individual files.
+To add things not included by default in a Quarto such as `css` styling, or a directory for my CV, use the `resources` section of `project:` in the `_quarto.yml` as below. Here the character vectors refer to directories and their contents, but they could also be individual files.
 
 ``` yaml
 resources:
@@ -29,7 +31,7 @@ resources:
     - "cv"
 ```
 
-On the navigation, my CV links to a separate webpage that's built from a spreadsheet, which is added via the `resources` above and then the file is linked to using `href` and I use `target: _blank` to ensure it opens in a new tab/window.
+On the website navigation bar, my CV links to a separate webpage that's built from a spreadsheet, which is added via the `resources` above and then the file is linked to using `href` and I use `target: _blank` to ensure it opens in a new tab/window.
 
 ``` yaml
 - text: CV
@@ -37,7 +39,7 @@ On the navigation, my CV links to a separate webpage that's built from a spreads
   target: _blank
 ```
 
-Quarto use bootstrap icons, but this set doesn't have all the icons I wanted and JPH has an `_includes` folder has a bit of `html` to load fontawesome icons, so I added that to my site too.
+Quarto use bootstrap icons, but this set doesn't have all the icons I wanted and JPH has an `_includes` folder has a bit of `html` to load fontawesome icons which I need to use his publications R script @sec-journal-articles-page) so I added that to my site too.
 
 ``` yaml
 # This is to include fontawesome and academic icons in the headers:
@@ -212,6 +214,6 @@ One note is that it won't refresh the articles from the Google Sheet unless I ed
     favicon: image.ico
     ```
 
-### Netlify
+### Netlify {#sec-netlify}
 
-I push to Github and then to Netlify as described here: <https://quarto.org/docs/publishing/netlify.html#publish-from-git-provider>
+I bought a domain and deploy my site by pushing to Github and then to Netlify as described here: <https://quarto.org/docs/publishing/netlify.html#publish-from-git-provider>
