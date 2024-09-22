@@ -46,7 +46,7 @@
     "href": "how.html#bits-and-pieces",
     "title": "How I made this website",
     "section": "Bits and pieces",
-    "text": "Bits and pieces\nIf you need to force a link to open in a new tab/page, adding {.external target=\"_blank\"} after the link in source mode will do it.\n\nNetlify\nI push to Github and then to Netlify as described here: https://quarto.org/docs/publishing/netlify.html#publish-from-git-provider"
+    "text": "Bits and pieces\n\nIf you need to force a link to open in a new tab/page, adding {.external target=\"_blank\"} after the link in source mode will do it.\nIf you want your own icon in the tab, this is set in the favicon property in the website section of the _quarto.yml . Make a 512x512 pixel ico file. I used Illustrator to save an image as .png and then changed the file extension to .ico .\nfavicon: image.ico\n\n\nNetlify\nI push to Github and then to Netlify as described here: https://quarto.org/docs/publishing/netlify.html#publish-from-git-provider"
   },
   {
     "objectID": "projects.html",

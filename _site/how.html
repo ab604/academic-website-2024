@@ -360,7 +360,11 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </section>
 <section id="bits-and-pieces" class="level2">
 <h2 class="anchored" data-anchor-id="bits-and-pieces">Bits and pieces</h2>
-<p>If you need to force a link to open in a new tab/page, adding <code>{.external target="_blank"}</code> after the link in source mode will do it.</p>
+<ul>
+<li><p>If you need to force a link to open in a new tab/page, adding <code>{.external target="_blank"}</code> after the link in source mode will do it.</p></li>
+<li><p>If you want your own icon in the tab, this is set in the <code>favicon</code> property in the <code>website</code> section of the <code>_quarto.yml</code> . Make a 512x512 pixel <code>ico</code> file. I used Illustrator to save an image as <code>.png</code> and then changed the file extension to <code>.ico</code> .</p>
+<div class="sourceCode" id="cb12"><pre class="sourceCode yaml code-with-copy"><code class="sourceCode yaml"><span id="cb12-1"><a href="#cb12-1" aria-hidden="true" tabindex="-1"></a><span class="fu">favicon</span><span class="kw">:</span><span class="at"> image.ico</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div></li>
+</ul>
 <section id="netlify" class="level3">
 <h3 class="anchored" data-anchor-id="netlify">Netlify</h3>
 <p>I push to Github and then to Netlify as described here: <a href="https://quarto.org/docs/publishing/netlify.html#publish-from-git-provider" class="uri">https://quarto.org/docs/publishing/netlify.html#publish-from-git-provider</a></p>

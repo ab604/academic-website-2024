@@ -204,7 +204,13 @@ One note is that it won't refresh the articles from the Google Sheet unless I ed
 
 ## Bits and pieces
 
-If you need to force a link to open in a new tab/page, adding `{.external target="_blank"}` after the link in source mode will do it.
+-   If you need to force a link to open in a new tab/page, adding `{.external target="_blank"}` after the link in source mode will do it.
+
+-   If you want your own icon in the tab, this is set in the `favicon` property in the `website` section of the `_quarto.yml` . Make a 512x512 pixel `ico` file. I used Illustrator to save an image as `.png` and then changed the file extension to `.ico` .
+
+    ``` yaml
+    favicon: image.ico
+    ```
 
 ### Netlify
 
