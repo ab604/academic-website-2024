@@ -11,11 +11,11 @@ toc-location: left
 
 A bot that posts a screen shot of the Our World in Data (OWID) Daily Data Insight to Bluesky: [\@owid-daily-data.bsky.social](https://bsky.app/profile/owid-daily-data.bsky.social)
 
-It uses Simon Willison’s GitHub repository that takes an automated screenshot of a OWID Daily Data Insight web page using [shot-scraper](https://github.com/simonw/shot-scraper) and a R script to get alt-text and links and create the post for Bluesky.
+It's built upon Simon Willison’s GitHub [shot-scraper template](https://github.com/simonw/shot-scraper-template) repository that takes an automated screenshot of a OWID Daily Data Insight web page using [shot-scraper](https://github.com/simonw/shot-scraper). I then wrote a short R script to get alt-text and links and create the post for Bluesky.
 
 The bot runs using Github Actions `yml` as a `cron` job similar to my literature bot (@sec-bluesky-literature-bot).
 
-My Github repo is here: https://github.com/ab604/owid-dd-bot
+My Github repo is here: <https://github.com/ab604/owid-dd-bot>
 
 ## Moving from Hugo Academic to a Quarto website {#sec-moving-from-hugo-academic-to-a-quarto-website}
 
