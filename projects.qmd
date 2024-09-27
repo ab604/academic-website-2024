@@ -5,13 +5,25 @@ toc: true
 toc-location: left
 ---
 
-## Moving from Hugo Academic to a Quarto website
+## Our World in Data bot {#sec-our-world-in-data-bot}
+
+![](images/bafkreia3nyjtyw4sffxdlrfhzmn4suhsfpdhia2dzbq4zy5cpidiqrr3ai.jpg){width="100"}
+
+A bot that posts a screen shot of the Our World in Data (OWID) Daily Data Insight to Bluesky: [\@owid-daily-data.bsky.social](https://bsky.app/profile/owid-daily-data.bsky.social)
+
+It uses Simon Willison’s GitHub repository that takes an automated screenshot of a OWID Daily Data Insight web page using [shot-scraper](https://github.com/simonw/shot-scraper) and a R script to get alt-text and links and create the post for Bluesky.
+
+The bot runs using Github Actions `yml` as a `cron` job similar to my literature bot (@sec-bluesky-literature-bot).
+
+My Github repo is here: https://github.com/ab604/owid-dd-bot
+
+## Moving from Hugo Academic to a Quarto website {#sec-moving-from-hugo-academic-to-a-quarto-website}
 
 [Notes on how I built this site and customised it](https://ab604.uk/how.html){.external target="_blank"}
 
 These notes include how to update my publications page using a Google Sheet and notes on icons and styling.
 
-## Bluesky literature bot
+## Bluesky literature bot {#sec-bluesky-literature-bot}
 
 [![](img/hla-black.png){fig-alt="HLA molecule" width="56"}](https://bsky.app/profile/protpapers.bsky.social)
 
@@ -21,7 +33,7 @@ Code on Github: [prot-paper-bot](https://github.com/ab604/prot-paper-bot)
 
 Bot on Bluesky: [\@protpapers.bsky.social](https://bsky.app/profile/protpapers.bsky.social)
 
-## The Itchen Bridge: Construction in colour
+## The Itchen Bridge: Construction in colour {#sec-the-itchen-bridge-construction-in-colour}
 
 A local history project created with our intern Pardeep Panesar and the Digital Scholarship team at the University of Southampton. The results are on our [Itchen Bridge webpage](https://ab604.github.io/itchen-bridge){.external target="_blank"}.
 
@@ -31,57 +43,57 @@ A local history project created with our intern Pardeep Panesar and the Digital 
 The Itchen Bridge, 17th April 2024, Drone footage by Jeremy Hayes.
 :::
 
-## Webpage Design Guide 2024
+## Webpage Design Guide 2024 {#sec-webpage-design-guide-2024}
 
 My 2024 guide to [design for text and links webpages](https://ab604.github.io/webpage-design/){.external target="_blank"} for University of Southampton librarians.
 
-## R for Librarians 2024
+## R for Librarians 2024 {#sec-r-for-librarians-2024}
 
 [WORK IN PROGRESS Training materials in R for the Bibliometrics Team at the University of Southampton (UoS) Library Service](https://ab604.github.io/library-r/){.external target="_blank"}.
 
-## Premier League Predictions 2023/24
+## Premier League Predictions 2023/24 {#sec-premier-league-predictions-202324}
 
 ![](img/football.png){width="97"}
 
 [My super simple model attempting to predict the outcome of the second half of 2023/24 Premier League season.](https://ab604.github.io/premier-league-prediction-2024/){.external target="_blank"} Wrong, but fun!
 
-## Coding togetheR 2019/20
+## Coding togetheR 2019/20 {#sec-coding-together-201920}
 
 ![](img/knot.png){width="215"}
 
 [Materials for Coding togetheR. A series of collaborative workshops to teach foundational R coding and data science skills at the University of Southampton 2019-2020.](https://ab604.github.io/docs/coding-together-2019/index.html){.external target="_blank"}
 
-## Creating and using a colour palette in R 2018
+## Creating and using a colour palette in R 2018 {#sec-creating-and-using-a-colour-palette-in-r-2018}
 
 ![](img/colour-wheel.png){width="215"}
 
 [A tutorial is to demonstrate one way to create a colour palette and corresponding gradients in R](http://ab604.github.io/docs/colour-palette-tutorial-10-11-2018.html){.external target="_blank"}.
 
-## British Society for Proteomics 2018 Data Science Workshop
+## British Society for Proteomics 2018 Data Science Workshop {#sec-british-society-for-proteomics-2018-data-science-workshop}
 
 ![](img/volcano-plot.png){width="200"}
 
 [Materials for proteomics data science workshop including introduction to R, Volcano plots, heatmaps and peptide logos](https://ab604.github.io/docs/bspr_workshop_2018/index.html){.external target="_blank"}.
 
-## Machine Learning for MHC I peptide classification 2018
+## Machine Learning for MHC I peptide classification 2018 {#sec-machine-learning-for-mhc-i-peptide-classification-2018}
 
 ![](img/hla-logos.png){width="280"}
 
 [A toy model that attempts to classify peptides from my some of my experiments according to one of five MHC class I allotypes present in the cells I use](http://ab604.github.io/docs/mhc_tensorflow_notebook.html){.external target="_blank"}.
 
-## MHC dynamics dashboard 2017
+## MHC dynamics dashboard 2017 {#sec-mhc-dynamics-dashboard-2017}
 
 ![](img/mhc-hdx.gif){width="208"}
 
 [A dashboard to display the results of the MHC I MS-HDX project](https://ab604.github.io/docs/hdx_dashboard_jan_2017.html){.external target="_blank"}.
 
-## Creating a heatmap using R d3heatmap 2015
+## Creating a heatmap using R d3heatmap 2015 {#sec-creating-a-heatmap-using-r-d3heatmap-2015}
 
 ![](img/heatmap.png){width="280"}
 
 [A short tutorial for producing heatmaps in R using some sample data](https://rpubs.com/ab604/98032){.external target="_blank"}.
 
-## Selector function of MHC I molecules is determined by protein plasticity 2015
+## Selector function of MHC I molecules is determined by protein plasticity 2015 {#sec-selector-function-of-mhc-i-molecules-is-determined-by-protein-plasticity-2015}
 
 ![Mathematical model of MHC peptide selection](img/sci-rep-mhc-model.png){fig-alt="Diagram of a mathematical model of MHC peptide selection" width="390"}
 
@@ -95,7 +107,7 @@ Publication:
 
 **A. Bailey**, N. Dalchau, R. Carter, S. Emmott, A. Phillips, J. M. Werner, T. Elliott. Selector function of MHC I molecules is determined by protein plasticity. Sci Rep, (5), pp. 14928, [10.1038/srep14928](https://doi.org/10.1038/srep14928), 2015.
 
-## Biochem calculator 2015
+## Biochem calculator 2015 {#sec-biochem-calculator-2015}
 
 ![](img/shiny-hex.jpg){width="100"}
 

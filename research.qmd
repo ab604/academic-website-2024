@@ -1,6 +1,6 @@
 ---
 title: "Publications"
-description: I am joint first author on all work with Ben Nicholas. 
+description: I am joint first author on all work with Ben Nicholas.  
 ---
 
 <!-- Remove margin under list items -->

@@ -53,102 +53,109 @@
     "href": "projects.html",
     "title": "Projects",
     "section": "",
-    "text": "Notes on how I built this site and customised it\nThese notes include how to update my publications page using a Google Sheet and notes on icons and styling."
+    "text": "A bot that posts a screen shot of the Our World in Data (OWID) Daily Data Insight to Bluesky: @owid-daily-data.bsky.social\nIt uses Simon Willison’s GitHub repository that takes an automated screenshot of a OWID Daily Data Insight web page using shot-scraper and a R script to get alt-text and links and create the post for Bluesky.\nThe bot runs using Github Actions yml as a cron job similar to my literature bot (Section 3).\nMy Github repo is here: https://github.com/ab604/owid-dd-bot"
   },
   {
-    "objectID": "projects.html#moving-from-hugo-academic-to-a-quarto-website",
-    "href": "projects.html#moving-from-hugo-academic-to-a-quarto-website",
+    "objectID": "projects.html#sec-our-world-in-data-bot",
+    "href": "projects.html#sec-our-world-in-data-bot",
     "title": "Projects",
     "section": "",
-    "text": "Notes on how I built this site and customised it\nThese notes include how to update my publications page using a Google Sheet and notes on icons and styling."
+    "text": "A bot that posts a screen shot of the Our World in Data (OWID) Daily Data Insight to Bluesky: @owid-daily-data.bsky.social\nIt uses Simon Willison’s GitHub repository that takes an automated screenshot of a OWID Daily Data Insight web page using shot-scraper and a R script to get alt-text and links and create the post for Bluesky.\nThe bot runs using Github Actions yml as a cron job similar to my literature bot (Section 3).\nMy Github repo is here: https://github.com/ab604/owid-dd-bot"
   },
   {
-    "objectID": "projects.html#bluesky-literature-bot",
-    "href": "projects.html#bluesky-literature-bot",
+    "objectID": "projects.html#sec-moving-from-hugo-academic-to-a-quarto-website",
+    "href": "projects.html#sec-moving-from-hugo-academic-to-a-quarto-website",
+    "title": "Projects",
+    "section": "Moving from Hugo Academic to a Quarto website",
+    "text": "Moving from Hugo Academic to a Quarto website\nNotes on how I built this site and customised it\nThese notes include how to update my publications page using a Google Sheet and notes on icons and styling."
+  },
+  {
+    "objectID": "projects.html#sec-bluesky-literature-bot",
+    "href": "projects.html#sec-bluesky-literature-bot",
     "title": "Projects",
     "section": "Bluesky literature bot",
     "text": "Bluesky literature bot\n\nBased on the bots of @roblanfear.bsky.social and @jbgruber.bsky.social I created a bot using R and Github actions to post journal articles published on PubMed and bioRxiv that are of interest to me to keep up with the literature. You can make your own.\nCode on Github: prot-paper-bot\nBot on Bluesky: @protpapers.bsky.social"
   },
   {
-    "objectID": "projects.html#the-itchen-bridge-construction-in-colour",
-    "href": "projects.html#the-itchen-bridge-construction-in-colour",
+    "objectID": "projects.html#sec-the-itchen-bridge-construction-in-colour",
+    "href": "projects.html#sec-the-itchen-bridge-construction-in-colour",
     "title": "Projects",
     "section": "The Itchen Bridge: Construction in colour",
     "text": "The Itchen Bridge: Construction in colour\nA local history project created with our intern Pardeep Panesar and the Digital Scholarship team at the University of Southampton. The results are on our Itchen Bridge webpage.\n\n\n\n\n\n\nFigure 1: The Itchen Bridge, 17th April 2024, Drone footage by Jeremy Hayes."
   },
   {
-    "objectID": "projects.html#webpage-design-guide-2024",
-    "href": "projects.html#webpage-design-guide-2024",
+    "objectID": "projects.html#sec-webpage-design-guide-2024",
+    "href": "projects.html#sec-webpage-design-guide-2024",
     "title": "Projects",
     "section": "Webpage Design Guide 2024",
     "text": "Webpage Design Guide 2024\nMy 2024 guide to design for text and links webpages for University of Southampton librarians."
   },
   {
-    "objectID": "projects.html#r-for-librarians-2024",
-    "href": "projects.html#r-for-librarians-2024",
+    "objectID": "projects.html#sec-r-for-librarians-2024",
+    "href": "projects.html#sec-r-for-librarians-2024",
     "title": "Projects",
     "section": "R for Librarians 2024",
     "text": "R for Librarians 2024\nWORK IN PROGRESS Training materials in R for the Bibliometrics Team at the University of Southampton (UoS) Library Service."
   },
   {
-    "objectID": "projects.html#premier-league-predictions-202324",
-    "href": "projects.html#premier-league-predictions-202324",
+    "objectID": "projects.html#sec-premier-league-predictions-202324",
+    "href": "projects.html#sec-premier-league-predictions-202324",
     "title": "Projects",
     "section": "Premier League Predictions 2023/24",
     "text": "Premier League Predictions 2023/24\n\nMy super simple model attempting to predict the outcome of the second half of 2023/24 Premier League season. Wrong, but fun!"
   },
   {
-    "objectID": "projects.html#coding-together-201920",
-    "href": "projects.html#coding-together-201920",
+    "objectID": "projects.html#sec-coding-together-201920",
+    "href": "projects.html#sec-coding-together-201920",
     "title": "Projects",
     "section": "Coding togetheR 2019/20",
     "text": "Coding togetheR 2019/20\n\nMaterials for Coding togetheR. A series of collaborative workshops to teach foundational R coding and data science skills at the University of Southampton 2019-2020."
   },
   {
-    "objectID": "projects.html#creating-and-using-a-colour-palette-in-r-2018",
-    "href": "projects.html#creating-and-using-a-colour-palette-in-r-2018",
+    "objectID": "projects.html#sec-creating-and-using-a-colour-palette-in-r-2018",
+    "href": "projects.html#sec-creating-and-using-a-colour-palette-in-r-2018",
     "title": "Projects",
     "section": "Creating and using a colour palette in R 2018",
     "text": "Creating and using a colour palette in R 2018\n\nA tutorial is to demonstrate one way to create a colour palette and corresponding gradients in R."
   },
   {
-    "objectID": "projects.html#british-society-for-proteomics-2018-data-science-workshop",
-    "href": "projects.html#british-society-for-proteomics-2018-data-science-workshop",
+    "objectID": "projects.html#sec-british-society-for-proteomics-2018-data-science-workshop",
+    "href": "projects.html#sec-british-society-for-proteomics-2018-data-science-workshop",
     "title": "Projects",
     "section": "British Society for Proteomics 2018 Data Science Workshop",
     "text": "British Society for Proteomics 2018 Data Science Workshop\n\nMaterials for proteomics data science workshop including introduction to R, Volcano plots, heatmaps and peptide logos."
   },
   {
-    "objectID": "projects.html#machine-learning-for-mhc-i-peptide-classification-2018",
-    "href": "projects.html#machine-learning-for-mhc-i-peptide-classification-2018",
+    "objectID": "projects.html#sec-machine-learning-for-mhc-i-peptide-classification-2018",
+    "href": "projects.html#sec-machine-learning-for-mhc-i-peptide-classification-2018",
     "title": "Projects",
     "section": "Machine Learning for MHC I peptide classification 2018",
     "text": "Machine Learning for MHC I peptide classification 2018\n\nA toy model that attempts to classify peptides from my some of my experiments according to one of five MHC class I allotypes present in the cells I use."
   },
   {
-    "objectID": "projects.html#mhc-dynamics-dashboard-2017",
-    "href": "projects.html#mhc-dynamics-dashboard-2017",
+    "objectID": "projects.html#sec-mhc-dynamics-dashboard-2017",
+    "href": "projects.html#sec-mhc-dynamics-dashboard-2017",
     "title": "Projects",
     "section": "MHC dynamics dashboard 2017",
     "text": "MHC dynamics dashboard 2017\n\nA dashboard to display the results of the MHC I MS-HDX project."
   },
   {
-    "objectID": "projects.html#creating-a-heatmap-using-r-d3heatmap-2015",
-    "href": "projects.html#creating-a-heatmap-using-r-d3heatmap-2015",
+    "objectID": "projects.html#sec-creating-a-heatmap-using-r-d3heatmap-2015",
+    "href": "projects.html#sec-creating-a-heatmap-using-r-d3heatmap-2015",
     "title": "Projects",
     "section": "Creating a heatmap using R d3heatmap 2015",
     "text": "Creating a heatmap using R d3heatmap 2015\n\nA short tutorial for producing heatmaps in R using some sample data."
   },
   {
-    "objectID": "projects.html#selector-function-of-mhc-i-molecules-is-determined-by-protein-plasticity-2015",
-    "href": "projects.html#selector-function-of-mhc-i-molecules-is-determined-by-protein-plasticity-2015",
+    "objectID": "projects.html#sec-selector-function-of-mhc-i-molecules-is-determined-by-protein-plasticity-2015",
+    "href": "projects.html#sec-selector-function-of-mhc-i-molecules-is-determined-by-protein-plasticity-2015",
     "title": "Projects",
     "section": "Selector function of MHC I molecules is determined by protein plasticity 2015",
     "text": "Selector function of MHC I molecules is determined by protein plasticity 2015\n\n\n\nMathematical model of MHC peptide selection\n\n\nThis project sought to explain the mechanism of peptide selection by two functionally distinct MHC I allotypes using a combination of molecular dynamics and mathematical modelling of biochemical experiments.\nIn collaboration with the Biological Computation Group at Microsoft Research Cambridge we used biochemical data to infer that a conformational intermediate of MHC I is significant for peptide selection, and molecular dynamics simulations to show that peptide selector function correlates with protein plasticity.\nThis led to the proposal that MHC I cofactor tapasin modulates MHC I plasticity by dynamically coupling the peptide binding region and membrane bound domain.\nPublication:\nA. Bailey, N. Dalchau, R. Carter, S. Emmott, A. Phillips, J. M. Werner, T. Elliott. Selector function of MHC I molecules is determined by protein plasticity. Sci Rep, (5), pp. 14928, 10.1038/srep14928, 2015."
   },
   {
-    "objectID": "projects.html#biochem-calculator-2015",
-    "href": "projects.html#biochem-calculator-2015",
+    "objectID": "projects.html#sec-biochem-calculator-2015",
+    "href": "projects.html#sec-biochem-calculator-2015",
     "title": "Projects",
     "section": "Biochem calculator 2015",
     "text": "Biochem calculator 2015\n\nA small Shiny app for calculating the amount to weigh out or dilute for making solutions."
@@ -165,6 +172,6 @@
     "href": "research.html",
     "title": "Publications",
     "section": "",
-    "text": "Matt Sherwood, Ben Nicholas,  Alistair Bailey, Thiago Mitsugi, Carolini Kaid, Oswaldo K. Okamoto, Paul Skipp, Rob M. Ewing (2024) “Identification of natural Zika virus peptides presented on the surface of paediatric brain tumour cells by HLA class I” PLOS Pathogens.  DOI: 10.1101/2024.09.17.613406      View PDF     Ben Nicholas, Alistair Bailey, Katy J McCann, Peter Johnson, Tim Elliott, Christian Ottensmeier and Paul Skipp (2024) “Comparative analysis of transcriptomic and proteomic expression between two non-small cell lung cancer subtypes” bioRxiv.  DOI: 10.1101/2024.09.05.611373      View PDF Code & Data     Ben Nicholas, Alistair Bailey, Katy J McCann, Oliver Wood, Eve Currall, Peter Johnson, Tim Elliott, Christian Ottensmeier, Paul Skipp (2024) “Proteogenomics guided identification of functional neoantigens in non-small cell lung cancer” bioRxiv.  DOI: 10.1101/2024.05.30.596609      View PDF Code & Data     N. Leigh Anderson, Alistair Bailey, Perdita Barran, Philip Brownbridge, Kathleen M. Cain, Rachel S. Carling, Rainer Cramer, R. Neil Dalton, Matthew E. Daly, Kayleigh Davis, Ivan Doykov, Maria Emilia Dueñas, Edward Emmott, Claire E. Eyers, Akshada Gajbhiye, Bethany Geary, Pankaj Gupta, Jenny Hällqvist, Evita Hartmane, Simon Heales, Tiaan Heunis, Wendy Heywood, Katherine A. Hollywood, Rosalind E. Jenkins, Donald J.L. Jones, Brian Keevil, Henriette Krenkel, Dan Lane, Catherine S. Lane, Sophie Lellman, Ellen N. Liggett, Xiaoli Meng, Clare Mills, Kevin Mills, Atakan A. Nalbant, Leong L. Ng, Benjamin Nicholas, Dan Noels, Terry W. Pearson, Andrew Pitt, Matthew E. Pope, Andrew Porter, George W. Preston, Morteza Razavi, Andrew Shapanis, Frances R. Sidgwick, Raj Singh, Paul Skipp, Reynard Spiess, Justyna Spiewak, Anna L. Tierney, Drupad Trivedi, Matthias Trost, Richard D. Unwin, Luke Wainwright, Caitlin Walton-Doyle, Anthony D. Whetton, Sandra Wilks, Richard Yip (2024) “Development and translation of a method of clinical utility for LC-MS/MS analysis to detect SARS-CoV-2 antigens from ONP swabs and saliva” ChemRxiv.  DOI: 10.26434/chemrxiv-2024-4t52c      View PDF     Ben Nicholas, Alistair Bailey, Katy J. McCann, Oliver Wood, Robert C. Walker; Robert Parker, Nicola Ternette, Tim Elliott, Tim J. Underwood, Peter Johnson and Paul Skipp (2022) “Identification of neoantigens in oesophageal adenocarcinoma” Immunology.  DOI: 10.1111/imm.13578      View PDF     Jenny Hällqvist , Dan Lane , Andrew Shapanis , Kayleigh Davis , Wendy E. Heywood , Ivan Doykov , Justyna Śpiewak , Nana Ghansah , Brian Keevil , Pankaj Gupta , Rebekah Jukes-Jones , Raj Singh , Dominic Foley , Johannes P.C. Vissers , Rebecca Pattison , Samantha Ferries , Robert Wardle , Amy Bartlett , Lisa J. Calton , Leigh Anderson , Morteza Razavi , Terry Pearson , Matt Pope , Richard Yip , Leong L. Ng , Benjamin I. Nicholas , Alistair Bailey , Dan Noel , R. Neil Dalton , Simon Heales , Christopher Hopley , Andrew R. Pitt , Perdita Barran , Donald J. L. Jones , Kevin Mills , Paul Skipp and Rachel S. Carling (2022) “Operation Moonshot: rapid translation of a SARS-CoV-2 targeted peptide immunoaffinity liquid chromatography-tandem mass spectrometry test from research into routine clinical use” Clinical Chemistry and Laboratory Medicine.  DOI: 10.1515/cclm-2022-1000      View PDF     Ben Nicholas, Jane Guo, Hyun‐Hee Lee, Alistair Bailey, Rene de Waal Malefyt, Milenko Cicmil and Ratko Djukanovic (2022) “Analysis of cell‐specific peripheral blood biomarkers in severe allergic asthma identifies innate immune dysfunction” Clinical & Experimental Allergy.  DOI: 10.1111/cea.14197      View PDF     Ben Nicholas, Alistair Bailey, Karl J. Staples, Tom Wilkinson, Tim Elliott, Paul Skipp (2022) “Immunopeptidomic analysis of influenza A virus infected human tissues identifies internal proteins as a rich source of HLA ligands” PLOS Pathogens.  DOI: 10.1371/journal.ppat.1009894      View PDF     Rachel S. Owen, Sri H. Ramarathinam, Alistair Bailey, Annalisa Gastaldello, Kathryn Hussey, Paul J. Skipp, Anthony W. Purcell, Hannah V. Siddle (2021) “The differentiation state of the Schwann cell progenitor drives phenotypic variation between two contagious cancers” PLOS Pathogens.  DOI: 10.1371/journal.ppat.1010033      View PDF     Annalisa Gastaldello, Sri H. Ramarathinam, Alistair Bailey, Rachel Owen, Steven Turner, N. Kontouli, Tim Elliott, Paul Skipp, Anthony W. Purcell, Hannah V. Siddle. (2021) “The immunopeptidomes of two transmissible cancers and their host have a common, dominant peptide motif” Immunology.  DOI: 10.1111/imm.13307      View PDF     Alistair Bailey, Ben Nicholas, Rachel Darley, Erika Parkinson, Ying Teo, Maja Aleksic, Gavin Maxwell, Tim Elliott, Michael Ardern-Jones, Paul Skipp. (2020) “Characterization of the Class I MHC Peptidome Resulting From DNCB Exposure of HaCaT Cells” Toxicological Sciences.  DOI: 0.1093/toxsci/kfaa184      View PDF     Cory M. Ayres, Esam T. Abualrous, Alistair Bailey, Christian Abraham, Lance M. Hellman, Steven A. Corcelli, Frank Noé, Tim Elliott, Brian M. Baker. (2019) “Dynamically Driven Allostery in MHC Proteins: Peptide-Dependent Tuning of Class I MHC Global Flexibility” Frontiers in Immunology.  DOI: 10.3389/fimmu.2019.00966      View PDF     Andy van Hateren, Malcolm Anderson, Alistair Bailey, Jörn M. Werner, Paul Skipp, Tim Elliott. (2017) “Direct evidence for conformational dynamics in major histocompatibility complex class I molecules” Journal of Biological Chemistry.  DOI: 10.1074/jbc.M117.809624      View PDF     Andy van Hateren, Alistair Bailey, Tim Elliott. (2017) “Recent advances in Major Histocompatibility Complex class I antigen presentation: Plastic MHC molecules and TAPBPR mediated quality control” F1000 Research.  DOI: 10.12688/f1000research.10474.1      View PDF     Alistair Bailey, Neil Dalchau, Rachel Carter, Stephen Emmott, Andrew Phillips, Jörn M. Werner, Tim Elliott (2015) “Selector function of MHC I molecules is determined by protein plasticity” Scientific Reports.  DOI: 10.1038/srep14928      View PDF     Alistair Bailey, Andy van Hateren, Tim Elliott, Jörn M. Werner. (2014) “Two Polymorphisms Facilitate Differences in Plasticity between Two Chicken Major Histocompatibility Complex Class I Proteins” PLOS One.  DOI: 10.1371/journal.pone.0089657      View PDF     Andy van Hateren, Rachel Carter, Alistair Bailey, Nasia Kontouli, Anthony P. Williams, Jim Kaufman, Tim Elliott. (2013) “A Mechanistic Basis for the Co-evolution of Chicken Tapasin and Major Histocompatibility Complex Class I Proteins” Journal of Biological Chemistry.  DOI: 10.1074/jbc.M113.474031      View PDF     Andy Van Hateren, Edd James, Alistair Bailey, Andrew Phillips, Neil Dalchau, Tim Elliott (2010) “The cell biology of major histocompatibility complex class I assembly: towards a molecular understanding” Tissue Antigens.  DOI: 10.1111/j.1399-0039.2010.01550.x      View PDF \n\n\n\n Back to top"
+    "text": "Ben Nicholas,  Alistair Bailey,  Katy J McCann,  Robert C. Walker,  Peter Johnson,  Tim Elliott,  Tim J. Underwood,  Paul Skipp (2024) “Comparative analysis of protein expression between oesophageal adenocarcinoma and normal adjacent tissue” bioRxiv.  DOI: 10.1101/2024.09.20.614054      View PDF Code & Data     Matt Sherwood, Ben Nicholas,  Alistair Bailey, Thiago Mitsugi, Carolini Kaid, Oswaldo K. Okamoto, Paul Skipp, Rob M. Ewing (2024) “Identification of natural Zika virus peptides presented on the surface of paediatric brain tumour cells by HLA class I” bioRxiv.  DOI: 10.1101/2024.09.17.613406      View PDF     Ben Nicholas, Alistair Bailey, Katy J McCann, Peter Johnson, Tim Elliott, Christian Ottensmeier and Paul Skipp (2024) “Comparative analysis of transcriptomic and proteomic expression between two non-small cell lung cancer subtypes” bioRxiv.  DOI: 10.1101/2024.09.05.611373      View PDF Code & Data     Ben Nicholas, Alistair Bailey, Katy J McCann, Oliver Wood, Eve Currall, Peter Johnson, Tim Elliott, Christian Ottensmeier, Paul Skipp (2024) “Proteogenomics guided identification of functional neoantigens in non-small cell lung cancer” bioRxiv.  DOI: 10.1101/2024.05.30.596609      View PDF Code & Data     N. Leigh Anderson, Alistair Bailey, Perdita Barran, Philip Brownbridge, Kathleen M. Cain, Rachel S. Carling, Rainer Cramer, R. Neil Dalton, Matthew E. Daly, Kayleigh Davis, Ivan Doykov, Maria Emilia Dueñas, Edward Emmott, Claire E. Eyers, Akshada Gajbhiye, Bethany Geary, Pankaj Gupta, Jenny Hällqvist, Evita Hartmane, Simon Heales, Tiaan Heunis, Wendy Heywood, Katherine A. Hollywood, Rosalind E. Jenkins, Donald J.L. Jones, Brian Keevil, Henriette Krenkel, Dan Lane, Catherine S. Lane, Sophie Lellman, Ellen N. Liggett, Xiaoli Meng, Clare Mills, Kevin Mills, Atakan A. Nalbant, Leong L. Ng, Benjamin Nicholas, Dan Noels, Terry W. Pearson, Andrew Pitt, Matthew E. Pope, Andrew Porter, George W. Preston, Morteza Razavi, Andrew Shapanis, Frances R. Sidgwick, Raj Singh, Paul Skipp, Reynard Spiess, Justyna Spiewak, Anna L. Tierney, Drupad Trivedi, Matthias Trost, Richard D. Unwin, Luke Wainwright, Caitlin Walton-Doyle, Anthony D. Whetton, Sandra Wilks, Richard Yip (2024) “Development and translation of a method of clinical utility for LC-MS/MS analysis to detect SARS-CoV-2 antigens from ONP swabs and saliva” ChemRxiv.  DOI: 10.26434/chemrxiv-2024-4t52c      View PDF     Ben Nicholas, Alistair Bailey, Katy J. McCann, Oliver Wood, Robert C. Walker; Robert Parker, Nicola Ternette, Tim Elliott, Tim J. Underwood, Peter Johnson and Paul Skipp (2022) “Identification of neoantigens in oesophageal adenocarcinoma” Immunology.  DOI: 10.1111/imm.13578      View PDF     Jenny Hällqvist , Dan Lane , Andrew Shapanis , Kayleigh Davis , Wendy E. Heywood , Ivan Doykov , Justyna Śpiewak , Nana Ghansah , Brian Keevil , Pankaj Gupta , Rebekah Jukes-Jones , Raj Singh , Dominic Foley , Johannes P.C. Vissers , Rebecca Pattison , Samantha Ferries , Robert Wardle , Amy Bartlett , Lisa J. Calton , Leigh Anderson , Morteza Razavi , Terry Pearson , Matt Pope , Richard Yip , Leong L. Ng , Benjamin I. Nicholas , Alistair Bailey , Dan Noel , R. Neil Dalton , Simon Heales , Christopher Hopley , Andrew R. Pitt , Perdita Barran , Donald J. L. Jones , Kevin Mills , Paul Skipp and Rachel S. Carling (2022) “Operation Moonshot: rapid translation of a SARS-CoV-2 targeted peptide immunoaffinity liquid chromatography-tandem mass spectrometry test from research into routine clinical use” Clinical Chemistry and Laboratory Medicine.  DOI: 10.1515/cclm-2022-1000      View PDF     Ben Nicholas, Jane Guo, Hyun‐Hee Lee, Alistair Bailey, Rene de Waal Malefyt, Milenko Cicmil and Ratko Djukanovic (2022) “Analysis of cell‐specific peripheral blood biomarkers in severe allergic asthma identifies innate immune dysfunction” Clinical & Experimental Allergy.  DOI: 10.1111/cea.14197      View PDF     Ben Nicholas, Alistair Bailey, Karl J. Staples, Tom Wilkinson, Tim Elliott, Paul Skipp (2022) “Immunopeptidomic analysis of influenza A virus infected human tissues identifies internal proteins as a rich source of HLA ligands” PLOS Pathogens.  DOI: 10.1371/journal.ppat.1009894      View PDF     Rachel S. Owen, Sri H. Ramarathinam, Alistair Bailey, Annalisa Gastaldello, Kathryn Hussey, Paul J. Skipp, Anthony W. Purcell, Hannah V. Siddle (2021) “The differentiation state of the Schwann cell progenitor drives phenotypic variation between two contagious cancers” PLOS Pathogens.  DOI: 10.1371/journal.ppat.1010033      View PDF     Annalisa Gastaldello, Sri H. Ramarathinam, Alistair Bailey, Rachel Owen, Steven Turner, N. Kontouli, Tim Elliott, Paul Skipp, Anthony W. Purcell, Hannah V. Siddle. (2021) “The immunopeptidomes of two transmissible cancers and their host have a common, dominant peptide motif” Immunology.  DOI: 10.1111/imm.13307      View PDF     Alistair Bailey, Ben Nicholas, Rachel Darley, Erika Parkinson, Ying Teo, Maja Aleksic, Gavin Maxwell, Tim Elliott, Michael Ardern-Jones, Paul Skipp. (2020) “Characterization of the Class I MHC Peptidome Resulting From DNCB Exposure of HaCaT Cells” Toxicological Sciences.  DOI: 0.1093/toxsci/kfaa184      View PDF     Cory M. Ayres, Esam T. Abualrous, Alistair Bailey, Christian Abraham, Lance M. Hellman, Steven A. Corcelli, Frank Noé, Tim Elliott, Brian M. Baker. (2019) “Dynamically Driven Allostery in MHC Proteins: Peptide-Dependent Tuning of Class I MHC Global Flexibility” Frontiers in Immunology.  DOI: 10.3389/fimmu.2019.00966      View PDF     Andy van Hateren, Malcolm Anderson, Alistair Bailey, Jörn M. Werner, Paul Skipp, Tim Elliott. (2017) “Direct evidence for conformational dynamics in major histocompatibility complex class I molecules” Journal of Biological Chemistry.  DOI: 10.1074/jbc.M117.809624      View PDF     Andy van Hateren, Alistair Bailey, Tim Elliott. (2017) “Recent advances in Major Histocompatibility Complex class I antigen presentation: Plastic MHC molecules and TAPBPR mediated quality control” F1000 Research.  DOI: 10.12688/f1000research.10474.1      View PDF     Alistair Bailey, Neil Dalchau, Rachel Carter, Stephen Emmott, Andrew Phillips, Jörn M. Werner, Tim Elliott (2015) “Selector function of MHC I molecules is determined by protein plasticity” Scientific Reports.  DOI: 10.1038/srep14928      View PDF     Alistair Bailey, Andy van Hateren, Tim Elliott, Jörn M. Werner. (2014) “Two Polymorphisms Facilitate Differences in Plasticity between Two Chicken Major Histocompatibility Complex Class I Proteins” PLOS One.  DOI: 10.1371/journal.pone.0089657      View PDF     Andy van Hateren, Rachel Carter, Alistair Bailey, Nasia Kontouli, Anthony P. Williams, Jim Kaufman, Tim Elliott. (2013) “A Mechanistic Basis for the Co-evolution of Chicken Tapasin and Major Histocompatibility Complex Class I Proteins” Journal of Biological Chemistry.  DOI: 10.1074/jbc.M113.474031      View PDF     Andy Van Hateren, Edd James, Alistair Bailey, Andrew Phillips, Neil Dalchau, Tim Elliott (2010) “The cell biology of major histocompatibility complex class I assembly: towards a molecular understanding” Tissue Antigens.  DOI: 10.1111/j.1399-0039.2010.01550.x      View PDF \n\n\n\n Back to top"
   }
 ]
