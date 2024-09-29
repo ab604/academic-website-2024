@@ -53,14 +53,21 @@
     "href": "projects.html",
     "title": "Projects",
     "section": "",
-    "text": "A bot that posts a screen shot of the Our World in Data (OWID) Daily Data Insight to Bluesky: @owid-daily-data.bsky.social\nIt’s built upon Simon Willison’s GitHub shot-scraper template repository that takes an automated screenshot of a OWID Daily Data Insight web page using shot-scraper. I then wrote a short R script to get alt-text and links and create the post for Bluesky.\nThe bot runs using Github Actions yml as a cron job similar to my literature bot (Section 3).\nMy Github repo is here: https://github.com/ab604/owid-dd-bot"
+    "text": "Another Bluesky bot: @wkipbot.bsky.social\nI enjoy reading Work in Progress, but each article is long (20 to 40 minutes reading) and I often forget about an issue once it’s published. Each issue has 6 or 7 articles.\nSo to help me keep up, I created a Bluesky bot to post a link and description of one of the 115 articles (at the time of writing) from the Work in Progress archive each week with a screenshot.\nGithub repo for Work in progress bot"
+  },
+  {
+    "objectID": "projects.html#sec-work-in-progress-bot",
+    "href": "projects.html#sec-work-in-progress-bot",
+    "title": "Projects",
+    "section": "",
+    "text": "Another Bluesky bot: @wkipbot.bsky.social\nI enjoy reading Work in Progress, but each article is long (20 to 40 minutes reading) and I often forget about an issue once it’s published. Each issue has 6 or 7 articles.\nSo to help me keep up, I created a Bluesky bot to post a link and description of one of the 115 articles (at the time of writing) from the Work in Progress archive each week with a screenshot.\nGithub repo for Work in progress bot"
   },
   {
     "objectID": "projects.html#sec-our-world-in-data-bot",
     "href": "projects.html#sec-our-world-in-data-bot",
     "title": "Projects",
-    "section": "",
-    "text": "A bot that posts a screen shot of the Our World in Data (OWID) Daily Data Insight to Bluesky: @owid-daily-data.bsky.social\nIt’s built upon Simon Willison’s GitHub shot-scraper template repository that takes an automated screenshot of a OWID Daily Data Insight web page using shot-scraper. I then wrote a short R script to get alt-text and links and create the post for Bluesky.\nThe bot runs using Github Actions yml as a cron job similar to my literature bot (Section 3).\nMy Github repo is here: https://github.com/ab604/owid-dd-bot"
+    "section": "Our World in Data bot",
+    "text": "Our World in Data bot\n\nA bot that posts a screen shot of the Our World in Data (OWID) Daily Data Insight to Bluesky: @owid-daily-data.bsky.social\nIt’s built upon Simon Willison’s GitHub shot-scraper template repository that takes an automated screenshot of a OWID Daily Data Insight web page using shot-scraper. I then wrote a short R script to get alt-text and links and create the post for Bluesky.\nThe bot runs using Github Actions yml as a cron job similar to my literature bot (Section 4).\nMy Github repo is here: https://github.com/ab604/owid-dd-bot"
   },
   {
     "objectID": "projects.html#sec-moving-from-hugo-academic-to-a-quarto-website",

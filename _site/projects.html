@@ -138,7 +138,8 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#sec-our-world-in-data-bot" id="toc-sec-our-world-in-data-bot" class="nav-link active" data-scroll-target="#sec-our-world-in-data-bot">Our World in Data bot</a></li>
+  <li><a href="#sec-work-in-progress-bot" id="toc-sec-work-in-progress-bot" class="nav-link active" data-scroll-target="#sec-work-in-progress-bot">Work in progress bot</a></li>
+  <li><a href="#sec-our-world-in-data-bot" id="toc-sec-our-world-in-data-bot" class="nav-link" data-scroll-target="#sec-our-world-in-data-bot">Our World in Data bot</a></li>
   <li><a href="#sec-moving-from-hugo-academic-to-a-quarto-website" id="toc-sec-moving-from-hugo-academic-to-a-quarto-website" class="nav-link" data-scroll-target="#sec-moving-from-hugo-academic-to-a-quarto-website">Moving from Hugo Academic to a Quarto website</a></li>
   <li><a href="#sec-bluesky-literature-bot" id="toc-sec-bluesky-literature-bot" class="nav-link" data-scroll-target="#sec-bluesky-literature-bot">Bluesky literature bot</a></li>
   <li><a href="#sec-the-itchen-bridge-construction-in-colour" id="toc-sec-the-itchen-bridge-construction-in-colour" class="nav-link" data-scroll-target="#sec-the-itchen-bridge-construction-in-colour">The Itchen Bridge: Construction in colour</a></li>
@@ -181,7 +182,7 @@ ul.task-list li input[type="checkbox"] {
     <div>
     <div class="quarto-title-meta-heading">Published</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">Last Updated on 2024-09-27</p>
+      <p class="date">Last Updated on 2024-09-29</p>
     </div>
   </div>
   
@@ -193,12 +194,20 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
+<section id="sec-work-in-progress-bot" class="level2">
+<h2 class="anchored" data-anchor-id="sec-work-in-progress-bot">Work in progress bot</h2>
+<p><img src="images/fluent-emoji-high-contrast--man-white-hair.png" class="img-fluid" width="100"></p>
+<p>Another Bluesky bot: <a href="https://bsky.app/profile/wkipbot.bsky.social">@wkipbot.bsky.social</a></p>
+<p>I enjoy reading <a href="https://worksinprogress.co">Work in Progress</a>, but each article is long (20 to 40 minutes reading) and I often forget about an issue once it’s published. Each issue has 6 or 7 articles.</p>
+<p>So to help me keep up, I created a Bluesky bot to post a link and description of one of the 115 articles (at the time of writing) from the Work in Progress archive each week with a screenshot.</p>
+<p><a href="https://github.com/ab604/wkip-bot/">Github repo for Work in progress bot</a></p>
+</section>
 <section id="sec-our-world-in-data-bot" class="level2">
 <h2 class="anchored" data-anchor-id="sec-our-world-in-data-bot">Our World in Data bot</h2>
 <p><img src="images/bafkreia3nyjtyw4sffxdlrfhzmn4suhsfpdhia2dzbq4zy5cpidiqrr3ai.jpg" class="img-fluid" width="100"></p>
 <p>A bot that posts a screen shot of the Our World in Data (OWID) Daily Data Insight to Bluesky: <a href="https://bsky.app/profile/owid-daily-data.bsky.social">@owid-daily-data.bsky.social</a></p>
 <p>It’s built upon Simon Willison’s GitHub <a href="https://github.com/simonw/shot-scraper-template">shot-scraper template</a> repository that takes an automated screenshot of a OWID Daily Data Insight web page using <a href="https://github.com/simonw/shot-scraper">shot-scraper</a>. I then wrote a short R script to get alt-text and links and create the post for Bluesky.</p>
-<p>The bot runs using Github Actions <code>yml</code> as a <code>cron</code> job similar to my literature bot (<a href="#sec-bluesky-literature-bot" class="quarto-xref">Section&nbsp;3</a>).</p>
+<p>The bot runs using Github Actions <code>yml</code> as a <code>cron</code> job similar to my literature bot (<a href="#sec-bluesky-literature-bot" class="quarto-xref">Section&nbsp;4</a>).</p>
 <p>My Github repo is here: <a href="https://github.com/ab604/owid-dd-bot" class="uri">https://github.com/ab604/owid-dd-bot</a></p>
 </section>
 <section id="sec-moving-from-hugo-academic-to-a-quarto-website" class="level2">

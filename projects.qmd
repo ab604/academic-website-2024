@@ -5,6 +5,18 @@ toc: true
 toc-location: left
 ---
 
+## Work in progress bot {#sec-work-in-progress-bot}
+
+![](images/fluent-emoji-high-contrast--man-white-hair.png){width="100"}
+
+Another Bluesky bot: [\@wkipbot.bsky.social](https://bsky.app/profile/wkipbot.bsky.social)
+
+I enjoy reading [Work in Progress](https://worksinprogress.co), but each article is long (20 to 40 minutes reading) and I often forget about an issue once it’s published. Each issue has 6 or 7 articles.
+
+So to help me keep up, I created a Bluesky bot to post a link and description of one of the 115 articles (at the time of writing) from the Work in Progress archive each week with a screenshot.
+
+[Github repo for Work in progress bot](https://github.com/ab604/wkip-bot/)
+
 ## Our World in Data bot {#sec-our-world-in-data-bot}
 
 ![](images/bafkreia3nyjtyw4sffxdlrfhzmn4suhsfpdhia2dzbq4zy5cpidiqrr3ai.jpg){width="100"}
