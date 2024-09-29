@@ -7,7 +7,7 @@ toc-location: left
 
 ## Work in progress bot {#sec-work-in-progress-bot}
 
-![](images/fluent-emoji-high-contrast--man-white-hair.png){width="100"}
+![](images/fluent-emoji-high-contrast--man.png){width="100"}
 
 Another Bluesky bot: [\@wkipbot.bsky.social](https://bsky.app/profile/wkipbot.bsky.social)
 
