@@ -17,6 +17,10 @@ So to help me keep up, I created a Bluesky bot to post a link and description of
 
 [Github repo for Work in progress bot](https://github.com/ab604/wkip-bot)
 
+[broken link one](https://github.com/ab604/wkip-b)
+
+[broken link two](https://github.com/ab604/madeup-link)
+
 ## Our World in Data bot {#sec-our-world-in-data-bot}
 
 ![](images/bafkreia3nyjtyw4sffxdlrfhzmn4suhsfpdhia2dzbq4zy5cpidiqrr3ai.jpg){width="100"}
