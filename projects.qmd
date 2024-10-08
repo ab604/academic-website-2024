@@ -15,7 +15,7 @@ I enjoy reading [Work in Progress](https://worksinprogress.co), but each article
 
 So to help me keep up, I created a Bluesky bot to post a link and description of one of the 115 articles (at the time of writing) from the Work in Progress archive each week with a screenshot.
 
-[Github repo for Work in progress bot](https://github.com/ab604/wkip-b)
+[Github repo for Work in progress bot](https://github.com/ab604/wkip-bot)
 
 ## Our World in Data bot {#sec-our-world-in-data-bot}
 
