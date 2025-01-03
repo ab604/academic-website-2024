@@ -1,0 +1,30 @@
+---
+title: "Blog"
+subtitle: "Today I Learned and anything else that caught my eye"
+listing:
+  contents: blog
+  sort: "date desc"
+  type: default
+  image-align: right
+  max-description-length: 175
+  #date-format: medium
+  categories: true
+  sort-ui: false
+  filter-ui: false
+page-layout: full
+title-block-banner: false
+---
+
+In 2025 I am starting out in a new area of research, microfluidics Hydrogen Deuterium Exchange mass spectrometry, so I expect the posts to be largely about that. But also anything else that I've done or found along the way, such as new things about immunpeptidomics or using LLMs.
+
+Part of the motivation is to keep track of what I've been doing in the expectation that some of the material may become more formal documentation, writing etc.
+
+Simon Willison:
+
+> A TIL—Today I Learned—is the most liberating form of content I know of.
+>
+> Did you just learn how to do something? Write about that.
+>
+> Call it a TIL—that way you’re not promising anyone a revelation or an in-depth tutorial. You’re saying “I just figured this out: here are my notes, you may find them useful too”.
+
+You can read about Simon Willison's approach to blogging in his posts: ["what to blog about"](https://simonwillison.net/2022/Nov/6/what-to-blog-about/) and ["my approach to running a link blog"](https://simonwillison.net/2024/Dec/22/link-blog/).

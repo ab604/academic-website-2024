@@ -1,0 +1,61 @@
+---
+title: "Creating a work log"
+description: "Chris Albon's helper script for logging everything you do"
+author:
+  - name: Alistair Bailey
+    url: https://ab604.uk
+    orcid: 0000-0003-0023-8679
+date: 2025-01-03
+categories: [Bluesky, Work, Claude] # self-defined categories
+citation: 
+  url: https://ab604.uk/blog/2024-12-11-TIL/ 
+#image: preview-image.png
+draft: false # setting this to `true` will prevent your post from appearing on your listing page until you're ready!
+---
+
+Just before Christmas 2024, [Chris Albon](https://chrisalbon.com) of Wikimedia posted this on Bluesky about keeping track of his work by using a script to log his day:
+
+![Post by Chirs Albon on Bluesky, 2024-12-11, <https://bsky.app/profile/chrisalbon.com/post/3ld24aoq4ik2p>](/images/bsky-screenshot-2025-01-03.png){fig-alt="Screenshot of a Blueksy post by Chris Albon of a script he uses for logging. \"One thing I've noticed with AI is that the barrier to having lots of little helper scripts is wildy lower.  I keep a work log so its easy to talk about what I worked. This script lets me open the terminal and type \"log talked to james\" and have it logged/timestamped. Super easy.\""}
+
+He also posted a link to this 15 minute video called Don't Do Invisible Work <https://www.youtube.com/watch?v=HiF83i1OLOM> in which he goes into details about why and how to keep a log. Key points I took away were:
+
+-   Keeping a log stops you forgetting how much work you really did.
+
+-   Keeping a log using a script and text file means you are not tied to any company or propriety system, so your log is portable and not at the mercy of changing jobs or software upgrades.
+
+-   Keeping a log is useful for supporting co-workers as you track your interactions with them and therefore some of their work too.
+
+This seems like a very good idea, although I know habits take months to form or break. And as I am really lazy, I asked Claude to recreate the shell script for me from the screengrab.
+
+``` bash
+#!/bin/bash
+
+# Function to log messages with timestamps
+log() {
+    # Define the path to your log file
+    local log_file="$HOME/Documents/work_log.txt"
+
+    # Get the current timestamp in ISO 8601 format
+    local timestamp=$(date -u +"%Y-%m-%d")
+
+    # Append the timestamp and message to the log file
+    echo "$timestamp $*" >> "$log_file"
+
+    # Print a confirmation message
+    echo "Logged: $timestamp $*"
+}
+```
+
+I work across Window and Linux operating systems, so a bash script works for me and on my Windows machine I use Gitbash. So once the script `logger.sh` is sourced in my home directory, I use it with the command `log` followed by whatever I want to log like so:
+
+``` bash
+$ log added blog to my website
+```
+
+which records this to the `work_log.txt` file:
+
+``` bash
+Logged: 2025-01-03 added blog to my website
+```
+
+Now all I have to do is remember to use it!
