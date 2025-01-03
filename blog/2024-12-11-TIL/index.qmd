@@ -25,7 +25,9 @@ He also posted a link to this 15 minute video called Don't Do Invisible Work <ht
 
 -   Keeping a log is useful for supporting co-workers as you track your interactions with them and therefore some of their work too.
 
-This seems like a very good idea, although I know habits take months to form or break. And as I am really lazy, I asked Claude to recreate the shell script for me from the screengrab.
+Even if you are not someone who is comfortable with coding this seems like a very good idea. One could use a Word document, spreadsheet or even paper. Although I know habits take months to form or break so that is probably the biggest challenge (for me).
+
+As I am really lazy, I asked Claude to recreate the shell script for me from the screengrab.
 
 ``` bash
 #!/bin/bash
@@ -58,4 +60,4 @@ which records this to the `work_log.txt` file:
 Logged: 2025-01-03 added blog to my website
 ```
 
-Now all I have to do is remember to use it!
+Now all I have to do is actually form the habit of using it!
