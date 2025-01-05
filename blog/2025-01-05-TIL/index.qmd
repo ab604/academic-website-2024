@@ -1,0 +1,457 @@
+---
+title: "Why you don't need turbulent flow"
+description: "Molecular diffusion helps homogenise the distribution of molecules in laminar flow"
+author:
+  - name: Alistair Bailey
+    url: https://ab604.uk
+    #orcid: 0000-0003-0023-8679
+    # <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+date: 2025-01-05
+categories: [TIL, microfluidics, HDX, Claude]
+citation: 
+  url: https://ab604.uk/blog/2025-01-05-TIL/ 
+draft: false
+format:
+  html:
+    include-in-header:
+      - text: |
+          <script src="https://unpkg.com/react@18/umd/react.production.min.js"></script>
+          <script src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js"></script>
+          <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+          <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+bibliography: references.bib
+---
+
+This post is about the 1999 paper *Monitoring Reaction Kinetics in Solution by Continuous-Flow Methods: The Effects of Convection and Molecular Diffusion under Laminar Flow Conditions* by Lars Konermann [@konermann1999].
+
+Here this refers to fluids in narrow tubes (75 μm tube diameter) hence microfluidics. A tube is full of fluid, so flow is under pressure.
+
+## Why I'm reading it? {#sec-why-im-reading-it}
+
+If you've ever play Pooh sticks, you'll know that two sticks dropped at the same time move at different speeds under a bridge. In the project I have just joined, we want to "keep the sticks together". Or in our case the proteins, such that for any group of proteins at any time, they have on average had the same experience.
+
+## What's problem? {#sec-whats-problem}
+
+If you flow slowly (laminar flow) the (sticks at the) centre of the flow moves fastest as there is less friction than close to the walls of the tube, creating a parabolic velocity profile (flow speed of sticks or protein in the direction of travel).
+
+This means that under laminar flow molecules have a different "age" in the sense that the disperse and after time some molecules will have travelled further (centre) than others (near the wall.)
+
+Historically it was believed that you needed turbulent flow to homogenise the mixing of molecules so they all move (approximately) together. This uses larger diameter tube with fast flows and therefore required lots of sample, which can be expensive or difficult to make.
+
+## What I learnt from the paper {#sec-what-i-learnt-from-the-paper}
+
+What Lars Konermann shows is that under laminar flow over a long enough distance homogenisation of the occurs due to diffusion of molecules.
+
+Diffusion means molecules move perpendicular to the direction of flow due to random Brownian motion and in doing so they sample different velocities, therefore on average they experience the same "age" . The rate of diffusion is independent of the flow rate.
+
+Obviously, read the paper for the full story, but I've put some of my Claude chat output at the bottom (@sec-claude).
+
+## Visualising diffusion and laminar flow {#sec-visualising-diffusion-and-laminar-flow}
+
+I got Claude to read the paper and had a chat with it and asked it to create some animations to demonstrate these ideas.
+
+-   The first animation visualises diffusion: as a molecule moves closer to the centre would speed up if it was coming towards you, and slow down if it moves to wards the edge.
+
+-   The second animation visualises laminar flow with or without diffusion to illustrate how the flow parabola is affected by diffusion. Mixing here means how well mixed are the molecules across different velocity regions in the tube. This mixing is what reduces the dispersive effects of the parabolic flow profile. <br> <br>
+
+```{=html}
+<div class="viz-container">
+  <div id="diffusion"></div>
+  <script type="text/babel" data-type="module">
+  const { useState, useEffect } = React;
+  const { createRoot } = ReactDOM;
+
+  const DiffusionVisualisation = () => {
+    const [time, setTime] = useState(0);
+    const [isPlaying, setIsPlaying] = useState(false);
+    const tubeRadius = 140;
+    const D = 50;
+    const dt = 0.05;
+    const maxTime = 12;
+    
+    const svgSize = tubeRadius * 2 + 40;
+    
+    const initialParticles = [
+        { x: 0, y: 0, path: [{x: 0, y: 0}], color: '#212B79', label: 'Center' }, 
+        { x: 0, y: tubeRadius * 0.5, path: [{x: 0, y: tubeRadius * 0.5}], color: '#FCBC00', label: 'Top' },
+        { x: 0, y: -tubeRadius * 0.5, path: [{x: 0, y: -tubeRadius * 0.5}], color: '#202272', label: 'Bottom' },
+        { x: -tubeRadius * 0.5, y: 0, path: [{x: -tubeRadius * 0.5, y: 0}], color: '#D5007F', label: 'Left' },
+        { x: tubeRadius * 0.5, y: 0, path: [{x: tubeRadius * 0.5, y: 0}], color: '#EF7D00', label: 'Right' }
+    ];
+    
+    const [particles, setParticles] = useState(initialParticles);
+    
+    useEffect(() => {
+        if (!isPlaying) return;
+        
+        const interval = setInterval(() => {
+            if (time >= maxTime) {
+                setIsPlaying(false);
+                return;
+            }
+            
+            setTime(t => t + dt);
+            setParticles(currentParticles => 
+                currentParticles.map(p => {
+                    const diffusionStep = Math.sqrt(4 * D * dt) * 2;
+                    let newX = p.x + diffusionStep * (Math.random() - 0.5);
+                    let newY = p.y + diffusionStep * (Math.random() - 0.5);
+                    
+                    const r = Math.sqrt(newX * newX + newY * newY);
+                    if (r > tubeRadius) {
+                        const scale = tubeRadius / r;
+                        newX *= scale;
+                        newY *= scale;
+                    }
+                    
+                    return {
+                        ...p,
+                        x: newX,
+                        y: newY,
+                        path: [...p.path, {x: newX, y: newY}]
+                    };
+                })
+            );
+        }, dt * 1000);
+        
+        return () => clearInterval(interval);
+    }, [isPlaying, time]);
+    
+    const handleReset = () => {
+        setTime(0);
+        setIsPlaying(false);
+        setParticles(initialParticles);
+    };
+    
+    return (
+        <div className="w-full max-w-3xl mx-auto p-4 border rounded-lg bg-white shadow-sm">
+            <div className="mb-4">
+                <h2 className="text-xl font-semibold">Particle Diffusion Simulation</h2>
+            </div>
+            <div className="space-y-4">
+                <div className="flex justify-center">
+                    <svg 
+                        width={svgSize} 
+                        height={svgSize} 
+                        className="bg-gray-50"
+                        viewBox={`0 0 ${svgSize} ${svgSize}`}
+                    >
+                        <circle 
+                            cx={svgSize/2} 
+                            cy={svgSize/2} 
+                            r={tubeRadius} 
+                            fill="none" 
+                            stroke="black" 
+                            strokeWidth="2"
+                        />
+                        {/* Radial guidelines */}
+                            {Array.from({length: 5}).map((_, i) => (
+                                <circle key={i} cx={svgSize/2} cy={svgSize/2} 
+                                        r={tubeRadius * (i+1)/5}
+                                        fill="none" 
+                                        stroke="black" 
+                                        strokeDasharray="2,2"/>
+                            ))}
+                        {particles.map((p, i) => (
+                            <g key={i}>
+                                {p.path.map((pos, j) => (
+                                    <circle
+                                        key={j}
+                                        cx={pos.x + svgSize/2}
+                                        cy={pos.y + svgSize/2}
+                                        r={2}
+                                        fill={p.color}
+                                        opacity={j === p.path.length - 1 ? 1 : 0.2}
+                                    />
+                                ))}
+                            </g>
+                        ))}
+                    </svg>
+                </div>
+                <div className="flex justify-center gap-2">
+                    <button 
+                        className="px-4 py-2 bg-blue-500 text-white rounded hover:bg-blue-600"
+                        onClick={() => setIsPlaying(!isPlaying)}
+                    >
+                        {isPlaying ? 'Pause' : 'Play'}
+                    </button>
+                    <button 
+                        className="px-4 py-2 bg-gray-500 text-white rounded hover:bg-gray-600"
+                        onClick={handleReset}
+                    >
+                        Reset
+                    </button>
+                </div>
+                <div className="flex justify-between items-center mb-4 bg-gray-900 p-3 rounded">
+                    <div className="text-lg font-semibold">
+                        Simulation Time: <span className="text-blue-600">{time.toFixed(2)}s</span>
+                    </div>
+                    <div className="text-sm text-gray-600">
+                        Max Time: {maxTime}s
+                    </div>
+                </div>
+            </div>
+        </div>
+    );
+  };
+
+  // Render the component
+  const container = document.getElementById('diffusion');
+  const root = createRoot(container);
+  root.render(<DiffusionVisualisation />);
+</script>
+</div>
+```
+
+<br>
+
+```{=html}
+<div class="viz-container">
+  <div id="parabolic-diffusion"></div>
+  <script type="text/babel" data-type="module">
+  const { useState, useEffect } = React;
+  const { createRoot } = ReactDOM;
+
+  // Card component simulation (since we can't import from shadcn) bg-card
+  const Card = ({ children, className }) => (
+    <div className={`rounded-lg border bg-white text-black shadow-sm ${className}`}>
+      {children}
+    </div>
+  );
+
+  const CardHeader = ({ children }) => (
+    <div className="flex flex-col space-y-1.5 p-6">{children}</div>
+  );
+
+  const CardTitle = ({ children }) => (
+    <h3 className="text-lg font-semibold leading-none tracking-tight">{children}</h3>
+  );
+
+  const CardContent = ({ children }) => (
+    <div className="p-6 pt-0">{children}</div>
+  );
+
+  function ParabolicFlow() {
+    const [time, setTime] = useState(0);
+    const [isPlaying, setIsPlaying] = useState(false);
+    const [showDiffusion, setShowDiffusion] = useState(true);
+    
+    // Constants
+    const tubeRadius = 75;
+    const dt = 0.05;
+    const maxTime = 60;
+    const D = showDiffusion ? 50 : 0;
+    const velocityScale = 20;
+    
+    function getColorForPosition(normalizedR) {
+        const intensity = Math.floor((1 - normalizedR) * 255);
+        return `rgb(${intensity}, 0, ${255 - intensity})`;
+    }
+    
+    function createInitialParticles() {
+        const particles = [];
+        const numParticles = 400;
+        for (let i = 0; i < numParticles; i++) {
+            const y = tubeRadius * (2 * i / (numParticles - 1) - 1);
+            particles.push({
+                x: 0,
+                y,
+                initialY: y,
+                path: [{x: 0, y}],
+                color: getColorForPosition(Math.abs(y)/tubeRadius)
+            });
+        }
+        return particles;
+    }
+    
+    const [particles, setParticles] = useState(createInitialParticles);
+    
+    useEffect(() => {
+        if (!isPlaying) return;
+        
+        const interval = setInterval(() => {
+            if (time >= maxTime) {
+                setIsPlaying(false);
+                return;
+            }
+            
+            setTime(t => t + dt);
+            setParticles(currentParticles => 
+                currentParticles.map(p => {
+                    const normalizedR = Math.abs(p.y) / tubeRadius;
+                    const velocity = velocityScale * (1 - normalizedR * normalizedR);
+                    
+                    let newY = p.y;
+                    if (D > 0) {
+                        const diffusionStep = Math.sqrt(4 * D * dt);
+                        newY += diffusionStep * (Math.random() - 0.5);
+                        if (Math.abs(newY) > tubeRadius) {
+                            newY = newY > 0 ? 
+                                2 * tubeRadius - newY : 
+                                -2 * tubeRadius - newY;
+                        }
+                    }
+                    
+                    const newX = p.x + velocity * dt;
+                    
+                    return {
+                        ...p,
+                        x: newX,
+                        y: newY,
+                        color: getColorForPosition(Math.abs(newY)/tubeRadius)
+                    };
+                })
+            );
+        }, 20);
+        
+        return () => clearInterval(interval);
+    }, [isPlaying, time, D]);
+
+    function resetSimulation() {
+        setTime(0);
+        setParticles(createInitialParticles());
+    }
+
+    function calculateMixingMetric() {
+    if (!showDiffusion) return 0;
+    const displacements = particles.map(p => Math.abs(p.y - p.initialY));
+    const avgDisplacement = displacements.reduce((a, b) => a + b, 0) / particles.length;
+    return Math.min(100, (avgDisplacement / tubeRadius) * 100);
+    }
+
+    return (
+        <Card className="w-full">
+            <CardHeader>
+                <CardTitle>Long-time Mixing Behavior {showDiffusion ? 'with' : 'without'} Diffusion</CardTitle>
+            </CardHeader>
+            <CardContent>
+                <div className="flex flex-col gap-4">
+                    <div className="flex justify-between items-center">
+                        <div className="flex gap-4">
+                            <button 
+                                className="px-4 py-2 bg-blue-500 text-white rounded"
+                                onClick={() => {
+                                    if (!isPlaying && time >= maxTime) {
+                                        resetSimulation();
+                                    }
+                                    setIsPlaying(!isPlaying);
+                                }}
+                            >
+                                {isPlaying ? 'Pause' : time >= maxTime ? 'Reset' : 'Play'}
+                            </button>
+                            <button 
+                                className="px-4 py-2 bg-gray-600 text-white rounded"
+                                onClick={() => {
+                                    setShowDiffusion(!showDiffusion);
+                                    resetSimulation();
+                                }}
+                            >
+                                Toggle Diffusion
+                            </button>
+                        </div>
+                        <div className="flex gap-4">
+                            <span>Time: {time.toFixed(1)}s</span>
+                            {showDiffusion && 
+                                <span>Mixing: {calculateMixingMetric().toFixed(1)}%</span>
+                            }
+                        </div>
+                    </div>
+                    
+                    <div className="relative h-48 border border-gray-300">
+                        <svg width="100%" height="100%" viewBox="0 -100 1600 200">
+                            <line x1="0" y1={-tubeRadius} x2="1600" y2={-tubeRadius}
+                                  stroke="black" strokeWidth="3"/>
+                            <line x1="0" y1={tubeRadius} x2="1600" y2={tubeRadius}
+                                  stroke="black" strokeWidth="3"/>
+                            
+                            <path d={`M 10,${-tubeRadius} Q 40,0 10,${tubeRadius}`}
+                                  stroke="#666" fill="none" strokeDasharray="4,4"/>
+                            
+                            {particles.map((p, i) => (
+                                <circle key={i}
+                                    cx={p.x}
+                                    cy={p.y}
+                                    r="1.5"
+                                    fill={p.color}
+                                />
+                            ))}
+                        </svg>
+                    </div>
+                    
+                    <div className="flex justify-between items-center p-2 border border-gray-300">
+                        <span>Velocity Profile: </span>
+                        <div className="flex gap-2">
+                            <span style={{color: 'rgb(255,0,0)'}}>Center (Fast)</span>
+                            <span style={{color: 'rgb(128,0,128)'}}>Middle</span>
+                            <span style={{color: 'rgb(0,0,255)'}}>Wall (Slow)</span>
+                        </div>
+                    </div>
+                    
+                    <div className="text-sm">
+                    Key observations:
+                    <ul className="list-disc pl-5 mt-2">
+                        <li>Early times (t &lt; 5s): Initial parabolic dispersion dominates</li>
+                        <li>Intermediate times (5s-15s): Diffusive mixing begins</li>
+                        <li>Long times (t &gt; 15s): Significant radial mixing develops</li>
+                        <li>Complete mixing depends on tube radius and diffusion coefficient as τ > R²/(36D)</li>
+                        <li>Without diffusion: Permanent parabolic dispersion pattern</li>
+                  </ul>
+                </div>
+                </div>
+            </CardContent>
+        </Card>
+    );
+  }
+
+  // Render the component
+  const container = document.getElementById('parabolic-diffusion');
+  const root = createRoot(container);
+  root.render(<ParabolicFlow />);
+</script>
+</div>
+```
+
+<br>
+
+## Claude Chat Output {#sec-claude}
+
+### Experiments and simulations {#sec-experiments-and-simulations}
+
+The author compared simulations with experimental conditions of:
+
+-   75 μm tube diameter
+-   Flow rate of 30 μL/min
+-   Average flow velocity of 0.113 m/s
+
+### Summary of key findings {#sec-summary-of-key-findings}
+
+Here are the key points from the paper:
+
+1.  Under laminar flow, without diffusion:
+
+-   The velocity profile is parabolic (from equation 2 in the paper)
+-   Maximum velocity at center of tube
+-   Zero velocity at walls
+-   This would cause significant dispersion/blurring of the time axis
+
+2.  The role of diffusion:
+
+-   Molecules undergo random 2D motion perpendicular to the flow direction (radial diffusion)
+-   This causes molecules to continuously change their radial positions
+-   As molecules change position, they experience different flow velocities
+-   This averaging effect helps counteract the dispersion caused by the parabolic velocity profile
+
+3.  Key equations related to diffusion:
+
+-   Mean square displacement: ⟨s²⟩ = 4Dt (equation 14)
+-   Root-mean-square deviation: √⟨s²⟩ = 2√Dt
+-   For significant diffusion effects: τ \> R²/(36D) (equation 16)
+
+4.  Practical implications:
+
+-   At short distances/times: diffusion effects are minimal, dispersion dominates
+-   At longer distances/times: diffusion helps average out velocity differences
+-   Smaller tube diameters increase the importance of diffusion effects
+-   For D = 1×10⁻¹⁰ m²/s in a 10 μm tube, significant diffusion effects occur around τ = 30 ms
+
+The paper emphasizes that this interplay between laminar flow and molecular diffusion is what makes continuous-flow experiments feasible under laminar conditions, contrary to the previous belief that turbulent flow was essential.

@@ -4,18 +4,17 @@ description: "Chris Albon's helper script for logging everything you do"
 author:
   - name: Alistair Bailey
     url: https://ab604.uk
-    orcid: 0000-0003-0023-8679
+    #orcid: 0000-0003-0023-8679
 date: 2025-01-03
 categories: [TIL, Bluesky, Work, Claude] # self-defined categories
 citation: 
   url: https://ab604.uk/blog/2024-12-11-TIL/ 
-#image: preview-image.png
 draft: false # setting this to `true` will prevent your post from appearing on your listing page until you're ready!
 ---
 
 Just before Christmas 2024, [Chris Albon](https://chrisalbon.com) of Wikimedia posted this on Bluesky about keeping track of his work by using a script to log his day:
 
-![Post by Chirs Albon on Bluesky, 2024-12-11, <https://bsky.app/profile/chrisalbon.com/post/3ld24aoq4ik2p>](/images/bsky-screenshot-2025-01-03.png){fig-alt="Screenshot of a Blueksy post by Chris Albon of a script he uses for logging. \"One thing I've noticed with AI is that the barrier to having lots of little helper scripts is wildy lower.  I keep a work log so its easy to talk about what I worked. This script lets me open the terminal and type \"log talked to james\" and have it logged/timestamped. Super easy.\""}
+![Post by Chirs Albon on Bluesky, 2024-12-11, https://bsky.app/profile/chrisalbon.com/post/3ld24aoq4ik2p](/images/bsky-screenshot-2025-01-03.png){fig-alt="Screenshot of a Blueksy post by Chris Albon of a script he uses for logging. \"One thing I've noticed with AI is that the barrier to having lots of little helper scripts is wildy lower.  I keep a work log so its easy to talk about what I worked. This script lets me open the terminal and type \"log talked to james\" and have it logged/timestamped. Super easy.\""}
 
 He also posted a link to this 15 minute video called Don't Do Invisible Work <https://www.youtube.com/watch?v=HiF83i1OLOM> in which he goes into details about why and how to keep a log. Key points I took away were:
 

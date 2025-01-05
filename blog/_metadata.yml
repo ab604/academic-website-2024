@@ -7,9 +7,14 @@ freeze: auto
 # Enable banner style title blocks
 title-block-banner: false
 
+# Table of content settings
+toc: true
+toc-depth: 3
+toc-location: left
+
 # my author info
 author:
   - name: Alistair Bailey
     url: https://ab604.uk
-    orcid: 0000-0003-0023-8679
+    #orcid: 0000-0003-0023-8679
 

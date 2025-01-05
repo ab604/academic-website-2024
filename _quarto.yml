@@ -66,7 +66,9 @@ format:
     anchor-sections: true
     smooth-scroll: true
     # This is to include fontawesome and academic icons in the headers:
-    include-in-header: "_includes/header.html"
+    # include-in-header: "_includes/header.html"
+    include-in-header:
+      - file: "_includes/header.html"
     date: last-modified
     date-format: '[Last Updated on] YYYY-MM-DD'
     # cp cv/bailey_cv.pdf _site/cv/
