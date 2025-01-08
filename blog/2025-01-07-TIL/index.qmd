@@ -1,0 +1,348 @@
+---
+title: "Dean flow"
+description: "Dean flow"
+author:
+  - name: Alistair Bailey
+    url: https://ab604.uk
+date: 2025-01-07
+categories: [TIL, microfluidics, HDX, Claude]
+citation: 
+  url: https://ab604.uk/blog/2025-01-07-TIL/ 
+draft: true
+#bibliography: references.bib
+---
+Some stuff
+
+::: {.content-visible when-format="html"}
+```{=html}
+<!DOCTYPE html>
+<html>
+<head>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/react/18.2.0/umd/react.production.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/react-dom/18.2.0/umd/react-dom.production.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/babel-standalone/7.23.9/babel.min.js"></script>
+    <style>
+        .calculator-container {
+            font-family: system-ui, -apple-system, sans-serif;
+            background-color: white;
+            color: black;
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 1rem;
+        }
+        .input-group {
+            margin-bottom: 1rem;
+        }
+        .input-label {
+            display: block;
+            margin-bottom: 0.5rem;
+            font-weight: 500;
+        }
+        .input-field {
+            background-color: white;
+            width: 100%;
+            padding: 0.5rem;
+            border: 1px solid #ccc;
+            border-radius: 0.375rem;
+            margin-bottom: 0.5rem;
+        }
+        .calculate-button {
+            background-color: #3b82f6;
+            color: white;
+            padding: 0.5rem 1rem;
+            border-radius: 0.375rem;
+            border: none;
+            cursor: pointer;
+            width: 100%;
+            margin-top: 1rem;
+        }
+        .calculate-button:hover {
+            background-color: #2563eb;
+        }
+        .results-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 1rem;
+            margin-top: 1rem;
+        }
+        .result-box {
+            color: black;
+            background-color: #f3f4f6;
+            padding: 1rem;
+            border-radius: 0.375rem;
+        }
+        .result-label {
+            font-weight: 500;
+            margin-bottom: 0.25rem;
+        }
+        .warning-box {
+            color: black;
+            background-color: #fff3cd;
+            padding: 1rem;
+            border-radius: 0.375rem;
+            margin-top: 1rem;
+        }
+        .equations-section {
+            color: black;
+            margin-top: 1rem;
+            padding: 1rem;
+            background-color: #f8fafc;
+            border-radius: 0.375rem;
+        }
+        .equation {
+            margin-bottom: 1rem;
+        }
+        .equation-label {
+            font-weight: 500;
+            margin-bottom: 0.25rem;
+        }
+        .equation-formula {
+            padding-left: 1rem;
+            font-family: monospace;
+        }
+        .fluid-properties {
+            background-color: #dbeafe;
+            padding: 1rem;
+            border-radius: 0.375rem;
+            margin-bottom: 1rem;
+        }
+    </style>
+</head>
+<body>
+    <div id="dean-flow-calculator"></div>
+    <script type="text/babel">
+        const DeanFlowCalculator = () => {
+            const [inputs, setInputs] = React.useState({
+                width: 140,
+                height: 70,
+                flowRate: 60,
+                time: 60,
+                radiusOfCurvature: 1000
+            });
+
+            const [results, setResults] = React.useState(null);
+            const [error, setError] = React.useState('');
+
+            const calculateDeanFlow = () => {
+                try {
+                    // Convert units to SI
+                    const width = inputs.width * 1e-6;
+                    const height = inputs.height * 1e-6;
+                    const flowRate = inputs.flowRate * (1e-9/60);
+                    const radiusOfCurvature = inputs.radiusOfCurvature * 1e-6;
+
+                    const fluidDensity = 997;
+                    const fluidViscosity = 0.001;
+
+                    const area = width * height;
+                    const aspectRatio = width / height;
+                    const wettedPerimeter = 2 * (width + height);
+                    const hydraulicDiameter = 4 * area / wettedPerimeter;
+                    const velocity = flowRate / area;
+                    const reynoldsNumber = (fluidDensity * velocity * hydraulicDiameter) / fluidViscosity;
+                    const deanNumber = reynoldsNumber * Math.sqrt(hydraulicDiameter / (2 * radiusOfCurvature));
+
+                    const aspectRatioFactor = 1 + 0.475 * aspectRatio;
+                    const secondaryVelocity = 1.84e-4 * Math.pow(deanNumber, 1.63) * aspectRatioFactor * velocity;
+                    const displacement = secondaryVelocity * inputs.time;
+                    const totalFlow = inputs.flowRate * (inputs.time / 60);
+
+                    const warnings = [];
+                    if (reynoldsNumber > 100) warnings.push("Reynolds number exceeds 100: flow may not be in strictly laminar regime");
+                    if (deanNumber > 40) warnings.push("Dean number exceeds 40: strong secondary flows may affect particle focusing");
+                    if (aspectRatio < 0.1 || aspectRatio > 10) warnings.push("Aspect ratio is extreme: secondary flow patterns may be significantly modified");
+                    if (velocity > 1) warnings.push("Velocity exceeds 1 m/s: potential for high shear stress on cells/particles");
+
+                    setResults({
+                        deanNumber: deanNumber.toFixed(2),
+                        reynoldsNumber: reynoldsNumber.toFixed(2),
+                        primaryVelocity: (velocity * 1000).toFixed(2),
+                        secondaryVelocity: (secondaryVelocity * 1e6).toFixed(2),
+                        totalFlow: totalFlow.toFixed(2),
+                        aspectRatio: aspectRatio.toFixed(2),
+                        warnings
+                    });
+                    setError('');
+                } catch (err) {
+                    setError('Error in calculations. Please check your inputs.');
+                }
+            };
+
+            const handleInputChange = (e) => {
+                const { name, value } = e.target;
+                setInputs(prev => ({...prev, [name]: parseFloat(value) || 0}));
+            };
+
+            return (
+                <div className="calculator-container">
+                    <div className="fluid-properties">
+                        <h4 style={{margin: '0 0 0.5rem'}}>Fluid Properties (Water at room temperature):</h4>
+                        <div style={{display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '1rem'}}>
+                            <div>Density (ρ): 997 kg/m³</div>
+                            <div>Viscosity (μ): 0.001 Pa·s</div>
+                        </div>
+                    </div>
+
+                    <div style={{display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '2rem'}}>
+                        <div>
+                            <div className="input-group">
+                                <label className="input-label">
+                                    Channel Width (µm):
+                                    <input
+                                        type="number"
+                                        name="width"
+                                        value={inputs.width}
+                                        onChange={handleInputChange}
+                                        className="input-field"
+                                        min="1"
+                                        max="1000"
+                                    />
+                                </label>
+                            </div>
+
+                            <div className="input-group">
+                                <label className="input-label">
+                                    Channel Height (µm):
+                                    <input
+                                        type="number"
+                                        name="height"
+                                        value={inputs.height}
+                                        onChange={handleInputChange}
+                                        className="input-field"
+                                        min="1"
+                                        max="1000"
+                                    />
+                                </label>
+                            </div>
+
+                            <div className="input-group">
+                                <label className="input-label">
+                                    Flow Rate (µL/min):
+                                    <input
+                                        type="number"
+                                        name="flowRate"
+                                        value={inputs.flowRate}
+                                        onChange={handleInputChange}
+                                        className="input-field"
+                                        min="0.01"
+                                        max="1000"
+                                    />
+                                </label>
+                            </div>
+
+                            <div className="input-group">
+                                <label className="input-label">
+                                    Time (s):
+                                    <input
+                                        type="number"
+                                        name="time"
+                                        value={inputs.time}
+                                        onChange={handleInputChange}
+                                        className="input-field"
+                                        min="0"
+                                    />
+                                </label>
+                            </div>
+
+                            <div className="input-group">
+                                <label className="input-label">
+                                    Radius of Curvature (µm):
+                                    <input
+                                        type="number"
+                                        name="radiusOfCurvature"
+                                        value={inputs.radiusOfCurvature}
+                                        onChange={handleInputChange}
+                                        className="input-field"
+                                        min="100"
+                                        max="50000"
+                                    />
+                                </label>
+                            </div>
+
+                            <button onClick={calculateDeanFlow} className="calculate-button">
+                                Calculate
+                            </button>
+                        </div>
+
+                        <div>
+                            {error && (
+                                <div style={{color: '#dc2626', marginBottom: '1rem'}}>
+                                    {error}
+                                </div>
+                            )}
+
+                            {results && (
+                                <>
+                                    <div className="results-grid">
+                                        <div className="result-box">
+                                            <div className="result-label">Primary Velocity:</div>
+                                            <div>{results.primaryVelocity} mm/s</div>
+                                        </div>
+                                        <div className="result-box">
+                                            <div className="result-label">Total Flow:</div>
+                                            <div>{results.totalFlow} µL</div>
+                                        </div>
+                                        <div className="result-box">
+                                            <div className="result-label">Dean Number:</div>
+                                            <div>{results.deanNumber}</div>
+                                        </div>
+                                        <div className="result-box">
+                                            <div className="result-label">Reynolds Number:</div>
+                                            <div>{results.reynoldsNumber}</div>
+                                        </div>
+                                        <div className="result-box">
+                                            <div className="result-label">Secondary Velocity:</div>
+                                            <div>{results.secondaryVelocity} µm/s</div>
+                                        </div>
+                                        <div className="result-box">
+                                            <div className="result-label">Aspect Ratio:</div>
+                                            <div>{results.aspectRatio}</div>
+                                        </div>
+                                    </div>
+
+                                    {results.warnings.length > 0 && (
+                                        <div className="warning-box">
+                                            <div style={{fontWeight: 500, marginBottom: '0.5rem'}}>
+                                                Warnings:
+                                            </div>
+                                            <ul style={{margin: 0, paddingLeft: '1.5rem'}}>
+                                                {results.warnings.map((warning, index) => (
+                                                    <li key={index}>{warning}</li>
+                                                ))}
+                                            </ul>
+                                        </div>
+                                    )}
+                                </>
+                            )}
+                        </div>
+                    </div>
+
+                    <div className="equations-section">
+                        <h4 style={{margin: '0 0 1rem'}}>Key Equations:</h4>
+                        <div className="equation">
+                            <div className="equation-label">Hydraulic Diameter (Dh):</div>
+                            <div className="equation-formula">Dh = 4A/P = 4(w×h)/(2(w+h))</div>
+                        </div>
+                        <div className="equation">
+                            <div className="equation-label">Reynolds Number (Re):</div>
+                            <div className="equation-formula">Re = (ρ × v × Dh) / μ</div>
+                        </div>
+                        <div className="equation">
+                            <div className="equation-label">Dean Number (De):</div>
+                            <div className="equation-formula">De = Re × √(Dh / (2R))</div>
+                        </div>
+                        <div className="equation">
+                            <div className="equation-label">Secondary Flow Velocity:</div>
+                            <div className="equation-formula">Us = 1.84×10⁻⁴ × De¹·⁶³ × (1 + 0.475×AR) × v</div>
+                        </div>
+                    </div>
+                </div>
+            );
+        };
+
+        ReactDOM.render(<DeanFlowCalculator />, document.getElementById('dean-flow-calculator'));
+    </script>
+</body>
+</html>
+```
+:::
