@@ -1,6 +1,6 @@
 ---
 title: "Dean flow"
-description: "Dean flow"
+description: "Dean flow and incubation channel length calculator"
 author:
   - name: Alistair Bailey
     url: https://ab604.uk
@@ -8,10 +8,11 @@ date: 2025-01-07
 categories: [TIL, microfluidics, HDX, Claude]
 citation: 
   url: https://ab604.uk/blog/2025-01-07-TIL/ 
-draft: true
+draft: false
 #bibliography: references.bib
 ---
-Some stuff
+
+**WORK IN PROGRESS** Based on Jonathan's spreadsheet
 
 ::: {.content-visible when-format="html"}
 ```{=html}
@@ -117,7 +118,8 @@ Some stuff
                 height: 70,
                 flowRate: 60,
                 time: 60,
-                radiusOfCurvature: 1000
+                radiusOfCurvature: 1000,
+                incubationTime: 5 
             });
 
             const [results, setResults] = React.useState(null);
@@ -146,6 +148,14 @@ Some stuff
                     const secondaryVelocity = 1.84e-4 * Math.pow(deanNumber, 1.63) * aspectRatioFactor * velocity;
                     const displacement = secondaryVelocity * inputs.time;
                     const totalFlow = inputs.flowRate * (inputs.time / 60);
+                    const frictionFactor = 24 * (1 - 1.3553 * aspectRatio + 1.9467 * Math.pow(aspectRatio, 2) - 
+                    1.7012 * Math.pow(aspectRatio, 3) + 0.9564 * Math.pow(aspectRatio, 4) - 
+                    0.2537 * Math.pow(aspectRatio, 5)) / reynoldsNumber;
+                    
+                    const velocityInMmPerS = velocity * 1000;
+                    const flowRateInULMin = flowRate * (60 * 1e9);
+                    const incubationTimeInSeconds = inputs.incubationTime / 1000;
+                    const requiredChannelLength = velocity * incubationTimeInSeconds * 1000;
 
                     const warnings = [];
                     if (reynoldsNumber > 100) warnings.push("Reynolds number exceeds 100: flow may not be in strictly laminar regime");
@@ -154,12 +164,17 @@ Some stuff
                     if (velocity > 1) warnings.push("Velocity exceeds 1 m/s: potential for high shear stress on cells/particles");
 
                     setResults({
+                        requiredChannelLength: requiredChannelLength.toFixed(2),
                         deanNumber: deanNumber.toFixed(2),
                         reynoldsNumber: reynoldsNumber.toFixed(2),
-                        primaryVelocity: (velocity * 1000).toFixed(2),
-                        secondaryVelocity: (secondaryVelocity * 1e6).toFixed(2),
+                        primaryVelocity: velocityInMmPerS.toFixed(2),
+                        flowRateULMin: flowRateInULMin.toFixed(2),
                         totalFlow: totalFlow.toFixed(2),
+                        hydraulicDiameter: (hydraulicDiameter * 1e6).toFixed(2),
+                        secondaryVelocity: (secondaryVelocity * 1e6).toFixed(2),
+                        displacement: (displacement * 1e6).toFixed(2),
                         aspectRatio: aspectRatio.toFixed(2),
+                        frictionFactor: frictionFactor.toFixed(4),
                         warnings
                     });
                     setError('');
@@ -259,6 +274,21 @@ Some stuff
                                 </label>
                             </div>
 
+                            <div className="input-group">
+                                <label className="input-label">
+                                    Incubation Time (ms):
+                                    <input
+                                        type="number"
+                                        name="incubationTime"
+                                        value={inputs.incubationTime}
+                                        onChange={handleInputChange}
+                                        className="input-field"
+                                        min="1"
+                                        max="100000"
+                                    />
+                                </label>
+                            </div>
+
                             <button onClick={calculateDeanFlow} className="calculate-button">
                                 Calculate
                             </button>
@@ -297,6 +327,22 @@ Some stuff
                                         <div className="result-box">
                                             <div className="result-label">Aspect Ratio:</div>
                                             <div>{results.aspectRatio}</div>
+                                        </div>
+                                        <div className="result-box">
+                                            <div className="result-label">Flow Rate</div>
+                                            <div>{results.flowRateULMin} µL/min</div>
+                                        </div>
+                                        <div className="result-box">
+                                            <div className="result-label">Friction Factor</div>
+                                            <div>{results.frictionFactor}</div>
+                                        </div>
+                                        <div className="result-box">
+                                            <div className="result-label">Hydraulic Diameter</div>
+                                            <div>{results.hydraulicDiameter} µm</div>
+                                        </div>
+                                        <div className="result-box">
+                                            <div className="result-label">Required Channel Length</div>
+                                            <div>{results.requiredChannelLength} mm</div>
                                         </div>
                                     </div>
 

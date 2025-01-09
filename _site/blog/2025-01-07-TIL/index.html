@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="author" content="Alistair Bailey">
-<meta name="description" content="Dean flow">
+<meta name="description" content="Dean flow and incubation channel length calculator">
 
 <title>Dean flow – ab604.uk</title>
 <style>
@@ -77,11 +77,10 @@ ul.task-list li input[type="checkbox"] {
 
 <!-- fontawesome icons -->
 <script src="https://kit.fontawesome.com/1392a7030f.js" crossorigin="anonymous"></script>
-<meta name="quarto:status" content="draft">
 
 
 <meta property="og:title" content="Dean flow – ab604.uk">
-<meta property="og:description" content="Dean flow">
+<meta property="og:description" content="Dean flow and incubation channel length calculator">
 <meta property="og:image" content="https://ab604.uk/blog/2025-01-07-TIL/img/avatar.jpg">
 <meta property="og:site_name" content="https://ab604.uk">
 <meta property="og:locale" content="en_GB">
@@ -90,7 +89,7 @@ ul.task-list li input[type="checkbox"] {
 <body class="floating nav-fixed">
 
 <div id="quarto-search-results"></div>
-  <header id="quarto-header" class="headroom fixed-top"><div id="quarto-draft-alert" class="alert alert-warning"><i class="bi bi-pencil-square"></i>Draft</div>
+  <header id="quarto-header" class="headroom fixed-top">
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
@@ -154,7 +153,7 @@ ul.task-list li input[type="checkbox"] {
 
 <div>
   <div class="description">
-    Dean flow
+    Dean flow and incubation channel length calculator
   </div>
 </div>
 
@@ -183,7 +182,7 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>Some stuff</p>
+<p><strong>WORK IN PROGRESS</strong> Based on Jonathan’s spreadsheet</p>
 
 
 
@@ -286,7 +285,8 @@ ul.task-list li input[type="checkbox"] {
                 height: 70,
                 flowRate: 60,
                 time: 60,
-                radiusOfCurvature: 1000
+                radiusOfCurvature: 1000,
+                incubationTime: 5 
             });
 
             const [results, setResults] = React.useState(null);
@@ -315,6 +315,14 @@ ul.task-list li input[type="checkbox"] {
                     const secondaryVelocity = 1.84e-4 * Math.pow(deanNumber, 1.63) * aspectRatioFactor * velocity;
                     const displacement = secondaryVelocity * inputs.time;
                     const totalFlow = inputs.flowRate * (inputs.time / 60);
+                    const frictionFactor = 24 * (1 - 1.3553 * aspectRatio + 1.9467 * Math.pow(aspectRatio, 2) - 
+                    1.7012 * Math.pow(aspectRatio, 3) + 0.9564 * Math.pow(aspectRatio, 4) - 
+                    0.2537 * Math.pow(aspectRatio, 5)) / reynoldsNumber;
+                    
+                    const velocityInMmPerS = velocity * 1000;
+                    const flowRateInULMin = flowRate * (60 * 1e9);
+                    const incubationTimeInSeconds = inputs.incubationTime / 1000;
+                    const requiredChannelLength = velocity * incubationTimeInSeconds * 1000;
 
                     const warnings = [];
                     if (reynoldsNumber > 100) warnings.push("Reynolds number exceeds 100: flow may not be in strictly laminar regime");
@@ -323,12 +331,17 @@ ul.task-list li input[type="checkbox"] {
                     if (velocity > 1) warnings.push("Velocity exceeds 1 m/s: potential for high shear stress on cells/particles");
 
                     setResults({
+                        requiredChannelLength: requiredChannelLength.toFixed(2),
                         deanNumber: deanNumber.toFixed(2),
                         reynoldsNumber: reynoldsNumber.toFixed(2),
-                        primaryVelocity: (velocity * 1000).toFixed(2),
-                        secondaryVelocity: (secondaryVelocity * 1e6).toFixed(2),
+                        primaryVelocity: velocityInMmPerS.toFixed(2),
+                        flowRateULMin: flowRateInULMin.toFixed(2),
                         totalFlow: totalFlow.toFixed(2),
+                        hydraulicDiameter: (hydraulicDiameter * 1e6).toFixed(2),
+                        secondaryVelocity: (secondaryVelocity * 1e6).toFixed(2),
+                        displacement: (displacement * 1e6).toFixed(2),
                         aspectRatio: aspectRatio.toFixed(2),
+                        frictionFactor: frictionFactor.toFixed(4),
                         warnings
                     });
                     setError('');
@@ -428,6 +441,21 @@ ul.task-list li input[type="checkbox"] {
                                 </label>
                             </div>
 
+                            <div className="input-group">
+                                <label className="input-label">
+                                    Incubation Time (ms):
+                                    <input
+                                        type="number"
+                                        name="incubationTime"
+                                        value={inputs.incubationTime}
+                                        onChange={handleInputChange}
+                                        className="input-field"
+                                        min="1"
+                                        max="100000"
+                                    />
+                                </label>
+                            </div>
+
                             <button onClick={calculateDeanFlow} className="calculate-button">
                                 Calculate
                             </button>
@@ -466,6 +494,22 @@ ul.task-list li input[type="checkbox"] {
                                         <div className="result-box">
                                             <div className="result-label">Aspect Ratio:</div>
                                             <div>{results.aspectRatio}</div>
+                                        </div>
+                                        <div className="result-box">
+                                            <div className="result-label">Flow Rate</div>
+                                            <div>{results.flowRateULMin} µL/min</div>
+                                        </div>
+                                        <div className="result-box">
+                                            <div className="result-label">Friction Factor</div>
+                                            <div>{results.frictionFactor}</div>
+                                        </div>
+                                        <div className="result-box">
+                                            <div className="result-label">Hydraulic Diameter</div>
+                                            <div>{results.hydraulicDiameter} µm</div>
+                                        </div>
+                                        <div className="result-box">
+                                            <div className="result-label">Required Channel Length</div>
+                                            <div>{results.requiredChannelLength} mm</div>
                                         </div>
                                     </div>
 
