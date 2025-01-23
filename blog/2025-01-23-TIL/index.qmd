@@ -24,7 +24,7 @@ Rules of thumb and advice given to me, or that I've come across:
 
 -   **Managing your manager:** They are a human too, and point one also applies to them. Don't underestimate the importance of learning how to ask, negotiate and set boundaries with colleagues and managers. It's a skill and it's practice. The following link is an American view from Julia Evans that may differ to UK sensibilities, but it still has lots of great advice (aka I agree): <https://jvns.ca/blog/things-your-manager-might-not-know/>
 
--   **Maker's schedule:** As a PhD student and post-doc I'm on a maker's schedule. I work in block of several hours at a time. Managers tend to work in small blocks. Something to bear in mind with respect to the point above. [https://www.paulgraham.com/makersschedule.html ](https://www.paulgraham.com/makersschedule.html )
+-   **Maker's schedule:** As a PhD student and post-doc I'm on a maker's schedule. I work in block of several hours at a time. Managers tend to work in small blocks. Something to bear in mind with respect to the point above. <https://www.paulgraham.com/makersschedule.html>
 
 -   **No is a whole sentence:** Actually I never say that, but remembering it is always an option and learning to say No is another important skill. There is usually cost associated, but this should be offset by benefits when saying No is the right course of action, especially with respect to healthy selfishness. It often feels wrong to say No, but is the right thing to do. If something feels like a No, buy some time to consider it away from the heat of the moment and have a good think about it and/or talk it over with an indpendent third party.
 
@@ -50,7 +50,7 @@ Rules of thumb and advice given to me, or that I've come across:
     2.  If the small step has made the situation worse, repeat step 1 in a different direction.
     3.  If the small step has made the situation better, take another step in that direction.
 
--   **Fail well:** Think about what the difference is between a catastrophic failure and a good one. A good failure is one where we learn and nothing too terrible happens. Every success is usually the consequence of learning from many previous failures and therefore failure should be expected if not desired. Whilst failure is will never be enjoyable, we can become more reliant and design things to (mostly) prevent catastrophe.
+-   **Fail well:** Think about what the difference is between a catastrophic failure and a good one. A good failure is one where we learn and nothing too terrible happens. Every success is usually the consequence of learning from many previous failures and therefore failure should be expected, but not desired. Whilst failure will never be enjoyable, we can become more resilient and design things to (mostly) prevent catastrophe.
 
 -   **Find a science buddy:** In science I've found working in a team of two has led to my most productive work. <https://www.nature.com/articles/s41587-023-02074-2>
 
@@ -92,7 +92,7 @@ Rules of thumb and advice given to me, or that I've come across:
 
 -   Saloni Dattori writes about lots of areas of science: <https://www.scientificdiscovery.dev/about>
 
--   Julia Rohrer on [https://www.the100.ci/ ](https://www.the100.ci/ )and this one about technical writing: <https://www.the100.ci/2024/12/01/writing-about-technical-topics-in-an-accessible-manner/>
+-   Julia Rohrer on <https://www.the100.ci/>and this one about technical writing: <https://www.the100.ci/2024/12/01/writing-about-technical-topics-in-an-accessible-manner/>
 
 -   Stuart Ritchie about the dark side: <https://www.sciencefictions.org>
 
