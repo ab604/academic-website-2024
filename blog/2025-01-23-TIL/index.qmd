@@ -1,13 +1,13 @@
 ---
 title: "Old man advice to new PhD students"
-description: "Opinions on the practicalities of doing a PhD after 11 years as a Post-Doc"
+description: "TL:DR My constitutive luck aside, almost everything required to do a PhD are learnt skills. I'm very average, so if you are average or above, you definitely have the ability to do a PhD too."
 author:
   - name: Alistair Bailey
     url: https://ab604.uk
 date: 2025-01-23
 categories: [TIL, Claude]
-citation: 
-  url: https://ab604.uk/blog/2025-01-23-TIL/ 
+citation:
+  url: https://ab604.uk/blog/2025-01-23-TIL/
 draft: false
 #bibliography: references.bib
 ---
@@ -26,7 +26,7 @@ Rules of thumb and advice given to me, or that I've come across:
 
 -   **Maker's schedule:** As a PhD student and post-doc I'm on a maker's schedule. I work in block of several hours at a time. Managers tend to work in small blocks. Something to bear in mind with respect to the point above. [https://www.paulgraham.com/makersschedule.html ](https://www.paulgraham.com/makersschedule.html )
 
--   **No is a whole sentence:** Actually I never say that, but remembering it is always an option and learning to say No is another important skill. There is usually cost associated, but this should be offset by benefits when saying No is the right course of action e.g. The cost might be being liked, but the benefit is future respect and not being taken advantage of.
+-   **No is a whole sentence:** Actually I never say that, but remembering it is always an option and learning to say No is another important skill. There is usually cost associated, but this should be offset by benefits when saying No is the right course of action, especially with respect to healthy selfishness. It often feels wrong to say No, but is the right thing to do. If something feels like a No, buy some time to consider it away from the heat of the moment and have a good think about it and/or talk it over with an indpendent third party.
 
 -   **Asking questions:** The right question at the right time in the right way.
 
