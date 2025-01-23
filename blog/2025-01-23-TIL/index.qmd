@@ -22,9 +22,9 @@ Rules of thumb and advice given to me, or that I've come across:
 
 -   **Healthy selfishness:** One can only be of use to others if one is physically and mentally healthy. Hence it is reasonable to put oneself first if to not do so would lead to a decline in health. As well as being bad for us, being sick or burnt out has negative impacts on those close to us.
 
--   **Managing your manager:** They are a human too, and point one also applies to them. Don't underestimate the importance of learning how to ask, negotiate and set boundaries with colleagues and managers. It's a skill and it's practice. The following link is an American view from Julia Evans that may differ to UK sensibilities, but it still has lots of great advice (aka I agree): https://jvns.ca/blog/things-your-manager-might-not-know/
+-   **Managing your manager:** They are a human too, and point one also applies to them. Don't underestimate the importance of learning how to ask, negotiate and set boundaries with colleagues and managers. It's a skill and it's practice. The following link is an American view from Julia Evans that may differ to UK sensibilities, but it still has lots of great advice (aka I agree): <https://jvns.ca/blog/things-your-manager-might-not-know/>
 
--   **Maker's schedule:** As a PhD student and post-doc I'm on a maker's schedule. I work in block of several hours at a time. Managers tend to work in small blocks. Something to bear in mind with respect to the point above. https://www.paulgraham.com/makersschedule.html
+-   **Maker's schedule:** As a PhD student and post-doc I'm on a maker's schedule. I work in block of several hours at a time. Managers tend to work in small blocks. Something to bear in mind with respect to the point above. [https://www.paulgraham.com/makersschedule.html ](https://www.paulgraham.com/makersschedule.html )
 
 -   **No is a whole sentence:** Actually I never say that, but remembering it is always an option and learning to say No is another important skill. There is usually cost associated, but this should be offset by benefits when saying No is the right course of action e.g. The cost might be being liked, but the benefit is future respect and not being taken advantage of.
 
@@ -32,7 +32,7 @@ Rules of thumb and advice given to me, or that I've come across:
 
     -   One way to figure out the right question is to try and explain your problem to someone else (or even a LLM). The process of verbalising is often sufficient not only to define the question, but also answer it. Often your interlocutor says nothing. Doing it whilst walking is even better.
 
-    -   Good questions have common features and Julia Evans has also blogged about this: https://jvns.ca/blog/good-questions/
+    -   Good questions have common features and Julia Evans has also blogged about this: <https://jvns.ca/blog/good-questions/>
 
     -   When is the best time of day or week to catch your supervisor? When are they receptive?
 
@@ -42,7 +42,7 @@ Rules of thumb and advice given to me, or that I've come across:
 
 -   **Negotiation 101:** Always ask for (much much) more than you want, and ideally be clear in your mind what you want. A successful negotiation is one where everyone feels like they got something, so allow your interlocutor to bargain you down from a high point.
 
-    If you've got time for 7,000 words on salary negotiation, I enjoyed this highly opinionated blog from Patrick McKenzie in 2012: https://www.kalzumeus.com/2012/01/23/salary-negotiation/
+    If you've got time for 7,000 words on salary negotiation, I enjoyed this highly opinionated blog from Patrick McKenzie in 2012: <https://www.kalzumeus.com/2012/01/23/salary-negotiation/>
 
 -   **Use directionality as a sense check:** If I'm lost or don't know how to get started I tend to use a drunkard's walk:
 
@@ -52,7 +52,7 @@ Rules of thumb and advice given to me, or that I've come across:
 
 -   **Fail well:** Think about what the difference is between a catastrophic failure and a good one. A good failure is one where we learn and nothing too terrible happens. Every success is usually the consequence of learning from many previous failures and therefore failure should be expected if not desired. Whilst failure is will never be enjoyable, we can become more reliant and design things to (mostly) prevent catastrophe.
 
--   **Find a science buddy:** In science I've found working in a team of two has led to my most productive work. https://www.nature.com/articles/s41587-023-02074-2
+-   **Find a science buddy:** In science I've found working in a team of two has led to my most productive work. <https://www.nature.com/articles/s41587-023-02074-2>
 
 -   **Find a community:** I started learning R in 2015 and the R and data community - most of who I've never met - have been super kind and helpful and generally made research much more pleasant.
 
