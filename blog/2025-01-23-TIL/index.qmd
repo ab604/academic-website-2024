@@ -28,6 +28,8 @@ Rules of thumb and advice given to me, or that I've come across:
 
 -   **No is a whole sentence:** Actually I never say that, but remembering it is always an option and learning to say No is another important skill. There is usually cost associated, but this should be offset by benefits when saying No is the right course of action, especially with respect to healthy selfishness. It often feels wrong to say No, but is the right thing to do. If something feels like a No, buy some time to consider it away from the heat of the moment and have a good think about it and/or talk it over with an independent third party.
 
+-   **Online/Offline:** Very much personal choice, but I don't have work apps like Teams on my phone, and I have no push notifications at all on any app on my phone. Sometimes I even turn my phone off or deliberately leave it at home. (This thought horrifies some people.) It's worth thinking about how connected you want to be, and whether your current level is doing you harm or good. And discuss expectations with your supervisor. If I choose to look at work email out of hours and reply, or do anything research related that's an active choice for me. But other than exceptional circumstances or prior agreement, I feel no obligation to respond or engage with anything work related when I'm not at work.
+
 -   **Asking questions:** The right question at the right time in the right way.
 
     -   One way to figure out the right question is to try and explain your problem to someone else (or even a LLM). The process of verbalising is often sufficient not only to define the question, but also answer it. Often your interlocutor says nothing. Doing it whilst walking is even better.
