@@ -26,7 +26,7 @@ Rules of thumb and advice given to me, or that I've come across:
 
 -   **Maker's schedule:** As a PhD student and post-doc I'm on a maker's schedule. I work in block of several hours at a time. Managers tend to work in small blocks. Something to bear in mind with respect to the point above. <https://www.paulgraham.com/makersschedule.html>
 
--   **No is a whole sentence:** Actually I never say that, but remembering it is always an option and learning to say No is another important skill. There is usually cost associated, but this should be offset by benefits when saying No is the right course of action, especially with respect to healthy selfishness. It often feels wrong to say No, but is the right thing to do. If something feels like a No, buy some time to consider it away from the heat of the moment and have a good think about it and/or talk it over with an indpendent third party.
+-   **No is a whole sentence:** Actually I never say that, but remembering it is always an option and learning to say No is another important skill. There is usually cost associated, but this should be offset by benefits when saying No is the right course of action, especially with respect to healthy selfishness. It often feels wrong to say No, but is the right thing to do. If something feels like a No, buy some time to consider it away from the heat of the moment and have a good think about it and/or talk it over with an independent third party.
 
 -   **Asking questions:** The right question at the right time in the right way.
 
@@ -66,6 +66,8 @@ Rules of thumb and advice given to me, or that I've come across:
 
 -   **To properly read a single paper takes me several hours.** I created a template with headings based on the now defunct NHS Behind the Headlines blog and I fill in the headings with my notes. And I usually find I need to read it multiple times to fully understand it, and maybe I'll never fully grasp it. This is because most papers in (Cancer) Science use so many different experimental and analytical methods, there's always a point at which I have to trust rather than verify, which is frustrating. Also papers are full of references, and I often end up down chain of references rabbit holes trying to understand a statement.
 
+-   **LLMs are really helpful:** See @sec-llms for more details for how I currently use them, but whilst you do need to be careful with LLMs, they are super helpful in explaining terminology or figures. Don't ask them to recommend papers, they will likely hallucinate.
+
 -   **My reading template** basically follows a What? How? and Why? format.
 
     This 2016 blog by Jenniefer Raff provides another good reading template: <https://blogs.lse.ac.uk/impactofsocialsciences/2016/05/09/how-to-read-and-understand-a-scientific-paper-a-guide-for-non-scientists/>
@@ -92,20 +94,22 @@ Rules of thumb and advice given to me, or that I've come across:
 
 -   Saloni Dattori writes about lots of areas of science: <https://www.scientificdiscovery.dev/about>
 
--   Julia Rohrer on <https://www.the100.ci/>and this one about technical writing: <https://www.the100.ci/2024/12/01/writing-about-technical-topics-in-an-accessible-manner/>
+-   Julia Rohrer on <https://www.the100.ci/> and this one about technical writing: <https://www.the100.ci/2024/12/01/writing-about-technical-topics-in-an-accessible-manner/>
 
 -   Stuart Ritchie about the dark side: <https://www.sciencefictions.org>
 
-## Using LLMs
+## Using LLMs {#sec-llms}
 
-Since early 2024 I've mostly used Claude, but there's lots of LLMs. My mental model is a mixture of "they are a database" and "the weird intern who has read every page of the manual, but has no common sense".
+Since early 2024 I've mostly used Claude, but there's lots of LLMs. My mental model of a LLM is a mixture of "they are a database" and "the weird intern who has read every page of the manual, but has no common sense". François Chollet has a good technical explainer (<https://fchollet.substack.com/p/how-i-think-about-llm-prompt-engineering>) and the FT did a good visual one on GPTs (<https://ig.ft.com/generative-ai/>).
 
 The best way to learn them is to use them. I use them for coding and explaining and chatting.
 
-For explaining and chatting I use the Claude web interface it's very iterative and I get them to make animations and web-pages of things as outputs sometimes. Adding "say if you don't know" to the end of the prompt is helpful for limiting hallucinations in my experience.
+For explaining and chatting I use the Claude web interface. It's very iterative and I get them to make animations and web-pages of things as outputs sometimes. Adding "say if you don't know" to the end of the prompt is helpful for limiting hallucinations in my experience.
 
 In terms of thinking of a LLM as a database, this means the LLM can only sensibly output what it contains, and prompting is the skill of directing the LLM to the correct bits of the database of interest.
 
-For coding, I use them via the API in VS Code to write, edit and comment my code. Sometimes this goes well, and other times less so! Learning to prompt efficiently is very much a work in progress.
+For coding, I use them via the API in VS Code to write, edit and comment my code. Sometimes this goes well, and other times less so! Learning to prompt efficiently is very much a work in progress. And if none of this makes sense, paste the preceding paragraphs into a LLM and ask it to explain!
 
-Domain knowledge is important to making sense of LLM outputs, and I always cross-check anything I am going to use or keep. Just as I would with any using new tool.
+Domain (i.e. your PhD subject) knowledge is important to making sense of LLM outputs, and I always cross-check anything I am going to use or keep. Just as I would with any using new tool.
+
+LLMs change so fast and rely on people like Simon Willison (<https://simonwillison.net/>) and Ethan Mollick (<https://www.oneusefulthing.org/>) to post stuff about the latest developments.
