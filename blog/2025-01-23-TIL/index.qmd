@@ -1,0 +1,111 @@
+---
+title: "Old man advice to new PhD students"
+description: "Opinions on the pracitcalities of doing a PhD after 11 years as a Post-Doc"
+author:
+  - name: Alistair Bailey
+    url: https://ab604.uk
+date: 2025-01-23
+categories: [TIL, Claude]
+citation: 
+  url: https://ab604.uk/blog/2025-01-23-TIL/ 
+draft: false
+#bibliography: references.bib
+---
+
+These are just my opinions and some resources about some of the issues I have encountered personally or observed for others going through the process of doing a PhD and working as a Post-doc in science that might help. Other opinions and experiences are available.
+
+This is a mixture of meta stuff: the psychological, logistical and managerial aspects. And the practical, actually how to get started aspects.
+
+## Overarching opinions
+
+Rules of thumb and advice given to me, or that I've come across:
+
+-   **Healthy selfishness:** One can only be of use to others if one is physically and mentally healthy. Hence it is reasonable to put oneself first if to not do so would lead to a decline in health. As well as being bad for us, being sick or burnt out has negative impacts on those close to us.
+
+-   **Managing your manager:** They are a human too, and point one also applies to them. Don't underestimate the importance of learning how to ask, negotiate and set boundaries with colleagues and managers. It's a skill and it's practice. The following link is an American view from Julia Evans that may differ to UK sensibilities, but it still has lots of great advice (aka I agree): https://jvns.ca/blog/things-your-manager-might-not-know/
+
+-   **Maker's schedule:** As a PhD student and post-doc I'm on a maker's schedule. I work in block of several hours at a time. Managers tend to work in small blocks. Something to bear in mind with respect to the point above. https://www.paulgraham.com/makersschedule.html
+
+-   **No is a whole sentence:** Actually I never say that, but remembering it is always an option and learning to say No is another important skill. There is usually cost associated, but this should be offset by benefits when saying No is the right course of action e.g. The cost might be being liked, but the benefit is future respect and not being taken advantage of.
+
+-   **Asking questions:** The right question at the right time in the right way.
+
+    -   One way to figure out the right question is to try and explain your problem to someone else (or even a LLM). The process of verbalising is often sufficient not only to define the question, but also answer it. Often your interlocutor says nothing. Doing it whilst walking is even better.
+
+    -   Good questions have common features and Julia Evans has also blogged about this: https://jvns.ca/blog/good-questions/
+
+    -   When is the best time of day or week to catch your supervisor? When are they receptive?
+
+    -   Make it easy for them to say Yes. Anticipate problems/barriers and have solutions ready.
+
+-   **Put it in writing:** Ideally get any promises your interlocutor (supervisor) makes in writing. But if they don't put it in writing, you still can. [Keep a log](https://ab604.uk/blog/2024-12-11-til/) and write a summary email and send it. Someone can always disagree with what you wrote, but it's on the record then for any future discussions.
+
+-   **Negotiation 101:** Always ask for (much much) more than you want, and ideally be clear in your mind what you want. A successful negotiation is one where everyone feels like they got something, so allow your interlocutor to bargain you down from a high point.
+
+    If you've got time for 7,000 words on salary negotiation, I enjoyed this highly opinionated blog from Patrick McKenzie in 2012: https://www.kalzumeus.com/2012/01/23/salary-negotiation/
+
+-   **Use directionality as a sense check:** If I'm lost or don't know how to get started I tend to use a drunkard's walk:
+
+    1.  Take a small step in what I think is the correct direction, or if in doubt, any direction.
+    2.  If the small step has made the situation worse, repeat step 1 in a different direction.
+    3.  If the small step has made the situation better, take another step in that direction.
+
+-   **Fail well:** Think about what the difference is between a catastrophic failure and a good one. A good failure is one where we learn and nothing too terrible happens. Every success is usually the consequence of learning from many previous failures and therefore failure should be expected if not desired. Whilst failure is will never be enjoyable, we can become more reliant and design things to (mostly) prevent catastrophe.
+
+-   **Find a science buddy:** In science I've found working in a team of two has led to my most productive work. https://www.nature.com/articles/s41587-023-02074-2
+
+-   **Find a community:** I started learning R in 2015 and the R and data community - most of who I've never met - have been super kind and helpful and generally made research much more pleasant.
+
+-   **Build a portfolio:** My experience of job hunting is people want be able to see what I've done more so than my qualifications. Anything you've made or done: blog, code, photos, events etc. can all be part of that portfolio and makes it easy for people to see who you are and what your skills are and whether you are a good fit for each other.
+
+## Reading and literature
+
+-   **Reading and writing are two sides of the same coin.** Time spent on each one makes one better at the other.
+
+-   **Reading and writing are skills in their own right.** They require time and practice just like everything else. I personally find they are done best in blocks of time set aside for it. A morning or an afternoon somewhere quiet without distractions. Many people don't find it an enjoyable process, but are happy in retrospect. So there's a certain amount of actively choosing to do something one doesn't enjoy for the greater good, like eating greens.
+
+-   **To properly read a single paper takes me several hours.** I created a template with headings based on the now defunct NHS Behind the Headlines blog and I fill in the headings with my notes. And I usually find I need to read it multiple times to fully understand it, and maybe I'll never fully grasp it. This is because most papers in (Cancer) Science use so many different experimental and analytical methods, there's always a point at which I have to trust rather than verify, which is frustrating. Also papers are full of references, and I often end up down chain of references rabbit holes trying to understand a statement.
+
+-   **My reading template** basically follows a What? How? and Why? format.
+
+    This 2016 blog by Jenniefer Raff provides another good reading template: https://blogs.lse.ac.uk/impactofsocialsciences/2016/05/09/how-to-read-and-understand-a-scientific-paper-a-guide-for-non-scientists/
+
+-   **By making notes you are writing as well as reading.** In this way you are already gathering and organinsing thesis dissertation content, and even if it fails to make the final cut, it's part of skills development and maintenance. You are good at what you do.
+
+-   The book Critical thinking : your essential guide by Tom Chatfield provides a lot of general guidance relevant to reading academic papers (see his note template on page 165), but the message is very much slow down, there are no shortcuts.
+
+-   **Finding papers:** Colleagues obviously, but you can set up alerts to email you or a create bot.
+
+    For example on PubMed, to create a search for keywords in the title, introduction and abstract 'Raman scattering spectroscopy' and 'Osteoarthritis' one would use: Raman scattering spectroscopy AND Osteoarthritis \[tiab\]
+
+-   Here are instructions on how to build a Bluesky literature bot using R and Github Actions: https://github.com/ab604/prot-paper-bot. The bot is here: https://bsky.app/profile/protpapers.bsky.social
+
+## Writing
+
+-   **By reading others you develop a sense of what good writing looks like.**
+
+-   **For practical guidance on sentence and paragraph construction**: I like this short paper Improving academic writing https://www.earlymoderntexts.com/assets/jfb/bengor.pdf and the PLoS 10 simple rules papers: https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1005619
+
+-   **Write a blog.** May as well turn your learning into content. Helps you and may help someone else. See the points above about about building portfolio and laying the foundations for your thesis dissertation. See Simon Willison's blog: <https://simonwillison.net/2022/Nov/6/what-to-blog-about/>
+
+## People who write about science that I like to read
+
+-   Saloni Dattori writes about lots of areas of science: https://www.scientificdiscovery.dev/about
+
+-   Julia Rohrer on https://www.the100.ci/ and this one about technical writing: https://www.the100.ci/2024/12/01/writing-about-technical-topics-in-an-accessible-manner/
+
+-   Stuart Ritchie about the dark side: https://www.sciencefictions.org
+
+## Using LLMs
+
+Since early 2024 I've mostly used Claude, but there's lots of LLMs. My mental model is a mixture of "they are a database" and "the weird intern who has read every page of the manual, but has no common sense".
+
+The best way to learn them is to use them. I use them for coding and explaining and chatting.
+
+For explaining and chatting I use the Claude web interface it's very iterative and I get them to make animations and web-pages of things as outputs sometimes. Adding "say if you don't know" to the end of the prompt is helpful for limiting hallucinations in my experience.
+
+In terms of thinking of a LLM as a database, this means the LLM can only sensibly output what it contains, and prompting is the skill of directing the LLM to the correct bits of the database of interest.
+
+For coding, I use them via the API in VS Code to write, edit and comment my code. Sometimes this goes well, and other times less so! Learning to prompt efficiently is very much a work in progress.
+
+Domain knowledge is important to making sense of LLM outputs, and I always cross-check anything I am going to use or keep. Just as I would with any using new tool.
