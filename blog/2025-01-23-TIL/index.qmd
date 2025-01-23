@@ -1,6 +1,6 @@
 ---
 title: "Old man advice to new PhD students"
-description: "Opinions on the pracitcalities of doing a PhD after 11 years as a Post-Doc"
+description: "Opinions on the practicalities of doing a PhD after 11 years as a Post-Doc"
 author:
   - name: Alistair Bailey
     url: https://ab604.uk
@@ -68,7 +68,7 @@ Rules of thumb and advice given to me, or that I've come across:
 
 -   **My reading template** basically follows a What? How? and Why? format.
 
-    This 2016 blog by Jenniefer Raff provides another good reading template: https://blogs.lse.ac.uk/impactofsocialsciences/2016/05/09/how-to-read-and-understand-a-scientific-paper-a-guide-for-non-scientists/
+    This 2016 blog by Jenniefer Raff provides another good reading template: <https://blogs.lse.ac.uk/impactofsocialsciences/2016/05/09/how-to-read-and-understand-a-scientific-paper-a-guide-for-non-scientists/>
 
 -   **By making notes you are writing as well as reading.** In this way you are already gathering and organinsing thesis dissertation content, and even if it fails to make the final cut, it's part of skills development and maintenance. You are good at what you do.
 
@@ -78,23 +78,23 @@ Rules of thumb and advice given to me, or that I've come across:
 
     For example on PubMed, to create a search for keywords in the title, introduction and abstract 'Raman scattering spectroscopy' and 'Osteoarthritis' one would use: Raman scattering spectroscopy AND Osteoarthritis \[tiab\]
 
--   Here are instructions on how to build a Bluesky literature bot using R and Github Actions: https://github.com/ab604/prot-paper-bot. The bot is here: https://bsky.app/profile/protpapers.bsky.social
+-   Here are instructions on how to build a Bluesky literature bot using R and Github Actions: <https://github.com/ab604/prot-paper-bot>. The bot is here: <https://bsky.app/profile/protpapers.bsky.social>
 
 ## Writing
 
 -   **By reading others you develop a sense of what good writing looks like.**
 
--   **For practical guidance on sentence and paragraph construction**: I like this short paper Improving academic writing https://www.earlymoderntexts.com/assets/jfb/bengor.pdf and the PLoS 10 simple rules papers: https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1005619
+-   **For practical guidance on sentence and paragraph construction**: I like this short paper Improving academic writing <https://www.earlymoderntexts.com/assets/jfb/bengor.pdf> and the PLoS 10 simple rules papers: <https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1005619>
 
 -   **Write a blog.** May as well turn your learning into content. Helps you and may help someone else. See the points above about about building portfolio and laying the foundations for your thesis dissertation. See Simon Willison's blog: <https://simonwillison.net/2022/Nov/6/what-to-blog-about/>
 
 ## People who write about science that I like to read
 
--   Saloni Dattori writes about lots of areas of science: https://www.scientificdiscovery.dev/about
+-   Saloni Dattori writes about lots of areas of science: <https://www.scientificdiscovery.dev/about>
 
--   Julia Rohrer on https://www.the100.ci/ and this one about technical writing: https://www.the100.ci/2024/12/01/writing-about-technical-topics-in-an-accessible-manner/
+-   Julia Rohrer on [https://www.the100.ci/ ](https://www.the100.ci/ )and this one about technical writing: <https://www.the100.ci/2024/12/01/writing-about-technical-topics-in-an-accessible-manner/>
 
--   Stuart Ritchie about the dark side: https://www.sciencefictions.org
+-   Stuart Ritchie about the dark side: <https://www.sciencefictions.org>
 
 ## Using LLMs
 
