@@ -12,15 +12,15 @@ draft: false
 bibliography: references.bib
 ---
 
-## Overview
+## Overview {#sec-overview}
 
 This TIL is a summary the fast timescale HDX-MS paper by Stofella et al.[@stofella2025] published on 2025-01-29.
 
-As part of my exploration of using LLMs in different ways, I read the paper and summarised it myself and then asked Claude Sonnet 3.5 to read and summarise it too. The idea being to see to what extent we agreed or not which is useful for checking the ability of myself and the LLM to understand a paper. We agreed broadly, but not in some of the details. My takeaway being that using Claude is helpful, especially as a quick screen or to aid interpretation, but not reliable enough to simply trust. No surprise there.
+As part of my exploration of using LLMs in different ways, I read the paper and summarised it myself (@sec-my-summary) and then asked Claude Sonnet 3.5 to read and summarise it too (@sec-claude-summary). The idea being to see to what extent we agreed or not which is useful for checking the ability of myself and the LLM to understand a paper. We agreed broadly, but not in some of the details. My takeaway being that using Claude is helpful, especially as a quick screen or to aid interpretation, but not reliable enough to simply trust. No surprise there.
 
-## My summary
+## My summary {#sec-my-summary}
 
-### Paper information 
+### Paper information
 
 Recalibrating Protection Factors Using Millisecond Hydrogen/Deuterium Exchange Mass Spectrometry
 
@@ -70,7 +70,7 @@ Michele Stofella, Neeleema Seetaloo, Alexander N. St John, Emanuele Paci,\* Jona
 
 -   They aim to create pH, temperature and salt correction factors in the future.
 
-## Claude Sonnet 3.5 Summary
+## Claude Sonnet 3.5 Summary {#sec-claude-summary}
 
 This paper discusses important improvements to hydrogen/deuterium exchange mass spectrometry (HDX-MS), a technique used to study protein structure and dynamics. Here are the key points:
 
