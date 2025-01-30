@@ -1,0 +1,107 @@
+---
+title: "Summary of Stofella et al. 2025"
+description: "Recalibrating Protection Factors Using Millisecond Hydrogen/Deuterium Exchange Mass Spectrometry"
+author:
+  - name: Alistair Bailey
+    url: https://ab604.uk
+date: 2025-01-23
+categories: [TIL, Claude, HDX,]
+citation: 
+  url: https://ab604.uk/blog/2025-01-30-TIL/ 
+draft: false
+bibliography: references.bib
+---
+
+## Overview
+
+This TIL is a summary the fast timescale HDX-MS paper by Stofella et al.[@stofella2025] published on 2025-01-29.
+
+As part of my exploration of using LLMs in different ways, I read the paper and summarised it myself and then asked Claude Sonnet 3.5 to read and summarise it too. The idea being to see to what extent we agreed or not which is useful for checking the ability of myself and the LLM to understand a paper. We agreed broadly, but not in some of the details. My takeaway being that using Claude is helpful, especially as a quick screen or to aid interpretation, but not reliable enough to simply trust. No surprise there.
+
+## My summary
+
+### Paper information 
+
+Recalibrating Protection Factors Using Millisecond Hydrogen/Deuterium Exchange Mass Spectrometry
+
+Michele Stofella, Neeleema Seetaloo, Alexander N. St John, Emanuele Paci,\* Jonathan J. Phillips, *and Frank Sobott*
+
+<https://doi.org/10.1021/acs.analchem.4c03631>
+
+### What did they do?
+
+-   Millisecond HDX-MS (50ms to 300 seconds aka 50 to 300E3 ms, between 3 and 4 orders of magnitude) on a mixture of three unstructured peptides and compared empirical measurement of deuterium uptake to theoretical uptake.
+
+-   Additionally did molecular dynamics simulations and re-analysed some published data.
+
+### Why did they do it?
+
+-   They are interested in the way proteins shift between ordered and disordered states and the implications of these conformational changes for disease/function.
+
+-   Millisecond timescale HDX-MS ought to be able to capture allosteric effects and dynamics of unstructured proteins.
+
+-   HDX is influenced by a number of biochemical factors. Theoretical calculations of intrinsic exchange rates don't account for salt type and concentration, whilst empirical intrinsic exchange rates assume the structure is completely unfolded.
+
+-   By using fast HDX-MS they aimed validate empirical intrinsic exchange rates of unstructured peptides that wouldn't be captured at slower timescales.
+
+-   The aim is also to characterise the effects of salt.
+
+-   The overarching aim is to move towards a situation where reference intrinsic rates are calibrated, experiments from different conditions could be compared and simulations properly constrained.
+
+### What they find out?
+
+-   They examined three peptides: angiotensin, bradykinin, atrial natriuretic peptide amide rat (ANP).
+
+-   Deuterium labelling ranged from 50ms to 5 minutes (300 seconds).
+
+-   Predictions for intrinsic exchange were calculated with three references of which alanine tripeptide (3-Ala) matched experiment best.
+
+-   Molecular dynamics suggest Poly-DL-alanine (PDLA) is not a good reference for an unstructured protein as it forms helical structures once the peptide length increases beyond 4 or 5 alanines.
+
+-   Comparing 150 mM NaCl to none in the buffer shows that the salt slows the observed deuterium uptake at timescales less than 2000 ms, which diverges from the theoretical calculation that doesn't account for the salt.
+
+-   They use these observations about PDLA and salt to account for differences between their own observations and published observations of uptake in unstructured peptides.
+
+### What do they conclude?
+
+-   3-Ala is a suitable reference model for theoretical calculation of intrinsic deuterium uptake.
+
+-   The buffer conditions i.e. salt, change uptake, but there is no comprehensive framework for dealing with salt in order to correct the theoretical calculations.
+
+-   They aim to create pH, temperature and salt correction factors in the future.
+
+## Claude Sonnet 3.5 Summary
+
+This paper discusses important improvements to hydrogen/deuterium exchange mass spectrometry (HDX-MS), a technique used to study protein structure and dynamics. Here are the key points:
+
+1.  The Current Challenge:
+
+-   HDX-MS is currently used mainly for comparative studies between different conditions
+-   The technique lacks absolute quantitative measurements
+-   There are issues with calibration of exchange rates
+
+2.  Main Findings:
+
+-   The researchers found that poly-DL-alanine (PDLA), commonly used as an unstructured reference peptide, actually retains some structural elements
+-   They demonstrated that using a trialanine peptide (3-Ala) as reference provides more accurate results
+-   Molecular dynamics simulations confirmed that PDLA forms helical structures with as few as 15 residues
+
+3.  Methodology:
+
+-   The team conducted millisecond HDX-MS experiments on three unstructured peptides
+-   They compared experimental deuterium uptake with theoretical predictions
+-   They used molecular dynamics simulations to study PDLA's structural properties
+
+4.  Key Results:
+
+-   Experimental rates were sometimes faster than theoretically possible when using PDLA as reference
+-   Using 3-Ala as reference provided better agreement with experimental data
+-   Salt concentration in buffers affects exchange rates, which needs further investigation
+
+5.  Significance:
+
+-   This work moves HDX-MS towards becoming a quantitative rather than just qualitative technique
+-   The findings help establish more accurate calibration methods
+-   The improvements could enable better integration with structural modeling approaches
+
+The authors conclude that while using 3-Ala as a reference improves measurements, more work is needed to understand how salt affects exchange rates before a comprehensive calibration framework can be developed.
