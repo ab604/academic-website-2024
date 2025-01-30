@@ -4,7 +4,7 @@ description: "Recalibrating Protection Factors Using Millisecond Hydrogen/Deuter
 author:
   - name: Alistair Bailey
     url: https://ab604.uk
-date: 2025-01-23
+date: 2025-01-30
 categories: [TIL, Claude, HDX,]
 citation: 
   url: https://ab604.uk/blog/2025-01-30-TIL/ 
@@ -52,7 +52,7 @@ Michele Stofella, Neeleema Seetaloo, Alexander N. St John, Emanuele Paci,\* Jona
 
 -   They examined three peptides: angiotensin, bradykinin, atrial natriuretic peptide amide rat (ANP).
 
--   Deuterium labelling ranged from 50ms to 5 minutes (300 seconds).
+-   Deuterium labeling ranged from 50ms to 5 minutes (300 seconds).
 
 -   Predictions for intrinsic exchange were calculated with three references of which alanine tripeptide (3-Ala) matched experiment best.
 
