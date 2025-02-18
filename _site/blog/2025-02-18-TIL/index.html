@@ -6,8 +6,10 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="author" content="Alistair Bailey">
+<meta name="description" content="Browser extension to find legal versions of paywalled academic articles">
 
-<title>Blog – ab604.uk</title>
+<title>Unpaywall: Legal alternative to Sci-Hub – ab604.uk</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -23,27 +25,25 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/quarto-nav/headroom.min.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<link href="./img/hla.ico" rel="icon">
-<script src="site_libs/quarto-listing/list.min.js"></script>
-<script src="site_libs/quarto-listing/quarto-listing.js"></script>
-<script src="site_libs/quarto-html/quarto.js"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-e26003cea8cd680ca0c55a263523d882.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-d166b450ba5a8e9f7a0ab969bf6592c1.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-4d0246c7c37bf8e5b3a9879bbbc1899c.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="site_libs/bootstrap/bootstrap-dark-088f2fa9b8bb5ece95d7f3fef3683930.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<link href="../../img/hla.ico" rel="icon">
+<script src="../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-e26003cea8cd680ca0c55a263523d882.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-dark-d166b450ba5a8e9f7a0ab969bf6592c1.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap-4d0246c7c37bf8e5b3a9879bbbc1899c.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../../site_libs/bootstrap/bootstrap-dark-088f2fa9b8bb5ece95d7f3fef3683930.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -70,35 +70,6 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
-<script>
-
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-listing .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
-
-    const options = {
-      valueNames: ['listing-date','listing-title','listing-author','listing-image','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      
-      searchColumns: ["listing-date","listing-title","listing-author","listing-image","listing-description","listing-categories"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  </script>
 <style>html{ scroll-behavior: smooth; }</style>
 <!-- academic icons -->
 
@@ -113,51 +84,25 @@ ul.task-list li input[type="checkbox"] {
 <script src="https://kit.fontawesome.com/1392a7030f.js" crossorigin="anonymous"></script>
 
 
-  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
 
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN") {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
-
-<meta property="og:title" content="Blog – ab604.uk">
-<meta property="og:description" content="">
-<meta property="og:image" content="https://ab604.uk/img/avatar.jpg">
+<meta property="og:title" content="Unpaywall: Legal alternative to Sci-Hub – ab604.uk">
+<meta property="og:description" content="Browser extension to find legal versions of paywalled academic articles">
+<meta property="og:image" content="https://ab604.uk/images/paywalled-2025-02-18.png">
 <meta property="og:site_name" content="https://ab604.uk">
 <meta property="og:locale" content="en_GB">
+<meta property="og:image:alt" content="Screenshot of a paywalled article.">
+<meta property="og:image:height" content="1377">
+<meta property="og:image:width" content="2845">
 </head>
 
-<body class="nav-fixed">
+<body class="floating nav-fixed">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a class="navbar-brand" href="./index.html">
+    <a class="navbar-brand" href="../../index.html">
     <span class="navbar-title">ab604.uk</span>
     </a>
   </div>
@@ -168,19 +113,19 @@ window.Quarto = {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./research.html"> 
+    <a class="nav-link" href="../../research.html"> 
 <span class="menu-text">Publications</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="./blog.html" aria-current="page"> 
+    <a class="nav-link" href="../../blog.html"> 
 <span class="menu-text">Blog</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./projects.html"> 
+    <a class="nav-link" href="../../projects.html"> 
 <span class="menu-text">Projects</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./cv/cv.html" target="_blank"> 
+    <a class="nav-link" href="../../cv/cv.html" target="_blank"> 
 <span class="menu-text">CV</span></a>
   </li>  
 </ul>
@@ -192,29 +137,46 @@ window.Quarto = {
     </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
+    
+</nav>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        
-    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(5)</span></div><div class="category" data-category="Qmx1ZXNreQ==">Bluesky <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Q2xhdWRl">Claude <span class="quarto-category-count">(4)</span></div><div class="category" data-category="SERY">HDX <span class="quarto-category-count">(2)</span></div><div class="category" data-category="VElM">TIL <span class="quarto-category-count">(5)</span></div><div class="category" data-category="V29yaw==">Work <span class="quarto-category-count">(1)</span></div><div class="category" data-category="bWljcm9mbHVpZGljcw==">microfluidics <span class="quarto-category-count">(1)</span></div></div></div>
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
+    </div>
 <!-- main -->
-<main class="content column-page-left" id="quarto-document-content">
+<main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Blog</h1>
+<h1 class="title">Unpaywall: Legal alternative to Sci-Hub</h1>
+  <div class="quarto-categories">
+    <div class="quarto-category">TIL</div>
+  </div>
+  </div>
+
+<div>
+  <div class="description">
+    Browser extension to find legal versions of paywalled academic articles
+  </div>
 </div>
 
 
+<div class="quarto-title-meta">
 
-<div class="quarto-title-meta column-page-left">
-
+    <div>
+    <div class="quarto-title-meta-heading">Author</div>
+    <div class="quarto-title-meta-contents">
+             <p><a href="https://ab604.uk">Alistair Bailey</a> </p>
+          </div>
+  </div>
     
     <div>
     <div class="quarto-title-meta-heading">Published</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">Last Updated on 2025-01-03</p>
+      <p class="date">Last Updated on 2025-02-18</p>
     </div>
   </div>
   
@@ -226,217 +188,43 @@ window.Quarto = {
 </header>
 
 
-<p>In 2025 I am starting out in a new area of research, microfluidics Hydrogen Deuterium Exchange mass spectrometry, so I expect my blog posts will be largely about that. But also anything else that I’ve done or found along the way, such as new things about immunopeptidomics or using LLMs.</p>
-<p>This blog is inspired by Simon Willison:</p>
-<blockquote class="blockquote">
-<p>A TIL—Today I Learned—is the most liberating form of content I know of.</p>
-<p>Did you just learn how to do something? Write about that.</p>
-<p>Call it a TIL—that way you’re not promising anyone a revelation or an in-depth tutorial. You’re saying “I just figured this out: here are my notes, you may find them useful too”.</p>
-</blockquote>
-<p>You can read about Simon Willison’s approach to blogging in his posts <a href="https://simonwillison.net/2022/Nov/6/what-to-blog-about/">“what to blog about”</a> and <a href="https://simonwillison.net/2024/Dec/22/link-blog/">“my approach to running a link blog”</a>.</p>
+<p>My local friendly engagement librarian told me about this legal alternative to Sci-Hub for finding articles that your institution may not pay for access to. Maybe everyone knows about it already, but I didn’t.</p>
+<p>It’s called <a href="https://unpaywall.org">Unpaywall</a> by <a href="https://ourresearch.org/">Our Research</a> and is a browser extension for Firefox, Chrome.</p>
+<p>Once the extension is installed and you navigate to your article of interest and find you can’t access it, a green padlock to click on will appear (<a href="#fig-01" class="quarto-xref">Figure&nbsp;1</a>) which will take you to the unpaywalled version if it’s available (<a href="#fig-02" class="quarto-xref">Figure&nbsp;2</a>).</p>
+<div id="fig-01" class="quarto-float quarto-figure quarto-figure-center anchored" alt="Screenshot of a paywalled article.">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-01-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="../..\images/paywalled-2025-02-18.png" class="img-fluid figure-img" alt="Screenshot of a paywalled article.">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-01-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;1: Paywalled article
+</figcaption>
+</figure>
+</div>
+<div id="fig-02" class="quarto-float quarto-figure quarto-figure-center anchored" alt="Screenshot of the unpaywalled article">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-02-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="../..\images/unpaywalled-2025-02-18.png" class="img-fluid figure-img" alt="Screenshot of the unpaywalled article">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-02-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;2: Unpaywalled Article
+</figcaption>
+</figure>
+</div>
 
 
 
-
-<div class="quarto-listing quarto-listing-container-default" id="listing-listing">
-<div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-categories="VElM" data-listing-date-sort="1739836800000" data-listing-file-modified-sort="1739894155039" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="98">
-<div class="thumbnail">
-<p><a href="./blog/2025-02-18-TIL/index.html" class="no-external"></a></p><a href="./blog/2025-02-18-TIL/index.html" class="no-external">
-<p class="card-img-top"><img src="images\paywalled-2025-02-18.png" alt="Screenshot of a paywalled article."  class="thumbnail-image card-img"/></p>
-</a><p><a href="./blog/2025-02-18-TIL/index.html" class="no-external"></a></p>
-</div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./blog/2025-02-18-TIL/index.html" class="no-external">Unpaywall: Legal alternative to Sci-Hub</a>
-</h3>
-<div class="listing-subtitle">
-<a href="./blog/2025-02-18-TIL/index.html" class="no-external"></a>
-</div>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('VElM'); return false;">
-TIL
-</div>
-</div>
-<div class="listing-description">
-<a href="./blog/2025-02-18-TIL/index.html" class="no-external">Browser extension to find legal versions of paywalled academic articles</a>
-</div>
-</div>
-<div class="metadata">
-<a href="./blog/2025-02-18-TIL/index.html" class="no-external">
-<div class="listing-date">
-Last Updated on 2025-02-18
-</div>
-<div class="listing-author">
-Alistair Bailey
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="1" data-categories="VElMJTJDQ2xhdWRlJTJDSERY" data-listing-date-sort="1738195200000" data-listing-file-modified-sort="1739893137791" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="5" data-listing-word-count-sort="812">
-<div class="thumbnail">
-<p><a href="./blog/2025-01-30-TIL/index.html" class="no-external"></a></p><a href="./blog/2025-01-30-TIL/index.html" class="no-external">
-<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
-</a><p><a href="./blog/2025-01-30-TIL/index.html" class="no-external"></a></p>
-</div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./blog/2025-01-30-TIL/index.html" class="no-external">Summary of Stofella et al.&nbsp;2025</a>
-</h3>
-<div class="listing-subtitle">
-<a href="./blog/2025-01-30-TIL/index.html" class="no-external"></a>
-</div>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('VElM'); return false;">
-TIL
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('Q2xhdWRl'); return false;">
-Claude
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('SERY'); return false;">
-HDX
-</div>
-</div>
-<div class="listing-description">
-<a href="./blog/2025-01-30-TIL/index.html" class="no-external">Recalibrating Protection Factors Using Millisecond Hydrogen/Deuterium Exchange Mass Spectrometry</a>
-</div>
-</div>
-<div class="metadata">
-<a href="./blog/2025-01-30-TIL/index.html" class="no-external">
-<div class="listing-date">
-Last Updated on 2025-01-30
-</div>
-<div class="listing-author">
-Alistair Bailey
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="2" data-categories="VElMJTJDQ2xhdWRl" data-listing-date-sort="1737590400000" data-listing-file-modified-sort="1737663237125" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="10" data-listing-word-count-sort="1895">
-<div class="thumbnail">
-<p><a href="./blog/2025-01-23-TIL/index.html" class="no-external"></a></p><a href="./blog/2025-01-23-TIL/index.html" class="no-external">
-<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
-</a><p><a href="./blog/2025-01-23-TIL/index.html" class="no-external"></a></p>
-</div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./blog/2025-01-23-TIL/index.html" class="no-external">Old man advice to new PhD students</a>
-</h3>
-<div class="listing-subtitle">
-<a href="./blog/2025-01-23-TIL/index.html" class="no-external"></a>
-</div>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('VElM'); return false;">
-TIL
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('Q2xhdWRl'); return false;">
-Claude
-</div>
-</div>
-<div class="listing-description">
-<a href="./blog/2025-01-23-TIL/index.html" class="no-external">TL:DR My constitutive luck aside, almost everything required to do a PhD are learnt skills. I’m very average, so if you are average or above, you definitely have the ability…</a>
-</div>
-</div>
-<div class="metadata">
-<a href="./blog/2025-01-23-TIL/index.html" class="no-external">
-<div class="listing-date">
-Last Updated on 2025-01-23
-</div>
-<div class="listing-author">
-Alistair Bailey
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="3" data-categories="VElMJTJDbWljcm9mbHVpZGljcyUyQ0hEWCUyQ0NsYXVkZQ==" data-listing-date-sort="1736035200000" data-listing-file-modified-sort="1736342892354" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="50" data-listing-word-count-sort="9816">
-<div class="thumbnail">
-<p><a href="./blog/2025-01-05-TIL/index.html" class="no-external"></a></p><a href="./blog/2025-01-05-TIL/index.html" class="no-external">
-<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
-</a><p><a href="./blog/2025-01-05-TIL/index.html" class="no-external"></a></p>
-</div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./blog/2025-01-05-TIL/index.html" class="no-external">Why you don’t need turbulent flow</a>
-</h3>
-<div class="listing-subtitle">
-<a href="./blog/2025-01-05-TIL/index.html" class="no-external"></a>
-</div>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('VElM'); return false;">
-TIL
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('bWljcm9mbHVpZGljcw=='); return false;">
-microfluidics
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('SERY'); return false;">
-HDX
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('Q2xhdWRl'); return false;">
-Claude
-</div>
-</div>
-<div class="listing-description">
-<a href="./blog/2025-01-05-TIL/index.html" class="no-external">Molecular diffusion helps homogenise the distribution of molecules in laminar flow</a>
-</div>
-</div>
-<div class="metadata">
-<a href="./blog/2025-01-05-TIL/index.html" class="no-external">
-<div class="listing-date">
-Last Updated on 2025-01-05
-</div>
-<div class="listing-author">
-Alistair Bailey
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="4" data-categories="VElMJTJDQmx1ZXNreSUyQ1dvcmslMkNDbGF1ZGU=" data-listing-date-sort="1735862400000" data-listing-file-modified-sort="1736109812461" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="430">
-<div class="thumbnail">
-<p><a href="./blog/2024-12-11-TIL/index.html" class="no-external"></a></p><a href="./blog/2024-12-11-TIL/index.html" class="no-external">
-<p class="card-img-top"><img src="images\bsky-screenshot-2025-01-03.png" alt="Screenshot of a Blueksy post by Chris Albon of a script he uses for logging. "One thing I've noticed with AI is that the barrier to having lots of little helper scripts is wildy lower.  I keep a work log so its easy to talk about what I worked. This script lets me open the terminal and type "log talked to james" and have it logged/timestamped. Super easy.""  class="thumbnail-image card-img"/></p>
-</a><p><a href="./blog/2024-12-11-TIL/index.html" class="no-external"></a></p>
-</div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./blog/2024-12-11-TIL/index.html" class="no-external">Creating a work log</a>
-</h3>
-<div class="listing-subtitle">
-<a href="./blog/2024-12-11-TIL/index.html" class="no-external"></a>
-</div>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('VElM'); return false;">
-TIL
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('Qmx1ZXNreQ=='); return false;">
-Bluesky
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('V29yaw=='); return false;">
-Work
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('Q2xhdWRl'); return false;">
-Claude
-</div>
-</div>
-<div class="listing-description">
-<a href="./blog/2024-12-11-TIL/index.html" class="no-external">Chris Albon’s helper script for logging everything you do</a>
-</div>
-</div>
-<div class="metadata">
-<a href="./blog/2024-12-11-TIL/index.html" class="no-external">
-<div class="listing-date">
-Last Updated on 2025-01-03
-</div>
-<div class="listing-author">
-Alistair Bailey
-</div>
-</a>
-</div>
-</div>
-</div>
-<div class="listing-no-matching d-none">
-No matching items
-</div>
-</div><a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a></main> <!-- /main -->
+<a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a><div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" id="quarto-citation"><h2 class="anchored quarto-appendix-heading">Citation</h2><div><div class="quarto-appendix-secondary-label">BibTeX citation:</div><pre class="sourceCode code-with-copy quarto-appendix-bibtex"><code class="sourceCode bibtex">@online{bailey2025,
+  author = {Bailey, Alistair},
+  title = {Unpaywall: {Legal} Alternative to {Sci-Hub}},
+  date = {2025-02-18},
+  url = {https://ab604.uk/blog/2025-02-25-TIL/},
+  langid = {en}
+}
+</code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre><div class="quarto-appendix-secondary-label">For attribution, please cite this work as:</div><div id="ref-bailey2025" class="csl-entry quarto-appendix-citeas" role="listitem">
+Bailey, Alistair. 2025. <span>“Unpaywall: Legal Alternative to
+Sci-Hub.”</span> February 18, 2025. <a href="https://ab604.uk/blog/2025-02-25-TIL/">https://ab604.uk/blog/2025-02-25-TIL/</a>.
+</div></div></section></div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
@@ -1023,5 +811,5 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 
 
 
-<script src="site_libs/quarto-html/zenscroll-min.js"></script>
+<script src="../../site_libs/quarto-html/zenscroll-min.js"></script>
 </body></html>
