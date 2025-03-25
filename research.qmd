@@ -1,6 +1,8 @@
 ---
 title: "Publications"
 description: I am joint first author on all work with Ben Nicholas.
+toc: true
+toc-location: left
 ---
 
 <!-- Remove margin under list items -->
@@ -21,4 +23,10 @@ source("_common.R")
 pubs <- get_pubs()
 ```
 
+## Published
+
 `r make_pub_list(pubs, "peer_reviewed")`
+
+## Preprints
+
+`r make_pub_list(pubs, "preprint")`
