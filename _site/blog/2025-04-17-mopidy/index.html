@@ -77,7 +77,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
 <link href="../../site_libs/bootstrap/bootstrap-4d0246c7c37bf8e5b3a9879bbbc1899c.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="../../site_libs/bootstrap/bootstrap-dark-85310b885abfcf7883ed80c01cabca2d.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="../../site_libs/bootstrap/bootstrap-dark-088f2fa9b8bb5ece95d7f3fef3683930.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -380,9 +380,9 @@ Figure&nbsp;4: Screenshot of MusicBox web client that I use to stream music and 
 <h3 class="anchored" data-anchor-id="sec-config-tidal">Tidal connect</h3>
 <p>To connect the Mopidy Tidal extension, you first need to set-up your Tidal account. Then you connect it to the Mopidy extension in much the way you link devices to other services i.e.&nbsp;by using a web browser and a link to link.tidal.com and typing in a pass code that registers the device and your account with Tidal.</p>
 <p>As illustrated in the <a href="https://github.com/tehkillerbee/mopidy-tidal">documentation</a>, the link with code appears in the log file.</p>
-<pre><code>journalctl -u mopidy | tail -10
-...
-Visit link.tidal.com/AAAAA to log in, the code will expire in 300 seconds.</code></pre>
+<div class="sourceCode" id="cb3"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="ex">journalctl</span> <span class="at">-u</span> mopidy <span class="kw">|</span> <span class="fu">tail</span> <span class="at">-10</span></span>
+<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a><span class="ex">...</span></span>
+<span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a><span class="ex">Visit</span> link.tidal.com/AAAAA to log in, the code will expire in 300 seconds.</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </section>
 </section>
 <section id="sec-config-dac" class="level2">

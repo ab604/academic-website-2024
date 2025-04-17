@@ -153,7 +153,7 @@ To connect the Mopidy Tidal extension, you first need to set-up your Tidal accou
 
 As illustrated in the [documentation](https://github.com/tehkillerbee/mopidy-tidal), the link with code appears in the log file.
 
-```{}
+```{.bash}
 journalctl -u mopidy | tail -10
 ...
 Visit link.tidal.com/AAAAA to log in, the code will expire in 300 seconds.
