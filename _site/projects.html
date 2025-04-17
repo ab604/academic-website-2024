@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.6.39">
+<meta name="generator" content="quarto-1.6.43">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -37,8 +37,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-e26003cea8cd680ca0c55a263523d882.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-d166b450ba5a8e9f7a0ab969bf6592c1.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-d4d76bf8491c20bad77d141916dc28e1.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-4379b0ccadffce622b03caf4c46266b3.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
 <link href="site_libs/bootstrap/bootstrap-4d0246c7c37bf8e5b3a9879bbbc1899c.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
@@ -144,7 +144,8 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#sec-work-in-progress-bot" id="toc-sec-work-in-progress-bot" class="nav-link active" data-scroll-target="#sec-work-in-progress-bot">Work in progress bot</a></li>
+  <li><a href="#raspberry-pi-based-music-streamer" id="toc-raspberry-pi-based-music-streamer" class="nav-link active" data-scroll-target="#raspberry-pi-based-music-streamer">Raspberry Pi based music streamer</a></li>
+  <li><a href="#sec-work-in-progress-bot" id="toc-sec-work-in-progress-bot" class="nav-link" data-scroll-target="#sec-work-in-progress-bot">Work in progress bot</a></li>
   <li><a href="#sec-our-world-in-data-bot" id="toc-sec-our-world-in-data-bot" class="nav-link" data-scroll-target="#sec-our-world-in-data-bot">Our World in Data bot</a></li>
   <li><a href="#sec-moving-from-hugo-academic-to-a-quarto-website" id="toc-sec-moving-from-hugo-academic-to-a-quarto-website" class="nav-link" data-scroll-target="#sec-moving-from-hugo-academic-to-a-quarto-website">Moving from Hugo Academic to a Quarto website</a></li>
   <li><a href="#sec-bluesky-literature-bot" id="toc-sec-bluesky-literature-bot" class="nav-link" data-scroll-target="#sec-bluesky-literature-bot">Bluesky literature bot</a></li>
@@ -188,7 +189,7 @@ ul.task-list li input[type="checkbox"] {
     <div>
     <div class="quarto-title-meta-heading">Published</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">Last Updated on 2025-01-03</p>
+      <p class="date">Last Updated on 2025-04-17</p>
     </div>
   </div>
   
@@ -200,6 +201,10 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
+<section id="raspberry-pi-based-music-streamer" class="level2">
+<h2 class="anchored" data-anchor-id="raspberry-pi-based-music-streamer">Raspberry Pi based music streamer</h2>
+<p>I documented replacing my old Sonos Connect in my Hi-Fi set-up with a Raspberry Pi running Mopidy Music Server and an external DAC on my blog: https://ab604.uk/blog/2025-04-17-mopidy/</p>
+</section>
 <section id="sec-work-in-progress-bot" class="level2">
 <h2 class="anchored" data-anchor-id="sec-work-in-progress-bot">Work in progress bot</h2>
 <p><img src="images/fluent-emoji-high-contrast--man.png" class="img-fluid" width="100"></p>
@@ -214,7 +219,7 @@ ul.task-list li input[type="checkbox"] {
 <p>A <strong>retired</strong> Bluesky bot. Our World in Data is now on Bluesky so I took this down.</p>
 <p>The bot that posted a screen shot of the Our World in Data (OWID) Daily Data Insight to Bluesky.</p>
 <p>It’s built upon Simon Willison’s GitHub <a href="https://github.com/simonw/shot-scraper-template">shot-scraper template</a> repository that takes an automated screenshot of a OWID Daily Data Insight web page using <a href="https://github.com/simonw/shot-scraper">shot-scraper</a>. I then wrote a short R script to get alt-text and links and create the post for Bluesky.</p>
-<p>The bot runs using Github Actions <code>yml</code> as a <code>cron</code> job similar to my literature bot (<a href="#sec-bluesky-literature-bot" class="quarto-xref">Section&nbsp;4</a>).</p>
+<p>The bot runs using Github Actions <code>yml</code> as a <code>cron</code> job similar to my literature bot (<a href="#sec-bluesky-literature-bot" class="quarto-xref">Section&nbsp;5</a>).</p>
 <p>My Github repo is here: <a href="https://github.com/ab604/owid-dd-bot" class="uri">https://github.com/ab604/owid-dd-bot</a></p>
 </section>
 <section id="sec-moving-from-hugo-academic-to-a-quarto-website" class="level2">
