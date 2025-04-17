@@ -7,7 +7,7 @@ toc-location: left
 
 ## Raspberry Pi based music streamer
 
-I documented replacing my old Sonos Connect in my Hi-Fi set-up with a Raspberry Pi running Mopidy Music Server and an external DAC on my blog: https://ab604.uk/blog/2025-04-17-mopidy/
+I documented replacing my old Sonos Connect in my Hi-Fi set-up with a Raspberry Pi running Mopidy Music Server and an external DAC on [my blog](https://ab604.uk/blog/2025-04-17-mopidy/)
 
 ## Work in progress bot {#sec-work-in-progress-bot}
 
