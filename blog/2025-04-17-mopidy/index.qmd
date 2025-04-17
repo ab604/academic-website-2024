@@ -18,13 +18,13 @@ I've had a Sonos set-up since 2014 with the S1 controller and it's got increasin
 
 My listening habits are music from Spotify and music from BBC Radio 3 and sport on BBC Radio 5.
 
-After much messing around (@sec-issues) I settled on a [Raspberry Pi](https://en.wikipedia.org/wiki/Raspberry_Pi) running [Mopidy](https://mopidy.com/) connected to an external DAC (Digital to Audio Convertor) that is connected to my Naim Nait 3. And I switched from Spotify to [Tidal](https://tidal.com/) to take advantage of the higher quality audio streaming from Tidal. Transferring all my music was seamless with [TuneMyMusic](https://www.tunemymusic.com/).
+After much messing around (@sec-issues) I settled on a [Raspberry Pi](https://en.wikipedia.org/wiki/Raspberry_Pi) running [Mopidy](https://mopidy.com/) connected to an external DAC (Digital to Audio Converter) that is connected to my Naim Nait 3. And I switched from Spotify to [Tidal](https://tidal.com/) to take advantage of the higher quality audio streaming from Tidal. Transferring all my music was seamless with [TuneMyMusic](https://www.tunemymusic.com/).
 
 Cost-wise, at the time of writing this was £173.40 and comparable all-in-one streamer DACs are the WiiM Pro Plus is £219 or a Bluesound Node Performance for £499.
 
 Modipy Music Server and associated extensions are free.
 
-Tidal is the same price as Spotify Premiun, but has surprised me with how much better it sounds combined with the DAC than Spotify. I signed up for a free 30 day trial of Tidal, but it was a no-brainer to quit Spotify once I did a listening comparison between the services. Even on the other old Sonos components I can hear more clarity with Tidal. TuneMyMusic was £4.35.
+Tidal is the same price as Spotify Premium, but has surprised me with how much better it sounds combined with the DAC than Spotify. I signed up for a free 30 day trial of Tidal, but it was a no-brainer to quit Spotify once I did a listening comparison between the services. Even on the other old Sonos components I can hear more clarity with Tidal. TuneMyMusic was £4.35.
 
 It's not perfect, as:
 
