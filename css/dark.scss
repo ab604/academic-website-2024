@@ -69,7 +69,7 @@ $min-contrast-ratio:   4.5 !default;
 $link-color:                $success !default;
 
 /*--  scss:rules --*/
- 
+
 div.quarto-about-solana .about-entity .about-link {
     //background-color: white;
     color: $primary-color;
@@ -105,27 +105,28 @@ div.quarto-about-solana .about-entity .about-link:hover {
   color: $marine4;
 }
 
-.sourceCode.markdown.code-with-copy {
-  background-color: #696969;
-  border-radius: 4px;
-}
+// .sourceCode.markdown.code-with-copy {
+//   background-color: #696969;
+//   border-radius: 4px;
+// }
 
-.sourceCode {
-  background-color: #696969;
-  border-radius: 4px;
-}
+// .sourceCode {
+//   background-color: #696969;
+//   border-radius: 4px;
+// }
 
-.downlit.sourceCode {
-  background-color: #696969;
-  border-radius: 4px;
-}
+// .downlit.sourceCode {
+//   background-color: #696969;
+//   border-radius: 4px;
+// }
 
-.cell-output-stdout {
-  background-color: #F5F5F5;
-  border-radius: 4px;
-}
+// .cell-output-stdout {
+//   background-color: #F5F5F5;
+//   border-radius: 4px;
+// }
 
-//.nav-footer {
+
+//.nv-footer {
 //  color: $white ;
 //}
 
@@ -136,5 +137,3 @@ div.quarto-about-solana .about-entity .about-link:hover {
 //.menu-text {
 //  color: $white;
 //}
-
-

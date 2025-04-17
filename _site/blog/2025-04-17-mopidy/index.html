@@ -7,9 +7,9 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="author" content="Alistair Bailey">
-<meta name="description" content="Recalibrating Protection Factors Using Millisecond Hydrogen/Deuterium Exchange Mass Spectrometry">
+<meta name="description" content="Replacing my old Sonos Connect in my Hi-Fi set-up with a Raspberry Pi running Mopidy Music Server and an external DAC">
 
-<title>Summary of Stofella et al.&nbsp;2025 – ab604.uk</title>
+<title>Building a Raspberry Pi based music streamer – ab604.uk</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -22,27 +22,41 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-/* CSS for citations */
-div.csl-bib-body { }
-div.csl-entry {
-  clear: both;
-  margin-bottom: 0em;
+/* CSS for syntax highlighting */
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
 }
-.hanging-indent div.csl-entry {
-  margin-left:2em;
-  text-indent:-2em;
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { display: inline-block; text-indent: -5em; padding-left: 5em; }
 }
-div.csl-left-margin {
-  min-width:2em;
-  float:left;
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
 }
-div.csl-right-inline {
-  margin-left:2em;
-  padding-left:1em;
-}
-div.csl-indent {
-  margin-left: 2em;
-}</style>
+</style>
 
 
 <script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
@@ -63,7 +77,7 @@ div.csl-indent {
 <script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
 <link href="../../site_libs/bootstrap/bootstrap-4d0246c7c37bf8e5b3a9879bbbc1899c.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="../../site_libs/bootstrap/bootstrap-dark-088f2fa9b8bb5ece95d7f3fef3683930.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="../../site_libs/bootstrap/bootstrap-dark-85310b885abfcf7883ed80c01cabca2d.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -105,11 +119,12 @@ div.csl-indent {
 
 
 
-<meta property="og:title" content="Summary of Stofella et al.&nbsp;2025 – ab604.uk">
-<meta property="og:description" content="Recalibrating Protection Factors Using Millisecond Hydrogen/Deuterium Exchange Mass Spectrometry">
-<meta property="og:image" content="https://ab604.uk/blog/2025-01-30-TIL/img/avatar.jpg">
+<meta property="og:title" content="Building a Raspberry Pi based music streamer – ab604.uk">
+<meta property="og:description" content="Replacing my old Sonos Connect in my Hi-Fi set-up with a Raspberry Pi running Mopidy Music Server and an external DAC">
+<meta property="og:image" content="https://ab604.uk/blog/2025-04-17-mopidy/img/pi.jpg">
 <meta property="og:site_name" content="https://ab604.uk">
 <meta property="og:locale" content="en_GB">
+<meta property="og:image:alt" content="Raspberry Pi 4 B in its case with AAA battery for scale">
 </head>
 
 <body class="floating nav-fixed">
@@ -162,15 +177,19 @@ div.csl-indent {
    
   <ul>
   <li><a href="#sec-overview" id="toc-sec-overview" class="nav-link active" data-scroll-target="#sec-overview">Overview</a></li>
-  <li><a href="#sec-my-summary" id="toc-sec-my-summary" class="nav-link" data-scroll-target="#sec-my-summary">My summary</a>
+  <li><a href="#sec-components" id="toc-sec-components" class="nav-link" data-scroll-target="#sec-components">Components</a>
   <ul class="collapse">
-  <li><a href="#paper-information" id="toc-paper-information" class="nav-link" data-scroll-target="#paper-information">Paper information</a></li>
-  <li><a href="#what-did-they-do" id="toc-what-did-they-do" class="nav-link" data-scroll-target="#what-did-they-do">What did they do?</a></li>
-  <li><a href="#why-did-they-do-it" id="toc-why-did-they-do-it" class="nav-link" data-scroll-target="#why-did-they-do-it">Why did they do it?</a></li>
-  <li><a href="#what-they-find-out" id="toc-what-they-find-out" class="nav-link" data-scroll-target="#what-they-find-out">What they find out?</a></li>
-  <li><a href="#what-do-they-conclude" id="toc-what-do-they-conclude" class="nav-link" data-scroll-target="#what-do-they-conclude">What do they conclude?</a></li>
+  <li><a href="#sec-pi" id="toc-sec-pi" class="nav-link" data-scroll-target="#sec-pi">Raspberry Pi</a></li>
+  <li><a href="#sec-dac" id="toc-sec-dac" class="nav-link" data-scroll-target="#sec-dac">DAC</a></li>
   </ul></li>
-  <li><a href="#sec-claude-summary" id="toc-sec-claude-summary" class="nav-link" data-scroll-target="#sec-claude-summary">Claude Sonnet 3.5 Summary</a></li>
+  <li><a href="#additional-costs" id="toc-additional-costs" class="nav-link" data-scroll-target="#additional-costs">Additional costs</a></li>
+  <li><a href="#sec-config-pi" id="toc-sec-config-pi" class="nav-link" data-scroll-target="#sec-config-pi">Configuring the Raspberry Pi and Mopidy</a>
+  <ul class="collapse">
+  <li><a href="#sec-config-radio" id="toc-sec-config-radio" class="nav-link" data-scroll-target="#sec-config-radio">Radio</a></li>
+  <li><a href="#sec-config-tidal" id="toc-sec-config-tidal" class="nav-link" data-scroll-target="#sec-config-tidal">Tidal connect</a></li>
+  </ul></li>
+  <li><a href="#sec-config-dac" id="toc-sec-config-dac" class="nav-link" data-scroll-target="#sec-config-dac">Configuring the Topping DAC</a></li>
+  <li><a href="#sec-issues" id="toc-sec-issues" class="nav-link" data-scroll-target="#sec-issues">Issues</a></li>
   </ul>
 </nav>
 </nav>
@@ -183,17 +202,15 @@ div.csl-indent {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Summary of Stofella et al.&nbsp;2025</h1>
+<h1 class="title">Building a Raspberry Pi based music streamer</h1>
   <div class="quarto-categories">
-    <div class="quarto-category">TIL</div>
-    <div class="quarto-category">Claude</div>
-    <div class="quarto-category">HDX</div>
+    <div class="quarto-category">Misc</div>
   </div>
   </div>
 
 <div>
   <div class="description">
-    Recalibrating Protection Factors Using Millisecond Hydrogen/Deuterium Exchange Mass Spectrometry
+    Replacing my old Sonos Connect in my Hi-Fi set-up with a Raspberry Pi running Mopidy Music Server and an external DAC
   </div>
 </div>
 
@@ -210,7 +227,7 @@ div.csl-indent {
     <div>
     <div class="quarto-title-meta-heading">Published</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">Last Updated on 2025-01-30</p>
+      <p class="date">Last Updated on 2025-04-17</p>
     </div>
   </div>
   
@@ -224,118 +241,204 @@ div.csl-indent {
 
 <section id="sec-overview" class="level2">
 <h2 class="anchored" data-anchor-id="sec-overview">Overview</h2>
-<p>This TIL is a summary the fast timescale HDX-MS paper by Stofella et al.<span class="citation" data-cites="stofella2025">(<a href="#ref-stofella2025" role="doc-biblioref">Stofella et al. 2025</a>)</span> published on 2025-01-29.</p>
-<p>As part of my exploration of using LLMs in different ways, I read the paper and summarised it myself (<a href="#sec-my-summary" class="quarto-xref">Section&nbsp;2</a>) and then asked Claude Sonnet 3.5 to read and summarise it too (<a href="#sec-claude-summary" class="quarto-xref">Section&nbsp;3</a>). The idea being to see to what extent we agreed or not which is useful for checking the ability of myself and the LLM to understand a paper. We agreed broadly, but not in some of the details. My takeaway being that using Claude is helpful, especially as a quick screen or to aid interpretation, but not reliable enough to simply trust. No surprise there.</p>
-</section>
-<section id="sec-my-summary" class="level2">
-<h2 class="anchored" data-anchor-id="sec-my-summary">My summary</h2>
-<section id="paper-information" class="level3">
-<h3 class="anchored" data-anchor-id="paper-information">Paper information</h3>
-<p>Recalibrating Protection Factors Using Millisecond Hydrogen/Deuterium Exchange Mass Spectrometry</p>
-<p>Michele Stofella, Neeleema Seetaloo, Alexander N. St John, Emanuele Paci,* Jonathan J. Phillips, <em>and Frank Sobott</em></p>
-<p><a href="https://doi.org/10.1021/acs.analchem.4c03631" class="uri">https://doi.org/10.1021/acs.analchem.4c03631</a></p>
-</section>
-<section id="what-did-they-do" class="level3">
-<h3 class="anchored" data-anchor-id="what-did-they-do">What did they do?</h3>
-<ul>
-<li><p>Millisecond HDX-MS (50ms to 300 seconds aka 50 to 300E3 ms, between 3 and 4 orders of magnitude) on a mixture of three unstructured peptides and compared empirical measurement of deuterium uptake to theoretical uptake.</p></li>
-<li><p>Additionally did molecular dynamics simulations and re-analysed some published data.</p></li>
-</ul>
-</section>
-<section id="why-did-they-do-it" class="level3">
-<h3 class="anchored" data-anchor-id="why-did-they-do-it">Why did they do it?</h3>
-<ul>
-<li><p>They are interested in the way proteins shift between ordered and disordered states and the implications of these conformational changes for disease/function.</p></li>
-<li><p>Millisecond timescale HDX-MS ought to be able to capture allosteric effects and dynamics of unstructured proteins.</p></li>
-<li><p>HDX is influenced by a number of biochemical factors. Theoretical calculations of intrinsic exchange rates don’t account for salt type and concentration, whilst empirical intrinsic exchange rates assume the structure is completely unfolded.</p></li>
-<li><p>By using fast HDX-MS they aimed validate empirical intrinsic exchange rates of unstructured peptides that wouldn’t be captured at slower timescales.</p></li>
-<li><p>The aim is also to characterise the effects of salt.</p></li>
-<li><p>The overarching aim is to move towards a situation where reference intrinsic rates are calibrated, experiments from different conditions could be compared and simulations properly constrained.</p></li>
-</ul>
-</section>
-<section id="what-they-find-out" class="level3">
-<h3 class="anchored" data-anchor-id="what-they-find-out">What they find out?</h3>
-<ul>
-<li><p>They examined three peptides: angiotensin, bradykinin, atrial natriuretic peptide amide rat (ANP).</p></li>
-<li><p>Deuterium labeling ranged from 50ms to 5 minutes (300 seconds).</p></li>
-<li><p>Predictions for intrinsic exchange were calculated with three references of which alanine tripeptide (3-Ala) matched experiment best.</p></li>
-<li><p>Molecular dynamics suggest Poly-DL-alanine (PDLA) is not a good reference for an unstructured protein as it forms helical structures once the peptide length increases beyond 4 or 5 alanines.</p></li>
-<li><p>Comparing 150 mM NaCl to none in the buffer shows that the salt slows the observed deuterium uptake at timescales less than 2000 ms, which diverges from the theoretical calculation that doesn’t account for the salt.</p></li>
-<li><p>They use these observations about PDLA and salt to account for differences between their own observations and published observations of uptake in unstructured peptides.</p></li>
-</ul>
-</section>
-<section id="what-do-they-conclude" class="level3">
-<h3 class="anchored" data-anchor-id="what-do-they-conclude">What do they conclude?</h3>
-<ul>
-<li><p>3-Ala is a suitable reference model for theoretical calculation of intrinsic deuterium uptake.</p></li>
-<li><p>The buffer conditions i.e.&nbsp;salt, change uptake, but there is no comprehensive framework for dealing with salt in order to correct the theoretical calculations.</p></li>
-<li><p>They aim to create pH, temperature and salt correction factors in the future.</p></li>
-</ul>
-</section>
-</section>
-<section id="sec-claude-summary" class="level2">
-<h2 class="anchored" data-anchor-id="sec-claude-summary">Claude Sonnet 3.5 Summary</h2>
-<p>This paper discusses important improvements to hydrogen/deuterium exchange mass spectrometry (HDX-MS), a technique used to study protein structure and dynamics. Here are the key points:</p>
+<p>I’ve had a Sonos set-up since 2014 with the S1 controller and it’s got increasingly flaky. My old <a href="https://en.wikipedia.org/wiki/Naim_NAIT">Naim Nait 3</a> amplifier and <a href="https://www.roydaudio.org/models/minstrel-2/">Royd Minstrel</a> speakers are still going strong. Rather than upgrading with Sonos, I decided start by replacing the Sonos Connect as this is the hi-fidelity part of the system.</p>
+<p>My listening habits are music from Spotify and music from BBC Radio 3 and sport on BBC Radio 5.</p>
+<p>After much messing around (<a href="#sec-issues" class="quarto-xref">Section&nbsp;6</a>) I settled on a <a href="https://en.wikipedia.org/wiki/Raspberry_Pi">Raspberry Pi</a> running <a href="https://mopidy.com/">Mopidy</a> connected to an external DAC (Digital to Audio Convertor) that is connected to my Naim Nait 3. And I switched from Spotify to <a href="https://tidal.com/">Tidal</a> to take advantage of the higher quality audio streaming from Tidal. Transferring all my music was seamless with <a href="https://www.tunemymusic.com/">TuneMyMusic</a>.</p>
+<p>Cost-wise, at the time of writing this was £173.40 and comparable all-in-one streamer DACs are the WiiM Pro Plus is £219 or a Bluesound Node Performance for £499.</p>
+<p>Modipy Music Server and associated extensions are free.</p>
+<p>Tidal is the same price as Spotify Premiun, but has surprised me with how much better it sounds combined with the DAC than Spotify. I signed up for a free 30 day trial of Tidal, but it was a no-brainer to quit Spotify once I did a listening comparison between the services. Even on the other old Sonos components I can hear more clarity with Tidal. TuneMyMusic was £4.35.</p>
+<p>It’s not perfect, as:</p>
 <ol type="1">
-<li>The Current Challenge:</li>
+<li><p>I now have two systems rather than one multi-room system: the remaining two parts of the Sonos are still working, but they can be controlled with Bubble UPnP if the Sonos software fails altogether, or I can create a multi-room system with Modipy if I want to replace the Sonos units.</p></li>
+<li><p>Radio is a bit tricky and I can’t just stream BBC Sounds, which is integrated into Sonos. That is a bit annoying, but even with that limitation the quality of the live radio streams sounds much better. Radio 3 sounds amazing by comparison to the Sonos Connect.</p></li>
 </ol>
+<p>Here’s a summary of what I did, lessons learnt etc.</p>
+</section>
+<section id="sec-components" class="level2">
+<h2 class="anchored" data-anchor-id="sec-components">Components</h2>
+<p>Prices correct at the time of writing.</p>
+<section id="sec-pi" class="level3">
+<h3 class="anchored" data-anchor-id="sec-pi">Raspberry Pi</h3>
+<p>I got everything from the <a href="https://thepihut.com/">PiHut</a>, you may be able to find things cheaper, such as SD cards or cases, but it was convenient to buy it all together.</p>
 <ul>
-<li>HDX-MS is currently used mainly for comparative studies between different conditions</li>
-<li>The technique lacks absolute quantitative measurements</li>
-<li>There are issues with calibration of exchange rates</li>
+<li>Raspberry Pi 4 Model B x 1 4GB : £52.50</li>
+<li>Raspberry Pi 15W USB-C Power Supply - UK Plug x 1 White : £7.50</li>
+<li>Raspberry Pi Micro SD Card with RPi OS Pre-Installed x 1 32GB : £9.60</li>
+<li>Raspberry Pi 4 Case x 1 Red &amp; White : £4.80</li>
 </ul>
-<ol start="2" type="1">
-<li>Main Findings:</li>
-</ol>
+<p>Subtotal : £74.40</p>
+<div id="fig-rpi" class="quarto-float quarto-figure quarto-figure-center anchored" alt="Raspberry Pi 4 B in its case with AAA battery for scale">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-rpi-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="img/pi.jpg" class="img-fluid figure-img" alt="Raspberry Pi 4 B in its case with AAA battery for scale" width="400">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-rpi-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;1: Raspberry Pi 4 B in its case with AAA battery for scale
+</figcaption>
+</figure>
+</div>
+</section>
+<section id="sec-dac" class="level3">
+<h3 class="anchored" data-anchor-id="sec-dac">DAC</h3>
+<p>I spent a bit of chatting with Claude and then reading blogs about DACs and eventually settled on the <a href="https://www.toppingaudio.com/product-item/e30-ii-lite">Topping E30II lite</a>. Given the age of my amplifier and speakers it didn’t seem worth getting something more expensive and the DAC chip itself AK4493S was well reviewed on the blogs I browsed.</p>
 <ul>
-<li>The researchers found that poly-DL-alanine (PDLA), commonly used as an unstructured reference peptide, actually retains some structural elements</li>
-<li>They demonstrated that using a trialanine peptide (3-Ala) as reference provides more accurate results</li>
-<li>Molecular dynamics simulations confirmed that PDLA forms helical structures with as few as 15 residues</li>
+<li>Topping E30II lite DAC : £99 from Amazon (no power supply included)</li>
 </ul>
-<ol start="3" type="1">
-<li>Methodology:</li>
-</ol>
+<p>Total: £173.40</p>
+<div id="fig-e30-front" class="quarto-float quarto-figure quarto-figure-center anchored" alt="Topping E30II Lite DAC with AAA battery for scale">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-e30-front-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="img/topping-e30ii-lite.jpg" class="img-fluid figure-img" alt="Topping E30II Lite DAC with AAA battery for scale" width="400">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-e30-front-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;2: Topping E30II Lite DAC with AAA battery for scale
+</figcaption>
+</figure>
+</div>
+<p>It only comes with a USB cable for the power, but I had an old 5V 2A DC power supply I could use. I wasn’t sure the Pi was powerful enough to power it via USB.</p>
+<div id="fig-E30-back" class="quarto-float quarto-figure quarto-figure-center anchored" alt="Back of the Topping E30II Lite showing the USB connection to the Raspberry Pi and R ch and L ch to my amplifier and the 5V DC power socket ">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-E30-back-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="img/topping-e30ii-lite-back.jpg" class="img-fluid figure-img" alt="Back of the Topping E30II Lite showing the USB connection to the Raspberry Pi and R ch and L ch to my amplifier and the 5V DC power socket " width="400">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-E30-back-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;3: Back of the Topping E30II Lite, the USB connects to the Raspberry Pi and R ch and L ch to my amplifier
+</figcaption>
+</figure>
+</div>
+</section>
+</section>
+<section id="additional-costs" class="level2">
+<h2 class="anchored" data-anchor-id="additional-costs">Additional costs</h2>
+<p><a href="https://www.tunemymusic.com/">TuneMyMusic</a> cost £4.35 to transfer and back-up service for all my Spotify playlists, tracks, albums etc. The back-ups are csv files I downloaded.</p>
+</section>
+<section id="sec-config-pi" class="level2">
+<h2 class="anchored" data-anchor-id="sec-config-pi">Configuring the Raspberry Pi and Mopidy</h2>
+<p>I use Linux for work and whilst I’m not an expert, I’m comfortable with using the command line/terminal and SSH (secure shell) for setting things up.</p>
+<p>First I put the SD card in my Windows laptop (it has a slot) and used the <a href="https://www.raspberrypi.com/software/">Raspberry Pi Imager</a> to configure the login and network settings for the Raspberry Pi operating system the SD card.</p>
+<p>Then I put the SD card into the Raspberry Pi and when booted it up I could login into the Pi from my Windows laptop using <a href="https://git-scm.com/downloads">Git Bash</a> and <a href="https://www.atlassian.com/git/tutorials/git-ssh">SSH</a> and do everything else.</p>
+<p>At this point I connected the Topping DAC to the Pi via the USB, and plugged in the Ethernet to the Pi and the power to both devices.</p>
+<p>On first boot and login I checked for and installed any updates before installing <a href="https://mopidy.com/">Mopidy</a></p>
+<p>I mostly followed the <a href="https://docs.mopidy.com/stable/installation/">Mopidy documentation</a> for setting up the server with the bundled extensions.</p>
+<p>To use Mopidy from a web browser I needed a web client, I ended up using <a href="https://mopidy.com/ext/musicbox-webclient/">MusicBox Web Client</a> extension (<a href="#fig-musicbox" class="quarto-xref">Figure&nbsp;4</a>) and for accessing my Tidal account I needed the <a href="https://mopidy.com/ext/tidal/">Mopidy Tidal</a> extension.</p>
+<p>To install these I found I needed to use the <code>--break-system-packages</code> flag. Normally I wouldn’t do this as it might create problems as the flag says, but I don’t plan to use the Pi for anything else so in this case I went ahead.</p>
+<p><code>sudo python3 -m pip install Mopidy-Tidal --break-system-packages</code></p>
+<p>Configuration is done using the <code>mopidy.conf</code> file in <code>/etc/mopidy/mopidy.conf</code>.</p>
+<p>To configure the settings for the DAC, I first used <code>aplay -l</code> to list the audio devices attached to the Pi and the DAC was on card 3, hence <code>device=plughw:3,0</code></p>
+<p>My configuration file looks like this:</p>
+<div class="sourceCode" id="cb1"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Run `sudo mopidyctl config` to see the current effective config, based on</span></span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="co"># both defaults and this configuration file.</span></span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="ex">[http]</span></span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a><span class="ex">enabled</span> = true</span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a><span class="fu">hostname</span> = 0.0.0.0</span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a><span class="ex">port</span> = 6680</span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a><span class="ex">default_app</span> = musicbox_webclient</span>
+<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a><span class="ex">[audio]</span></span>
+<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a><span class="ex">output</span> = alsasink device=plughw:3,0</span>
+<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a><span class="ex">buffer_time</span> = 500000</span>
+<span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a><span class="ex">mixer</span> = software</span>
+<span id="cb1-13"><a href="#cb1-13" aria-hidden="true" tabindex="-1"></a><span class="ex">mixer_volume</span> = 100</span>
+<span id="cb1-14"><a href="#cb1-14" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-15"><a href="#cb1-15" aria-hidden="true" tabindex="-1"></a><span class="ex">[tidal]</span></span>
+<span id="cb1-16"><a href="#cb1-16" aria-hidden="true" tabindex="-1"></a><span class="ex">quality</span> = HI_RES_LOSSLESS</span>
+<span id="cb1-17"><a href="#cb1-17" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-18"><a href="#cb1-18" aria-hidden="true" tabindex="-1"></a><span class="ex">[stream]</span></span>
+<span id="cb1-19"><a href="#cb1-19" aria-hidden="true" tabindex="-1"></a><span class="ex">enabled</span> = true</span>
+<span id="cb1-20"><a href="#cb1-20" aria-hidden="true" tabindex="-1"></a><span class="ex">protocols</span> =</span>
+<span id="cb1-21"><a href="#cb1-21" aria-hidden="true" tabindex="-1"></a>  <span class="ex">http</span></span>
+<span id="cb1-22"><a href="#cb1-22" aria-hidden="true" tabindex="-1"></a>  <span class="ex">https</span></span>
+<span id="cb1-23"><a href="#cb1-23" aria-hidden="true" tabindex="-1"></a>  <span class="ex">hls</span></span>
+<span id="cb1-24"><a href="#cb1-24" aria-hidden="true" tabindex="-1"></a>  <span class="ex">m3u8</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<p>If I wanted to stream files from a USB drive, I could add this to.</p>
+<p>To play music I then access Mopidy via the <a href="https://mopidy.com/ext/musicbox-webclient/">MusicBox Web</a> web client extension I installed from my laptop or phone at: <code>http://&lt;MY-ROUTER-ADDRESS&gt;:6680/musicbox_webclient/index.html</code></p>
+<p>It’s simple, but does what I need (<a href="#fig-musicbox" class="quarto-xref">Figure&nbsp;4</a>).</p>
+<div id="fig-musicbox" class="quarto-float quarto-figure quarto-figure-center anchored" alt="Screenshot of MusicBox web client that I use to play music via Mopidy">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-musicbox-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="img/musicbox.png" class="img-fluid figure-img" alt="Screenshot of MusicBox web client that I use to play music via Mopidy" width="400">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-musicbox-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;4: Screenshot of MusicBox web client that I use to stream music and radio via Mopidy
+</figcaption>
+</figure>
+</div>
+<section id="sec-config-radio" class="level3">
+<h3 class="anchored" data-anchor-id="sec-config-radio">Radio</h3>
+<p>Radio is added through Streams (<a href="#fig-musicbox" class="quarto-xref">Figure&nbsp;4</a>). This <a href="https://gist.github.com/bpsib/67089b959e4fa898af69fea59ad74bc3">Gist list</a> of BBC Radio streams is what I used. I only really listen to four stations, so these are what I added and configured to maximum bitrate:</p>
+<div class="sourceCode" id="cb2"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="co"># BBC Radio 3</span></span>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a><span class="ex">https://lstn.lv/bbcradio.m3u8?station=bbc_radio_three</span><span class="kw">&amp;</span><span class="va">bitrate</span><span class="op">=</span>320000</span>
+<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a><span class="co"># BBC Radio 5 Live</span></span>
+<span id="cb2-4"><a href="#cb2-4" aria-hidden="true" tabindex="-1"></a><span class="ex">https://lstn.lv/bbcradio.m3u8?station=bbc_radio_five_live</span><span class="kw">&amp;</span><span class="va">bitrate</span><span class="op">=</span>320000</span>
+<span id="cb2-5"><a href="#cb2-5" aria-hidden="true" tabindex="-1"></a><span class="co"># BBC Radio 5 Sports Extra</span></span>
+<span id="cb2-6"><a href="#cb2-6" aria-hidden="true" tabindex="-1"></a><span class="ex">http://as-hls-uk-live.akamaized.net/pool_47700285/live/uk/bbc_radio_five_live_sports_extra/bbc_radio_five_live_sports_extra.isml/bbc_radio_five_live_sports_extra-audio%3d320000.norewind.m3u8</span></span>
+<span id="cb2-7"><a href="#cb2-7" aria-hidden="true" tabindex="-1"></a><span class="co"># BBC Radio 4</span></span>
+<span id="cb2-8"><a href="#cb2-8" aria-hidden="true" tabindex="-1"></a><span class="ex">https://lstn.lv/bbcradio.m3u8?station=bbc_radio_fourfm</span><span class="kw">&amp;</span><span class="va">bitrate</span><span class="op">=</span>320000</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<p>The main issue is that there are rights issues with live sport and so these events aren’t streamed, which is annoying, but I don’t really need hi-fi for sport. Be great if there was BBC Sounds integration, then I could stream podcasts and back catalogue programmes.</p>
+</section>
+<section id="sec-config-tidal" class="level3">
+<h3 class="anchored" data-anchor-id="sec-config-tidal">Tidal connect</h3>
+<p>To connect the Mopidy Tidal extension, you first need to set-up your Tidal account. Then you connect it to the Mopidy extension in much the way you link devices to other services i.e.&nbsp;by using a web browser and a link to link.tidal.com and typing in a pass code that registers the device and your account with Tidal.</p>
+<p>As illustrated in the <a href="https://github.com/tehkillerbee/mopidy-tidal">documentation</a>, the link with code appears in the log file.</p>
+<pre><code>journalctl -u mopidy | tail -10
+...
+Visit link.tidal.com/AAAAA to log in, the code will expire in 300 seconds.</code></pre>
+</section>
+</section>
+<section id="sec-config-dac" class="level2">
+<h2 class="anchored" data-anchor-id="sec-config-dac">Configuring the Topping DAC</h2>
+<p>As well as connecting to my Naim Nait 3, the DAC needs to be in USB mode or there will be no sound!</p>
+<p>The E30II Lite can be used either as an pre-amplifier and DAC, meaning one can control the volume. Or simply as a DAC, which is the cleanest path and the one I wanted.</p>
+<p>On switching on it defaults to pre-amplifier mode, and to switch to DAC mode one has to:</p>
 <ul>
-<li>The team conducted millisecond HDX-MS experiments on three unstructured peptides</li>
-<li>They compared experimental deuterium uptake with theoretical predictions</li>
-<li>They used molecular dynamics simulations to study PDLA’s structural properties</li>
+<li><p>first put it standby and then hold down the (only) button for 5 seconds to access the settings menu</p></li>
+<li><p>cycle through by pressing the button until you see <code>m–p</code> and then double-press to change it to <code>m-d</code>,</p></li>
+<li><p>then hold the button until <code>8-8</code> is displayed and it will save the settings and return to standby.</p></li>
 </ul>
-<ol start="4" type="1">
-<li>Key Results:</li>
-</ol>
+<div id="fig-switching-mode" class="quarto-float quarto-figure quarto-figure-center anchored" alt="Image from the Topping E30II Lite manual about switching DAC mode">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-switching-mode-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="images/paste-1.png" class="img-fluid figure-img" alt="Image from the Topping E30II Lite manual about switching DAC mode">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-switching-mode-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;5: Switching DAC mode
+</figcaption>
+</figure>
+</div>
+<p>More information in <a href="https://dl.topping.audio/usermanual/e30ii_e30iil.pdf">the Topping E30II Lite manual</a>.</p>
+<p>To check I was getting the highest quality streaming I went to Tidal and found some HiRes music, which streams lossless with 24 bit depth at 192 kHZ and checked what the DAC was decoding.</p>
+<div id="fig-tidal-hires" class="quarto-float quarto-figure quarto-figure-center anchored" alt="Image of 192 kHz streaming from Tidal on Topping E30II Lite">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-tidal-hires-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="img/topping-e30ii-lite-on.jpg" class="img-fluid figure-img" alt="Image of 192 kHz streaming from Tidal on Topping E30II Lite" width="400">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-tidal-hires-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;6: Image of high resolution 192 kHz streaming from Tidal on Topping E30II Lite
+</figcaption>
+</figure>
+</div>
+</section>
+<section id="sec-issues" class="level2">
+<h2 class="anchored" data-anchor-id="sec-issues">Issues</h2>
 <ul>
-<li>Experimental rates were sometimes faster than theoretically possible when using PDLA as reference</li>
-<li>Using 3-Ala as reference provided better agreement with experimental data</li>
-<li>Salt concentration in buffers affects exchange rates, which needs further investigation</li>
+<li><p>I <del>wasted</del> spent a non-trivial amount of time first trying to set-up Moode Audio instead of Mopidy, but I couldn’t get Tidal to work.</p></li>
+<li><p>Then I <del>wasted</del> spent a non-trivial amount of time trying to configure Iris web client with Mopidy, but couldn’t get Tidal playlists to work or add Radio streams.</p></li>
+<li><p>I didn’t have audio for ages until I realised I’d not set the DAC to USB connection!</p></li>
 </ul>
-<ol start="5" type="1">
-<li>Significance:</li>
-</ol>
-<ul>
-<li>This work moves HDX-MS towards becoming a quantitative rather than just qualitative technique</li>
-<li>The findings help establish more accurate calibration methods</li>
-<li>The improvements could enable better integration with structural modeling approaches</li>
-</ul>
-<p>The authors conclude that while using 3-Ala as a reference improves measurements, more work is needed to understand how salt affects exchange rates before a comprehensive calibration framework can be developed.</p>
-
 
 
 </section>
 
-<a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a><div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" role="doc-bibliography" id="quarto-bibliography"><h2 class="anchored quarto-appendix-heading">References</h2><div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" role="list">
-<div id="ref-stofella2025" class="csl-entry" role="listitem">
-Stofella, Michele, Neeleema Seetaloo, Alexander N. St John, Emanuele Paci, Jonathan J. Phillips, and Frank Sobott. 2025. <span>“Recalibrating Protection Factors Using Millisecond Hydrogen/Deuterium Exchange Mass Spectrometry.”</span> <em>Analytical Chemistry</em>, January. <a href="https://doi.org/10.1021/acs.analchem.4c03631">https://doi.org/10.1021/acs.analchem.4c03631</a>.
-</div>
-</div></section><section class="quarto-appendix-contents" id="quarto-citation"><h2 class="anchored quarto-appendix-heading">Citation</h2><div><div class="quarto-appendix-secondary-label">BibTeX citation:</div><pre class="sourceCode code-with-copy quarto-appendix-bibtex"><code class="sourceCode bibtex">@online{bailey2025,
+<a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a><div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" id="quarto-citation"><h2 class="anchored quarto-appendix-heading">Citation</h2><div><div class="quarto-appendix-secondary-label">BibTeX citation:</div><pre class="sourceCode code-with-copy quarto-appendix-bibtex"><code class="sourceCode bibtex">@online{bailey2025,
   author = {Bailey, Alistair},
-  title = {Summary of {Stofella} Et Al. 2025},
-  date = {2025-01-30},
-  url = {https://ab604.uk/blog/2025-01-30-TIL/},
+  title = {Building a {Raspberry} {Pi} Based Music Streamer},
+  date = {2025-04-17},
+  url = {https://ab604.uk/blog/2025-04-17-mopidy/},
   langid = {en}
 }
 </code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre><div class="quarto-appendix-secondary-label">For attribution, please cite this work as:</div><div id="ref-bailey2025" class="csl-entry quarto-appendix-citeas" role="listitem">
-Bailey, Alistair. 2025. <span>“Summary of Stofella Et Al. 2025.”</span>
-January 30, 2025. <a href="https://ab604.uk/blog/2025-01-30-TIL/">https://ab604.uk/blog/2025-01-30-TIL/</a>.
+Bailey, Alistair. 2025. <span>“Building a Raspberry Pi Based Music
+Streamer.”</span> April 17, 2025. <a href="https://ab604.uk/blog/2025-04-17-mopidy/">https://ab604.uk/blog/2025-04-17-mopidy/</a>.
 </div></div></section></div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
