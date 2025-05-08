@@ -1,0 +1,21 @@
+---
+title: "Summary of Arockiam et al. 2021"
+description: "Experimental determination and computational prediction of the mixing efficiency of a simple, continuous, serpentine-channel microdevice"
+author:
+  - name: Alistair Bailey
+    url: https://ab604.uk
+date: 2025-02-03
+categories: [TIL, Claude, Microfluidics,]
+citation: 
+  url: https://ab604.uk/blog/2025-02-03-TIL/ 
+draft: true
+bibliography: references.bib
+---
+
+## Overview
+
+Arockiam et al. 2021 [@arockiam2021] simulated and built a serpentine micromixer.
+
+## Experimental method
+
+*"1-mM Fluorescein Isothiocyanate (FITC) solution. Experiments were conducted using two values of the overall flow rate, Q, i.e., 0.1 µL/min, and 10 µL/min...mages were captured at multiple locations along the mixing channel using an exposure time of 100 ms."*
