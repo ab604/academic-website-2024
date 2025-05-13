@@ -3,7 +3,7 @@ title: Alistair Bailey
 about:
   id: hero-heading
   template: solana
-  image: "img/avatar.jpg"
+  image: "img/avatar-2025.jpg"
   image-shape: round
   image-width: 13em
   links:
