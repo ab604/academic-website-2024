@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://ab604.uk/blog/2025-04-17-mopidy/index.html</loc>
+    <lastmod>2025-04-17T11:09:13.060Z</lastmod>
+  </url>
+  <url>
     <loc>https://ab604.uk/blog/2025-01-23-TIL/index.html</loc>
     <lastmod>2025-01-23T20:13:57.125Z</lastmod>
   </url>
@@ -39,9 +43,5 @@
   <url>
     <loc>https://ab604.uk/blog/2025-02-18-TIL/index.html</loc>
     <lastmod>2025-02-18T16:11:11.902Z</lastmod>
-  </url>
-  <url>
-    <loc>https://ab604.uk/blog/2025-04-17-mopidy/index.html</loc>
-    <lastmod>2025-04-17T11:09:13.060Z</lastmod>
   </url>
 </urlset>
