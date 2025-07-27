@@ -28,11 +28,11 @@ about:
 ::: {#hero-heading}
 ### Biography
 
-An engineer by training, my research career has been as a scientist and informatician investigating antigen processing and presentation by major histocompatibility molecules using multi-omics methods.<br><br>In January 2025 I began learning to design microfluidic devices for Hydrogen Deuterium Exchange mass spectrometry at the [University of Southampton](https://www.soton.ac.uk).
+An engineer by training, my research career has been as a scientist and informatician investigating antigen processing and presentation by major histocompatibility molecules using multi-omics methods.<br><br>In January 2025 I began learning to design microfluidic devices for Hydrogen Deuterium Exchange Mass Spectrometry Proteomics at the [University of Southampton](https://www.soton.ac.uk).
 
 ### Interests
 
-My most recent project was [CRUK Accelerator: Improving immunotherapy treatment for cancer patients.](https://www.cancerresearchuk.org/funding-for-researchers/accelerator-award/portfolio-funded-projects-outputs) Other projects have included research into influenza, COVID-19, skin sensitization to chemical allergens, asthma and contagious cancer in the Tasmanian Devil. I am also a [Data and Software Carpentry](https://carpentries.org/) instructor.
+My immunology research interests are in developing cancer vaccines, most recently through a CRUK Accelerator Project [Improving immunotherapy treatment for cancer patients.](https://www.cancerresearchuk.org/funding-for-researchers/accelerator-award/portfolio-funded-projects-outputs) Other immunology resarch projects have included influenza, COVID-19, skin sensitization to chemical allergens, asthma and contagious cancer in the Tasmanian Devil. I am also a [Data and Software Carpentry](https://carpentries.org/) instructor.
 
 ### Education
 
