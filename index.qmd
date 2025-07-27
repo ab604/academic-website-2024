@@ -28,7 +28,7 @@ about:
 ::: {#hero-heading}
 ### Biography
 
-An engineer by training, my research career has been as a scientist and informatician investigating antigen processing and presentation by major histocompatibility molecules using multi-omics methods.<br><br>In 2025 I began learning microfluidics Hydrogen Deuterium Exchange mass spectrometry at the [University of Southampton](https://www.soton.ac.uk), which I am [blogging](https://ab604.uk/blog).
+An engineer by training, my research career has been as a scientist and informatician investigating antigen processing and presentation by major histocompatibility molecules using multi-omics methods.<br><br>In January 2025 I began learning to design microfluidic devices for Hydrogen Deuterium Exchange mass spectrometry at the [University of Southampton](https://www.soton.ac.uk).
 
 ### Interests
 
