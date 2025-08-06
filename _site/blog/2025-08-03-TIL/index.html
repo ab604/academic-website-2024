@@ -178,18 +178,27 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#preamble---the-ship-of-theseus" id="toc-preamble---the-ship-of-theseus" class="nav-link active" data-scroll-target="#preamble---the-ship-of-theseus">Preamble - The Ship of Theseus</a></li>
+  <li><a href="#sec-preamble" id="toc-sec-preamble" class="nav-link active" data-scroll-target="#sec-preamble">Preamble - The Ship of Theseus</a></li>
   <li><a href="#overview" id="toc-overview" class="nav-link" data-scroll-target="#overview">Overview</a></li>
   <li><a href="#setting-up-the-pi-zero" id="toc-setting-up-the-pi-zero" class="nav-link" data-scroll-target="#setting-up-the-pi-zero">Setting up the Pi Zero</a>
   <ul class="collapse">
-  <li><a href="#setting-up-passwordless-login-using-a-secure-shell" id="toc-setting-up-passwordless-login-using-a-secure-shell" class="nav-link" data-scroll-target="#setting-up-passwordless-login-using-a-secure-shell">Setting up passwordless login using a secure shell</a></li>
-  <li><a href="#updating-the-system-and-configuring-the-python-environment" id="toc-updating-the-system-and-configuring-the-python-environment" class="nav-link" data-scroll-target="#updating-the-system-and-configuring-the-python-environment">Updating the system and configuring the python environment</a></li>
-  <li><a href="#testing-and-setting-up-the-camera" id="toc-testing-and-setting-up-the-camera" class="nav-link" data-scroll-target="#testing-and-setting-up-the-camera">Testing and setting up the camera</a></li>
-  <li><a href="#setting-the-script-to-run-each-day" id="toc-setting-the-script-to-run-each-day" class="nav-link" data-scroll-target="#setting-the-script-to-run-each-day">Setting the script to run each day</a></li>
+  <li><a href="#sec-ssh" id="toc-sec-ssh" class="nav-link" data-scroll-target="#sec-ssh">Setting up passwordless login using a secure shell</a></li>
+  <li><a href="#sec-python" id="toc-sec-python" class="nav-link" data-scroll-target="#sec-python">Updating the system and configuring the python environment</a></li>
+  <li><a href="#sec-camera" id="toc-sec-camera" class="nav-link" data-scroll-target="#sec-camera">Testing and setting up the camera</a></li>
+  <li><a href="#sec-cron" id="toc-sec-cron" class="nav-link" data-scroll-target="#sec-cron">Setting the script to run each day</a></li>
   </ul></li>
-  <li><a href="#vibe-coding-main-script" id="toc-vibe-coding-main-script" class="nav-link" data-scroll-target="#vibe-coding-main-script">Vibe coding main script</a>
+  <li><a href="#sec-vibe" id="toc-sec-vibe" class="nav-link" data-scroll-target="#sec-vibe">Vibe coding main script</a></li>
+  <li><a href="#sec-final-script" id="toc-sec-final-script" class="nav-link" data-scroll-target="#sec-final-script">Structure of the final python script</a>
   <ul class="collapse">
-  <li><a href="#structure-of-the-final-python-script" id="toc-structure-of-the-final-python-script" class="nav-link" data-scroll-target="#structure-of-the-final-python-script">Structure of the final python script</a></li>
+  <li><a href="#sec-01" id="toc-sec-01" class="nav-link" data-scroll-target="#sec-01">1. Calculate When to Start</a></li>
+  <li><a href="#sec-02" id="toc-sec-02" class="nav-link" data-scroll-target="#sec-02">2. Wait Until It’s Time</a></li>
+  <li><a href="#sec-03" id="toc-sec-03" class="nav-link" data-scroll-target="#sec-03">3. Record a Long Video</a></li>
+  <li><a href="#sec-04" id="toc-sec-04" class="nav-link" data-scroll-target="#sec-04">4. Speed Up the Video</a></li>
+  <li><a href="#sec-05" id="toc-sec-05" class="nav-link" data-scroll-target="#sec-05">5. Take a Photo for Analysis</a></li>
+  <li><a href="#sec-06" id="toc-sec-06" class="nav-link" data-scroll-target="#sec-06">6. Generate a Description</a></li>
+  <li><a href="#sec-07" id="toc-sec-07" class="nav-link" data-scroll-target="#sec-07">7. Upload to Bluesky</a></li>
+  <li><a href="#sec-08" id="toc-sec-08" class="nav-link" data-scroll-target="#sec-08">8. Clean Up</a></li>
+  <li><a href="#sec-09" id="toc-sec-09" class="nav-link" data-scroll-target="#sec-09">Technical Architecture</a></li>
   </ul></li>
   </ul>
 </nav>
@@ -242,8 +251,8 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </header>
 
 
-<section id="preamble---the-ship-of-theseus" class="level2">
-<h2 class="anchored" data-anchor-id="preamble---the-ship-of-theseus">Preamble - The Ship of Theseus</h2>
+<section id="sec-preamble" class="level2">
+<h2 class="anchored" data-anchor-id="sec-preamble">Preamble - The Ship of Theseus</h2>
 <p>Previously I set-up a <a href="https://pi-hole.net/">pi-hole</a> to get rid of adverts. It doesn’t speed up my internet connection, but pages load about 10-20% as they aren’t loading adverts. However, I used a <a href="https://thepihut.com/products/raspberry-pi-zero-w">Raspberry Pi Zero</a> and it would crash regularly as it’s not very powerful. So I recently replace it with Pi 4B and that’s much better. But that left me with the Pi Zero W and I thought I should something with it.</p>
 <p>Also previously, after Sandra at work had introduced me to <a href="https://en.wikipedia.org/wiki/Solarigraphy">solarigraphy</a>, I took a few solargraphs using beer cans. The one below in <a href="#fig-01" class="quarto-xref">Figure&nbsp;1</a> is a year long solargraph from my balcony from November 2021 to 2022.</p>
 <div id="fig-01" class="quarto-float quarto-figure quarto-figure-center anchored" alt="Solargraph, Southampton November 2021 to November 2022. The sun traces lines across the sky in arcs that vary in height throughout the year.">
@@ -310,8 +319,8 @@ Figure&nbsp;3: This is the original Pi Zero W and Zero Cam powered by USB batter
 </figcaption>
 </figure>
 </div>
-<section id="setting-up-passwordless-login-using-a-secure-shell" class="level3">
-<h3 class="anchored" data-anchor-id="setting-up-passwordless-login-using-a-secure-shell">Setting up passwordless login using a secure shell</h3>
+<section id="sec-ssh" class="level3">
+<h3 class="anchored" data-anchor-id="sec-ssh">Setting up passwordless login using a secure shell</h3>
 <p>First login used the username and password I had set-up when configuring the imager, but I next configured login using a secure shell key so I don’t need a password. This is something I’ve done pre-LLMs, but I got Claude to walk me through it again.</p>
 <div class="sourceCode" id="cb1"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="co"># On my Windows machine in Git Bash, which creates a public key as file id_ed25519.pub in C:\Users\username\.ssh</span></span>
 <span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="fu">ssh-keygen</span> <span class="at">-t</span> ed25519</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
@@ -326,8 +335,8 @@ Figure&nbsp;3: This is the original Pi Zero W and Zero Cam powered by USB batter
 <p>where <code>username</code> and <code>hostname</code> were configured in the imager. For example, if my username was <code>snips</code> and I called my Pi hostname <code>moonset</code> then my login command would be <code>ssh snips@moonset.local</code>. When you login for the first time with ssh, it will ask you to accept the key from the Pi on the your device in return and then you are set.</p>
 <p>The other reason for doing this other than not wanting to type in the password whenever I login, is that I can use the command <code>scp</code> to securely copy files back and forth from my laptop to the Pi without needing a password either.</p>
 </section>
-<section id="updating-the-system-and-configuring-the-python-environment" class="level3">
-<h3 class="anchored" data-anchor-id="updating-the-system-and-configuring-the-python-environment">Updating the system and configuring the python environment</h3>
+<section id="sec-python" class="level3">
+<h3 class="anchored" data-anchor-id="sec-python">Updating the system and configuring the python environment</h3>
 <p>Having already developed the main script on the broken Pi Zero, I already knew what packages I needed to set-up the system: the <code>python</code> language and <code>ffmpeg</code> for recording the video.</p>
 <p>I can’t remember where I read about using <a href="https://docs.astral.sh/uv/">uv</a> as the python package and environment manager, but as a python novice I’ve not really got my head round avoiding trouble with managing python dependencies and something I read suggested <code>uv</code> was a good solution.</p>
 <p>So I asked Claude to create a little bash script called <code>setup.sh</code> that I copied over with <code>scp</code> and ran with <code>bash setup.sh</code> to install the system packages, uv, create an environment and then install the python packages I need for the main timelapse python script.</p>
@@ -357,8 +366,8 @@ Figure&nbsp;3: This is the original Pi Zero W and Zero Cam powered by USB batter
 <p>To keep the python environment <code>venv</code> persistent so that it activates whenever I boot the Pi, I had to add a line to my bash profile <code>.bashrc</code></p>
 <div class="sourceCode" id="cb5"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="bu">echo</span> <span class="st">"source ~/venv/bin/activate"</span> <span class="op">&gt;&gt;</span> ~/.bashrc</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </section>
-<section id="testing-and-setting-up-the-camera" class="level3">
-<h3 class="anchored" data-anchor-id="testing-and-setting-up-the-camera">Testing and setting up the camera</h3>
+<section id="sec-camera" class="level3">
+<h3 class="anchored" data-anchor-id="sec-camera">Testing and setting up the camera</h3>
 <p>To position the camera I needed to be able to see what is was capturing on my laptop, so I asked Claude to write a script that created a webpage that I could open on my laptop to see what the Pi was seeing and would take a new image each time I refreshed page (<a href="#fig-zerocam-preview" class="quarto-xref">Figure&nbsp;4</a>).</p>
 <p>The bash script is on the Github repo here: <a href="https://github.com/ab604/pi-sunrise-timelapse/blob/main/zerocam_preview.sh" class="uri">https://github.com/ab604/pi-sunrise-timelapse/blob/main/zerocam_preview.sh</a></p>
 <div id="fig-zerocam-preview" class="quarto-float quarto-figure quarto-figure-center anchored" alt="Screenshot of the Zero Cam Preview that Claude created for me to help me position the camera.">
@@ -375,15 +384,15 @@ Figure&nbsp;4: Screenshot of the Zero Cam Preview that Claude created for me to 
 <div class="sourceCode" id="cb6"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a><span class="va">dtoverlay</span><span class="op">=</span>ov5647,rotation=180</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <p>The <code>dtoverlay=ov5647</code> part stands for device tree overlay and tells the Pi which camera sensor is being used, here <code>ov5647</code> on the Zero Cam. The <code>rotation=180</code> parameter is need because I mounted the camera upside down. The Pi needs rebooting after the config file is changed for these settings to be applied.</p>
 </section>
-<section id="setting-the-script-to-run-each-day" class="level3">
-<h3 class="anchored" data-anchor-id="setting-the-script-to-run-each-day">Setting the script to run each day</h3>
-<p>The python script that does everything is called <code>main_timelapse_script.py</code> and I want it run every day. To do this I use a <code>cron</code> job that is configured by using the command <code>crontab -e</code> which opens a text editor on the command line. In Git BASH this is Nano and I write the file by pressing Ctrl+O and then exit the file with Ctrl+X</p>
+<section id="sec-cron" class="level3">
+<h3 class="anchored" data-anchor-id="sec-cron">Setting the script to run each day</h3>
+<p>The python script that does everything is called <code>main_timelapse_script.py</code> and I want it run every day. To do this I use a <code>cron</code> job that is configured by using the command <code>crontab -e</code> which opens a text editor on the command line. In Git BASH this is Nano and I write the file by pressing Ctrl+O and then exit the file with Ctrl+X.</p>
 <p>Below is a rather long crontab entry. The numbers and * means run everyday at 0400. The code that follows calls the bash shell directly, navigates to the <code>snips</code> home directory (my username isn’t <code>snips</code>), activates the python virtual environment <code>venv</code>, loads my bash profile containing my credentials for logging into BlueSky and my <a href="https://groq.com/">groq</a> API key which the python script needs. Then in navigates to the folder with the timelapse script and runs it. The <code>&gt;&gt;</code> is telling it to write the standard output from the shell to a log file, the <code>2&gt;&amp;1</code> means also write any errors. The log is for troubleshooting and I used it a lot during development.</p>
 <div class="sourceCode" id="cb7"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a><span class="ex">00</span> 4 <span class="pp">*</span> <span class="pp">*</span> <span class="pp">*</span> /bin/bash <span class="at">-c</span> <span class="st">"cd /home/snips &amp;&amp; source /home/snips/venv/bin/activate &amp;&amp; source /home/snips/.bashrc_sun &amp;&amp; cd /home/snips/sunrise_timelapse &amp;&amp; python3 main_timelapse_script.py"</span> <span class="op">&gt;&gt;</span> /home/snips/sunrise_timelapse/sunrise_cron.log <span class="dv">2</span><span class="op">&gt;&amp;</span><span class="dv">1</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </section>
 </section>
-<section id="vibe-coding-main-script" class="level2">
-<h2 class="anchored" data-anchor-id="vibe-coding-main-script">Vibe coding main script</h2>
+<section id="sec-vibe" class="level2">
+<h2 class="anchored" data-anchor-id="sec-vibe">Vibe coding main script</h2>
 <p>I use Claude most days now, for work, for things like this and increasingly for (re)search. Like any tool it can be misused, but after a year of using it regularly, it’s a bit like imagining life without a mobile phone or the internet. It can be done, but why would one limit oneself?</p>
 <p>Currently I’m paying £18 a month for the Pro Plan. For this I set-up a Project, which is allows me to create a general prompt and attach documents such as code scripts or pdfs of scientific manuscripts to guide Claude’s responses. For example here the project prompt is <code>Set-up and write code for a Raspberry Pi Zero with a camera module. Images will be sent to groq to auto generate text and then the video and text will be posted to Bluesky</code> and my dashboard looks like this:</p>
 <div id="fig-02" class="quarto-float quarto-figure quarto-figure-center anchored">
@@ -399,7 +408,7 @@ Figure&nbsp;5: Screengrab of Claude Project dashboard
 <p>Powerful as Claude is, only fools or naifs rely on single sources of information, so resources like Marc Dotson’s blog explaining the <a href="https://occasionaldivergences.com/posts/python-intro/">differences between R and python</a> are super helpful. My coding knowledge is primarily R, with a bit of bash and other bits and pieces from my time doing bioinformatics and academic writing. In hindsight, I could have attempted to do this in R (maybe a project for another day) or even something more exotic, but I naturally assumed this should be done in python and I want to improve my python knowledge, so the choice was as arbitrary as that.</p>
 <p>Over 17 days (hmm) I’ve had 28 “chats” in this project to completion, including a crisis of meaning after 12 days where I nearly abandoned it, left it for a few days and then decided to finish it. All the joy of a PhD project in 17 days. <strong>Update</strong>: It was even worse than that and actually been a further 19 days since I wrote that to finally finish it after a bit more tweaking and half a dozen more chats.</p>
 <p><a href="#fig-03" class="quarto-xref">Figure&nbsp;6</a> shows some of the chats, so you can see I was doing things like trying to figure out how powerful a USB power bank I’d need, code reviews and even getting Claude to create a logo for my Bluesky bot account.</p>
-<div id="fig-03" class="quarto-float quarto-figure quarto-figure-center anchored" width="500" alt="Screengrab of Claude chats with titles like flipping camera image orientation and sunset timelapse script review">
+<div id="fig-03" class="quarto-float quarto-figure quarto-figure-center anchored" alt="Screengrab of Claude chats with titles like flipping camera image orientation and sunset timelapse script review" width="500">
 <figure class="quarto-float quarto-float-fig figure">
 <div aria-describedby="fig-03-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <img src="images/paste-2.png" id="fig-03" class="img-fluid figure-img" alt="Screengrab of Claude chats with titles like flipping camera image orientation and sunset timelapse script review" width="500">
@@ -410,12 +419,13 @@ Figure&nbsp;6
 </figure>
 </div>
 <p>The final script (a result of many short test scripts) ended up at nearly a thousand lines of code! But it works. After a fashion.</p>
-<section id="structure-of-the-final-python-script" class="level3">
-<h3 class="anchored" data-anchor-id="structure-of-the-final-python-script">Structure of the final python script</h3>
+</section>
+<section id="sec-final-script" class="level2">
+<h2 class="anchored" data-anchor-id="sec-final-script">Structure of the final python script</h2>
 <p>For creating the Bluesky post text I use <a href="https://groq.com/">groq</a> (not to be confused with Grok on Twitter/X) which you can set-up a free account for low use like I am here. Once you’ve got an API key you can access a range of LLMs. The script sends an image with a text prompt to the API that groq returns as text for the post. As I need a LLM that can generate text from images, I’m using <code>meta-llama/llama-4-scout-17b-16e-instruct</code> currently, but I may have to change this if it becomes deprecated.</p>
 <p>I of course asked Claude to write the following step-by-step description of what the script does:</p>
-<section id="calculate-when-to-start" class="level4">
-<h4 class="anchored" data-anchor-id="calculate-when-to-start">1. Calculate When to Start</h4>
+<section id="sec-01" class="level3">
+<h3 class="anchored" data-anchor-id="sec-01">1. Calculate When to Start</h3>
 <p>The script uses the <code>astral</code> Python library to calculate precise sunrise time for Southampton (50.9097°N, -1.4044°W). It handles both newer astral v2.x and older v1.x APIs, accounting for timezone conversion from UTC to Europe/London. The script then subtracts 45 minutes to determine the optimal capture start time.</p>
 <p><strong>Technical details:</strong></p>
 <ul>
@@ -425,8 +435,8 @@ Figure&nbsp;6
 <li>Falls back to 7:00 AM if astronomical calculation fails</li>
 </ul>
 </section>
-<section id="wait-until-its-time" class="level4">
-<h4 class="anchored" data-anchor-id="wait-until-its-time">2. Wait Until It’s Time</h4>
+<section id="sec-02" class="level3">
+<h3 class="anchored" data-anchor-id="sec-02">2. Wait Until It’s Time</h3>
 <p>The script runs a smart waiting loop that checks the current time against the calculated start time. It sleeps for 60-second intervals when there’s more than a minute to wait, then switches to 5-second checks when close to start time.</p>
 <p><strong>Technical details:</strong></p>
 <ul>
@@ -436,8 +446,8 @@ Figure&nbsp;6
 <li>Memory usage monitoring with <code>free -m</code> command</li>
 </ul>
 </section>
-<section id="record-a-long-video" class="level4">
-<h4 class="anchored" data-anchor-id="record-a-long-video">3. Record a Long Video</h4>
+<section id="sec-03" class="level3">
+<h3 class="anchored" data-anchor-id="sec-03">3. Record a Long Video</h3>
 <p>The script uses <code>libcamera-vid</code> to capture a continuous 75-minute H.264 video file. It runs as a subprocess with real-time monitoring and progress logging.</p>
 <p><strong>Technical details:</strong></p>
 <ul>
@@ -450,8 +460,8 @@ Figure&nbsp;6
 <li>Memory usage tracking before/after capture</li>
 </ul>
 </section>
-<section id="speed-up-the-video" class="level4">
-<h4 class="anchored" data-anchor-id="speed-up-the-video">4. Speed Up the Video</h4>
+<section id="sec-04" class="level3">
+<h3 class="anchored" data-anchor-id="sec-04">4. Speed Up the Video</h3>
 <p>The script uses FFmpeg to convert the 75-minute raw video into a 30-second timelapse, applying a 150x speed increase using the <code>setpts</code> filter.</p>
 <p><strong>Technical details:</strong></p>
 <ul>
@@ -465,8 +475,8 @@ Figure&nbsp;6
 <li>Includes duration verification using <code>ffprobe</code></li>
 </ul>
 </section>
-<section id="take-a-photo-for-analysis" class="level4">
-<h4 class="anchored" data-anchor-id="take-a-photo-for-analysis">5. Take a Photo for Analysis</h4>
+<section id="sec-05" class="level3">
+<h3 class="anchored" data-anchor-id="sec-05">5. Take a Photo for Analysis</h3>
 <p>After video processing, the script captures a fresh 800x800 JPEG photo using <code>libcamera-still</code> for weather analysis.</p>
 <p><strong>Technical details:</strong></p>
 <ul>
@@ -476,8 +486,8 @@ Figure&nbsp;6
 <li>File size validation (&gt;10KB) to ensure successful capture</li>
 </ul>
 </section>
-<section id="generate-a-description" class="level4">
-<h4 class="anchored" data-anchor-id="generate-a-description">6. Generate a Description</h4>
+<section id="sec-06" class="level3">
+<h3 class="anchored" data-anchor-id="sec-06">6. Generate a Description</h3>
 <p>The script encodes the photo as base64 and sends it to Groq’s vision API using the Meta-LLaMA 4 Scout 17B model for weather analysis.</p>
 <p><strong>Technical details:</strong></p>
 <ul>
@@ -491,8 +501,8 @@ Figure&nbsp;6
 <li>30-second timeout with error handling</li>
 </ul>
 </section>
-<section id="upload-to-bluesky" class="level4">
-<h4 class="anchored" data-anchor-id="upload-to-bluesky">7. Upload to Bluesky</h4>
+<section id="sec-07" class="level3">
+<h3 class="anchored" data-anchor-id="sec-07">7. Upload to Bluesky</h3>
 <p>The script implements Bluesky’s proper video upload API, which requires multiple authentication steps and job monitoring.</p>
 <p><strong>Technical details:</strong></p>
 <ul>
@@ -507,8 +517,8 @@ Figure&nbsp;6
 <li><strong>Blob Reference</strong>: Uses processed video’s blob reference in <code>app.bsky.embed.video</code> format</li>
 </ul>
 </section>
-<section id="clean-up" class="level4">
-<h4 class="anchored" data-anchor-id="clean-up">8. Clean Up</h4>
+<section id="sec-08" class="level3">
+<h3 class="anchored" data-anchor-id="sec-08">8. Clean Up</h3>
 <p>The script implements automatic file management to prevent storage overflow on the Pi’s SD card.</p>
 <p><strong>Technical details:</strong></p>
 <ul>
@@ -521,8 +531,8 @@ Figure&nbsp;6
 <li>Configurable via <code>CONFIG['cleanup']['keep_days']</code> and <code>auto_cleanup</code> flag</li>
 </ul>
 </section>
-<section id="technical-architecture" class="level4">
-<h4 class="anchored" data-anchor-id="technical-architecture">Technical Architecture</h4>
+<section id="sec-09" class="level3">
+<h3 class="anchored" data-anchor-id="sec-09">Technical Architecture</h3>
 <p><strong>Dependencies:</strong></p>
 <ul>
 <li><code>requests</code>: HTTP client for APIs</li>
@@ -548,7 +558,6 @@ Figure&nbsp;6
 </ul>
 
 
-</section>
 </section>
 </section>
 

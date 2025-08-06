@@ -12,7 +12,7 @@ draft: false
 #bibliography: references.bib
 ---
 
-## Preamble - The Ship of Theseus
+## Preamble - The Ship of Theseus {#sec-preamble}
 
 Previously I set-up a [pi-hole](https://pi-hole.net/) to get rid of adverts. It doesn't speed up my internet connection, but pages load about 10-20% as they aren't loading adverts. However, I used a [Raspberry Pi Zero](https://thepihut.com/products/raspberry-pi-zero-w) and it would crash regularly as it's not very powerful. So I recently replace it with Pi 4B and that's much better. But that left me with the Pi Zero W and I thought I should something with it.
 
@@ -64,7 +64,7 @@ If you are reading this and wondering what a Git BASH terminal and why one would
 
 ![This is the original Pi Zero W and Zero Cam powered by USB battery pack supported by some hand cream](img/pi-test-set-up.jpg){#fig-original-pi fig-alt="The original Pi Zero W and Zero Cam powered by USB battery pack supported by some hand cream" width="500"}
 
-### Setting up passwordless login using a secure shell
+### Setting up passwordless login using a secure shell {#sec-ssh}
 
 First login used the username and password I had set-up when configuring the imager, but I next configured login using a secure shell key so I don't need a password. This is something I've done pre-LLMs, but I got Claude to walk me through it again.
 
@@ -93,7 +93,7 @@ where `username` and `hostname` were configured in the imager. For example, if m
 
 The other reason for doing this other than not wanting to type in the password whenever I login, is that I can use the command `scp` to securely copy files back and forth from my laptop to the Pi without needing a password either.
 
-### Updating the system and configuring the python environment
+### Updating the system and configuring the python environment {#sec-python}
 
 Having already developed the main script on the broken Pi Zero, I already knew what packages I needed to set-up the system: the `python` language and `ffmpeg` for recording the video.
 
@@ -133,7 +133,7 @@ To keep the python environment `venv` persistent so that it activates whenever I
 echo "source ~/venv/bin/activate" >> ~/.bashrc
 ```
 
-### Testing and setting up the camera
+### Testing and setting up the camera {#sec-camera}
 
 To position the camera I needed to be able to see what is was capturing on my laptop, so I asked Claude to write a script that created a webpage that I could open on my laptop to see what the Pi was seeing and would take a new image each time I refreshed page (@fig-zerocam-preview).
 
@@ -149,9 +149,9 @@ dtoverlay=ov5647,rotation=180
 
 The `dtoverlay=ov5647` part stands for device tree overlay and tells the Pi which camera sensor is being used, here `ov5647` on the Zero Cam. The `rotation=180` parameter is need because I mounted the camera upside down. The Pi needs rebooting after the config file is changed for these settings to be applied.
 
-### Setting the script to run each day
+### Setting the script to run each day {#sec-cron}
 
-The python script that does everything is called `main_timelapse_script.py` and I want it run every day. To do this I use a `cron` job that is configured by using the command `crontab -e` which opens a text editor on the command line. In Git BASH this is Nano and I write the file by pressing Ctrl+O and then exit the file with Ctrl+X
+The python script that does everything is called `main_timelapse_script.py` and I want it run every day. To do this I use a `cron` job that is configured by using the command `crontab -e` which opens a text editor on the command line. In Git BASH this is Nano and I write the file by pressing Ctrl+O and then exit the file with Ctrl+X.
 
 Below is a rather long crontab entry. The numbers and \* means run everyday at 0400. The code that follows calls the bash shell directly, navigates to the `snips` home directory (my username isn't `snips`), activates the python virtual environment `venv`, loads my bash profile containing my credentials for logging into BlueSky and my [groq](https://groq.com/) API key which the python script needs. Then in navigates to the folder with the timelapse script and runs it. The `>>` is telling it to write the standard output from the shell to a log file, the `2>&1` means also write any errors. The log is for troubleshooting and I used it a lot during development.
 
@@ -159,7 +159,7 @@ Below is a rather long crontab entry. The numbers and \* means run everyday at 0
 00 4 * * * /bin/bash -c "cd /home/snips && source /home/snips/venv/bin/activate && source /home/snips/.bashrc_sun && cd /home/snips/sunrise_timelapse && python3 main_timelapse_script.py" >> /home/snips/sunrise_timelapse/sunrise_cron.log 2>&1
 ```
 
-## Vibe coding main script
+## Vibe coding main script {#sec-vibe}
 
 I use Claude most days now, for work, for things like this and increasingly for (re)search. Like any tool it can be misused, but after a year of using it regularly, it's a bit like imagining life without a mobile phone or the internet. It can be done, but why would one limit oneself?
 
@@ -177,13 +177,13 @@ Over 17 days (hmm) I've had 28 "chats" in this project to completion, including 
 
 The final script (a result of many short test scripts) ended up at nearly a thousand lines of code! But it works. After a fashion.
 
-### Structure of the final python script
+## Structure of the final python script {#sec-final-script}
 
 For creating the Bluesky post text I use [groq](https://groq.com/) (not to be confused with Grok on Twitter/X) which you can set-up a free account for low use like I am here. Once you've got an API key you can access a range of LLMs. The script sends an image with a text prompt to the API that groq returns as text for the post. As I need a LLM that can generate text from images, I'm using `meta-llama/llama-4-scout-17b-16e-instruct` currently, but I may have to change this if it becomes deprecated.
 
 I of course asked Claude to write the following step-by-step description of what the script does:
 
-#### 1. Calculate When to Start
+### 1. Calculate When to Start {#sec-01}
 
 The script uses the `astral` Python library to calculate precise sunrise time for Southampton (50.9097°N, -1.4044°W). It handles both newer astral v2.x and older v1.x APIs, accounting for timezone conversion from UTC to Europe/London. The script then subtracts 45 minutes to determine the optimal capture start time.
 
@@ -194,7 +194,7 @@ The script uses the `astral` Python library to calculate precise sunrise time fo
 -   Calculates daily, so timing adjusts throughout the year
 -   Falls back to 7:00 AM if astronomical calculation fails
 
-#### 2. Wait Until It's Time
+### 2. Wait Until It's Time {#sec-02}
 
 The script runs a smart waiting loop that checks the current time against the calculated start time. It sleeps for 60-second intervals when there's more than a minute to wait, then switches to 5-second checks when close to start time.
 
@@ -205,7 +205,7 @@ The script runs a smart waiting loop that checks the current time against the ca
 -   Graceful handling if start time has already passed
 -   Memory usage monitoring with `free -m` command
 
-#### 3. Record a Long Video
+### 3. Record a Long Video {#sec-03}
 
 The script uses `libcamera-vid` to capture a continuous 75-minute H.264 video file. It runs as a subprocess with real-time monitoring and progress logging.
 
@@ -219,7 +219,7 @@ The script uses `libcamera-vid` to capture a continuous 75-minute H.264 video fi
 -   Subprocess monitoring with 30-second status checks
 -   Memory usage tracking before/after capture
 
-#### 4. Speed Up the Video
+### 4. Speed Up the Video {#sec-04}
 
 The script uses FFmpeg to convert the 75-minute raw video into a 30-second timelapse, applying a 150x speed increase using the `setpts` filter.
 
@@ -234,7 +234,7 @@ The script uses FFmpeg to convert the 75-minute raw video into a 30-second timel
 -   `+faststart`: Moves metadata to beginning for web streaming
 -   Includes duration verification using `ffprobe`
 
-#### 5. Take a Photo for Analysis
+### 5. Take a Photo for Analysis {#sec-05}
 
 After video processing, the script captures a fresh 800x800 JPEG photo using `libcamera-still` for weather analysis.
 
@@ -245,7 +245,7 @@ After video processing, the script captures a fresh 800x800 JPEG photo using `li
 -   Quality 90: High quality for accurate AI analysis
 -   File size validation (\>10KB) to ensure successful capture
 
-#### 6. Generate a Description
+### 6. Generate a Description {#sec-06}
 
 The script encodes the photo as base64 and sends it to Groq's vision API using the Meta-LLaMA 4 Scout 17B model for weather analysis.
 
@@ -260,7 +260,7 @@ The script encodes the photo as base64 and sends it to Groq's vision API using t
 -   Fallback: "Dawn in Southampton. Again." if API fails
 -   30-second timeout with error handling
 
-#### 7. Upload to Bluesky
+### 7. Upload to Bluesky {#sec-07}
 
 The script implements Bluesky's proper video upload API, which requires multiple authentication steps and job monitoring.
 
@@ -276,7 +276,7 @@ The script implements Bluesky's proper video upload API, which requires multiple
 -   **Post Creation**: POST to `/xrpc/com.atproto.repo.createRecord` with video embed structure
 -   **Blob Reference**: Uses processed video's blob reference in `app.bsky.embed.video` format
 
-#### 8. Clean Up
+### 8. Clean Up {#sec-08}
 
 The script implements automatic file management to prevent storage overflow on the Pi's SD card.
 
@@ -290,7 +290,7 @@ The script implements automatic file management to prevent storage overflow on t
 -   Logs each deletion for audit trail
 -   Configurable via `CONFIG['cleanup']['keep_days']` and `auto_cleanup` flag
 
-#### Technical Architecture
+### Technical Architecture {#sec-09}
 
 **Dependencies:**
 
