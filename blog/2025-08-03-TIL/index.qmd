@@ -14,11 +14,11 @@ draft: false
 
 ## Preamble - The Ship of Theseus {#sec-preamble}
 
-Previously I set-up a [pi-hole](https://pi-hole.net/) to get rid of adverts. It doesn't speed up my internet connection, but pages load about 10-20% as they aren't loading adverts. However, I used a [Raspberry Pi Zero](https://thepihut.com/products/raspberry-pi-zero-w) and it would crash regularly as it's not very powerful. So I recently replace it with Pi 4B and that's much better. But that left me with the Pi Zero W and I thought I should something with it.
+Previously I set-up a [pi-hole](https://pi-hole.net/) to get rid of adverts. It doesn't speed up my internet connection, but pages load about 10-20% faster as they aren't loading adverts. However, I used a [Raspberry Pi Zero](https://thepihut.com/products/raspberry-pi-zero-w) and it would crash regularly as it's not very powerful. So I recently replaced it with Pi 4B and that's much better. But that left me with the Pi Zero W and I thought I should something with it.
 
 Also previously, after Sandra at work had introduced me to [solarigraphy](https://en.wikipedia.org/wiki/Solarigraphy), I took a few solargraphs using beer cans. The one below in @fig-01 is a year long solargraph from my balcony from November 2021 to 2022.
 
-![Solargraph, Southampton November 2021 to November 2022](img/solargraph-southampton-november-2021-2022.jpg){#fig-01 fig-alt="Solargraph, Southampton November 2021 to November 2022. The sun traces lines across the sky in arcs that vary in height throughout the year." width="600"}
+![Solargraph, Southampton November 2021 to November 2022](img/solargraph-southampton-november-2021-2022.jpg){#fig-01 fig-alt="Solargraph, Southampton November 2021 to November 2022. The sun traces lines across the sky in arcs that vary in height throughout the year." width="800"}
 
 So I thought I'd do something similar, but this time using video and combining it with a bit of learning and a lot of vibe coding using [Claude](https://claude.ai) (my LLM of choice) to create a bot that posts the results to Bluesky each day here: [Bluesky Sunrise Bot](https://bsky.app/profile/southamptonsunrise.bsky.social). The Pi creates a 30 second timelapse of dawn each morning, sends a photo to [groq](https://groq.com/) which uses llama to create a text description from the image and then posts the timelapse video and text from the Pi to Bluesky. I'll probably run it from now (August 2025) until Christmas 2025 and then see whether I want to keep going or not.
 
