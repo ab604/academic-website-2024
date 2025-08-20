@@ -9,6 +9,7 @@ categories: [TIL]
 citation:
   url: https://ab604.uk/blog/2025-08-20-TIL/
 draft: false
+lightbox: true
 #bibliography: references.bib
 ---
 
@@ -16,7 +17,7 @@ draft: false
 
 The background to this largely chance. I have to use my annual leave up by the end of September. I've not had a holiday in years. My boss had booked his annual leave for two weeks in August and we're waiting for the devices we need for the next part of the project is being manufactured, meaning there wasn't much for me to do. And I have a bit of a disposable income now that I'm back in research four days a week, so a holiday is affordable.
 
-Likewise the theme of seven cathedrals in seven days arose by chance in July from the preface of [The Pillars of the Earth by Ken Follett](https://en.wikipedia.org/wiki/The_Pillars_of_the_Earth) in which he described developing a habit of visiting cities to see their cathedrals. I've never read a Ken Follett book before and can't even remember why or how I ended up with it. It's a historical novel about building a cathedral, whereas my usual tastes are sci-fi/fantasy/noir types of things. I am 82 pages into the 802 pages at the time of writing.
+Likewise the theme of seven cathedrals in seven days arose by chance in July from the preface of [The Pillars of the Earth by Ken Follett](https://en.wikipedia.org/wiki/The_Pillars_of_the_Earth) in which he described developing a habit of visiting cities to see their cathedrals. I've never read a Ken Follett book before and can't even remember why or how I ended up with it. It's a historical novel about building a cathedral, whereas my usual tastes are sci-fi/fantasy/noir types of things. I am 82 pages into the 802 pages at the time of writing (2025-08-20).
 
 As any holiday I take has a non-zero chance of cancellation due to my Dad's health, I didn't want to go anywhere that would make getting to Devon tricky at short notice. And I thought that cities are likely to (maybe not London) quieter and cheaper that the countryside or seaside in the summer. And as I'm going on my own and I'm sort of person that likes to be active, and have some structure this sort of fits the bill. I'm also someone who knows very little about the history of the country I live in, and these are all new places to me (or at least I don't remember visiting), so this is an opportunity to learn about things I wouldn't normally take much interest in. Although my Dad was a priest, and although I'm an atheist, there's a connection to my life and again the Church of England is not something I actually know a great deal about.
 
@@ -24,7 +25,7 @@ The choice of cities/cathedrals is not entirely random, but guided by places I'v
 
 @fig-route shows the planned route: Southampton ⟶ Gloucester ⟶ Worcester ⟶ Coventry ⟶ Leicester ⟶ Lincoln ⟶ Peterborough ⟶ Ely ⟶ Southampton.
 
-![A map of the route visiting seven cathedrals in seven days. Southampton ⟶ Gloucester ⟶ Worcester ⟶ Coventry ⟶ Leicester ⟶ Lincoln ⟶ Peterborough ⟶ Ely ⟶ Southampton](img/route.png){#fig-route fig-alt="A map of the route visiting seven cathedrals in seven days. Southampton ⟶ Gloucester ⟶ Worcester ⟶ Coventry ⟶ Leicester ⟶ Lincoln ⟶ Peterborough ⟶ Ely ⟶ Southampton" width="247"}
+![A map of the route visiting seven cathedrals in seven days. Southampton ⟶ Gloucester ⟶ Worcester ⟶ Coventry ⟶ Leicester ⟶ Lincoln ⟶ Peterborough ⟶ Ely ⟶ Southampton](img/route.png){#fig-route fig-alt="A map of the route visiting seven cathedrals in seven days. Southampton ⟶ Gloucester ⟶ Worcester ⟶ Coventry ⟶ Leicester ⟶ Lincoln ⟶ Peterborough ⟶ Ely ⟶ Southampton" width="412"}
 
 As Ely is close to Peterborough, for ease of getting home, I'm staying in Peterborough for two nights, everywhere else for just one night.
 
@@ -50,7 +51,7 @@ Although I'm staying in hotels I've planned it a bit like camping and taking stu
 
 @fig-luggage shows everything else other than my electronics. I'm only taking three days worth of clothes, so I'll need to do some washing and hang my clothes up hence the clothes pegs and paracord. I've got waterproofs and some warm layers if it gets chilly when I'm outdoors. I'll be wearing my waterproof trainers. All my clothes are in a waterproof 12 litre stuff sack. Like many people I've concluded it's best to pack things in waterproof bags inside my pack, rather than trying to cover the pack itself. I use a combination of zip-lock bags (which are also good for food prep on the go), bin liners and proper stuff sacks. I've got my foam sit-mat which is handy if wherever I want to sit is wet, dirty or cold. My washbag has all the usual stuff, plus any first aid type things and aforementioned earplugs. My chargers and my glasses.
 
-![Stuff I need for the week. Three days of clothes, plus waterproofs and warm layers inside a 12 litre waterproof stuff sack. Washbag with first aid kit and a watch. Chargers, washing line and clothes pegs in zip-lock bags. Foam sit-mat. Glasses. ](img/PXL_20250820_105729420.jpg){#fig-luggage fig-alt="Stuff I need for the week. Three days of clothes, plus waterproofs and warm layers inside a 12 litre waterproof stuff sack. Washbag with first aid kit and a watch. Chargers, washing line and clothes pegs in zip-lock bags. Foam sit-mat. Glasses. " width="292"}
+![Stuff I need for the week. Three days of clothes, plus waterproofs and warm layers inside a 12 litre waterproof stuff sack. Washbag with first aid kit and a watch. Chargers, washing line and clothes pegs in zip-lock bags. Foam sit-mat. Glasses. ](img/PXL_20250820_105729420.jpg){#fig-luggage fig-alt="Stuff I need for the week. Three days of clothes, plus waterproofs and warm layers inside a 12 litre waterproof stuff sack. Washbag with first aid kit and a watch. Chargers, washing line and clothes pegs in zip-lock bags. Foam sit-mat. Glasses. " width="408"}
 
 ## Day 1: Gloucester {#sec-gloucester}
 
