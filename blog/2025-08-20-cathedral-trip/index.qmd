@@ -1,0 +1,113 @@
+---
+title: "Seven Cathedrals in Seven Days"
+description: "A trip around England in August 2025"
+author:
+  - name: Alistair Bailey
+    url: https://ab604.uk
+date: 2025-08-20
+categories: [TIL]
+citation:
+  url: https://ab604.uk/blog/2025-08-20-TIL/
+draft: false
+#bibliography: references.bib
+---
+
+## Prologue {#sec-prologue}
+
+The background to this largely chance. I have to use my annual leave up by the end of September. I've not had a holiday in years. My boss had booked his annual leave for two weeks in August and we're waiting for the devices we need for the next part of the project is being manufactured, meaning there wasn't much for me to do. And I have a bit of a disposable income now that I'm back in research four days a week, so a holiday is affordable.
+
+Likewise the theme of seven cathedrals in seven days arose by chance in July from the preface of [The Pillars of the Earth by Ken Follett](https://en.wikipedia.org/wiki/The_Pillars_of_the_Earth) in which he described developing a habit of visiting cities to see their cathedrals. I've never read a Ken Follett book before and can't even remember why or how I ended up with it. It's a historical novel about building a cathedral, whereas my usual tastes are sci-fi/fantasy/noir types of things. I am 82 pages into the 802 pages at the time of writing.
+
+As any holiday I take has a non-zero chance of cancellation due to my Dad's health, I didn't want to go anywhere that would make getting to Devon tricky at short notice. And I thought that cities are likely to (maybe not London) quieter and cheaper that the countryside or seaside in the summer. And as I'm going on my own and I'm sort of person that likes to be active, and have some structure this sort of fits the bill. I'm also someone who knows very little about the history of the country I live in, and these are all new places to me (or at least I don't remember visiting), so this is an opportunity to learn about things I wouldn't normally take much interest in. Although my Dad was a priest, and although I'm an atheist, there's a connection to my life and again the Church of England is not something I actually know a great deal about.
+
+The choice of cities/cathedrals is not entirely random, but guided by places I've not been to, what's on there and forming a route that was logistically straight forwards for travelling by public transport from Southampton in an approximate loop heading west, then north, then east and south towards home.
+
+@fig-route shows the planned route: Southampton ⟶ Gloucester ⟶ Worcester ⟶ Coventry ⟶ Leicester ⟶ Lincoln ⟶ Peterborough ⟶ Ely ⟶ Southampton.
+
+![A map of the route visiting seven cathedrals in seven days. Southampton ⟶ Gloucester ⟶ Worcester ⟶ Coventry ⟶ Leicester ⟶ Lincoln ⟶ Peterborough ⟶ Ely ⟶ Southampton](img/route.png){#fig-route fig-alt="A map of the route visiting seven cathedrals in seven days. Southampton ⟶ Gloucester ⟶ Worcester ⟶ Coventry ⟶ Leicester ⟶ Lincoln ⟶ Peterborough ⟶ Ely ⟶ Southampton" width="247"}
+
+As Ely is close to Peterborough, for ease of getting home, I'm staying in Peterborough for two nights, everywhere else for just one night.
+
+Cost wise, I reckon this could have been done for half the approximately £1000 I'm spending, £705 of which is accommodation. My itinerary with costs is at the end (@sec-plan). Although money does matter, keeping the costs down wasn't the priority, and much of extra cost is because I booked accommodation at the last minute instead of months ahead, and I've chosen to stay in Premier Inns rather than cheaper places. I'm on my own so, the cost doesn't get split between two people. I chose to do this as I prioritised comfort, these rooms have fast internet and a fridge, and I know the soundproofing is generally good in Premier Inns, and I'm pretty noise sensitive (I am taking ear plugs just in case.)
+
+The plan is do a tour of the cathedral in each city, along with optional side missions and then to write up my thoughts, notes and any pictures I take here at the end of each day.
+
+### Load out {#sec-load-out}
+
+My plan is to travel light, so I've got one bag (@fig-talon) with my daypack inside (@fig-daypack). Not sure of the total weight, but I imagine it's 8 or 10 kg. If I have the opportunity I'll weigh it. I walk a fair amount, and this is a very comfortable bag so I know this is fine for several hours if I need to walk with it for an extended time, but my intention is to leave this at the hotel and just carry my daypack around.
+
+![My Osprey Talon 44 litre rucksack with everything I packed. Estimated 8-10 kg total weight which I can comfortably walk with for several hours.](img/PXL_20250820_104151851.jpg){#fig-talon fig-alt="My Osprey Talon 44 litre rucksack with everything I packed. Estimated 8-10 kg total weight which I can comfortably walk with for several hours." width="316"}
+
+![My daypack that I'll be carrying around once I've left my main bag at the hotel and fits inside my big pack.](img/PXL_20250820_105802948.jpg){#fig-daypack fig-alt="My daypack that I'll be carrying around once I've left my main bag at the hotel my big pack." width="383"}
+
+Although I'm staying in hotels I've planned it a bit like camping and taking stuff I can use in the hotel for meals if I don't want to eat out. My 750 mL steel cup with a lid is multi-functional and my 1L Nalgene water bottle nests inside it (@fig-cup). Although I'm not packing any food, it can be used to heat pouches of food food such rice or chilli . I can use it as a teapot for brewing tea in the morning, hence the tea strainer (I decided I'll get coffee out) or for eating out of if I need a bowl. I expect I'll have porridge for breakfast at least some of the time.
+
+![My 750 mL stainless steel cup with lid. I'm not planning to pack food as I can buy it, but this just shows how food pouches can be heated using the mug and boiling water from a kettle if necessary.](img/PXL_20250820_104903270.jpg){#fig-cup fig-alt="My 750 mL stainless steel cup with lid and rice and chilli food pouches. I'm not planning to pack food as I can buy it, but this just shows how food pouches can be heated using the mug and boiling water from a kettle if necessary." width="480"}
+
+@fig-kitchen shows all my food and drink stuff I might need. My steel lunchbox has some nice [Assam tea leaves](https://what-cha.com/products/india-assam-latumoni-special-handrolled-black-tea) on top. Along with a spoon and spork, my little red Victorianox knife is also versatile and great for chopping tomatoes or other salad type foods. I've got a bottle opener, tea strainer and my multi tool which has scissors. And some washing up liquid.
+
+![Food and drink stuff: My steel lunchbox, steel mug with nested water bottle. Long spoon, knife, spork, bottle opener, tea strainer, sponge, washing-up liquid, multi-tool and some Assam tea.](img/PXL_20250820_105302640.jpg){#fig-kitchen fig-alt="Food and drink stuff: My steel lunchbox, steel mug with nested water bottle. Long spoon, knife, spork, bottle opener, tea strainer, sponge, washing-up liquid, multi-tool and some Assam tea." width="460"}
+
+@fig-luggage shows everything else other than my electronics. I'm only taking three days worth of clothes, so I'll need to do some washing and hang my clothes up hence the clothes pegs and paracord. I've got waterproofs and some warm layers if it gets chilly when I'm outdoors. I'll be wearing my waterproof trainers. All my clothes are in a waterproof 12 litre stuff sack. Like many people I've concluded it's best to pack things in waterproof bags inside my pack, rather than trying to cover the pack itself. I use a combination of zip-lock bags (which are also good for food prep on the go), bin liners and proper stuff sacks. I've got my foam sit-mat which is handy if wherever I want to sit is wet, dirty or cold. My washbag has all the usual stuff, plus any first aid type things and aforementioned earplugs. My chargers and my glasses.
+
+![Stuff I need for the week. Three days of clothes, plus waterproofs and warm layers inside a 12 litre waterproof stuff sack. Washbag with first aid kit and a watch. Chargers, washing line and clothes pegs in zip-lock bags. Foam sit-mat. Glasses. ](img/PXL_20250820_105729420.jpg){#fig-luggage fig-alt="Stuff I need for the week. Three days of clothes, plus waterproofs and warm layers inside a 12 litre waterproof stuff sack. Washbag with first aid kit and a watch. Chargers, washing line and clothes pegs in zip-lock bags. Foam sit-mat. Glasses. " width="292"}
+
+## Day 1: Gloucester {#sec-gloucester}
+
+Train leaving Southampton at 0911, change at Bristol Temple Meads to arrive in Gloucester for lunch. I split my ticket, saving me £14.50.
+
+## Planned Itinerary {#sec-plan}
+
+Thu 2025-08-21 to Thu 2025-08-28
+
+### Days and train travel
+
+1.  Gloucester Thu 21 SOU 0911 -\> GCR 1156 (SOU \> BRI £25 \> £12.20 GCR £37.20)
+2.  Worcester Fri 22 GCR 0854 -\> WOF 0947
+3.  Coventry Sat 23 WOF 0924 -\> COV 1042
+4.  Leicester Sun 24 **Bus** Arriva X6 1015 1120 £3
+5.  Lincoln Mon 25 LEI 0950 -\> LCN 1131
+6.  Peterborough Tue 26 LCN 1036 -\> PBO 1149
+7.  Ely Wed 27 PBO 0843 -\> LTP 1003 10km walk from Littleport
+8.  Peterborough to Southampton: PBO 0950/1050 -\> SOU 1251/1349
+
+### Cathedral tour times and costs
+
+1.  Gloucester: 2pm and 3pm £8
+2.  Worcester: 11am or 2.30pm £8
+3.  Coventry: Self-guided
+4.  Leicester: Open 1200-1500 Sundays. No tours.
+5.  Lincoln: Floor tour all day incl, admission, Roof Tour 1pm £7.50
+6.  Peterborough: Tour 1430 £6.50, book in advance.
+7.  Ely: Octagon Tower 1515 £12, General Tour free incl. admission 1400.
+
+### Premier Inns
+
+Premier Plus rooms except Lincoln, which have fast WiFi and a fridge. Non-flex rates: non-refundable.
+
+1.  Gloucester £117
+2.  Worcester £136
+3.  Coventry £136 (£121 plus early check-in £15)
+4.  Leicester: £49
+5.  Lincoln : £57 Standard
+6.  Peterborough £210 for 2 nights
+7.  Peterborough
+
+Total: £705
+
+### Side missions
+
+-   Gloucester: National Waterways Museum.
+-   Worcester: Cricket 1100 - 1900: £10
+-   Coventry vs QPR on Saturday at 1500: £32
+-   Leicester: National Space Centre. Abbey Pumping Station.
+-   Lincoln: Castle
+-   Peterborough: Cinema? Museum
+
+### Food ideas
+
+-   Leicester : Udupi Shivalli, Kayal
+
+### Insurance
+
+Admiral for 10 days in the UK: £7.01. I bought for longer than I'm away in case I needed to cancel before I departed.
