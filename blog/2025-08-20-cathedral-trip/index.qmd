@@ -70,7 +70,7 @@ Thu 2025-08-21 to Thu 2025-08-28
 5.  Lincoln Mon 25 LEI 0950 -\> LCN 1131
 6.  Peterborough Tue 26 LCN 1036 -\> PBO 1149
 7.  Ely Wed 27 PBO 0843 -\> LTP 1003 10km walk from Littleport
-8.  Peterborough to Southampton: PBO 0950/1050 -\> SOU 1251/1349
+8.  Peterborough to Southampton Thu 28: PBO 0950/1050 -\> SOU 1251/1349
 
 ### Cathedral tour times and costs {#sec-tours}
 
@@ -105,10 +105,12 @@ Total: £705
 -   Lincoln: Castle
 -   Peterborough: Cinema? Museum
 
-### Food ideas
+### Food & drink ideas {#sec-food}
 
--   Leicester : Udupi Shivalli, Kayal
+-   Gloucester: Soul n' Seoul (food), Gloucester Brewery \@ Warehouse4 (pub)
+-   Worcester : Wayland's Yard, Francini Cafe (coffee), The Dragon Inn (pub), Maneki Ramen (food)
+-   Leicester : Udupi Shivalli, Kayal (food)
 
-### Insurance
+### Insurance {#sec-insurance}
 
 Admiral for 10 days in the UK: £7.01. I bought for longer than I'm away in case I needed to cancel before I departed.
