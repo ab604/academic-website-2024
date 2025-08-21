@@ -57,23 +57,23 @@ Although I'm staying in hotels I've planned it a bit like camping and taking stu
 
 Train leaving Southampton at 0911, change at Bristol Temple Meads to arrive in Gloucester for lunch. I split my ticket, saving me £14.50.
 
-![Gloucester Cathedral in the sunshine](img/PXL_20250821_150651736.jpg){#fig-glou-cath fig-alt="Gloucester Cathedral in the sunshine" width="50%"}
+![Gloucester Cathedral in the sunshine](img/PXL_20250821_150651736.jpg){#fig-glou-cath fig-alt="Gloucester Cathedral in the sunshine" width="100%"}
 
 Having walked half a hour to the hotel and dropped off my bag, I ate my lunch outside the 1300 year old Gloucester Cathedral (@fig-glou-cath) and heard the [Thursday 1pm Bells](https://gloucestercathedral.org.uk/cathedral/heritage/clocks-bells-and-chimes). After lunch I explored the cathedral for and hour before taking the final tour of the day at 3pm.
 
-Fair play to Rod the retired GP and now enthusiastic volunteer guide at [Gloucester Cathedral](https://en.wikipedia.org/wiki/Gloucester_Cathedral) for the [Highlights Tour](https://gloucestercathedral.org.uk/visit/things-to-see-and-do/guided-tours), he did an excellent job. I highly recommend it. In a packed hour, as well as telling me and a couple from Cheshire all about the history of the cathedral, he told us about Gloucester from it's origins as a Roman settlement and connected everything to the history of England. As a history know-nothing it dropped the penny on a few things local to me Southampton, such as why Netley Abbey is ruin (the Reformation), and the Rufus stone in the new forest (king got shot). And he also told us lots of excellent trivia, such as about the stained glass windows: some the ones in the Lady Chapel were by the same designer of Tiffany Lamps, and the main window was once the biggest in the world. Or the masons marks on the blocks were how they got paid and we can only see them because of the Reformation. There was even a gay love story.
+Fair play to Rod the retired GP and now enthusiastic volunteer guide at [Gloucester Cathedral](https://en.wikipedia.org/wiki/Gloucester_Cathedral) for the [Highlights Tour](https://gloucestercathedral.org.uk/visit/things-to-see-and-do/guided-tours), he did an excellent job. I highly recommend it. In a packed hour, as well as telling me and a couple from Cheshire all about the history of the cathedral, he told us about Gloucester from it's origins as a Roman settlement and connected everything to the history of England. As a history know-nothing it dropped the penny on a few things local to me Southampton, such as why Netley Abbey is ruin (the Reformation), and the Rufus stone in the new forest (king got shot). And he also told us lots of excellent trivia, such as about the stained glass windows: some the ones in the Lady Chapel were by [Christopher Whall](https://en.wikipedia.org/wiki/Christopher_Whall), and the main window was once the biggest in the world. Or the masons marks on the blocks were how they got paid and we can only see them because of the Reformation. There was even a gay love story.
 
-![Stained glass windows at Gloucester Cathedral](img/PXL_20250821_131856738.jpg){#fig-glo-windows fig-alt="Stained glass windows at Gloucester Cathedral" width="50%"}
+![Stained glass windows at Gloucester Cathedral](img/PXL_20250821_131856738.jpg){#fig-glo-windows fig-alt="Stained glass windows at Gloucester Cathedral" width="100%"}
 
 The cathedral was originally an Abbey and has amazing cloisters (@fig-glo-clo ). I've never watched Harry Potter (or read the books) but apparently they did a lot of filming there.
 
-![Cloisters at Gloucester Cathedral](img/PXL_20250821_130548987.jpg){#fig-glo-clo fig-alt="Cloisters at Gloucester Cathedral" width="50%"}
+![Cloisters at Gloucester Cathedral](img/PXL_20250821_130548987.jpg){#fig-glo-clo fig-alt="Cloisters at Gloucester Cathedral" width="100%"}
 
 They have an active stone masons workshop and lots of restoration is going on all the time, but they also add new additions too, such as this [Forest of Dean Miner gargoyle](https://www.bbc.co.uk/news/uk-england-gloucestershire-50781516) in 2019. They have lots of cool gargoyles.
 
 ![Miner Gargoyle](img/PXL_20250821_115440629.jpg){#fig-glo-miner fig-alt="Miner Gargoyle with a helmet and pick axe who looks like he is shouting down from the cathedral. Water comes out of his mouth." width="50%"}
 
-## Day 2 : Worcester
+## Day 2 : Worcester 
 
 Train Fri 22 Gloucester (GCR) 0854 -\> Worcester Foregate Street (WOF) 0947
 
