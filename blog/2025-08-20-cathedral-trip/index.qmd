@@ -75,17 +75,17 @@ They have an active stone masons workshop and lots of restoration is going on al
 
 Finished my day with a pint of New England IPA at [Warehouse 4](https://www.gloucesterbrewery.co.uk/) whilst watching the House Martins fly around over the Quayside and then got some pizza to serve as both dinner and lunch tomorrow. Gloucester itself seems quite a place of contrasts. Here on the quayside I watched a running club meeting and earlier it was courting teenagers hanging out and it's shiny. In the centre and by the cathedral it was a lot of community protection officers and people who's lives appeared dominated by drugs and alcohol. Signs of a fair amount of homelessness. Everyone has been friendly though.
 
-## Day 2 : Worcester
+## Day 2: Worcester
 
 Train Fri 22 Gloucester (GCR) 0854 -\> Worcester Foregate Street (WOF) 0947.
 
 Not sure if this will become a theme about the state of English cities, but in both Gloucester and Worcester I've got off the train and almost immediately encountered a large number of mostly men who appear to have drug or alcohol issues. And many of the people in the shopping streets I walked through looked to be having hard lives.
 
-In contrast, in both cities there is lots of beauty and wealth, such as [Worcester Cathedral](https://www.worcestercathedral.org.uk/) (@fig-wor-cath).
+In contrast, in both cities there is lots of beauty and wealth, such as [Worcester Cathedral](https://www.worcestercathedral.org.uk/) on the River Severn with its swans and canal boats (@fig-wor-cath).
 
 ![Worcester Cathedral on the River Severn](img/PXL_20250822_084725321.jpg){#fig-wor-cath fig-alt="Worcester Cathedral on the River Severn with a canal boat and swans in the river."}
 
-I dropped off my bag and headed back across the river to the cathedral side for coffee. Reddit can be hit and miss, but again it came up trumps with the recommendation of Colombian Cafe [Francini's](https://francinicafe.com/) in which I had a lovely smooth mellow cup of filter coffee with their version of an almond croissant, which was more like a warm gooey frangipane (@fig-fran). I didn't sleep well, so this was just the ticket.
+I dropped off my bag and headed back across the river to the cathedral side for coffee. Reddit can be hit and miss, but again it came up trumps with the recommendation of Colombian Cafe [Francini](https://francinicafe.com/) in which I had a lovely smooth mellow cup of filter coffee with their version of an almond croissant, which was more like a warm gooey frangipane (@fig-francini). I didn't sleep well, so this was just the ticket.
 
 ::: {#fig-francini layout-ncol="2"}
 ![Francini's](img/original_aaf13525-e84d-4b07-950a-ba061cb8a9c2_PXL_20250822_093005209.jpg){#fig-fran}
@@ -93,7 +93,7 @@ I dropped off my bag and headed back across the river to the cathedral side for 
 ![Coffee and Almond croissant](img/original_589619c0-0aed-4d5c-8cff-981399f0c58b_PXL_20250822_091304108.jpg){#fig-fran-coffee}
 :::
 
-I was originally thinking that I'd go watch a one-day cricket match that was on as I've never been to a cricket match, but I'm not very good at sitting still for any length of time (another reason I don't like flying) and as the weather was not too hot, but dry I elected to walk along the Severn before the cathedral tour at 1430. I remembered this was the start of the [Monarch's Way](https://en.wikipedia.org/wiki/Monarch%27s_Way), which is such a looping footpath, I feel like it's one of the paths I've walked on most.
+I was originally thinking that I'd go watch a one-day cricket match that was on as I've never been to a cricket match, but I'm not very good at sitting still for any length of time (another reason I don't like flying) and as the weather was not too hot, but dry I elected to walk along the Severn before the cathedral tour at 1430. I remembered this was the start of the [Monarch's Way](https://en.wikipedia.org/wiki/Monarch%27s_Way), which is such a long looping footpath, I feel like it's one of the paths I've crossed or walked on most.
 
 ![Monarch's Way Sign](img/PXL_20250822_101549335.jpg){#fig-mon-way fig-alt="Image of the yellow arrow sign for the Monarch's Way on a gatepost" width="25%"}
 
@@ -113,7 +113,7 @@ After the tour, I headed to the hotel to check-in and discovered my room had a v
 
 Having be outside so much today, and after yesterday's 10 miles of walking I'd clocked up another 12, I decided to get takeaway and beer and eat in my room. I had Tofu Yaki Soba from [Maneki Ramen](https://maneki-ramen-worcester.square.site/) and it was delicious. Another Reddit recommendation.
 
-## Day 3 : Coventry
+## Day 3: Coventry
 
 Train from Worcester Forgate Street (WOF) 0924 -\> 1009 Birmingham New St (BNS) 1021 -\> Coventry (COV) 1042
 
