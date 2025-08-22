@@ -77,7 +77,43 @@ Finished my day with a pint of New England IPA at [Warehouse 4](https://www.glou
 
 ## Day 2 : Worcester
 
-Train Fri 22 Gloucester (GCR) 0854 -\> Worcester Foregate Street (WOF) 0947
+Train Fri 22 Gloucester (GCR) 0854 -\> Worcester Foregate Street (WOF) 0947.
+
+Not sure if this will become a theme about the state of English cities, but in both Gloucester and Worcester I've got off the train and almost immediately encountered a large number of mostly men who appear to have drug or alcohol issues. And many of the people in the shopping streets I walked through looked to be having hard lives.
+
+In contrast, in both cities there is lots of beauty and wealth, such as [Worcester Cathedral](https://www.worcestercathedral.org.uk/) (@fig-wor-cath).
+
+![Worcester Cathedral on the River Severn](img/PXL_20250822_084725321.jpg){#fig-wor-cath fig-alt="Worcester Cathedral on the River Severn with a canal boat and swans in the river."}
+
+I dropped off my bag and headed back across the river to the cathedral side for coffee. Reddit can be hit and miss, but again it came up trumps with the recommendation of Colombian Cafe [Francini's](https://francinicafe.com/) in which I had a lovely smooth mellow cup of filter coffee with their version of an almond croissant, which was more like a warm gooey frangipane (@fig-fran). I didn't sleep well, so this was just the ticket.
+
+::: {#fig-francini layout-ncol="2"}
+![Francini's](img/original_aaf13525-e84d-4b07-950a-ba061cb8a9c2_PXL_20250822_093005209.jpg){#fig-fran}
+
+![Coffee and Almond croissant](img/original_589619c0-0aed-4d5c-8cff-981399f0c58b_PXL_20250822_091304108.jpg){#fig-fran-coffee}
+:::
+
+I was originally thinking that I'd go watch a one-day cricket match that was on as I've never been to a cricket match, but I'm not very good at sitting still for any length of time (another reason I don't like flying) and as the weather was not too hot, but dry I elected to walk along the Severn before the cathedral tour at 1430. I remembered this was the start of the [Monarch's Way](https://en.wikipedia.org/wiki/Monarch%27s_Way), which is such a looping footpath, I feel like it's one of the paths I've walked on most.
+
+![Monarch's Way Sign](img/PXL_20250822_101549335.jpg){#fig-mon-way fig-alt="Image of the yellow arrow sign for the Monarch's Way on a gatepost" width="25%"}
+
+I walked downstream for about and hour, past the swan sanctury and heard and saw lots of other birds including raptors, goldcrests, chiffchaffs and saw dragonflies, and with the Malvern Hills on the horizon it felt more like being Southern France than in England. I ate my leftover pizza for lunch in the shade near Diglis Lock.
+
+![View of the Malvern Hills from the Monarch's Way on the River Severn](img/PXL_20250822_102227082.jpg){fig-alt="View of the Malvern Hills from the Monarch's Way on the River Severn"}
+
+Then I headed up to Worcester Cathedral for the Highlights Tour. The guide David was much lower energy than Rod at Gloucester, but he made up for it by giving the four of us on the tour well over an hour and an abundance of history. One of the things I'm picking up is how these are living buildings which capture the history of the people who've lived in these places for all this time, as well as the story of the country as a whole. For example, in Worcester one set of columns was finished before the Black Death and the other afterwards, and the difference once you notice it is striking. The pre-plague ones are more highly decorated as there was more money and masons. Likewise the cathedrals absorbed all sorts of beliefs, in Gloucester a previously Pagon Saxon Chief is entombed by the High Altar and in Worcester they have stone carvings with all sorts of imagery that's not from the bible such as @fig-wor-spangle .
+
+![The nave and stained glass window at the western entrance of Worcester Cathedral](img/PXL_20250822_130825505.jpg){#fig-wor-nave fig-alt="The nave and stained glass window at the western entrance of Worcester Cathedral "}
+
+![Stone carving someone being roasted on a spit](img/PXL_20250822_144602745.jpg){#fig-wor-spangle fig-alt="Stone carving of someone being roasted on a spit"}
+
+After the tour, I headed to the hotel to check-in and discovered my room had a view of the cricket match (@fig-wor-crick) and there was still about 2 hours left to play, so I popped to the supermarket for food for breakfast and lunch, and then watched Worcester beat Glamorgan with just a few balls to spare.
+
+![View from my hotel room of Worcester batting against Glamorgan in a one day cricket match. Worcester won!](img/original_d93088ce-9a3d-41a7-ad53-6f10e795b6be_PXL_20250822_150937173.jpg){#fig-wor-crick fig-alt="View from my hotel room of Worcester batting against Glamorgan in a one day cricket match. Worcester won!"}
+
+Having be outside so much today, and after yesterday's 10 miles of walking I'd clocked up another 12, I decided to get takeaway and eat in my room. I had Tofu Yaki Soba from [Maneki Ramen](https://maneki-ramen-worcester.square.site/) and it was delicious. Another Reddit recommendation.
+
+## Day 3 : Coventry
 
 ## Planned Itinerary {#sec-plan}
 
