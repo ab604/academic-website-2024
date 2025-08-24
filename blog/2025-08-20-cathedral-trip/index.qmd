@@ -135,7 +135,7 @@ Personally I think the new one is a vast improvement on the one that got destroy
 
 I grabbed a sandwich from Sainsbury's and then caught a bus up to the football stadium. I didn't have many expectations, although I knew Coventry were playing well and QPR had not been doing well. I did not expect eight goals! QPR were rubbish and Coventry played well, so it meant I was surrounded by thousands of happy people including the old geezer giving a running commentary behind me about everything going on. He had a lot of opinions. I forget how different live sport is to TV, they do show replays on the big screen, but you can easily miss things and also see lots of things the camera doesn't catch.
 
-![View from my seat at Coventry FC vs QPR. ](img/PXL_20250823_152550607.jpg){#fig-cov-fc fig-alt="View from my seat at Coventry FC vs QPR. A 29,000 seat stadium."}
+![View from my seat at Coventry FC vs QPR.](img/PXL_20250823_152550607.jpg){#fig-cov-fc fig-alt="View from my seat at Coventry FC vs QPR. A 29,000 seat stadium."}
 
 ![The final score. Coventry let in a soft goal right at the end. Concentrate lads!](img/PXL_20250823_155238188.jpg){fig-alt="An image of the final scoreboard. Coventry 7, QPR 1"}
 
@@ -146,6 +146,20 @@ Oh, and when I got back to the hotel I found a police officer posted outside the
 ## Day 4: Leicester
 
 Arriva X6 Bus from Pool Meadow Bus station Coventry 1015 -\> Leicester 1120.
+
+Starting with the bad to get it out the way and write about more positive things. Arriving mid-morning on a Sunday in the centre of Leicester I encountered the largest number of people who's lives are not going well so far. Lots of people begging quite aggressively or passed out in doorways, and when I went for a walk along a river and canal route that I'd downloaded, after I'd visited the cathedral, I got quite a few predatory looks from those on the towpath and a close encounter with two lads in balaclavas on an e-bike. Nothing bad actually happened, but it's the first time I've felt unsafe and wouldn't recommend that walk alone. Likewise someone had been around putting up England flags on lampposts and fences using cable ties, and I wondered if that was related to far right attempts to appropriate the flag for racism, after years of the rest of us reclaiming it from them. Having had a run-in with some up-to-no-good teenage boys in my own neighbourhood last week, and had to remove a Reform sticker put up by our cleaners on our front door (!) I know these issues are everywhere. And as I've said many times, I reckon much of the anti-social behaviour is linked to the weather and all the fair weather fascists and naughty boys go home as soon as it gets wet or cold. And despite the hysteria of people who are radicalising themselves on-line, as I'd expect pretty much everyone I've encountered seems to be just trying to live their lives and make the best of things, despite the 17 years of year-on-year decline since 2008.
+
+Ok, having got that out of the way and navigated to the hotel to drop my bag, I then went to find the cathedral. It's by far the least grand cathedral so far on this trip. I reckon you could fit at least two Leicester cathedrals inside Worcester and Gloucester.
+
+![Leicester cathedral in the sunshine](img/PXL_20250824_105244846.jpg){#fig-lei-cath fig-alt="Leicester cathedral in the sunshine"}
+
+It was pretty peaceful outside when I arrived, so I sat in the shade and ate my lunch before heading inside.
+
+Leicester itself is the definition of faded glory, all the signs of a once wealthy and powerful city gone to seed, but with some signs of regeneration too.
+
+## Day 5: Lincoln
+
+Train
 
 ## Planned Itinerary {#sec-plan}
 
