@@ -145,21 +145,67 @@ Oh, and when I got back to the hotel I found a police officer posted outside the
 
 ## Day 4: Leicester
 
-Arriva X6 Bus from Pool Meadow Bus station Coventry 1015 -\> Leicester 1120.
+Arriva X6 Bus from Pool Meadow Bus station Coventry 1015 -\> Leicester 1120 £3
+
+No sign of the police when I left this morning.
 
 Starting with the bad to get it out the way and write about more positive things. Arriving mid-morning on a Sunday in the centre of Leicester I encountered the largest number of people who's lives are not going well so far. Lots of people begging quite aggressively or passed out in doorways, and when I went for a walk along a river and canal route that I'd downloaded, after I'd visited the cathedral, I got quite a few predatory looks from those on the towpath and a close encounter with two lads in balaclavas on an e-bike. Nothing bad actually happened, but it's the first time I've felt unsafe and wouldn't recommend that walk alone. Likewise someone had been around putting up England flags on lampposts and fences using cable ties, and I wondered if that was related to far right attempts to appropriate the flag for racism, after years of the rest of us reclaiming it from them. Having had a run-in with some up-to-no-good teenage boys in my own neighbourhood last week, and had to remove a Reform sticker put up by our cleaners on our front door (!) I know these issues are everywhere. And as I've said many times, I reckon much of the anti-social behaviour is linked to the weather and all the fair weather fascists and naughty boys go home as soon as it gets wet or cold. And despite the hysteria of people who are radicalising themselves on-line, as I'd expect pretty much everyone I've encountered seems to be just trying to live their lives and make the best of things, despite the 17 years of year-on-year decline since 2008.
 
-Ok, having got that out of the way and navigated to the hotel to drop my bag, I then went to find the cathedral. It's by far the least grand cathedral so far on this trip. I reckon you could fit at least two Leicester cathedrals inside Worcester and Gloucester.
+![One of several England flags I saw cable tied to lampposts and fences whilst walking.](img/PXL_20250824_140232833.jpg){#fig-flag fig-alt="A red and white England flag cable tied to a lamppost in Leicester " width="50%"}
+
+Ok, having got that out of the way and navigated to the hotel to drop my bag, I then went to find [Leicester cathedral](https://leicestercathedral.org/). It's by far the least grand cathedral so far on this trip, but turned out to be a bit of a gem. I reckon you could fit at least two Leicester cathedrals inside Worcester and Gloucester.
 
 ![Leicester cathedral in the sunshine](img/PXL_20250824_105244846.jpg){#fig-lei-cath fig-alt="Leicester cathedral in the sunshine"}
 
-It was pretty peaceful outside when I arrived, so I sat in the shade and ate my lunch before heading inside.
+It was pretty peaceful outside when I arrived, so I sat in the shade and ate my lunch before heading inside where I was pleasantly surprised. It's got a bit of an [history](https://en.wikipedia.org/wiki/Leicester_Cathedral) as a cathedral, the current building is Victorian and the diocese re-created in 1927, but the site sits on top of a Roman Villa of which they have a stone in the new extension and there was a previous diocese from 680 to 870. It's famous now following the reburial of Richard III in the cathedral in 2015, after which they did a lot of renovations in 2022. You can see the new and cleaned limestone in @fig-lei-cath, as well as the new grotesques they put in to replace the eroded gargoyles (@fig-lei-gro). I particularly liked the sheep, and of course for Leicester, a fox with a chicken.
 
-Leicester itself is the definition of faded glory, all the signs of a once wealthy and powerful city gone to seed, but with some signs of regeneration too.
+::: {#fig-lei-gro layout-ncol="2"}
+![Sheep grotesque](img/PXL_20250824_121717226.jpg){#fig-sheep fig-alt="Sheep grotesque" width="100%"}
+
+![Fox grotesque](img/PXL_20250824_121901014.jpg){#fig-fran-fox fig-alt="Fox grotesque"}
+
+Leicester cathedral grotesques
+:::
+
+Inside they'd replaced the floor and lots of the stonework too @fig-lei-nave , as well as painting the ceiling with stars in parts and cleaning everything (@fig-lei-ceiling) .
+
+::: {#fig-lei-inside layout-ncol="2"}
+![Facing east down the nave, screen where Richard III is buried and the high altar beyond](img/PXL_20250824_112502175.jpg){#fig-lei-nave fig-alt="Facing east down the nave, screen where Richard III is buried and the high altar beyond" width="100%"}
+
+![Renovated wooden ceiling with stars](img/PXL_20250824_114620609.jpg){#fig-lei-ceiling fig-alt="Renovated wooden ceiling painted blue with gold stars"}
+
+Inside Leicester cathedral
+:::
+
+There was a small exhibition of patchwork quilt art that I enjoyed too. I particularly liked the one called Hope.
+
+::: {#fig-lei-quilt layout-ncol="2"}
+![Quilt Art Exhibition](img/PXL_20250824_112644349.jpg){#fig-lei-quilts fig-alt="A collection of mulitcolored geometric quilt art inisde the cathedral" width="100%"}
+
+![Hope](img/PXL_20250824_112739818.jpg){#fig-lei-hope fig-alt="Multicoloured quilt art called Hope"}
+
+Quilt artwork in Leicester cathedral
+:::
+
+Leicester itself is the definition of faded glory, all the signs of a once wealthy and powerful city gone to seed, but with some signs of regeneration too. It's on the River Soar and Grand Union canal and I realised in Worcester, I really prefer walking to anything else. As I use the OS maps app, I download the route in @fig-lei-walk-route as it had a good review, looked the right length etc. As I wrote above it was somewhat marred by some not so friendly looking people, but the route was lovely (excepting all the rubbish and signs of drug use) and there were also lots of families and couples out too, including two middle-aged women discussing toxic masculinity. I saw lots of birds and fish and the light was very nice too (@fig-lei-canal).
+
+![10km walk route along the River Soar and Grand Union Canal](img/leicester-walk.png){#fig-lei-walk-route fig-alt="Map of 10km walk route along the River Soar and Grand Union Canal" width="50%"}
+
+::: {#figl-lei-walk layout-ncol="2"}
+![Reflection under the bridge](img/PXL_20250824_123047002.jpg){#fig-lei-reflect fig-alt="Light reflecting from the water on the underside of bridge." width="100%"}
+
+![View along the canal](img/PXL_20250824_132903054.jpg){#fig-lei-canal fig-alt="A view along a canal through a bridge with a narrowboat." width="100%"}
+
+Along the Grand Union Canal in Leicester
+:::
+
+I walked back via the campus of De Montfort University which was pretty impressive and the [Queen's Building](https://www.dmu.ac.uk/about-dmu/news/2023/march/the-queens-building-at-30-a-look-back-at-its-storied-history-and-exploration-of-the-futuristic-building-design..aspx) was a particularly interesting bit of architecture. And New Walk was an impressive avenue too. Despite my bad first impressions, I feel like there's a lot to discover and enjoy here.
+
+On my way out to pick up my enormous curry: a masala dosa from another excellent Reddit recommendation [Kayal](https://kayalrestaurant.com/), there was a lady in traditional dress trying to take photos of herself in the hallway. I ended up taking about 10 pictures and a video for her socials before her daughter and son-in-law arrived. Apparently it was the last of 6 days of wedding celebrations. That and the curry being delicious meant the day has ended on a nice note.
 
 ## Day 5: Lincoln
 
-Train
+Train from Leicester (LEI) 0944 -\> Lincoln (LCN) 1131 £16.30
 
 ## Planned Itinerary {#sec-plan}
 
@@ -171,8 +217,8 @@ Thu 2025-08-21 to Thu 2025-08-28
 2.  Worcester Fri 22 GCR 0854 -\> WOF 0947
 3.  Coventry Sat 23 WOF 0924 -\> COV 1042
 4.  Leicester Sun 24 **Bus** Arriva X6 1015 1120 £3
-5.  Lincoln Mon 25 LEI 0950 -\> LCN 1131
-6.  Peterborough Tue 26 LCN 1036 -\> PBO 1149
+5.  Lincoln Mon 25 LEI 0944 -\> LCN 1131 £16.30
+6.  Peterborough Tue 26 LCN 1002 -\> PBO 1127 £16.60
 7.  Ely Wed 27 PBO 0843 -\> LTP 1003 10km walk from Littleport
 8.  Peterborough to Southampton Thu 28: PBO 0950/1050 -\> SOU 1251/1349
 
