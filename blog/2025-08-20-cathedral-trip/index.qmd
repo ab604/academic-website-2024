@@ -207,15 +207,23 @@ On my way out to pick up my enormous curry, a masala dosa from another excellent
 
 Train from Leicester (LEI) 0944 -\> Lincoln (LCN) 1131 £16.30
 
-The trip from Leicester to Lincoln by train is a nice one. Just under two hours via Loughborough and Nottingham through the countryside. Being public transport though it is the proverbial herpes on the Pope's ring - a mixed blessing - sharing a carriage with teenage boys and a bickering husband and wife. Though this may be also a reflection that I'm flagging a bit and my tolerance is lower than usual.
+The trip from Leicester to Lincoln by train is a nice one. Just under two hours via Loughborough and Nottingham through the countryside. The countryside is very brown everywhere and the rivers very low, so I hope we get prolonged gentle rain soon. Being public transport though it is the proverbial herpes on the Pope's ring - a mixed blessing - sharing a carriage with teenage boys and a bickering husband and wife. Though this may be also a reflection that I'm flagging a bit and my tolerance is lower than usual.
 
 [Lincoln](https://en.wikipedia.org/wiki/Lincoln,_England) meaning "colonial pool" of the same origin as Dublin is "blackpool", the colonial bit referring to the Roman colony, is the poshest and most touristy place I've visited so far. The cathedral appears on the hilltop as the train approaches the city like a building doing a power stance. Unlike Leicester, there's nothing shy or retiring about [Lincoln cathedral](https://lincolncathedral.com/). It's huge and flash and Gothic with a capital G.
+
+::: {#figl-lin-cath layout-ncol="2"}
+![Lincoln cathedral atop Steep Hill](img/PXL_20250825_162252516.jpg){#fig-lin-cath-hill fig-alt="Lincoln cathderal atop Steep Hill." width="100%"}
+
+![The western entrance to Lincoln cathedral](img/PXL_20250825_134231530.jpg){#fig-lin-cath-west fig-alt="The limestone western entrance of Lincoln cathedral." width="100%"}
+
+Lincoln cathedral as seen from the River Witham atop Steep Hill and then close-up of the western entrance
+:::
 
 Being Bank Holiday Monday it was heaving with people. I dropped my bag and then went to M&S and bought some lunch, and slowly made my way up Steep Hill and was going to get a coffee at the cat cafe, but it was shut. No cats for me.
 
 ![Coffee Cats. Shut on Bank Holiday Monday.](img/PXL_20250825_111623533.jpg){#fig-lin-coffee fig-alt="A closed Coffee Cats coffee shop"}
 
-So I went up and sat in the shade behind the museum and ate my lunch before heading into the cathedral. There were lots of people wandering around in outfits that looked a bit steampunk and it turns out that Lincoln hosts a [huge steampunk festival](https://www.bbc.co.uk/news/articles/cpwyedldy7lo) over the Bank Holiday weekend. Being 27 degrees, everyone looked a bit hot.
+So I went up and sat in the shade behind the museum and ate my lunch before heading into the cathedral. There were lots of people wandering around in outfits that looked a bit steampunk and it turns out that Lincoln hosts a [huge steampunk festival](https://www.bbc.co.uk/news/articles/cpwyedldy7lo) over the Bank Holiday weekend. Being 27 degrees, everyone looked a bit hot. You might be able to spot some in @fig-lin-cath-west .
 
 Anyway, I went into the cathedral intending to do the guided tour, but there were about 20 other people and the lady had quite a weak voice, so I decided just to self-guide myself. And actually, it's so big I still ended up spending two hours looking around before heading to the hotel to check-in and get out of the heat for a few hours.
 
@@ -247,9 +255,19 @@ The Sodomy panel from the Romanesque Frieze. A 12th century carved frieze which 
 
 ![Medeval stained glass windows depicting farming through the seasons from sowing to harvesting.](img/PXL_20250825_133523746.jpg){#fig-lin-glass fig-alt="Medeval stained glass windows depicting farming through the seasons from sowing to harvesting."}
 
-As it was so hot, I came back to the hotel as soon as check-in opened at 1500 for a couple of hours to get out of the sun before having an early evening river walk along the Steeples and Spires Trail on the River Witham.
+As it was so hot, I came back to the hotel as soon as check-in opened at 1500 for a couple of hours to get out of the sun and have a nice cup of tea, before having an early evening river walk along the Steeples and Spires Trail on the River Witham for a couple of hours. It was still hot, but not unbearably so, and I walked out to the balancing ponds and ate my leftover poppadoms (still crunchy) and lime and mango chutney whilst sitting on the dike watching the many swallows feed.
+
+![90 minute walk along the River Witham in Lincoln](img/lincoln-walk.png){#fig-lin-walk fig-alt="Map of a 90 minute walk along the River Witham in Lincoln"}
+
+![View from the dike on the River Witham with Lincoln Cathedral on the horizon. Lots of swallows were feeding.](img/PXL_20250825_164635910.jpg){#fig-lin-dike fig-alt="View from the dike on the River Witham with Lincoln Cathedral on the horizon. Lots of swallows were feeding."}
+
+![View along the River Witham in the centre of Lincoln.](img/PXL_20250825_174022185.jpg){#fig-lin-river-centre fig-alt="View along the River Witham in the centre of Lincoln."}
+
+I walked back into town and down to the marina and got some food from Wagamama for dinner.
 
 ## Day 6: Peterborough
+
+Train Lincoln (LCN) 1002 -\> Peterborough (PBO) 1127 £16.60
 
 ## Planned Itinerary {#sec-plan}
 
