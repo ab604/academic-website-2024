@@ -191,7 +191,7 @@ Leicester itself is the definition of faded glory, all the signs of a once wealt
 
 ![10km walk route along the River Soar and Grand Union Canal](img/leicester-walk.png){#fig-lei-walk-route fig-alt="Map of 10km walk route along the River Soar and Grand Union Canal" width="50%"}
 
-::: {#figl-lei-walk layout-ncol="2"}
+::: {#fig-lei-walk layout-ncol="2"}
 ![Reflection under the bridge](img/PXL_20250824_123047002.jpg){#fig-lei-reflect fig-alt="Light reflecting from the water on the underside of bridge." width="100%"}
 
 ![View along the canal](img/PXL_20250824_132903054.jpg){#fig-lei-canal fig-alt="A view along a canal through a bridge with a narrowboat."}
@@ -211,12 +211,12 @@ The trip from Leicester to Lincoln by train is a nice one. Just under two hours 
 
 [Lincoln](https://en.wikipedia.org/wiki/Lincoln,_England) meaning "colonial pool" of the same origin as Dublin is "blackpool", the colonial bit referring to the Roman colony, is the poshest and most touristy place I've visited so far. The cathedral appears on the hilltop as the train approaches the city like a building doing a power stance. Unlike Leicester, there's nothing shy or retiring about [Lincoln cathedral](https://lincolncathedral.com/). It's huge and flash and Gothic with a capital G.
 
-::: {#figl-lin-cath layout-nrow="2"}
-![Lincoln cathedral atop Steep Hill](img/PXL_20250825_162252516.jpg){#fig-lin-cath-hill fig-alt="Lincoln cathderal atop Steep Hill." width="100%"}
+::: {#fig-lin-cath layout-nrow="2"}
+![Lincoln cathedral atop Steep Hill](img/PXL_20250825_162252516.jpg){#fig-lin-cath-hill}
 
-![The western entrance to Lincoln cathedral](img/PXL_20250825_134231530.jpg){#fig-lin-cath-west fig-alt="The limestone western entrance of Lincoln cathedral."}
+![The western entrance to Lincoln cathedral](img/PXL_20250825_134231530.jpg){#fig-lin-cath-west}
 
-Lincoln cathedral as seen from the River Witham atop Steep Hill and then close-up of the western entrance
+Lincoln cathedral as seen from the River Witham atop Steep Hill and then close-up of the western entrance.
 :::
 
 Being Bank Holiday Monday it was heaving with people. I dropped my bag and then went to M&S and bought some lunch, and slowly made my way up Steep Hill and was going to get a coffee at the cat cafe, but it was shut. No cats for me.
@@ -245,7 +245,7 @@ Here's some pictures in no particular order. The really old font with it's pagan
 
 The Romanesque Frieze: the original and restored version, I of course chose the Sodomy panel to take a picture of. Some medieval stained glass they have saved (@fig-lin-glass).
 
-::: {#figl-lin-fre layout-ncol="2"}
+::: {#fig-lin-fre layout-ncol="2"}
 ![Sodomy the original](img/PXL_20250825_133047154.jpg){#fig-lin-sod1 fig-alt="The original eroded limestone sodomy panal." width="100%"}
 
 ![Sodomy the restored version on the western entrance](img/PXL_20250825_134339943.jpg){#fig-lin-sod2 fig-alt="The restored limestone sodomy panel."}
