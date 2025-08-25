@@ -194,7 +194,7 @@ Leicester itself is the definition of faded glory, all the signs of a once wealt
 ::: {#figl-lei-walk layout-ncol="2"}
 ![Reflection under the bridge](img/PXL_20250824_123047002.jpg){#fig-lei-reflect fig-alt="Light reflecting from the water on the underside of bridge." width="100%"}
 
-![View along the canal](img/PXL_20250824_132903054.jpg){#fig-lei-canal fig-alt="A view along a canal through a bridge with a narrowboat." width="100%"}
+![View along the canal](img/PXL_20250824_132903054.jpg){#fig-lei-canal fig-alt="A view along a canal through a bridge with a narrowboat."}
 
 Along the Grand Union Canal in Leicester
 :::
@@ -211,10 +211,10 @@ The trip from Leicester to Lincoln by train is a nice one. Just under two hours 
 
 [Lincoln](https://en.wikipedia.org/wiki/Lincoln,_England) meaning "colonial pool" of the same origin as Dublin is "blackpool", the colonial bit referring to the Roman colony, is the poshest and most touristy place I've visited so far. The cathedral appears on the hilltop as the train approaches the city like a building doing a power stance. Unlike Leicester, there's nothing shy or retiring about [Lincoln cathedral](https://lincolncathedral.com/). It's huge and flash and Gothic with a capital G.
 
-::: {#figl-lin-cath layout-ncol="2"}
+::: {#figl-lin-cath layout-nrow="2"}
 ![Lincoln cathedral atop Steep Hill](img/PXL_20250825_162252516.jpg){#fig-lin-cath-hill fig-alt="Lincoln cathderal atop Steep Hill." width="100%"}
 
-![The western entrance to Lincoln cathedral](img/PXL_20250825_134231530.jpg){#fig-lin-cath-west fig-alt="The limestone western entrance of Lincoln cathedral." width="100%"}
+![The western entrance to Lincoln cathedral](img/PXL_20250825_134231530.jpg){#fig-lin-cath-west fig-alt="The limestone western entrance of Lincoln cathedral."}
 
 Lincoln cathedral as seen from the River Witham atop Steep Hill and then close-up of the western entrance
 :::
@@ -248,7 +248,7 @@ The Romanesque Frieze: the original and restored version, I of course chose the 
 ::: {#figl-lin-fre layout-ncol="2"}
 ![Sodomy the original](img/PXL_20250825_133047154.jpg){#fig-lin-sod1 fig-alt="The original eroded limestone sodomy panal." width="100%"}
 
-![Sodomy the resotred version on the western entrance](img/PXL_20250825_134339943.jpg){#fig-lin-sod2 fig-alt="The restored limestone sodomy panel." width="100%"}
+![Sodomy the restored version on the western entrance](img/PXL_20250825_134339943.jpg){#fig-lin-sod2 fig-alt="The restored limestone sodomy panel."}
 
 The Sodomy panel from the Romanesque Frieze. A 12th century carved frieze which runs right across the facade from the northern corner of the west front around the southern corner, to the southern side of the building. The frieze consists of a series of panels, each a little more than one metre high and varying in width, on which scenes have been carved showing scenes from Heaven and Hell and conveying messages from both the Old and the New Testament.
 :::
