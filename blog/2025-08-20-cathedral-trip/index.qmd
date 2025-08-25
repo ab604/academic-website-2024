@@ -207,6 +207,50 @@ On my way out to pick up my enormous curry, a masala dosa from another excellent
 
 Train from Leicester (LEI) 0944 -\> Lincoln (LCN) 1131 £16.30
 
+The trip from Leicester to Lincoln by train is a nice one. Just under two hours via Loughborough and Nottingham through the countryside. Being public transport though it is the proverbial herpes on the Pope's ring - a mixed blessing - sharing a carriage with teenage boys and a bickering husband and wife. Though this may be also a reflection that I'm flagging a bit and my tolerance is lower than usual.
+
+[Lincoln](https://en.wikipedia.org/wiki/Lincoln,_England) meaning "colonial pool" of the same origin as Dublin is "blackpool", the colonial bit referring to the Roman colony, is the poshest and most touristy place I've visited so far. The cathedral appears on the hilltop as the train approaches the city like a building doing a power stance. Unlike Leicester, there's nothing shy or retiring about [Lincoln cathedral](https://lincolncathedral.com/). It's huge and flash and Gothic with a capital G.
+
+Being Bank Holiday Monday it was heaving with people. I dropped my bag and then went to M&S and bought some lunch, and slowly made my way up Steep Hill and was going to get a coffee at the cat cafe, but it was shut. No cats for me.
+
+![Coffee Cats. Shut on Bank Holiday Monday.](img/PXL_20250825_111623533.jpg){#fig-lin-coffee fig-alt="A closed Coffee Cats coffee shop"}
+
+So I went up and sat in the shade behind the museum and ate my lunch before heading into the cathedral. There were lots of people wandering around in outfits that looked a bit steampunk and it turns out that Lincoln hosts a [huge steampunk festival](https://www.bbc.co.uk/news/articles/cpwyedldy7lo) over the Bank Holiday weekend. Being 27 degrees, everyone looked a bit hot.
+
+Anyway, I went into the cathedral intending to do the guided tour, but there were about 20 other people and the lady had quite a weak voice, so I decided just to self-guide myself. And actually, it's so big I still ended up spending two hours looking around before heading to the hotel to check-in and get out of the heat for a few hours.
+
+Similar story to the others, been a site of religious significance for the best part of 1000 years, grew and fell down and got rebuilt and ransacked during the Reformation and then continues to be rebuilt and restored and is a big site of power and influence in the region. It has one of the copies of the Magna Carta which was drawn up to reign in tyranny and the quote in @fig-lin-mc feels pretty on the nose given what's going on in much of the world at the moment.
+
+![Quote from the Magna Carta about how everyone deserves justice and a fair trial.](img/original_3c0d7bef-6787-4278-92eb-ba1afeed07bf_PXL_20250825_125321092.jpg){#fig-lin-mc fig-alt="Quote from the Magna Carta about how no-one should be imprisoned without a fair trial." width="50%"}
+
+Here's some pictures in no particular order. The really old font with it's pagan mythical beasts (@fig-lin-font). Light from the stained glass windows (@fig-lin-mc). The nave looking down towards the choir screen and high altar beyond (@fig-lin-nave). The chapter house in which Parliament met and featured in The Da Vinci Code film @fig-lin-chap). And a view of the cathedral from within the cloister (@fig-lin-clois).
+
+![Mythical beasts fighting on the Lincoln cathedral font](img/original_fda43139-a789-458b-9aec-f08623cb7cf7_PXL_20250825_121354685.jpg){#fig-lin-font fig-alt="Carved mythical beasts fighting on the Lincoln cathedral font. They look a bit like dragons."}
+
+![Light from the stained glass window on the floor of the nave in Lincoln cathedral.](img/PXL_20250825_121154002.jpg){#fig-lin-light fig-alt="Light casts mutlicoloured pattern on the floor of the nave in Lincoln cathedral."}
+
+![Looking east down the nave towards the choir screen and high altar in Lincoln cathedral.](img/PXL_20250825_121120593.jpg){#fig-lin-nave fig-alt="Looking east down the nave towards the choir screen and high altar in Lincoln cathedral."}
+
+![The chapter house at Lincoln cathedral](img/PXL_20250825_124503239.jpg){#fig-lin-chap fig-alt="The chapter house at Lincoln cathedral. A round room with a vaulted ceiling supported by a single pillar."}
+
+![View of Lincoln cathedral from the cloister](img/PXL_20250825_124434652.jpg){#fig-lin-clois fig-alt="View of Lincoln cathedral from the cloister"}
+
+The Romanesque Frieze: the original and restored version, I of course chose the Sodomy panel to take a picture of. Some medieval stained glass they have saved (@fig-lin-glass).
+
+::: {#figl-lin-fre layout-ncol="2"}
+![Sodomy the original](img/PXL_20250825_133047154.jpg){#fig-lin-sod1 fig-alt="The original eroded limestone sodomy panal." width="100%"}
+
+![Sodomy the resotred version on the western entrance](img/PXL_20250825_134339943.jpg){#fig-lin-sod2 fig-alt="The restored limestone sodomy panel." width="100%"}
+
+The Sodomy panel from the Romanesque Frieze. A 12th century carved frieze which runs right across the facade from the northern corner of the west front around the southern corner, to the southern side of the building. The frieze consists of a series of panels, each a little more than one metre high and varying in width, on which scenes have been carved showing scenes from Heaven and Hell and conveying messages from both the Old and the New Testament.
+:::
+
+![Medeval stained glass windows depicting farming through the seasons from sowing to harvesting.](img/PXL_20250825_133523746.jpg){#fig-lin-glass fig-alt="Medeval stained glass windows depicting farming through the seasons from sowing to harvesting."}
+
+As it was so hot, I came back to the hotel as soon as check-in opened at 1500 for a couple of hours to get out of the sun before having an early evening river walk along the Steeples and Spires Trail on the River Witham.
+
+## Day 6: Peterborough
+
 ## Planned Itinerary {#sec-plan}
 
 Thu 2025-08-21 to Thu 2025-08-28
