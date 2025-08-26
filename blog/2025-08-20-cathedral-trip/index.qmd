@@ -271,7 +271,57 @@ Train Lincoln (LCN) 1002 -\> Peterborough (PBO) 1127 £16.60
 
 I'll get the grumbling out of the way first again. Today was my first day of public transport snafu, but only a minor delay and a very crowded train. I'm actually surprised nothing has gone wrong earlier. However, my boss being from East Anglia, had made some fairly negative comments about Peterborough and I was primed for it to be a bit grotty. And yes, I'm afraid there's not much to recommend it as city. It was my least friendly arrival too, as the guy in the hotel tried to charge me for leaving my bag, and when I challenged him about that given that the website says all Premier Inns have free baggage storage, he admitted it was a voluntary charity donation. Cheeky git. As with previous cities, the level of deprivation is high and I was slightly taken aback about the openness of the drug dealing and alcohol abuse. Several people slumped in doorways or on benches and groups of men shouting at each other. There were several community officer people near the cathedral, but I ended up eating my lunch in the shopping centre as it felt like I was least likely to get any grief in there. There is obviously wealth in the area, as I saw lots of flashy cars on the ring road and there's a huge Waitrose right by the station, but the centre is more run down than Southampton. Which is sad as I learnt later, it used to have a lot wealth from railways and engineering. I'm just putting here for the record as I've said it many times, but never written it down, I'm one of those people who thinks many of the problems we're experiencing in the world now go back to 2008 and the financial crisis. And likewise I think it will be mid 2030s before we really understand the effects of the pandemic. And whilst I think things are fixable, the UK is poor and run down, and that's apparent on this trip. Just as it's been apparent seeing close up how the social care system and NHS is ~~fucked~~ working in the last 7 years.
 
-However, in the middle of it all, slightly tucked away is an impressive cathedral. I did the highlights tour, a full 90 minutes with a retired Maths teacher who I'm going to call Pam (apologies if I got that wrong) which was very good.
+However, in the middle of it all, slightly tucked away is the impressive [Peterborough cathedral](https://peterborough-cathedral.org.uk/). I did the highlights tour, a full 90 minutes with a retired Maths teacher who I'm going to call Pam (apologies if I got that wrong) which was very good. Another cathedral on a site where there has been religious structures for over 1000 years. As usual it's been built and re-built and changed throughout it's history. Most recently following attempted arson in 2001 which nearly destroyed it.
+
+[Wikipedia](https://en.wikipedia.org/wiki/Peterborough_Cathedral) has all the history, but here's the highlights I got from the tour: it was a statement of Norman power and has many of the Romanesque round arches that are associated with the Norman's, but what I learnt today was that the Norman's probably learnt their masonry skills from Islamic culture either by enslaving or employing them. This was inferred from some of the patterns they painted on the masonry that is seen across churches and cathedrals in Europe. Most of these were removed in England because of Cromwell (I think it was him and not the Reformation) and I meant to go back and take a picture of a bit that remained in Peterborough, but forgot. So as well as incorporating/eliminating the pagan gods by forcing the Saxons to become Catholic Christians, they drove out the Jews and the Muslims, but took what they liked from those cultures too. And then Henry IV destroyed what was the medieval social services (the monks) by deciding he wanted to change his wife and breaking with Rome. And then Cromwell smashed everything up before the Restoration. My not so subtle point being that I've learnt a lot about the powerful ruining the lives of Joe Average in the past, plus ça change.
+
+As it developed over the centuries they started using the newer more fashionable pointed Gothic arches which are also stronger. So the western entrance has Gothic arches and for reasons no-one knows, uniquely the actual entrance arch is smaller than the the two either side.
+
+![Western entrance to Peterborough cathedral. Uniquely the middle arch is smaller than the outer two.](img/PXL_20250826_130609417.jpg){#fig-pet-cath fig-alt="Western entrance to Peterborough cathedral. Uniquely the middle arch is smaller than the outer two."}
+
+Also unique is the size of painted wooden roof in the nave (@fig-pet-roof) , and there is no screen in front of the choir, and you can see all the way to the eastern high altar (@fig-pet-roof). There was, but no longer.
+
+![Painted wooden roof in Peterborough cathedral.](img/original_e8a9eed6-20a1-4587-9928-2b6b8f1d0b5e_PXL_20250826_124830106.jpg){#fig-pet-roof fig-alt="Painted wooden roof in Peterborough cathedral."}
+
+![The nave with no choir screen in Peterborough cathedral.](img/original_617b082e-a1c3-4822-9591-85cca8324a95_PXL_20250826_124531755.jpg){#fig-pet-nave fig-alt="The nave with no choir screen in Peterborough cathedral."}
+
+In the eastern end they have the oldest bit of religious masonry called the Hedda stone (@fig-pet-hedda) from when it was an Anglo-Saxon church and some very nice fan vaulting similar to that in the cloister at Gloucester (@fig-pet-fan).
+
+![Hedda stone in Peterborough cathedral.](img/PXL_20250826_144124545.jpg){#fig-pet-hedda fig-alt="Hedda stone in Peterborough cathedral."}
+
+![Fan vaulting in Peterborough cathedral.](img/PXL_20250826_143439947.jpg){#fig-pet-fan fig-alt="Fan vaulting in Peterborough cathedral."}
+
+As most people couldn't read or write in medieval times, cathedrals have a lot of graffiti carved into the stone, which was a way for desperate people to ask God directly for help. I remembered to take a picture of one piece today.
+
+![Graffitti in Peterborough cathedral. Believed to be a direct request for help to God by someone who couldn't write.](img/PXL_20250826_145634208.jpg){#fig-pet-cross fig-alt="Graffitti in the shape of a cross in Peterborough cathedral. Believed to be a direct request for help to God by someone who couldn't write."}
+
+Outside the cathedral they found some 12th century stone coffins during renovations believed to be for important monks or dignitaries.
+
+::: {#fig-pet-coff layout-ncol="2"}
+![Stone coffins with no lids](img/PXL_20250826_131418932.jpg){#fig-pet-c1 fig-alt="Two stone coffins without lids." width="100%"}
+
+![Stone coffins with lids](img/PXL_20250826_131441364.jpg){#fig-pet-c2 fig-alt="Two stone coffins with lids."}
+
+12th century stone coffins at Peterborough cathedral
+:::
+
+After visiting the cathedral and a cup of tea, I went for a walk along the River Nene out onto the Fens in the early evening sunshine. I realised when I was walking back that you can see the cathedral from there and I wondered if that's how pilgram's would have approached it (@fig-pet-nene) .
+
+![River Nene walk route.](img/peterborough-walk.png){#fig-pet-walk fig-alt="River Nene walk route."}
+
+![Peterborough cathedral from the bank of the River Nene.](img/PXL_20250826_175318654.jpg){#fig-pet-nene fig-alt="Peterborough cathedral from the bank of the River Nene."}
+
+Here's a couple of other pictures from my walk.
+
+![Along the River Nene.](img/PXL_20250826_172616424.LONG_EXPOSURE-01.COVER.jpg){#fig-pet-along fig-alt="Along the River Nene."}
+
+![Concrete bridge piers on the River Nene. I love a bit of concrete in the sunlight.](img/PXL_20250826_175815391.jpg){#fig-pet-bridge fig-alt="Some concrete bridge piers on the River Nene. I love a bit of concrete in the sunlight."}
+
+As my Premier Inn is opposite Domino's, that was dinner tonight and lunch tomorrow. I've not had a Domino's in years (a decade?) and it hasn't changed or improved! Lip-gloss pizza.
+
+## Day 7: Ely
+
+Train Peterborough (PBO) 0843 -\> Littleport (LTP) 1003 10km walk from Littleport to Ely \| Ely (ELY) 1715 -\> Peterborough (PBO) 1751 \| Peterborough (PBO) 1930 -\> Southampton (SOU) 2242 £45.70
 
 ## Planned Itinerary {#sec-plan}
 
