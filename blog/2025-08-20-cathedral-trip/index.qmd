@@ -311,7 +311,7 @@ Outside the cathedral they found some 12th century stone coffins during renovati
 
 After visiting the cathedral and a cup of tea, I went for a walk along the River Nene out onto the Fens in the early evening sunshine. I realised when I was walking back that you can see the cathedral from there and I wondered if that's how pilgram's would have approached it (@fig-pet-nene) .
 
-![River Nene walk route.](img/peterborough-walk.png){#fig-pet-walk fig-alt="River Nene walk route."}
+![River Nene walk route. About 90 minutes.](img/peterborough-walk.png){#fig-pet-walk fig-alt="River Nene walk route."}
 
 ![Peterborough cathedral from the bank of the River Nene.](img/PXL_20250826_175318654.jpg){#fig-pet-nene fig-alt="Peterborough cathedral from the bank of the River Nene."}
 
