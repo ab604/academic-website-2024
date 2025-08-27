@@ -325,11 +325,83 @@ As my Premier Inn is opposite Domino's, that was dinner tonight and lunch tomorr
 
 ## Day 7: Ely
 
-Train Peterborough (PBO) 0843 -\> Littleport (LTP) 1003 10km walk from Littleport to Ely \| Ely (ELY) 1715 -\> Peterborough (PBO) 1751 \| Peterborough (PBO) 1930 -\> Southampton (SOU) 2242 £45.70
+Train Peterborough (PBO) 0843 -\> Littleport (LTP) 1003 10km walk from Littleport to Ely \| Ely (ELY) 1415 -\> Peterborough (PBO) 1449 £18.30 \| Peterborough (PBO) 1911 -\> Southampton (SOU) 2222 £47.30
+
+I woke up at 0530 on Day 7 ready to go home. But there was still one more cathedral left to visit, so I headed down to catch the train to Littleport and then walk back to Ely along the River Ouse (@fig-ely-walk). It's a nice ride across the Fens and I had a 25 minute change at Ely, so I sat and had a coffee on the station, which as stations go was a nice place to sit in the sunshine.
+
+![10 km walk from Littleport to Ely along the River Ouse.](img/ely-walk.png){#fig-ely-walk fig-alt="10 km walk from Littleport to Ely along the River Ouse." width="50%"}
+
+The walk itself is one of those footpaths at the start which goes through people's gardens, which is always weird and I feel like I'm doing something wrong. And then it's out onto the river bank for several miles. It's very exposed and the wind was blowing across the Fens. I was actually glad it clouded up so I didn't get too hot or burnt.
+
+::: {#fig-ely-river layout-ncol="2"}
+![Sign for the Black Fen Trail](img/original_20523d0d-ad6d-4751-9d41-c2084beb9802_PXL_20250827_093312116.jpg){#fig-ely-w1 fig-alt="Sign for the Black Fen Trail." width="30%"}
+
+![View over the Fens and the River Ouse](img/PXL_20250827_094107612.jpg){#fig-ely-w2 fig-alt="View over the Fens and River Ouse" width="70%"}
+
+Walk along the River Ouse to Ely cathedral.
+:::
+
+There were cattle and you can see the cathedral from about 5 miles away getting closer all the time. One has to try at imagine how it must have been the biggest building for most of it's existence and a beacon for pilgrims. There's a short, not very nice road section and then one crosses a rickety bridge into a wildlife reserve and into the city. There was my first brief shower of the trip, I've been very lucky with the weather, and then the sun came back out and as I came around the corner the cathedral reappeared.
+
+![Ely cathedral as I entered the city.](img/original_ef5acaad-fd01-4f08-a050-1058b0145ad9_PXL_20250827_110726546.jpg){#fig-ely-cath-1 fig-alt="Ely cathedral as I entered the city."}
+
+[Ely cathedral](https://www.elycathedral.org/) is another Norman/Gothic combination, built upon the site of an old Saxon Abbey, which seems to be the way with English cathedrals. It's main point of difference being all these octagonal towers and the big lantern tower in the middle. [Wikipedia](https://en.wikipedia.org/wiki/Ely_Cathedral) has all the details of course.
+
+![The western entrance to Ely cathedral.](img/PXL_20250827_111806302.jpg){#fig-ely-cath-front fig-alt="The western entrance to Ely cathedral."}
+
+After I arrived I sat outside and finished the rest of my pizza before heading inside to discover my timing had meant I was between main tours and the Octagon Tower tour was fully booked. To be honest, I was a little relieved as I was feeling like I'd had enough and instead spent an hour exploring and taking pictures of things I'd learnt about elsewhere, but not included here previously.
+
+For example, one of the first things I learnt at Gloucester was that all the columns would have been plastered and painted, but Cromwell being a puritan had all everything whitewashed and the the plaster got removed by the Victorians. What this means is that you can often see the masons marks. These are the marks unique to each mason that indicates they carved that stone, and they got paid by the stone. They could read or write, so this was they made sure they got paid. They are only visible because the plaster has been removed (@fig-ely-mason).
+
+::: {#fig-ely-mason layout-ncol="2"}
+![](img/original_33098cd9-e0dd-4bdf-a29b-d3e4af45b293_PXL_20250827_120957462.jpg){#fig-ely-m1 fig-alt="A masons mark on a column" width="100%"}
+
+![](img/PXL_20250827_115559025.jpg){#fig-ely-m2 fig-alt="A masons mark on a column"}
+
+Masons marks on columns in Ely cathedral. They got paid for each stone carved and this was how they made sure they got paid. Originally these columns were plastered and decorated and the marks invisible.
+:::
+
+Another thing I learnt about what Cromwell did, was smash a lot things up. So all the cathedrals have damage often literally from swords or axes where things have been struck or removed, so I took a couple of photos at Ely showing where statues are missing or stonework has been defaced (@fig-ely-damage).
+
+::: {#fig-ely-damage layout-ncol="2"}
+![An empty statue nook.](img/PXL_20250827_120939696.jpg){#fig-ely-d1 fig-alt="An empty statue nook." width="100%"}
+
+![Missing statues and damage in the chantry chapel. See the axe or sword defacing at the top.](img/PXL_20250827_121740492.jpg){#fig-ely-d2 fig-alt="Missing statues and damage in the chantry chapel"}
+
+Missing statues and damage caused by Oliver Cromwell at Ely cathedral.
+:::
+
+And I found some remaining ceiling decoration of what I think is the Islamic style that I learnt about in Peterborough that suggests some of the masons came from or were influenced by Islamic culture and incorporated into Norman Christian design (@fig-ely-islam).
+
+![Possible Islamic style ceiling decoration in Ely cathedral.](img/PXL_20250827_120424055.jpg){#fig-ely-islam fig-alt="Possible Islamic style ceiling decoration in Ely cathedral."}
+
+The big unique feature is the [Octagon lantern](https://en.wikipedia.org/wiki/Ely_Cathedral#Octagon). It's a tower with a complex wooden structure and decorated panelling. The whole area floods with light.
+
+::: {#fig-ely-octagon layout-ncol="2"}
+![Octagon Lantern Tower from the outside](img/PXL_20250827_124657972.jpg){#fig-ely-o1 fig-alt="Octagon Lantern Tower from the outside" width="100%"}
+
+![Octagon Lantern Tower from inside below](img/PXL_20250827_120618279.jpg){#fig-ely-o2 fig-alt="Octagon Lantern Tower from the inside."}
+
+Octagon Lantern Tower at Ely cathedral.
+:::
+
+Here's two pictures of the nave.
+
+![Ely nave with it's painted wooden ceiling facing towards the choir and eastern high altar.](img/PXL_20250827_115022883.jpg){#fig-ely-nave fig-alt="Ely nave with it's painted wooden ceiling facing towards the choir and eastern high altar."}
+
+![The nave facing toward the western entrance at Ely cathedral.](img/PXL_20250827_121207680.jpg){#fig-ely-nave-2 fig-alt="The nave facing toward the western entrance at Ely cathedral."}
+
+I didn't really fancy exploring the city, sorry Ely. So I went at got the train back to Peterborough and had a nap for an hour before writing this up. Even though I've paid for the hotel tonight, I decided to get the train home and sleep in my own bed rather than use half a day travelling tomorrow.
+
+So that's it. 7 cathedrals in 7 days.
+
+## Epilogue
+
+To be completed.
 
 ## Planned Itinerary {#sec-plan}
 
-Thu 2025-08-21 to Thu 2025-08-28
+Thu 2025-08-21 to Thu 2025-08-28 (Went home on the evening of Wed 2025-08-27
 
 ### Days and train travel
 
@@ -339,8 +411,8 @@ Thu 2025-08-21 to Thu 2025-08-28
 4.  Leicester Sun 24 **Bus** Arriva X6 1015 1120 £3
 5.  Lincoln Mon 25 LEI 0944 -\> LCN 1131 £16.30
 6.  Peterborough Tue 26 LCN 1002 -\> PBO 1127 £16.60
-7.  Ely Wed 27 PBO 0843 -\> LTP 1003 10km walk from Littleport \| ELY 1715 -\> PBO 1751 \| PBO 1930 -\> SOU 2242 £45.70
-8.  Peterborough to Southampton Thu 28: PBO 1050 -\> SOU 1349 £52.80 or Wed 28 PBO 1930 -\> SOU 2242 £45.70
+7.  Ely Wed 27 PBO 0843 -\> LTP 1003 10km walk from Littleport \| ELY 1715 -\> PBO 1751 \| PBO 1930 -\> SOU 2242 £47.30
+8.  ~~Peterborough to Southampton Thu 28: PBO 1050 -\> SOU 1349 £52.80 or Wed 28 PBO 1930 -\> SOU 2242 £45.70~~
 
 ### Cathedral tour times and costs {#sec-tours}
 
