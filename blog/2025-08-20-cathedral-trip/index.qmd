@@ -334,9 +334,9 @@ I woke up at 0530 on Day 7 ready to go home. But there was still one more cathed
 The walk itself is one of those footpaths at the start which goes through people's gardens, which is always weird and I feel like I'm doing something wrong. And then it's out onto the river bank for several miles. It's very exposed and the wind was blowing across the Fens. I was actually glad it clouded up so I didn't get too hot or burnt.
 
 ::: {#fig-ely-river layout-ncol="2"}
-![Sign for the Black Fen Trail](img/original_20523d0d-ad6d-4751-9d41-c2084beb9802_PXL_20250827_093312116.jpg){#fig-ely-w1 fig-alt="Sign for the Black Fen Trail." width="30%"}
+![Sign for the Black Fen Trail](img/original_20523d0d-ad6d-4751-9d41-c2084beb9802_PXL_20250827_093312116.jpg){#fig-ely-w1 fig-alt="Sign for the Black Fen Trail." width="100%"}
 
-![View over the Fens and the River Ouse](img/PXL_20250827_094107612.jpg){#fig-ely-w2 fig-alt="View over the Fens and River Ouse" width="70%"}
+![View over the Fens and the River Ouse](img/PXL_20250827_094107612.jpg){#fig-ely-w2 fig-alt="View over the Fens and River Ouse"}
 
 Walk along the River Ouse to Ely cathedral.
 :::
@@ -391,7 +391,7 @@ Here's two pictures of the nave.
 
 ![The nave facing toward the western entrance at Ely cathedral.](img/PXL_20250827_121207680.jpg){#fig-ely-nave-2 fig-alt="The nave facing toward the western entrance at Ely cathedral."}
 
-I didn't really fancy exploring the city, sorry Ely. So I went at got the train back to Peterborough and had a nap for an hour before writing this up. Even though I've paid for the hotel tonight, I decided to get the train home and sleep in my own bed rather than use half a day travelling tomorrow.
+I didn't really fancy exploring the city, sorry Ely. So I went and got the train back to Peterborough and had a nap for an hour before writing this up. Even though I've paid for the hotel tonight, I decided to get the train home and sleep in my own bed rather than use half a day travelling tomorrow.
 
 So that's it. 7 cathedrals in 7 days.
 
@@ -401,7 +401,7 @@ To be completed.
 
 ## Planned Itinerary {#sec-plan}
 
-Thu 2025-08-21 to Thu 2025-08-28 (Went home on the evening of Wed 2025-08-27
+Thu 2025-08-21 to Thu 2025-08-28 (Went home on the evening of Wed 2025-08-27)
 
 ### Days and train travel
 
