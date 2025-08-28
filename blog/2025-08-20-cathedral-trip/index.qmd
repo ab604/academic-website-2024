@@ -35,7 +35,7 @@ The plan is do a tour of the cathedral in each city (@sec-tours) , along with op
 
 ### Load out {#sec-load-out}
 
-My plan is to travel light, so I've got one bag (@fig-talon) with my daypack inside (@fig-daypack). Not sure of the total weight, but I imagine it's 8 or 10 kg. If I have the opportunity I'll weigh it. I walk a fair amount, and this is a very comfortable bag so I know this is fine for several hours if I need to walk with it for an extended time, but my intention is to leave this at the hotel and just carry my daypack around.
+I to travel light, so I've got one bag (@fig-talon) with my daypack inside (@fig-daypack). Not sure of the total weight, but I imagine it's 8 or 10 kg. If I have the opportunity I'll weigh it. I walk a fair amount, and this is a very comfortable bag so I know this is fine for several hours if I need to walk with it for an extended time, but my intention is to leave this at the hotel and just carry my daypack around.
 
 ![My Osprey Talon 44 litre rucksack with everything I packed. Estimated 8-10 kg total weight which I can comfortably walk with for several hours.](img/PXL_20250820_104151851.jpg){#fig-talon fig-alt="My Osprey Talon 44 litre rucksack with everything I packed. Estimated 8-10 kg total weight which I can comfortably walk with for several hours." width="316"}
 
