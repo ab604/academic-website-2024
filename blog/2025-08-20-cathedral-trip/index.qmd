@@ -4,7 +4,7 @@ description: "A trip around England in August 2025"
 author:
   - name: Alistair Bailey
     url: https://ab604.uk
-date: 2025-08-20
+date: 2025-08-28
 categories: [TIL]
 citation:
   url: https://ab604.uk/blog/2025-08-20-TIL/
@@ -77,7 +77,7 @@ Finished my day with a pint of New England IPA at [Warehouse 4](https://www.glou
 
 ## Day 2: Worcester
 
-Train Fri 22 Gloucester (GCR) 0854 -\> Worcester Foregate Street (WOF) 0947.
+Train Fri 22 Gloucester (GCR) 0854 -\> Worcester Foregate Street (WOF) 0947 £13.10
 
 Not sure if this will become a theme about the state of English cities, but in both Gloucester and Worcester I've got off the train and almost immediately encountered a large number of mostly men who appear to have drug or alcohol issues. And many of the people in the shopping streets I walked through looked to be having hard lives.
 
@@ -115,7 +115,7 @@ Having be outside so much today, and after yesterday's 10 miles of walking I'd c
 
 ## Day 3: Coventry
 
-Train from Worcester Forgate Street (WOF) 0924 -\> 1009 Birmingham New St (BHM) 1021 -\> Coventry (COV) 1042.
+Train from Worcester Forgate Street (WOF) 0924 -\> 1009 Birmingham New St (BHM) 1021 -\> Coventry (COV) 1042 £14.60
 
 Saturday was a bit different to the previous two days as there was no guided tour of [Coventry Cathedral](https://www.coventrycathedral.org.uk/) and I'd bought a ticket to watch Coventry City FC versus Queens Park Rangers at 1500, their [stadium](https://en.wikipedia.org/wiki/Coventry_Building_Society_Arena) being half an hour by bus from the city centre. I dropped my stuff at the hotel around 1100 and then wandered over to the cathedral. The centre of Coventry has quite a lot of renovations ongoing and completed in the last few decades so it's a real mix architecture. As per English cities so far, a fair amount of homelessness, but the alcohol and drugs weren't really noticeable until after I got back from the football. I guess people were still in bed in the morning.
 
@@ -341,7 +341,7 @@ The walk itself is one of those footpaths at the start which goes through people
 Walk along the River Ouse to Ely cathedral.
 :::
 
-There were cattle and you can see the cathedral from about 5 miles away getting closer all the time. One has to try at imagine how it must have been the biggest building for most of it's existence and a beacon for pilgrims. There's a short, not very nice road section and then one crosses a rickety bridge into a wildlife reserve and into the city. There was my first brief shower of the trip, I've been very lucky with the weather, and then the sun came back out and as I came around the corner the cathedral reappeared.
+There were cattle and you can see the cathedral from about 5 miles away getting closer all the time. One has to try at imagine how it must have been the biggest building for most of it's existence and a beacon for pilgrims. There's a short, not very nice road section and then one crosses a rickety bridge into a wildlife reserve and into the city. There was my first brief rain shower of the trip, I've been very lucky with the weather, and then the sun came back out and as I came around the corner the cathedral reappeared.
 
 ![Ely cathedral as I entered the city.](img/original_ef5acaad-fd01-4f08-a050-1058b0145ad9_PXL_20250827_110726546.jpg){#fig-ely-cath-1 fig-alt="Ely cathedral as I entered the city."}
 
@@ -351,7 +351,7 @@ There were cattle and you can see the cathedral from about 5 miles away getting 
 
 After I arrived I sat outside and finished the rest of my pizza before heading inside to discover my timing had meant I was between main tours and the Octagon Tower tour was fully booked. To be honest, I was a little relieved as I was feeling like I'd had enough and instead spent an hour exploring and taking pictures of things I'd learnt about elsewhere, but not included here previously.
 
-For example, one of the first things I learnt at Gloucester was that all the columns would have been plastered and painted, but Cromwell being a puritan had all everything whitewashed and the the plaster got removed by the Victorians. What this means is that you can often see the masons marks. These are the marks unique to each mason that indicates they carved that stone, and they got paid by the stone. They could read or write, so this was they made sure they got paid. They are only visible because the plaster has been removed (@fig-ely-mason).
+For example, one of the first things I learnt at Gloucester was that all the columns would have been plastered and painted, but Cromwell being a puritan had all everything whitewashed and the the plaster got removed by the Victorians. What this means is that you can often see the masons marks. These are the marks unique to each mason that indicates they carved that stone, and they got paid by the stone. They couldn't read or write, so this was they made sure they got paid. They are only visible because the plaster has been removed (@fig-ely-mason).
 
 ::: {#fig-ely-mason layout-ncol="2"}
 ![](img/original_33098cd9-e0dd-4bdf-a29b-d3e4af45b293_PXL_20250827_120957462.jpg){#fig-ely-m1 fig-alt="A masons mark on a column" width="100%"}
@@ -397,7 +397,15 @@ So that's it. 7 cathedrals in 7 days.
 
 ## Epilogue
 
-To be completed.
+I got back home last night at about 2215 after a slight bit of messing around as my train was cancelled, but as I spotted it early enough I was able to re-book onto an earlier train and home a bit earlier than expected. I'm feeling pretty tired this morning. Although it's not huge mileage, my watch says I walked between 10 and 13 miles each day for 7 days, which along with the cognitive effort of being away probably accounts for much of the tiredness. I would maybe think a bit more about pacing and mixing up the intensity of each day if I was doing this particular trip again.
+
+Whilst I was away I read [this article about cognitive muscles](https://substack.nomoremarking.com/p/are-we-living-in-a-stupidogenic-society) by one of my favourite thinkers about learning (and football) Daisy Christodoulou. In it she reminded me of how modern technology has eliminated food scarcity and the vast majority of physical labour. The fact that people are starving or having to wear their bodies out with work is a failure of human society, not a technical one. On my travels I reflected that maybe part of the reason I struggle to connect with history is because I was born in a time and place after these developments have occurred and when modern medicines has greatly reduced the risk of childbirth, childhood mortality, infectious diseases, and made many other diseases survivable. I'm old enough to remember the time before mobile phones and the internet, but I wonder if those born since can easily envisage not being permanently instantly connected to each other and a large percentage of all human knowledge. The buildings I visited and people who used them through most of their history would have had their days almost entirely dominated by physical work, food management and information would be at a premium and slow to travel. Many children did not make it to adulthood, many women died in childbirth and an injury or infection could easily kill you. And I find that really difficult to imagine. I can imagine my ancestors thinking the idea of exercise for fun or having leisure time being strange ideas.
+
+On a related note, I was reflecting that I have achieved a level of comfort in my flat that is I find hard imagine improving by more than tiny increments. I have hot water, heating, a comfortable bed, fast internet, high quality audio and video entertainment. I get great coffee beans delivered, and have top quality food available at three supermarkets within 15 minutes walk. I have a car or the option of public transport. I'm certainly not poor, but neither am I especially rich, though I don't have dependants to support. I returned to a message from the student loans company saying my earnings hadn't met the threshold for repayment for the last two years. I still have £9,500 of debt outstanding and I graduated in 2008 which really made me feel for all those young people starting their working lives with such a debt burden before even considering finding somewhere to live and starting families of their own. I've seen many signs of deprivation around the UK whilst I was away, but also I wondered how many have comparable comfort levels to me and whether this contributes to increasing social isolation and polarisation. Why go out and mix with others or spend money in restaurants, cinemas and theatres or join sports or social clubs when there is all this at home and on-line? I live better than even the richest medieval King or Queen.
+
+I wasn't planning to write-up my trip, but I'm glad I did. It gave me something to do in the evenings, helped me order my thoughts and added a bit more structure to my trip, and I like my days to be structured. Flexible, but structured. On the other hand I feel like perhaps I should have made more effort to go out in the evenings and eat out and provide opportunities for those chance encounters that can be positive. But I'm not sure that level of extroversion is in me. Other than one great grandmother from Harrow on a train and the tour guides, I didn't really talk to anyone.
+
+If/when I have another holiday, I think the main confirmation was that I like to do. Can't ever imagine sitting around on a beach or by a pool. I need to move and see and learn. And I need a plan.
 
 ## Planned Itinerary {#sec-plan}
 
@@ -406,8 +414,8 @@ Thu 2025-08-21 to Thu 2025-08-28 (Went home on the evening of Wed 2025-08-27)
 ### Days and train travel
 
 1.  Gloucester Thu 21 SOU 0911 -\> GCR 1156 (SOU \> BRI £25 \> £12.20 GCR £37.20)
-2.  Worcester Fri 22 GCR 0854 -\> WOF 0947
-3.  Coventry Sat 23 WOF 0924 -\> COV 1042
+2.  Worcester Fri 22 GCR 0854 -\> WOF 0947 £13.10
+3.  Coventry Sat 23 WOF 0924 -\> COV 1042 £14.60
 4.  Leicester Sun 24 **Bus** Arriva X6 1015 1120 £3
 5.  Lincoln Mon 25 LEI 0944 -\> LCN 1131 £16.30
 6.  Peterborough Tue 26 LCN 1002 -\> PBO 1127 £16.60
