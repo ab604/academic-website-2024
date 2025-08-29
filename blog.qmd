@@ -15,8 +15,6 @@ page-layout: full
 title-block-banner: false
 ---
 
-In 2025 I am starting out in a new area of research, microfluidics Hydrogen Deuterium Exchange mass spectrometry, so I expect my blog posts will be largely about that. But also anything else that I've done or found along the way, such as new things about immunopeptidomics or using LLMs.
-
 This blog is inspired by Simon Willison:
 
 > A TIL—Today I Learned—is the most liberating form of content I know of.
