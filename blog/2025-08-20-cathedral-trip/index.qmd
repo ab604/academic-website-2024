@@ -15,7 +15,9 @@ lightbox: true
 
 ## Prologue {#sec-prologue}
 
-The background to this largely chance. I have to use my annual leave up by the end of September. I've not had a holiday in years. My boss had booked his annual leave for two weeks in August and we're waiting for the devices we need for the next part of the project is being manufactured, meaning there wasn't much for me to do. And I have a bit of a disposable income now that I'm back in research four days a week, so a holiday is affordable.
+The background to this largely chance. I have to use my annual leave up by the end of September. I've not had a holiday in years. My boss had booked his annual leave for two weeks in August and we're waiting for the devices we need for the next part of the project is being manufactured, meaning there wasn't much for me to do. And I have a bit of a disposable income now that I'm back in research four days a week, so a holiday is affordable. And Arsenal player Lia Wälti’s advice for the terminally on-line is evergreen (@fig-lia).
+
+![Lia Wälti’s tips: “Drink tap water, enjoy the fresh air, go out a bit - it’s really nice!”](img/lia.jpg){#fig-lia fig-alt="Lia Wälti’s tips: “Drink tap water, enjoy the fresh air, go out a bit - it’s really nice!”"}
 
 Likewise the theme of seven cathedrals in seven days arose by chance in July from the preface of [The Pillars of the Earth by Ken Follett](https://en.wikipedia.org/wiki/The_Pillars_of_the_Earth) in which he described developing a habit of visiting cities to see their cathedrals. I've never read a Ken Follett book before and can't even remember why or how I ended up with it. It's a historical novel about building a cathedral, whereas my usual tastes are sci-fi/fantasy/noir types of things. I am 82 pages into the 802 pages at the time of writing (2025-08-20).
 
