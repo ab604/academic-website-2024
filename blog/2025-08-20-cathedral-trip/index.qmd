@@ -4,7 +4,7 @@ description: "A trip around England in August 2025"
 author:
   - name: Alistair Bailey
     url: https://ab604.uk
-date: 2025-08-28
+date: 2025-08-29
 categories: [TIL]
 citation:
   url: https://ab604.uk/blog/2025-08-20-TIL/
@@ -398,6 +398,8 @@ I didn't really fancy exploring the city, sorry Ely. So I went and got the train
 So that's it. 7 cathedrals in 7 days.
 
 ## Epilogue
+
+2025-08-28.
 
 I got back home last night at about 2215 after a slight bit of messing around as my train was cancelled, but as I spotted it early enough I was able to re-book onto an earlier train and arrived home a bit earlier than expected. I'm feeling pretty tired this morning. Although it's not huge mileage, my watch says I walked between 10 and 13 miles each day for 7 days, which along with the cognitive effort of being away probably accounts for much of the tiredness. I would maybe think a bit more about pacing and mixing up the intensity of each day if I was doing this particular trip again.
 
