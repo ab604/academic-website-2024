@@ -13,3 +13,41 @@ draft: true
 ---
 
 ## Prologue {#sec-prologue}
+
+**2025-08-31**
+
+There are 17 weeks left in the year and I have
+
+### Return to run plan
+
+Weeks 1 to 4 are taken from [Oxford's NHS Return to Running Programme](https://www.ouh.nhs.uk/media/tinj0s3i/86729running.pdf) and then I am using runs based on Jeff Galloway's programmes and his walk/run method.
+
+-   Week 1: Jog 1 minute then walk 1 minute for a total of 30 minutes. Repeat this every other day.
+-   Week 2: Jog 2 minutes then walk 1 minute for a total of 30 minutes. Repeat this every other day.
+-   Week 3: Jog 4 minutes then walk 1 minute for a total of 30 minutes. Repeat this every other day.
+-   Week 4: Jog 9 minutes then walk 1 minute for a total of 30 minutes. Repeat this every other day.
+-   Week 5 onwards: Twice a week 4 x 1 mile reps (40 minutes) and one long run starting at 10km (6 miles) and building to 21 km (13 miles).
+
+### Strength plan
+
+**Upper Body Focus (Pull-Up Progression)**
+
+1.  Assisted Pull-ups or Negatives - 3 sets of 3-8 reps (use assistance machine or focus on slow 3-5 second lowering)
+2.  Lat Pulldowns - 3 sets of 8-12 reps (wide and narrow grip variations)
+3.  Seated Cable Rows - 3 sets of 10-12 reps
+4.  Push-ups - 3 sets of 5-15 reps (modify on knees if needed)
+5.  Dumbbell Shoulder Press - 3 sets of 8-12 reps
+6.  Plank - 3 sets of 20-45 seconds
+7.  Dead Hang - 3 sets of 10-30 seconds (crucial for pull-up grip strength)
+
+**Lower Body & Core Focus**
+
+1.  Goblet Squats - 3 sets of 10-15 reps (great for learning squat form)
+2.  Romanian Deadlifts - 3 sets of 8-12 reps (targets hamstrings, supports running)
+3.  Step-ups - 3 sets of 8-10 per leg
+4.  Glute Bridges - 3 sets of 12-15 reps
+5.  Single-leg Calf Raises - 2 sets of 10-15 per leg
+6.  Side Planks - 2 sets of 15-30 seconds each side
+7.  Bird Dogs - 2 sets of 8-10 per side
+
+## Week 1 {#sec-week-01}
