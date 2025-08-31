@@ -4,7 +4,7 @@ description: "A trip around England in August 2025"
 author:
   - name: Alistair Bailey
     url: https://ab604.uk
-date: 2025-08-29
+date: 2025-08-31
 categories: [TIL]
 citation:
   url: https://ab604.uk/blog/2025-08-20-TIL/
@@ -14,6 +14,8 @@ lightbox: true
 ---
 
 ## Prologue {#sec-prologue}
+
+**2025-08-20**
 
 The background to this largely chance. I have to use my annual leave up by the end of September. I've not had a holiday in years. My boss had booked his annual leave for two weeks in August and we're waiting for the devices we need for the next part of the project is being manufactured, meaning there wasn't much for me to do. And I have a bit of a disposable income now that I'm back in research four days a week, so a holiday is affordable. And Arsenal player Lia Wälti’s advice for the terminally on-line is evergreen (@fig-lia).
 
@@ -57,7 +59,7 @@ Although I'm staying in hotels I've planned it a bit like camping and taking stu
 
 ## Day 1: Gloucester {#sec-gloucester}
 
-2025-08-21. Train leaving Southampton at 0911, change at Bristol Temple Meads to arrive in Gloucester for lunch. I split my ticket, saving me £14.50.
+**2025-08-21** Train leaving Southampton at 0911, change at Bristol Temple Meads to arrive in Gloucester for lunch. I split my ticket, saving me £14.50.
 
 ![Gloucester Cathedral in the sunshine](img/PXL_20250821_150651736.jpg){#fig-glou-cath fig-alt="Gloucester Cathedral in the sunshine" width="100%"}
 
@@ -79,7 +81,7 @@ Finished my day with a pint of New England IPA at [Warehouse 4](https://www.glou
 
 ## Day 2: Worcester
 
-2025-08-22. Train Gloucester (GCR) 0854 -\> Worcester Foregate Street (WOF) 0947 £13.10.
+**2025-08-22** Train Gloucester (GCR) 0854 -\> Worcester Foregate Street (WOF) 0947 £13.10.
 
 Not sure if this will become a theme about the state of English cities, but in both Gloucester and Worcester I've got off the train and almost immediately encountered a large number of mostly men who appear to have drug or alcohol issues. And many of the people in the shopping streets I walked through looked to be having hard lives.
 
@@ -117,7 +119,7 @@ Having be outside so much today, and after yesterday's 10 miles of walking I'd c
 
 ## Day 3: Coventry
 
-2025-08-23. Train from Worcester Forgate Street (WOF) 0924 -\> 1009 Birmingham New St (BHM) 1021 -\> Coventry (COV) 1042 £14.60.
+**2025-08-23** Train from Worcester Forgate Street (WOF) 0924 -\> 1009 Birmingham New St (BHM) 1021 -\> Coventry (COV) 1042 £14.60.
 
 Saturday was a bit different to the previous two days as there was no guided tour of [Coventry Cathedral](https://www.coventrycathedral.org.uk/) and I'd bought a ticket to watch Coventry City FC versus Queens Park Rangers at 1500, their [stadium](https://en.wikipedia.org/wiki/Coventry_Building_Society_Arena) being half an hour by bus from the city centre. I dropped my stuff at the hotel around 1100 and then wandered over to the cathedral. The centre of Coventry has quite a lot of renovations ongoing and completed in the last few decades so it's a real mix architecture. As per English cities so far, a fair amount of homelessness, but the alcohol and drugs weren't really noticeable until after I got back from the football. I guess people were still in bed in the morning.
 
@@ -147,7 +149,7 @@ Oh, and when I got back to the hotel I found a police officer posted outside the
 
 ## Day 4: Leicester
 
-2025-08-24. Arriva X6 Bus from Pool Meadow Bus station Coventry 1015 -\> Leicester 1120 £3.
+**2025-08-24** Arriva X6 Bus from Pool Meadow Bus station Coventry 1015 -\> Leicester 1120 £3.
 
 No sign of the police when I left this morning.
 
@@ -207,7 +209,7 @@ On my way out to pick up my enormous curry, a masala dosa from another excellent
 
 ## Day 5: Lincoln
 
-2025-08-25. Train from Leicester (LEI) 0944 -\> Lincoln (LCN) 1131 £16.30.
+**2025-08-25** Train from Leicester (LEI) 0944 -\> Lincoln (LCN) 1131 £16.30.
 
 The trip from Leicester to Lincoln by train is a nice one. Just under two hours via Loughborough and Nottingham through the countryside. The countryside is very brown everywhere and the rivers very low, so I hope we get prolonged gentle rain soon. Being public transport though it is the proverbial herpes on the Pope's ring - a mixed blessing - sharing a carriage with teenage boys and a bickering husband and wife. Though this may be also a reflection that I'm flagging a bit and my tolerance is lower than usual.
 
@@ -269,7 +271,7 @@ I walked back into town and down to the marina and got some food from Wagamama f
 
 ## Day 6: Peterborough
 
-2025-08-26. Train Lincoln (LCN) 1002 -\> Peterborough (PBO) 1127 £16.60.
+**2025-08-26** Train Lincoln (LCN) 1002 -\> Peterborough (PBO) 1127 £16.60.
 
 I'll get the grumbling out of the way first again. Today was my first day of public transport snafu, but only a minor delay and a very crowded train. I'm actually surprised nothing has gone wrong earlier. However, my boss being from East Anglia, had made some fairly negative comments about Peterborough and I was primed for it to be a bit grotty. And yes, I'm afraid there's not much to recommend it as city. It was my least friendly arrival too, as the guy in the hotel tried to charge me for leaving my bag, and when I challenged him about that given that the website says all Premier Inns have free baggage storage, he admitted it was a voluntary charity donation. Cheeky git.
 
@@ -327,7 +329,7 @@ As my Premier Inn is opposite Domino's, that was dinner tonight and lunch tomorr
 
 ## Day 7: Ely
 
-2025-08-27. Train Peterborough (PBO) 0843 -\> Littleport (LTP) 1003 10km walk from Littleport to Ely \| Ely (ELY) 1415 -\> Peterborough (PBO) 1449 £18.30 \| Peterborough (PBO) 1911 -\> Southampton (SOU) 2222 £47.30.
+**2025-08-27** Train Peterborough (PBO) 0843 -\> Littleport (LTP) 1003 10km walk from Littleport to Ely \| Ely (ELY) 1415 -\> Peterborough (PBO) 1449 £18.30 \| Peterborough (PBO) 1911 -\> Southampton (SOU) 2222 £47.30.
 
 I woke up at 0530 on Day 7 ready to go home. But there was still one more cathedral left to visit, so I headed down to catch the train to Littleport and then walk back to Ely along the River Ouse (@fig-ely-walk). It's a nice ride across the Fens and I had a 25 minute change at Ely, so I sat and had a coffee on the station, which as stations go was a nice place to sit in the sunshine.
 
@@ -399,17 +401,21 @@ So that's it. 7 cathedrals in 7 days.
 
 ## Epilogue
 
-2025-08-28.
+**2025-08-28**
 
 I got back home last night at about 2215 after a slight bit of messing around as my train was cancelled, but as I spotted it early enough I was able to re-book onto another train and arrived home a bit earlier than expected. I'm feeling pretty tired this morning. Although it's not huge mileage, my watch says I walked between 10 and 13 miles each day for 7 days, which along with the cognitive effort of being away probably accounts for much of the tiredness. I would maybe think a bit more about pacing and mixing up the intensity of each day if I was doing this particular trip again.
 
 Whilst I was away I read [this article about cognitive muscles](https://substack.nomoremarking.com/p/are-we-living-in-a-stupidogenic-society) by one of my favourite thinkers about learning (and football) Daisy Christodoulou. In it she reminded me of how modern technology has eliminated food scarcity and the vast majority of physical labour. The fact that people are starving or having to wear their bodies out with work is a failure of human society, not a technical one. On my travels I reflected that maybe part of the reason I struggle to connect with history (alongside much of recorded history being about the rich and powerful rather than people I can identify with) is because I was born in a time and place after these developments have occurred and when modern medicines has greatly reduced the risk of childbirth, childhood mortality, infectious diseases, and made many other diseases survivable. I'm old enough to remember the time before mobile phones and the internet, but I wonder if those born since can easily envisage not being permanently instantly connected to each other and a large percentage of all human knowledge. The buildings I visited and people who used them through most of their history would have had their days almost entirely dominated by physical work, food management and information would be at a premium and slow to travel. Many children did not make it to adulthood, many women died in childbirth and an injury or infection could easily kill you. And I find that really difficult to imagine. I can imagine my ancestors thinking the idea of exercise for fun or having leisure time being strange ideas.
 
-On a related note, I was reflecting that I have achieved a level of comfort in my flat that is I find hard imagine improving by more than tiny increments. I have hot water, heating, a comfortable bed, fast internet, high quality audio and video entertainment. I get great coffee beans delivered, and have top quality food available at three supermarkets within 15 minutes walk. I have a car or the option of public transport. I'm certainly not poor, but neither am I especially rich, though I don't have dependants to support. I returned to a message from the student loans company saying my earnings hadn't met the threshold for repayment for the last two years. I still have £9,500 of debt outstanding and I graduated in 2008, which really made me feel for all those young people starting their working lives with such huge debt burdens before even considering finding somewhere to live and starting families of their own. I've seen many signs of deprivation around the UK whilst I was away, and our collective failure to build homes, new infrastructure and let the NHS, social and care services decline is a disaster for all of us. I think everyone should have access to the levels of comfort I enjoy, but also I wonder whether there are aspects of high comfort that contribute to increasing social isolation and polarisation. Why go out and mix with others or spend money in restaurants, cinemas and theatres or join sports or social clubs when there is all this at home and on-line? I live better than even the richest medieval King or Queen, but I live in a country with [a declining sense of social cohesion](https://www.moreincommon.org.uk/our-work/research/social-cohesion-a-snapshot/) and that's sad.
+On a related note, I was reflecting that I have achieved a level of comfort in my flat that I find hard imagine improving by more than tiny increments. I have hot water, heating, a comfortable bed, fast internet, high quality audio and video entertainment. I get great coffee beans delivered, and have top quality food available at three supermarkets within 15 minutes walk. I have a car or the option of public transport. I'm certainly not poor, but neither am I especially rich, though I don't have dependants to support. I returned to a message from the student loans company saying my earnings hadn't met the threshold for repayment for the last two years. I still have £9,500 of debt outstanding and I graduated in 2008, which really made me feel for all those young people starting their working lives with such huge debt burdens before even considering finding somewhere to live and starting families of their own. I've seen many signs of deprivation around the UK whilst I was away, and our collective failure to build homes, new infrastructure and let the NHS, social and care services decline is a disaster for all of us. I think everyone should have access to the levels of comfort I enjoy, but also I wonder whether there are aspects of high comfort that contribute to increasing social isolation and polarisation. Why go out and mix with others or spend money in restaurants, cinemas and theatres or join sports or social clubs when there is all this at home and on-line? I live better than even the richest medieval King or Queen, but I live in a country with [a declining sense of social cohesion](https://www.moreincommon.org.uk/our-work/research/social-cohesion-a-snapshot/) and that's sad.
 
 I wasn't planning to write-up my trip, but I'm glad I did. It gave me something to do in the evenings, helped me order my thoughts and added a bit more structure to my trip, and I like my days to be structured. Flexible, but structured. On the other hand I feel like perhaps I should have made more effort to go out in the evenings and eat out and provide opportunities for those chance encounters that can be positive. But I'm not sure that level of extroversion is in me. Other than one great grandmother from Harrow on a train and the tour guides, I didn't really talk to anyone.
 
 If/when I have another holiday, I think the main confirmation was that I like to do. Can't ever imagine sitting around on a beach or by a pool. I need to move and see and learn. And I need a plan.
+
+**2025-08-31**
+
+It's been a couple of days since my trip ended and I did my 2025 usual Southampton to Dawlish day trip to my Dad's care home yesterday. But today I am at home preparing to return to work tomorrow. Here's few final thoughts for the future. I have made a list of other faith sites to visit: Jewish, Muslim, Sikh, Hindu and Buddist. The big ones are mostly in Birmingham and London, so I was also thinking about combining it with walking trips if I based myself in a city for a few days. Not sure why I've never thought about theming trips before this cathedral trip. I've always thought about places or doing voluntary work. It also made me wonder if I should document my walks/outings generally. I don't want to turn trips into work, and I've generally been a rubbish diary keeper, but it definitely felt like it added rather than detracted. I wonder if I might have given up earlier and gone home without that extra (self-imposed) task/structure. I guess it kind of depends how far I'm travelling, but I think maybe shorter trips might be better: 3-5 days. The mental effort of doing everything for myself - logistics, coaching etc. - is harder away from home and so I get tired more quickly.
 
 ## Planned Itinerary {#sec-plan}
 
