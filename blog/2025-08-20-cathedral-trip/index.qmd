@@ -7,7 +7,7 @@ author:
 date: 2025-08-31
 categories: [TIL]
 citation:
-  url: https://ab604.uk/blog/2025-08-20-TIL/
+  url: https://ab604.uk/blog/2025-08-20-cathedral-trip/
 draft: false
 lightbox: true
 #bibliography: references.bib

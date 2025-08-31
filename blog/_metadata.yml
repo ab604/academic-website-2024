@@ -12,9 +12,11 @@ toc: true
 toc-depth: 3
 toc-location: left
 
+# Use lightbox for images
+lightbox: true
+
 # my author info
 author:
   - name: Alistair Bailey
     url: https://ab604.uk
     #orcid: 0000-0003-0023-8679
-
