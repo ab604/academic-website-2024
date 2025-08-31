@@ -16,34 +16,46 @@ draft: true
 
 **2025-08-31**
 
-There are 17 weeks left in the year and I have
+There are 17 weeks left in the year and I would like to get some fitness back again. I began running again in 2024 after a two year hiatus and got back to being able to run half-marathon distance comfortably. I then got ill right at the start of 2025 including New Year and have never really recovered. I think it's viral, possibly was COVID, but I didn't test positive. The residual symptoms are catarrh and Benign paroxysmal positional vertigo (BPPV). I'm generally tired, but I can't distinguish between getting old, burn-out and any viral effects.
+
+So the plan is to try and get back to running half marathon distance and ideally enough upper body strength to able to do one pull-up (with a view to more!) by the end of the year. I haven't been able to do a pull-up since the pandemic.
+
+But frankly any improvement and ability to stick to a routine would be good.
+
+I'm going to stop drinking for a bit too. No idea how long that will last, but I'm not very good at sticking to one or two days a week. If I drink on one day, then I'm likely to drink on the next. And I'm not sure what the health risk for me of 4 or 5 units (two beers) most days is, but probably not ideal. That's traded off against the fact that I like the taste of beer and that it helps me switch off. There are no solutions, only trade-offs. But I shall try the trade-off of sobriety in helping me exercise for a while.
+
+I did a 'Jog 1 minute then walk 1 minute for a total of 30 minutes' today to see how I was. This is the lowest level and it was the right place to start. Likewise my strength work will start at the lowest level. I know from prior experience that building a habit takes many weeks and overcoming reluctance to stick to the plan. That will be true for both exercise and not drinking.
 
 ### Return to run plan
 
 Weeks 1 to 4 are taken from [Oxford's NHS Return to Running Programme](https://www.ouh.nhs.uk/media/tinj0s3i/86729running.pdf) and then I am using runs based on Jeff Galloway's programmes and his walk/run method.
 
--   Week 1: Jog 1 minute then walk 1 minute for a total of 30 minutes. Repeat this every other day.
--   Week 2: Jog 2 minutes then walk 1 minute for a total of 30 minutes. Repeat this every other day.
--   Week 3: Jog 4 minutes then walk 1 minute for a total of 30 minutes. Repeat this every other day.
--   Week 4: Jog 9 minutes then walk 1 minute for a total of 30 minutes. Repeat this every other day.
+-   Week 1: Jog 1 minute then walk 1 minute for a total of 30 minutes. Repeat three times per week.
+-   Week 2: Jog 2 minutes then walk 1 minute for a total of 30 minutes. Repeat three times per week.
+-   Week 3: Jog 4 minutes then walk 1 minute for a total of 30 minutes. Repeat three times per week.
+-   Week 4: Jog 9 minutes then walk 1 minute for a total of 30 minutes. Repeat three times per week.
 -   Week 5 onwards: Twice a week 4 x 1 mile reps (40 minutes) and one long run starting at 10km (6 miles) and building to 21 km (13 miles).
 
+Optional Park Run week instead of long run.
+
 ### Strength plan
+
+I got Claude to put this together, but I have previous exercises I can use too for variety.
 
 **Upper Body Focus (Pull-Up Progression)**
 
 1.  Assisted Pull-ups or Negatives - 3 sets of 3-8 reps (use assistance machine or focus on slow 3-5 second lowering)
 2.  Lat Pulldowns - 3 sets of 8-12 reps (wide and narrow grip variations)
 3.  Seated Cable Rows - 3 sets of 10-12 reps
-4.  Push-ups - 3 sets of 5-15 reps (modify on knees if needed)
+4.  Push-ups - 3 sets of 5-15 reps
 5.  Dumbbell Shoulder Press - 3 sets of 8-12 reps
 6.  Plank - 3 sets of 20-45 seconds
-7.  Dead Hang - 3 sets of 10-30 seconds (crucial for pull-up grip strength)
+7.  Dead Hang - 3 sets of 10-30 seconds (pull-up grip strength)
 
 **Lower Body & Core Focus**
 
-1.  Goblet Squats - 3 sets of 10-15 reps (great for learning squat form)
-2.  Romanian Deadlifts - 3 sets of 8-12 reps (targets hamstrings, supports running)
+1.  Goblet Squats - 3 sets of 10-15 reps
+2.  Romanian Deadlifts - 3 sets of 8-12 reps (targets hamstrings)
 3.  Step-ups - 3 sets of 8-10 per leg
 4.  Glute Bridges - 3 sets of 12-15 reps
 5.  Single-leg Calf Raises - 2 sets of 10-15 per leg
@@ -51,3 +63,15 @@ Weeks 1 to 4 are taken from [Oxford's NHS Return to Running Programme](https://w
 7.  Bird Dogs - 2 sets of 8-10 per side
 
 ## Week 1 {#sec-week-01}
+
+| Day       | Activity | Notes |
+|-----------|----------|-------|
+| Monday    |          |       |
+| Tuesday   | Gym      |       |
+| Wednesday | Run      |       |
+| Thursday  | Gym      |       |
+| Friday    | Run      |       |
+| Saturday  |          |       |
+| Sunday    |          |       |
+
+: Week 1 exercise
