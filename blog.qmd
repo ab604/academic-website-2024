@@ -15,12 +15,10 @@ page-layout: full
 title-block-banner: false
 ---
 
-This blog is inspired by Simon Willison:
+This blog is inspired by Simon Willison and his ["what to blog about"](https://simonwillison.net/2022/Nov/6/what-to-blog-about/) post:
 
 > A TIL—Today I Learned—is the most liberating form of content I know of.
 >
 > Did you just learn how to do something? Write about that.
 >
 > Call it a TIL—that way you’re not promising anyone a revelation or an in-depth tutorial. You’re saying “I just figured this out: here are my notes, you may find them useful too”.
-
-You can read about Simon Willison's approach to blogging in his posts ["what to blog about"](https://simonwillison.net/2022/Nov/6/what-to-blog-about/) and ["my approach to running a link blog"](https://simonwillison.net/2024/Dec/22/link-blog/).
