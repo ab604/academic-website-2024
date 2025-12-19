@@ -188,6 +188,6 @@ Next morning/evening: Remove the a rack and place baking paper on it. Put the ov
 
 It's a bit messy, but my tip would be use a little flour to help you clean your hands and the bowl. I would probably say I'm more like 10 minutes work than 5, including cleaning up, but it is still low effort for the reward.
 
-![My 3 baguette version of the 5 minute baguette](img/PXL_20251107_075233015.jpg){#fig-bread width="500"}
+![Result from my three baguette version of the 5 minute baguette recipe](img/PXL_20251107_075233015.jpg){#fig-bread fig-alt="Three lovely fresh baguettes on a rack fresh out of the oven." width="500"}
 
-![Inside a baguette](img/PXL_20250927_113808368.jpg){#fig-baguette-2 width="500"}
+![Inside a baguette](img/PXL_20250927_113808368.jpg){#fig-baguette-2 fig-alt="The inside of a fresh baguette with many holes in the fluffy white dough." width="500"}
