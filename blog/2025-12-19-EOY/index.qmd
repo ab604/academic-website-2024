@@ -14,13 +14,17 @@ draft: false
 
 ## Prologue {#sec-prologue}
 
-I've never been very good at keeping diaries etc. in any sort of systematic way, and this blog is no exception. But in keeping with Simon Willison's philosophy of *“I just figured this out: here are my notes, you may find them useful too”*, along with a few thoughts and feelings here's a three things I learnt/achieved in the last quarter of 2025:
+I've never been very good at keeping diaries etc. in any sort of systematic way, and this blog is no exception. But in keeping with Simon Willison's philosophy of *“I just figured this out: here are my notes, you may find them useful too”*, albeit much more verbose along with my thoughts and feelings, here's a three things I learnt/achieved in the last quarter of 2025:
 
-1.  @sec-exercise : Exercise
-2.  @sec-brewing : Brewing Beer
-3.  @sec-baking : Baking Bread
+-   @sec-exercise : Exercise
+
+-   @sec-brewing : Brewing Beer
+
+-   @sec-baking : Baking Bread
 
 Exercise and Brewing are also both about cutting down on drinking and using LLMs as research and planning tools.
+
+**TL:DR:** I started running again 3 times a week and went from 0 to half-marathon distance in 14 weeks. At the same time I reduced my drinking to two beers on Wednesday, Saturday and Sunday. I brewed beer for the first time. And I learnt a great quick recipe for making all my lunch bread.
 
 ## Exercise {#sec-exercise}
 
@@ -36,7 +40,7 @@ This is what I wrote at the end of August:
 
 *I'm going to stop drinking for a bit too. No idea how long that will last, but I'm not very good at sticking to one or two days a week. If I drink on one day, then I'm likely to drink on the next. And I'm not sure what the health risk for me of 4 or 5 units (two beers) most days is, but probably not ideal. That's traded off against the fact that I like the taste of beer and that it helps me switch off. There are no solutions, only trade-offs. But I shall try the trade-off of sobriety in helping me exercise for a while.*
 
-*I did a 'Jog 1 minute then walk 1 minute for a total of 30 minutes' today to see how I was. This is the lowest level and it was the right place to start. Likewise my strength work will start at the lowest level. I know from prior experience that building a habit takes many weeks and overcoming reluctance to stick to the plan. That will be true for both exercise and not drinking.'*
+*I did a 'Jog 1 minute then walk 1 minute for a total of 30 minutes' today to see how I was. This is the lowest level and it was the right place to start. Likewise my strength work will start at the lowest level. I know from prior experience that building a habit takes many weeks and overcoming reluctance to [stick to the plan](https://www.tiktok.com/@nocontext_football/video/7326290318020660513). That will be true for both exercise and not drinking.'*
 
 After the first week I decided that trying to do strength work at the gym and a running schedule was too much on top of everything else. Running is minimal cost and equipment, so I chose to do that with a view to adding some strength work in 2026 if things worked out. I also decided to not drink at all for the first month (September) and then review in October. More about that in the brewing section.
 
@@ -80,7 +84,7 @@ I did a total of 3 runs a week, mostly I did my long/other runs on the weekend f
 
 ### Shoes and gear {#sec-run-gear}
 
-At the start of 2024 I bought a Garmin Forerunner 55 for £139. It's not especially user friendly, but with the app on my phone it does everything I need: does vibrate/silent notifications for my phone, counts steps/GPS for distance, I can programme workouts with intervals, it plots my routes on the map, monitors my heart rate (which is a great proxy for effort level and fitness) and can track my show usage. It also tracks sleep, calories and breathing, but those are probably not accurate. It needs charging once or twice a week.
+At the start of 2024 I bought a [Garmin Forerunner 55](https://www.garmin.com/en-GB/p/741137/) for £139. It's not especially user friendly, but with the app on my phone it does everything I need: does vibrate/silent notifications for my phone, counts steps/GPS for distance, I can programme workouts with intervals, it plots my routes on the map, monitors my heart rate (which is a great proxy for effort level and fitness) and can track my show usage. It also tracks sleep, calories and breathing, but those are probably not accurate. It needs charging once or twice a week.
 
 I tend to have two pairs of shoes on the go at any one time and alternate them as one pair for short runs and one for long runs. From experience I do tend to get rid of them after about 800 km/500 miles of use. I used to wear shoes until they fell apart, but after developing knee pain that went away when I got new shoes, I just decided to accept the cost of replacing my shoes every few months. My price limit is currently around £80 for shoes. I always buy previous years models and have no loyalty to brand. My old shoes go in the local shoe recycler. As I buy everything on-line, my go-to site for checking out shoes before buying is [Run Repeat](https://runrepeat.com/).
 
@@ -129,7 +133,7 @@ In October whilst the beer was brewing I did try and stuck to drinking 3 days a 
 My current favourite beers in are [Utopian Lagers](https://www.utopianbrewing.com/), [Chimay Triple (White)](https://chimay.com/en/beers/chimay-triple/) and [Five Points Best Bitter](https://fivepointsbrewing.co.uk/collections/beer/products/five-points-best-bottles).
 
 | Item | Cost (GBP) | Supplier |
-|-----------------------------------------|----------------|----------------|
+|:----------------------------------------|----------------|----------------|
 | Mangrove Jacks Craft Series Beer Kit - American IPA with Dry Hops | 26.65 | Malt Miller |
 | Mangrove Jacks Liquid Malt Extract 1.2kg | 8.95 | Malt Miller |
 | 30 Litre TMM Fermenter with fitted tap and airlock | 20 | Malt Miller |
