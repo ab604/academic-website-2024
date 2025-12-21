@@ -26,7 +26,7 @@ I've never been very good at keeping diaries etc. in any sort of systematic way,
 
 Exercise and Brewing are also both about cutting down on drinking and using LLMs as research and planning tools.
 
-**TL:DR:** I started running again 3 times a week and went from 0 to half-marathon distance in 14 weeks. At the same time I reduced my drinking to two beers on Wednesday, Saturday and Sunday. I brewed beer for the first time. And I learnt a great quick recipe for making all my lunch bread.
+**TL:DR:** I started running again 3 times a week and went from 0 to half-marathon distance in 13 weeks. At the same time I reduced my drinking to two beers on Wednesday, Saturday and Sunday. I brewed beer for the first time. And I learnt a great quick recipe for making all my lunch bread.
 
 ## Exercise {#sec-exercise}
 
@@ -62,27 +62,25 @@ Optional Park Run week instead of long run.
 
 ### Up to half-marathon distance {#sec-half-marathon}
 
-From Week 5 and before the clocks changed I was doing two evening runs of 4 x 1 mile reps, and then in November I switched to running to and from work twice a week. It's 4.3km each way. The downside of run commuting is logistical: carrying clothes and food, keeping a towel and shower stuff at work etc. But the upside is mostly running in the daylight and building the exercise into my day instead of it being something I do in addition to everything else.
+From Week 5 and before the clocks changed I was doing two evening runs of 4 x 1 mile reps, and then in November I switched to running to and from work twice a week. It's 4.3 km each way i.e. 8.6 km/day. The downside of run commuting is logistical: carrying clothes and food, keeping a towel and shower stuff at work etc. But the upside is mostly running in the daylight and building the exercise into my day instead of it being something I do in addition to everything else.
 
 I did a total of 3 runs a week, mostly I did my long/other runs on the weekend following my old Jeff Galloway training programme which means I walk for one minute after every 10 minutes or so of running. I've been doing walk-runs for over 20 years and it works for me.
 
--   Week 6: 10 km/6 miles
+-   Week 6: 11.3 km/7 miles
 
--   Week 7: 11.3 km/7 miles
+-   Week 7: 12.9 km/8 miles
 
--   Week 8: 12.9 km/8 miles
+-   Week 8: 14.5 km/9 miles
 
--   Week 9: 14.5 km/9 miles
+-   Week 9: 16 km/10 miles
 
--   Week 10: 16 km/10 miles
+-   Week 10: 5 km (Park Run)
 
--   Week 11: 5 km (Park Run)
+-   Week 11: 19.3 km/12 miles
 
--   Week 12: 19.3 km/12 miles
+-   Week 12: 4 x 1 mile reps
 
--   Week 13: 4 x 1 mile reps
-
--   Week 14: 21.3km/13.1 miles (2025-11-28)
+-   Week 13: 21.3km/13.1 miles (2025-11-28)
 
 ### Shoes and gear {#sec-run-gear}
 
@@ -137,7 +135,7 @@ In October whilst the beer was brewing I did try and stuck to drinking 3 days a 
 My current favourite beers in are [Utopian Lagers](https://www.utopianbrewing.com/), [Chimay Triple (White)](https://chimay.com/en/beers/chimay-triple/) and [Five Points Best Bitter](https://fivepointsbrewing.co.uk/collections/beer/products/five-points-best-bottles).
 
 | Item | Cost (GBP) | Supplier |
-|:-------------------------------------|-----------------|-----------------|
+|:------------------------------------|------------------|------------------|
 | Mangrove Jacks Craft Series Beer Kit - American IPA with Dry Hops | 26.65 | Malt Miller |
 | Mangrove Jacks Liquid Malt Extract 1.2kg | 8.95 | Malt Miller |
 | 30 Litre TMM Fermenter with fitted tap and airlock | 20 | Malt Miller |
