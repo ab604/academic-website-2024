@@ -12,6 +12,8 @@ draft: false
 #bibliography: references.bib
 ---
 
+![Sunset in Southampton on the 16th December 2025](img/PXL_20251216_164640904.LONG_EXPOSURE-01.COVER.jpg){#fig-sunset fig-alt="A photo the sunset in Southampton on 16th December 2025. It shows a road with parked cars and terraced houses and blue/violet sky with traces of clouds, oranges and pinks." width="500"}
+
 ## Prologue {#sec-prologue}
 
 I've never been very good at keeping diaries etc. in any sort of systematic way, and this blog is no exception. But in keeping with Simon Willison's philosophy of *“I just figured this out: here are my notes, you may find them useful too”*, albeit much more verbose along with my thoughts and feelings, here's a three things I learnt/achieved in the last quarter of 2025:
@@ -84,7 +86,7 @@ I did a total of 3 runs a week, mostly I did my long/other runs on the weekend f
 
 ### Shoes and gear {#sec-run-gear}
 
-At the start of 2024 I bought a [Garmin Forerunner 55](https://www.garmin.com/en-GB/p/741137/) for £139. It's not especially user friendly, but with the app on my phone it does everything I need: does vibrate/silent notifications for my phone, counts steps/GPS for distance, I can programme workouts with intervals, it plots my routes on the map, monitors my heart rate (which is a great proxy for effort level and fitness) and can track my show usage. It also tracks sleep, calories and breathing, but those are probably not accurate. It needs charging once or twice a week.
+At the start of 2024 I bought a [Garmin Forerunner 55](https://www.garmin.com/en-GB/p/741137/) for £139. It's not especially user friendly, but with the app on my phone it does everything I need: does vibrate/silent notifications for my phone, counts steps/GPS for distance, I can programme workouts with intervals, it plots my routes on the map, monitors my heart rate (which is a great proxy for effort level and fitness) and can track my shoe usage. It also tracks sleep, calories and breathing, but those are probably not accurate. It needs charging once or twice a week.
 
 I tend to have two pairs of shoes on the go at any one time and alternate them as one pair for short runs and one for long runs. From experience I do tend to get rid of them after about 800 km/500 miles of use. I used to wear shoes until they fell apart, but after developing knee pain that went away when I got new shoes, I just decided to accept the cost of replacing my shoes every few months. My price limit is currently around £80 for shoes. I always buy previous years models and have no loyalty to brand. My old shoes go in the local shoe recycler. As I buy everything on-line, my go-to site for checking out shoes before buying is [Run Repeat](https://runrepeat.com/).
 
@@ -103,6 +105,8 @@ Mentally this has been hard. Really hard. Most days I don't want to do it, and I
 It's always slightly surprising to me when I achieve what I set out to do. Failure is the norm. As usual I'd say luck played a huge part: there were no crises to upset my routine. The rest was having a decent plan, experience and process to follow.
 
 ## Brewing Beer {#sec-brewing}
+
+![My first beer. A West Coast IPA. I brewed 19.5 litres of Mangrove Jacks Craft Series Beer Kit American IPA in a plastic bucket fermenter and then conditioned in bottles. It took about a month from start to finish. It is a very bitter beer with lots of grapefruit and citrus flavours and quite dry.](img/PXL_20251220_223301233.PORTRAIT.jpg){#fig-beer fig-alt="A picture of a glass of amber coloured beer with a white foamy head on a side table with a light behind the beer bottle next to it. " width="500"}
 
 This is as much about my relationship with alcohol as learning to brew, and is connected to my exercise plan. It's also related to my coffee making. And chatting with Claude (Large Language Model).
 
@@ -124,7 +128,7 @@ This means each bottle worked out about £4.50, but as most of the things I boug
 
 The other thing I had to do for this beer, and another reason it was a good choice for where I live, is optimise the water chemistry having downloaded the water quality report from Southern Water. That's why the table below contains gypsum, citric acid and campden tablets. As with coffee and tea, much of the flavour comes from what's in the water and can really change the way it tastes for better or worse. Pilsner needs soft water, but West Coast IPA works quite well with hard water with a few tweaks.
 
-The beer turned out really well, one colleague actually tasted it side by side with Sierra Nevada and said he thought the kit tasted better. If it did I suspect that it is in part due to freshness, which is something else I've learnt about why one beer can taste better than another.
+The beer turned out really well (@fig-beer), one colleague actually tasted it side by side with Sierra Nevada and said he thought the kit tasted better. If it did I suspect that it is in part due to freshness, which is something else I've learnt about why one beer can taste better than another.
 
 Being a kit means that that malt base has already been made as a liquid extract that one dilutes with water and then ferments with the yeast and hops. The next level is to buy malt grains (partially germinated grain) and create the extract (wort) oneself, but it requires more gear and more investment. It took a month from start to finish: two weeks brewing in the plastic bucket fermenter and two weeks conditioning/carbonating in the bottles.
 
@@ -133,7 +137,7 @@ In October whilst the beer was brewing I did try and stuck to drinking 3 days a 
 My current favourite beers in are [Utopian Lagers](https://www.utopianbrewing.com/), [Chimay Triple (White)](https://chimay.com/en/beers/chimay-triple/) and [Five Points Best Bitter](https://fivepointsbrewing.co.uk/collections/beer/products/five-points-best-bottles).
 
 | Item | Cost (GBP) | Supplier |
-|:----------------------------------------|----------------|----------------|
+|:-------------------------------------|-----------------|-----------------|
 | Mangrove Jacks Craft Series Beer Kit - American IPA with Dry Hops | 26.65 | Malt Miller |
 | Mangrove Jacks Liquid Malt Extract 1.2kg | 8.95 | Malt Miller |
 | 30 Litre TMM Fermenter with fitted tap and airlock | 20 | Malt Miller |
@@ -190,4 +194,4 @@ It's a bit messy, but my tip would be use a little flour to help you clean your 
 
 ![Result from my three baguette version of the 5 minute baguette recipe](img/PXL_20251107_075233015.jpg){#fig-bread fig-alt="Three lovely fresh baguettes on a rack fresh out of the oven." width="500"}
 
-![Inside a baguette](img/PXL_20250927_113808368.jpg){#fig-baguette-2 fig-alt="The inside of a fresh baguette with many holes in the fluffy white dough." width="500"}
+![Inside a baguette. This a smaller test one than the three larger ones above.](img/PXL_20250927_113808368.jpg){#fig-baguette-2 fig-alt="The inside of a fresh baguette with many holes in the fluffy white dough." width="500"}
