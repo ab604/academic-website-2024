@@ -18,7 +18,7 @@ Alfred Korzybski's *"the map is not the territory"* was very literally true and 
 
 It took me about 6 hours with minimal breaks as I was racing against the light. Below are some photos I took along the way with my Pixel 7 phone camera and few notes.
 
-![The route I took is in magenta and the planned route in blue. The points where the path had been eroded and I had to detour are marked in yellow. It was supposed to be 23 km/14 miles, but this ended up at about 27.3 km/ 17 miles. There are two red dots marking where I saw squirrels.](img/Screenshot%202025-12-23%20123212.png){#fig-01 fig-alt="A map of my walking route from Cowes to Yarmouth on the Isle of Wight. The route I took is in magenta and the planned route in blue. The points where the path had been eroded and I had to detour are marked in yellow. It was supposed to be 23 km/14 miles, but this ended up at about 27.3 km/ 17 miles. There are two red dots marking where I saw red squirrels."}
+![The route I took is in magenta and the planned route in blue. The points where the path had been eroded and I had to detour are marked in yellow. It was supposed to be 23 km/14 miles, but this ended up at about 27.3 km/ 17 miles. There are two red dots marking where I saw red squirrels.](img/Screenshot%202025-12-23%20123212.png){#fig-01 fig-alt="A map of my walking route from Cowes to Yarmouth on the Isle of Wight. The route I took is in magenta and the planned route in blue. The points where the path had been eroded and I had to detour are marked in yellow. It was supposed to be 23 km/14 miles, but this ended up at about 27.3 km/ 17 miles. There are two red dots marking where I saw red squirrels."}
 
 ## Photos from the walk
 
@@ -28,7 +28,7 @@ I left the flat just before sunrise and took the bus to the centre of Southampto
 
 ![The view from the front of the Red Funnel Ferry of the Southampton Water as I left Southampton.](img/PXL_20251222_090346897.jpg){#fig-03 fig-alt="A veiw of the sun rising over the Solent with pale clouds on a still day in December."}
 
-I arrived in West Cowes just before 1000 and then went to my next ferry, the ill fated Floating Bridge over the River Medina (@fig-04). Once I was in East Cowes the walk began properly. Due to daylight constraints, I decide to cut through the town rather than around the coast by Gurnard, but ironically then discovered just after Gurnard that the cliff path was closed over Thorness Bay and I had to head back inland. However this led to my first encounter with a red squirrel during the diversion (@fig-06) .
+I arrived in West Cowes just before 1000 and then went to my next ferry, the ill fated Floating Bridge (aka [Wonky Banger](https://www.bbc.co.uk/news/uk-england-hampshire-39999651)) over the River Medina (@fig-04). Once I was in East Cowes the walk began properly. Due to daylight constraints, I decide to cut through the town rather than around the coast by Gurnard, but ironically then discovered just after Gurnard that the cliff path was closed over Thorness Bay and I had to head back inland. However this led to my first encounter with a red squirrel during the diversion (@fig-06) .
 
 ![Waiting for the Floating Bridge from West Cowes to East Cowes across the River Medina. It cost my £1 for my 5 minute trip.](img/PXL_20251222_100534395.jpg){#fig-04 fig-alt="A picture of the Floating Bridge from West Cowes to East Cowes."}
 
