@@ -22,7 +22,7 @@ It took me about 6 hours with minimal breaks as I was racing against the light. 
 
 ## Photos from the walk
 
-I left the flat just before sunrise and took the bus to the centre of Southampton to catch the 0900 Red Funnel Ferry from Southampton to West Cowes (@fig-02). £13.20 one way as a foot passenger. It was a beautiful morning and I sat on the front of the ferry in hat and gloves watching the sun slowly climb above Southampton Water and the Solent (@fig-03).
+I left the flat just before sunrise and took the bus to the centre of Southampton to catch the 0900 [Red Funnel Ferry](https://www.redfunnel.co.uk) from Southampton to West Cowes (@fig-02). £13.20 one way as a foot passenger. It was a beautiful morning and I sat on the front of the ferry in hat and gloves watching the sun slowly climb above Southampton Water and the Solent (@fig-03).
 
 ![A view of Southampton docks from the Red Funnel Ferry.](img/PXL_20251222_084751042.jpg){#fig-02 fig-alt="A view of Southampton docks from the Red Funnel Ferry."}
 
@@ -58,7 +58,7 @@ The final stretch down to Yarmouth along Bouldnor Cliff was very muddy, wet and 
 
 ![The Solent just outside Yarmouth.](img/PXL_20251222_153150958.jpg){#fig-13 fig-alt="A grey sea with the remains of groynes."}
 
-I arrived just in time for the 1605 sailing to Lymington (£18) and was treated to an amazing sunset from the ferry as it crossed (@fig-14, @fig-15) as I finally ate my lunch. I do wonder if there is ever a crossing where there are no car alarms going off?
+I arrived just in time for the 1605 [WightLink](https://www.wightlink.co.uk/) sailing to Lymington (£18) and was treated to an amazing sunset from the ferry as it crossed (@fig-14, @fig-15) as I finally ate my lunch. I do wonder if there is ever a crossing where there are no car alarms going off?
 
 ![The view from over Yarmouth from the WightLink Ferry to Lymington at 1605.](img/PXL_20251222_155842099.jpg){#fig-14 fig-alt="A view of the sunset and cars in Yarmouth from the ferry."}
 
