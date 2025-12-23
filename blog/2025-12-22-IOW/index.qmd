@@ -1,6 +1,6 @@
 ---
 title: "Walking from Cowes to Yarmouth on the Isle of Wight"
-description: "Photos and notes from this December Walk"
+description: "Photos and notes from my walk on the 22nd of December 2025"
 author:
   - name: Alistair Bailey
     url: https://ab604.uk
@@ -60,7 +60,7 @@ The final stretch down to Yarmouth along Bouldnor Cliff was very muddy, wet and 
 
 I arrived just in time for the 1605 sailing to Lymington (£18) and was treated to an amazing sunset from the ferry as it crossed (@fig-14, @fig-15) as I finally ate my lunch. I do wonder if there is ever a crossing where there are no car alarms going off?
 
-![The view from over Yarmouth from the WightLink Ferry to Lymington at 1600.](img/PXL_20251222_155842099.jpg){#fig-14 fig-alt="A view of the sunset and cars in Yarmouth from the ferry."}
+![The view from over Yarmouth from the WightLink Ferry to Lymington at 1605.](img/PXL_20251222_155842099.jpg){#fig-14 fig-alt="A view of the sunset and cars in Yarmouth from the ferry."}
 
 ::: {#fig-15}
 {{< video img/PXL_20251222_160924751.TS.mp4 title="Sunset on the 22nd of December 2025 over the Solent looking towards the Isle of Wight from the Yarmouth to Lymington Ferry." alt="Sunset on the 22nd of December 2025 over the Solent looking towards the Isle of Wight from the Yarmouth to Lymington Ferry." autoplay="true" >}}
