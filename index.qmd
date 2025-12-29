@@ -24,7 +24,7 @@ about:
       target: _blank
       aria-label: "Google Scholar"
     - text: "{{< iconify fa6-brands:linkedin size=2em title='LinkedIn' >}}"
-      href: www.linkedin.com/in/alistair-bailey-b223663a2
+      href: https://www.linkedin.com/in/alistair-bailey-b223663a2/
       target: _blank
 ---
 
