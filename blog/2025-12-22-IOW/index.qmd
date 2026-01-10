@@ -30,7 +30,7 @@ I left the flat just before sunrise and took the bus to the centre of Southampto
 
 I arrived in East Cowes just before 1000 and then went to my next ferry, the ill fated Floating Bridge (aka [Wonky Banger](https://www.bbc.co.uk/news/uk-england-hampshire-39999651)) over the River Medina (@fig-04). Once I was in West Cowes the walk began properly. Due to daylight constraints, I decide to cut through the town rather than around the coast by Gurnard, but ironically then discovered just after Gurnard that the cliff path was closed over Thorness Bay and I had to head back inland. However this led to my first encounter with a red squirrel during the diversion (@fig-06) .
 
-![Waiting for the Floating Bridge from West Cowes to East Cowes across the River Medina. It cost my £1 for my 5 minute trip.](img/PXL_20251222_100534395.jpg){#fig-04 fig-alt="A picture of the Floating Bridge from West Cowes to East Cowes."}
+![Waiting for the Floating Bridge from West Cowes to East Cowes across the River Medina. It cost my £1 for my 5 minute trip.](img/PXL_20251222_100534395.jpg){#fig-04 fig-alt="A picture of the Floating Bridge from East Cowes to West Cowes."}
 
 ![Walking along the sea wall at the end of Gurnard Bay](img/PXL_20251222_105432311.jpg){#fig-05 fig-alt="A view back over the Solent from the sea wall on Gurnard Bay of flat grey sea with blue sky and a yellow marker."}
 
