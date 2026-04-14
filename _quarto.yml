@@ -16,7 +16,7 @@ project:
     - "css"
     - "cv"
     - ".well-known"
-execute: 
+execute:
   echo: false
   message: false
   warning: false
@@ -27,7 +27,7 @@ website:
   image: img/avatar.jpg
   site-url: https://ab604.uk
   favicon: img/hla.ico
-  #repo-url: 
+  #repo-url:
   search:
     location: navbar
     type: overlay
@@ -47,7 +47,7 @@ website:
       - text: "Projects"
         href: projects.qmd
       - text: CV
-        href: cv/cv.html
+        href: cv/abailey-cv-2026-04-14.pdf
         target: _blank
   page-footer:
     right: |
@@ -72,4 +72,3 @@ format:
     date: last-modified
     date-format: '[Last Updated on] YYYY-MM-DD'
     # cp cv/bailey_cv.pdf _site/cv/
-    
