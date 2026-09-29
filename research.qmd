@@ -6,7 +6,7 @@ toc-location: left
 ---
 
 <!-- Remove margin under list items -->
-<!-- last-update 2026-07-09 -->
+<!-- last-update 2026-09-29 -->
 
 <style>
 ol {
