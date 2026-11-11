@@ -31,7 +31,7 @@ about:
 ::: {#hero-heading}
 ### Biography
 
-An engineer by training, my research career has been primarily focused on antigen processing and presentation by major histocompatibility molecules, and recently on developing time control methods using microfluidics.
+An engineer by training, my research career has been primarily focused on antigen processing and presentation by major histocompatibility molecules, and now on developing time control methods using microfluidics.
 
 
 ### Interests
