@@ -27,6 +27,8 @@ I use [OS Maps](https://explore.osmaps.com) for planning, navigating and recordi
 
 I've not included the distance walking to and from the train station in Southampton, but that adds about 2 km (1.2 miles) each way to my overall distance.
 
+Click the links in the list below or in the table of contents to jump to a walk:
+
 1.  2026-10-16 [Upwey to Weymouth](#sec-walk-01)
 2.  2026-10-30 [East Meon to Alresford via The Flower Pots Inn at Cheriton](#sec-walk-02)
 3.  2026-11-07 [Whitchurch to Andover](#sec-walk-03)
