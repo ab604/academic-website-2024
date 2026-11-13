@@ -35,7 +35,7 @@ An engineer by training, my research career has been primarily focused on immuno
 
 ### Interests
 
-My immunology research interests were in the development of cancer vaccines, but other projects included influenza, COVID-19, skin sensitization to chemical allergens, asthma and contagious cancer in the Tasmanian Devil. My microfluidic research workflow involves computational design and simulation, followed by production and experimental characterisation of devices for application to studying protein dynamics. I am also a [Data and Software Carpentry](https://carpentries.org/) instructor.
+My immunology research interests were in the development of cancer vaccines, but other projects included influenza, COVID-19, skin sensitisation to chemical allergens, asthma and contagious cancer in the Tasmanian Devil. My microfluidic research workflow involves computational design and simulation, followed by production and experimental characterisation of devices for application to studying protein dynamics. I am also a [Data and Software Carpentry](https://carpentries.org/) instructor.
 
 ### Education
 
