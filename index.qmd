@@ -31,12 +31,11 @@ about:
 ::: {#hero-heading}
 ### Biography
 
-An engineer by training, my research career has been primarily focused on antigen processing and presentation by major histocompatibility molecules, and now on developing time control methods using microfluidics.
-
+An engineer by training, my research career has been primarily focused on immunology with respect to cancer and infectious diseases. Now I work on developing time controlled incubation methods using microfluidics for biological/biomedical applications.
 
 ### Interests
 
-My immunology research interests are in developing cancer vaccines combining immunopeptidomics, computational modelling and multiomics methods. Other immunology resarch projects have included influenza, COVID-19, skin sensitization to chemical allergens, asthma and contagious cancer in the Tasmanian Devil. I am also a [Data and Software Carpentry](https://carpentries.org/) instructor. My microfluidic devices research combines fluid dynamics simulations with 3D printing and poly(dimethylsiloxane) fabrication.
+My immunology research interests were in the development of cancer vaccines, but other projects included influenza, COVID-19, skin sensitization to chemical allergens, asthma and contagious cancer in the Tasmanian Devil. My microfluidic research workflow involves computational design and simulation, followed by production and experimental characterisation of devices for application to studying protein dynamics. I am also a [Data and Software Carpentry](https://carpentries.org/) instructor.
 
 ### Education
 
