@@ -9,12 +9,13 @@ categories: [Outdoors]
 citation:
   url: https://ab604.uk/blog/2026-11-11-walks/
 draft: false
+toc: true
 resources:
   - "gpx/*.gpx"
 #bibliography: references.bib
 ---
 
-## Overview
+## Overview {#overview}
 
 This is a brief record of day walks I did over Autumn and Winter 2026 and into Early Spring of 2027: a 25 week period between October 2026 and March 2027.
 
@@ -22,9 +23,17 @@ Some routes I plotted myself and others come from the [Saturday Walkers Club](ht
 
 I use [OS Maps](https://explore.osmaps.com) for planning, navigating and recording my walks. A link to each route on OS Maps I've walked is included, as well as a GPX file for download.
 
-## Upwey to Weymouth: Friday October 16th 2026
+I've not included the distance walking to and from the train station in Southampton, but that adds about 2 km (1.2 miles) each way to my overall distance.
 
-Train from Southampton Central to Upwey which is one-stop inland from Weymouth. Walk to Weymouth via the ridgeway and coastal path. 17.20 km on the map, but I walked 19.29 km including a slight detour in about 4 hours and 20 minutes.
+1.  2026-10-16 [Upwey to Weymouth](#sec-walk-01)
+2.  2026-10-30 [East Meon to Alresford via The Flower Pots Inn at Cheriton](#sec-walk-02)
+3.  2026-11-07 [Whitchurch to Andover](#sec-walk-03)
+
+## Upwey to Weymouth {#sec-walk-01}
+
+**Friday October 16^th^ 2026**
+
+Left home at 1040, and caught the train from Southampton Central to Upwey which is one-stop inland from Weymouth and takes about 1hr 30min. Walk to Weymouth via the ridgeway and coastal path. 17.20 km (10.69 miles) on the map, but I walked 19.29 km (11.99 miles) including a slight detour in about 4 hours and 20 minutes. Got back home at 2000.
 
 [OS Maps Upwey to Weymouth Route](https://explore.osmaps.com/route/34160523/upwey-to-weymouth?lat=50.64118&lon=-2.45015&zoom=12.3182&style=TopoAuto&type=2d)
 
@@ -40,7 +49,7 @@ Train from Southampton Central to Upwey which is one-stop inland from Weymouth. 
 
 ![Looking back over the fields towards Weymouth from the ridgeway.](img/PXL_20261016_123911177.webp){#fig-upwey-04 fig-alt="View from the ridgeway down over sloping fields, where a tractor is working a ploughed field, towards the edge of Weymouth on the horizon."}
 
-![The view south from the ridgeway to the Isle of Portland.](img/PXL_20261016_125916178.webp){#fig-upwey-05 fig-alt="Looking south from the ridgeway over a patchwork of green fields and hedges to the sea, with the Isle of Portland on the horizon under a bright, cloud-dotted sky."}
+![The view south from the ridgeway to the Isle of Portland. Where I had my lunch.](img/PXL_20261016_125916178.webp){#fig-upwey-05 fig-alt="Looking south from the ridgeway over a patchwork of green fields and hedges to the sea, with the Isle of Portland on the horizon under a bright, cloud-dotted sky."}
 
 ![Sheep grazing on the ridgeway.](img/PXL_20261016_131737744.webp){#fig-upwey-06 fig-alt="Sheep grazing on a grassy hilltop, with fields and the sea in the distance under a blue sky."}
 
@@ -60,16 +69,86 @@ Train from Southampton Central to Upwey which is one-stop inland from Weymouth. 
 
 ![The Jubilee Clock on Weymouth seafront, the end of the walk.](img/PXL_20261016_162212095.webp){#fig-upwey-14 fig-alt="Weymouth's ornate Victorian Jubilee Clock, painted red, blue and gold, on the seafront at dusk, with terraced houses behind it."}
 
-<!-- ## East Meon to Alresford via The Flower Pots Pub
+## East Meon to Alresford via The Flower Pots Inn {#sec-walk-02}
+
+**Friday 30^th^ October**
+
+Left home about 0845 and caught the train from Southampton Central to Winchester. Then I took the 67 bus from Winchester Bus station to East Meon, starting my walk at around 1115. I took 4hr 49min and walked 21.45 km (13.33 miles) along the route. I got the 65 bus back from Alresford to Winchester and the train back to Southampton, arriving home at 1820.
+
+Visiting East Meon was inspired by there being evidence for my family on my mother's side - the Upsdales - having lived there. I couldn't find the flagstone in the church, but I was able to find some records [on-line](https://www.eastmeonhistory.org.uk/google-search?st=upsdale), the oldest being a reference to Richard Upsdale in 1612.
+
+And I went via the [Flower Pots Inn](https://www.theflowerpots.co.uk/) in Cheriton as it has previously won awards and I wanted to try the cask ale they brew there. I had a pint of the Flower Pots Bitter.
+
+I didn't realise it before I did the walk, but this route takes in the source of the River Itchen, one of the two rivers that form the Solent estuary at Southampon.
 
 [OS Maps East Meon to Alresford](https://explore.osmaps.com/route/33562959/east-meon-to-alresford-via-flowerpots?lat=51.04406&lon=-1.15929&zoom=11.4513&style=TopoAuto&type=2d)
 
 [Download the GPX file](gpx/EastMeontoAlresfordviaFlowerpots.gpx){download="EastMeontoAlresfordviaFlowerpots.gpx"}
 
-## Whitchurch to Andover
+![Map of route from East Meon to Alresford via Cheriton. Grey is the plotted route, with the orange showing where I deviated from the route.](img/east-meon-to-alresford-route.webp){#fig-eastmeon-map fig-alt="Ordnance Survey map of the route. It starts at East Meon in the south-east, heads west past Riplington and East End to West Meon, then turns north-west past Hinton Ampner to Cheriton, and continues north past Tichborne to finish in New Alresford."}
+
+![All Saints Church, East Meon.](img/PXL_20261030_112609018.webp){#fig-eastmeon-01 fig-alt="A flint and stone church with a squat tower and lead spire, on a grassy rise above a curving path, under a clear blue sky."}
+
+![The black Tournai marble font in All Saints Church.](img/PXL_20261030_113910278.webp){#fig-eastmeon-02 fig-alt="A dark stone font carved with a row of robed figures and an arcaded building, resting on stone columns, with flowers in a window behind."}
+
+![Stained glass above the altar in All Saints Church.](img/PXL_20261030_114153258.webp){#fig-eastmeon-03 fig-alt="A stained glass window of four robed saints above a gilded carved reredos and an embroidered altar cloth, with stone memorials on the walls."}
+
+![Autumn colour on the way out of East Meon.](img/PXL_20261030_115640716.webp){#fig-eastmeon-04 fig-alt="A grassy field leading to a line of trees in green, yellow and orange, with farmland and a wooded ridge beyond under a blue sky."}
+
+![Rolling fields in the Meon Valley.](img/PXL_20261030_115911548.webp){#fig-eastmeon-05 fig-alt="Wide view across green fields and hedgerows to rolling chalk hills under a hazy blue sky."}
+
+![A footpath straight across a field towards West Meon.](img/PXL_20261030_121058119.webp){#fig-eastmeon-06 fig-alt="A narrow earth path runs straight through a field of young crops towards trees and hills in the distance."}
+
+![The church in West Meon.](img/PXL_20261030_125515257.webp){#fig-eastmeon-07 fig-alt="A stone church with a battlemented tower behind a churchyard of gravestones, with red autumn leaves on the grass and a copper beech on the left."}
+
+![Looking back to West Meon church across the fields.](img/PXL_20261030_130446603.webp){#fig-eastmeon-08 fig-alt="A grassy track beside a large green field, leading to a village among autumn trees with a church tower rising above them."}
+
+![The Flower Pots Inn, Cheriton.](img/PXL_20261030_154019924.webp){#fig-eastmeon-09 fig-alt="A red-brick pub with picnic tables and parasols in front, a hanging pub sign on a post, and a planted flint wall beside the road."}
+
+![Trees lit by the late-afternoon sun on the final stretch to Alresford.](img/PXL_20261030_162326095.webp){#fig-eastmeon-10 fig-alt="A line of trees glowing orange and gold in low sunlight at the edge of a stubble field, under a pale blue sky."}
+
+![Sunset near Alresford.](img/PXL_20261030_162742377.LONG_EXPOSURE-01.COVER.webp){#fig-eastmeon-11 fig-alt="The sun setting behind a silhouetted line of trees, with wisps of high cloud lit gold against a deep blue sky."}
+
+## Whitchurch to Andover {#sec-walk-03}
+
+**Saturday 7^th^ November**
+
+This is a Saturday Walkers Club route, [walk number 48](https://www.walkingclub.org.uk/walk/whitchurch-to-andover/).
+
+I left home at 1010 and caught the train from Millbrook to Salisbury, and then from
+Salisbury to Whitchurch, starting my walk at 1215. I walked 22.32 km (13.87 miles) over 4hrs 22minutes and
+then got the train home from Andover arriving home at 1845.
+
+The route itself starts on the Test Way, the River Test being the other chalk river
+that forms the Solent estuary at Southampton along with the River Itchen.
+After Longparish, about half-way in, the route goes inland through a big wood and abandoned pig farm before coming out onto a hillside before descending into Andover.
 
 [OS Maps Whitchurch to Andover](https://explore.osmaps.com/route/34460536/whitchurch-to-andover-walk-swcwalk?lat=51.21303&lon=-1.44862&zoom=12.1091&style=Leisure&type=2d)
 
 [Download the GPX file](gpx/WhitchurchtoAndoverWalkSWC-Walk.gpx){download="WhitchurchtoAndoverWalkSWC-Walk.gpx"}
 
--->
+![Map of route from Whitchurch to Andover. Grey is the plotted route, with the orange showing where I deviated from the route.](img/whitchurch-to-andover-route.webp){#fig-whitchurch-map fig-alt="Ordnance Survey map of the route. It starts at Whitchurch station in the north-east, follows the River Test south-west past Tufton and Testcombe to Longparish, then turns west through Harewood Forest and over Cow Down to finish in Andover."}
+
+![Two large boulders in the River Test near Whitchurch.](img/PXL_20261107_123856237.webp){#fig-whitchurch-01 fig-alt="Two large pale boulders sitting in a still, reed-fringed stretch of river, with willows behind them and yellowing leaves in the foreground."}
+
+![The River Test on the Test Way.](img/PXL_20261107_124228939.webp){#fig-whitchurch-02 fig-alt="A calm river reflecting the sky, running away between trees and bushes in autumn colour, with a branch arching overhead."}
+
+![A mackerel sky.](img/PXL_20261107_131618440.webp){#fig-whitchurch-03 fig-alt="A sky filled with small, evenly spaced puffs of white cloud, with patches of blue between them."}
+
+![Open farmland on an overcast afternoon.](img/PXL_20261107_132908701.webp){#fig-whitchurch-04 fig-alt="A wide field of young green crops under a grey sky, with a small copse on the horizon."}
+
+![The clear water of the River Test at Longparish.](img/PXL_20261107_135610690.webp){#fig-whitchurch-05 fig-alt="A shallow, very clear river with stones visible on the bed, between reeds and golden autumn trees, with a green field beyond."}
+
+![A large oak beside the River Test.](img/PXL_20261107_135620069.webp){#fig-whitchurch-06 fig-alt="A broad, still river reflecting a large oak tree and the clouds above, with a fenced meadow on the right bank."}
+
+![A silver birch in full autumn colour.](img/PXL_20261107_135837757.webp){#fig-whitchurch-07 fig-alt="A silver birch with drooping branches of golden-orange leaves, standing on a lawn in front of a hedge under a blue and white sky."}
+
+![A weeping willow and autumn trees in Longparish.](img/PXL_20261107_140036068.webp){#fig-whitchurch-08 fig-alt="A green field in front of a weeping willow and trees turning yellow and orange, with a railing, a parked car and a whitewashed wall."}
+
+![A track through Harewood Forest.](img/PXL_20261107_153638271.webp){#fig-whitchurch-09 fig-alt="A leaf-covered woodland track running straight between tall larches and oaks, with bracken turning brown on either side."}
+
+![Beech leaves turning in Harewood Forest.](img/PXL_20261107_153807918~2.webp){#fig-whitchurch-10 fig-alt="Looking up into a beech tree, its leaves a mix of green, yellow, orange and red against a pale sky."}
+
+![Sunset over the fields on the way down to Andover.](img/PXL_20261107_160108001.webp){#fig-whitchurch-11 fig-alt="A large bare field under heavy cloud, with orange light breaking through near the horizon and a line of telegraph poles."}
+
+![The last of the light before Andover.](img/PXL_20261107_160513362.webp){#fig-whitchurch-12 fig-alt="Rough grass and a ploughed field in the foreground, with a line of trees silhouetted against an orange band of sunset under grey cloud."}
