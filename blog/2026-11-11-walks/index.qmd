@@ -5,7 +5,7 @@ author:
   - name: Alistair Bailey
     url: https://ab604.uk
 date: 2026-11-11
-categories: [Outdoors]
+categories: [TIL]
 citation:
   url: https://ab604.uk/blog/2026-11-11-walks/
 draft: false
