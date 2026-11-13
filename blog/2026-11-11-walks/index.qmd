@@ -10,6 +10,8 @@ citation:
   url: https://ab604.uk/blog/2026-11-11-walks/
 draft: false
 toc: true
+image: img/PXL_20261016_143518606.webp
+image-alt: "A wooden fingerpost by a fence, pointing to the South Dorset Ridgeway, Osmington 1 mile, and the Coast Path, Weymouth 4½ miles."
 resources:
   - "gpx/*.gpx"
 #bibliography: references.bib
