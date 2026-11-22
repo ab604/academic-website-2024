@@ -2,7 +2,7 @@
 title: "Blog"
 #subtitle: "Today I Learned and anything else that caught my eye"
 listing:
-  contents: blog
+  contents: "blog/*/index.qmd"
   sort: "date desc"
   type: default
   image-align: right

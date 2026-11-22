@@ -1,0 +1,143 @@
+---
+title: "Yarmouth to Freshwater"
+description: "Walk 5 of my Autumn and Winter Walks 2026/27: on the Isle of Wight from Yarmouth along the coast to the Needles and over Tennyson Down to Freshwater."
+author:
+  - name: Alistair Bailey
+    url: https://ab604.uk
+date: 2026-11-21
+categories: [walks]
+citation:
+  url: https://ab604.uk/blog/2026-11-11-walks/05-yarmouth-to-freshwater/
+draft: false
+toc: true
+image: img/yarmouth-to-freshwater-route.webp
+image-alt: "Ordnance Survey map of the route on the western tip of the Isle of Wight. It starts at Yarmouth, heads west along the coast past Fort Victoria and Fort Albert, then south along Colwell Bay and Totland Bay. It crosses Headon Warren to Alum Bay and the Needles, then turns east along the clifftops over Tennyson Down to Freshwater Bay, and finishes by heading north to Freshwater."
+resources:
+  - "gpx/*.gpx"
+---
+
+*Part of my [Autumn and Winter Walks 2026/27](../index.qmd).*
+
+**Saturday 21^st^ November 2026**
+
+Visiting Dawlish almost every week for the last four years meant I got to see the sea, but my last three walks have all been inland and I needed to get back to the sea. A common misconception is that Southampton is a seaside city - not helped by the use of the marketing line Sea City - but it's actually about 10 km inland.
+
+Anyhow, I decided to head across the Solent to the Isle of Wight and continue walking the coastal path from Yarmouth where I left off last December when I [walked from Cowes to Yarmouth](../../2025-12-22-IOW/index.qmd).
+
+I left home about 0800 and got the train from Southampton Central to Lymington Pier to catch the 1000 ferry to Yarmouth. It was pretty chilly, but dry and sunny and the Solent was flat as a millpond. I've been very lucky with the weather so far this autumn.
+
+I'm usually pretty self-sufficient for food and drink, but in a nod to the "use it or lose it" theory about having nice things, I'm trying to make a point of spending at least a little money wherever I go. Not in a do-gooding hair shirt way, but if I see something nice, then it's nice to support it. This time it was [PO41 coffee shop](https://www.po41coffeehouse.com/yarmouth) (@fig-freshwater-06) where I got a decent coffee and a bit of caramel apple cake. The cake I ate whilst waiting for the ferry back as the sun was starting to set. The coffee and cake cost £8. I have a speciality coffee subscription that costs me about £0.70 a cup of top quality coffee, and I can buy a pastry from Lidl for £1. It's quite a differential.
+
+The route I plotted follows the coastal path, but as anyone who's walked the IoW coastal path knows, there's a lot of erosion and landslips - the joke being that in 10 years it'll be the Isle of W - and so re-routing is common (@fig-freshwater-13), and the other common gripe is that much of the path is more coast-adjacent than actually on the coast. But this was a nicer stretch than Cowes to Yarmouth, although I didn't see any red squirrels this time.
+
+I started walking at about 1040. The route starts off pretty gentle for the first hour or so, with a view back to Hurst Castle from near Fort Albert. But once one gets out of Totland Bay, it is very up and down and by lunchtime I was pretty hot. I stopped on a bench overlooking the Needles before going down and back up past Alum Bay, around the Needles and down and back up to the Tennyson Monument, and then the final descent to Freshwater Bay. I walked up to the bus stop at School Green Road by Stroud Recreation Ground to get the number 7 bus back to Yarmouth at 1511. It's about an hour extra walking to follow the Freshwater Way to Yarmouth instead.
+
+I got the 1605 ferry back to Lymington and got home at 1800. The plotted route was 17.5 km, but I walked closer to 21 km.
+
+[OS Maps Yarmouth to Freshwater](https://explore.osmaps.com/route/34593202/yarmouth-to-freshwater-175km?lat=50.68663&lon=-1.5676&zoom=12.3909&style=TopoAuto&type=2d)
+
+[Download the GPX file](gpx/YarmouthtoFreshwater17.5km.gpx){download="YarmouthtoFreshwater17.5km.gpx"}
+
+![Map of route from Yarmouth to Freshwater. Grey is the plotted route, with the orange showing where I deviated from the route. Although my phone lost the GPS signal briefly near Brambles Chine and may have added some bits I didn't do. My Garmin watch recorded 27 km by the time I was home.](img/yarmouth-to-freshwater-route.webp){#fig-freshwater-map fig-alt="Ordnance Survey map of the route on the western tip of the Isle of Wight. It starts at Yarmouth, heads west along the coast past Fort Victoria and Fort Albert, then south along Colwell Bay and Totland Bay. It crosses Headon Warren to Alum Bay and the Needles, then turns east along the clifftops over Tennyson Down to Freshwater Bay, and finishes by heading north to Freshwater."}
+
+![Morning on the Lymington River, waiting for the ferry.](img/PXL_20261121_092640436.webp){#fig-freshwater-01 fig-alt="A wide, calm river reflecting a sky full of rippled grey and white cloud with a bright patch of sun, with moored boats and a pier in the distance and grasses on the near bank."}
+
+![The Wightlink ferry at Lymington Pier.](img/PXL_20261121_093541547.webp){#fig-freshwater-02 fig-alt="A large white and blue car ferry moored at the end of a long covered walkway on stilts, under a sky of rippled cloud, with a grassy bank and wooden fence in the foreground."}
+
+![Looking down the river from the ferry.](img/PXL_20261121_095333721.webp){#fig-freshwater-03 fig-alt="A high view over still, silvery water dotted with small moored boats, under a vast sky of white cloud with the sun shining through and lighting a path on the water."}
+
+![Looking back towards Lymington Pier past the moorings.](img/PXL_20261121_100200931.webp){#fig-freshwater-04 fig-alt="View from the deck of the ferry, with the white bridge and a crew member on the left, looking down a river lined with moored motorboats and wooded banks under a blue sky with streaks of cloud."}
+
+![Out towards the mouth of the river and into the Solent.](img/PXL_20261121_100211954.webp){#fig-freshwater-05 fig-alt="A broad, calm estuary with a small yacht and a few motorboats at anchor, red and yellow mooring buoys, a wooded shore on the left and a long jetty on the right, under blue sky and white cloud."}
+
+![PO41 coffee, named after Yarmouth's postcode. It was busy and tiny, so I bought a good coffee and piece of caramel and apple cake to take away. Can recommend.](img/PXL_20261121_103706444.webp){#fig-freshwater-06 fig-alt="A small shopfront with wooden window frames and the sign PO41, red paper stars in the window, a red posting box set into the front and a pink-painted building above, on a narrow street with yellow lines."}
+
+![Yachts in Yarmouth Harbour.](img/PXL_20261121_104223797.webp){#fig-freshwater-07 fig-alt="Rows of white yachts with tall masts moored in a marina, their masts reflected in the still water, under a blue sky filled with small fluffy clouds."}
+
+![The ferry from the pontoons in Yarmouth Harbour.](img/PXL_20261121_104334678.webp){#fig-freshwater-08 fig-alt="Empty wooden pontoons in still blue water lead the eye to a large white ferry and moored motor yachts, with the mast of a yacht on the left and a blue sky with thin cloud."}
+
+![The River Yar from Yarmouth. In the distance is Tennyson Down where I'm heading.](img/PXL_20261121_104711418.webp){#fig-freshwater-09 fig-alt="A calm, wide river estuary with a small dinghy and buoys, mudflats and a wooded shore on the right, under a sky of rippled cloud with a hazy sun."}
+
+![The Solent from Yarmouth.](img/PXL_20261121_105909109.webp){#fig-freshwater-10 fig-alt="Choppy dark blue water filling the lower half of the frame, with a low line of distant coast on the horizon and a bright blue sky with thin white cloud."}
+
+![The path through the woods heading west out of Yarmouth.](img/PXL_20261121_110623591.webp){#fig-freshwater-11 fig-alt="A narrow path covered in fallen brown leaves runs straight through woodland of slender trees with yellow and green leaves, and a fence on the right."}
+
+![Sun through the trees.](img/PXL_20261121_110740532.webp){#fig-freshwater-12 fig-alt="Looking up into tall trees with yellow autumn leaves against a blue sky, with the sun shining through a gap low in the trunks and a lens flare."}
+
+![Erosion warning on the path to the shore. The Solent reappears as I head up through the wood above Fort Victoria.](img/PXL_20261121_111416952.webp){#fig-freshwater-13 fig-alt="A red sign on a wooden post reading Warning, owing to erosion the path to the shore is difficult, beside a path through ivy and trees that opens onto a view of the sea."}
+
+![Looking across the Solent to Hurst Castle and its lighthouse at the end of the spit.](img/PXL_20261121_111842253.webp){#fig-freshwater-14 fig-alt="A wide blue sky over calm water, with a long, low shingle spit on the far side ending in a castle and a small white lighthouse, and bare scrub in the foreground."}
+
+![First glimpse of the Needles, looking west along the coast above the holiday park.](img/PXL_20261121_112548994.webp){#fig-freshwater-15 fig-alt="A low view through a tangle of bare bramble stems towards a distant headland and the sea, with a row of white chalets on the right and a blue sky with wispy cloud."}
+
+![Holiday chalets above Colwell Bay.](img/PXL_20261121_113709937.webp){#fig-freshwater-16 fig-alt="Two rows of single-storey red-brick chalets with white windows face each other across a tarmac road and lawn that leads towards the sea, under a blue sky with white cloud."}
+
+![Onto the coastal path at Colwell Bay, with Fort Albert out on the water.](img/PXL_20261121_115149927.webp){#fig-freshwater-17 fig-alt="A blue fingerpost with two arms both reading Coastal Path, at the top of steps with a metal handrail above a curving beach and calm sea, with a fort on the water and cliffs in the distance."}
+
+![The promenade at Colwell Bay.](img/PXL_20261121_115459447.webp){#fig-freshwater-18 fig-alt="A concrete sea wall curves away beside calm grey water and a shingle beach, with a line of colourful beach huts beneath bare trees and wooden groynes reaching into the sea, under a mackerel sky."}
+
+![Beach huts along the boardwalk.](img/PXL_20261121_115612961.webp){#fig-freshwater-19 fig-alt="A row of wooden beach huts painted blue, red, yellow and teal along a wide wooden boardwalk, each with steps in front, with bare trees behind and the sea to the right."}
+
+![Inside an old gun emplacement at Colwell Bay, looking out over the Solent.](img/PXL_20261121_115841570.webp){#fig-freshwater-20 fig-alt="The view out from inside a crumbling concrete structure with graffiti on the walls and a heavy overhanging roof, looking across calm blue water to a low distant coastline."}
+
+![Broken concrete from the original coastal path on the clifftop.](img/PXL_20261121_120239561.webp){#fig-freshwater-21 fig-alt="Slabs and blocks of collapsed concrete and stone at the edge of a cliff above calm grey sea, with brown bracken and green gorse in the foreground."}
+
+![The sea wall heading towards Totland, with Headon Warren beyond.](img/PXL_20261121_120446214.webp){#fig-freshwater-22 fig-alt="A long, cracked concrete sea wall runs alongside calm water towards a small pier and a dark, rounded hill on the headland, under a sky of rippled cloud with the sun breaking through."}
+
+![Totland Pier.](img/PXL_20261121_120914805.webp){#fig-freshwater-23 fig-alt="A long, narrow pier on spindly legs reaching out across calm water to a pale two-storey building at the end, seen from a shingle beach under a sky of rippled cloud."}
+
+![Looking back along Totland Bay.](img/PXL_20261121_121729674.webp){#fig-freshwater-24 fig-alt="Small waves washing onto a sandy beach beside a concrete slipway, with wooden groynes, a yacht at anchor and the pier in the distance, under a blue sky with rippled cloud."}
+
+![Heading back up whilst looking down at the sea at Totland.](img/PXL_20261121_121946680.webp){#fig-freshwater-25 fig-alt="A big sky of soft white cloud over calm, pale sea, with a single dark wooden groyne running diagonally into the water from a shingle beach at the bottom of the frame."}
+
+![The coast path was closed due to another landslip, hence the diversion inland.](img/PXL_20261121_122443313.webp){#fig-freshwater-26 fig-alt="A metal fence panel blocks a narrow path between wooden fences, with a red sign reading Path closed, Danger, Do not enter, Landslip area, and a blue coastal path marker beside it."}
+
+![Up onto Headon Warren, looking back over Totland and Freshwater to the Downs. It doesn't really show in the photos but you can see most of the island and as far as Portsmouth and Southampton in one direction, and Bournemouth and Studland in the other.](img/PXL_20261121_123315172.webp){#fig-freshwater-27 fig-alt="A path winds through brown bracken and green grass on open heathland, with a waymarker post in the foreground and rolling hills and scattered houses in the distance under white cumulus clouds."}
+
+![Looking across the Solent from Headon Warren.](img/PXL_20261121_123630345.webp){#fig-freshwater-28 fig-alt="Green gorse and heather in the foreground, with a wide stretch of blue water beyond and a long, low coastline on the far side, under a pale sky of rippled cloud."}
+
+![A burnt patch of heath on Headon Warren. Been a lot of fires during our long hot dry 2026.](img/PXL_20261121_124011140.webp){#fig-freshwater-29 fig-alt="Blackened, scorched ground with the charred skeletons of gorse bushes and pale dried stems, on a hilltop overlooking calm blue sea and a distant shore."}
+
+![The Needles from Headon Warren. Not a bad view whilst I had lunch, looking across to Studland.](img/PXL_20261121_124447619.webp){#fig-freshwater-30 fig-alt="A pale stony path runs along a heather-covered ridge towards the sea, with white chalk cliffs and the chalk stacks of the Needles in the distance on the left, under a sky of rippled cloud."}
+
+![Heading down towards Alum Bay and the Needles.](img/PXL_20261121_130803700.webp){#fig-freshwater-31 fig-alt="A narrow path between gorse bushes leads downhill, with a long white chalk cliff ending in the Needles stacks across the bay, and a big blue sky streaked with cirrus and a bank of cumulus cloud."}
+
+![The path down to the sea and Alum Bay. I didn't go down to the beach this time. I followed the path back up.](img/PXL_20261121_131738375.webp){#fig-freshwater-32 fig-alt="A tarmac path runs downhill through a steep-sided valley of bare scrub and trees, towards a glimpse of blue sea under a clear blue sky."}
+
+![A long flight of steps back up.](img/PXL_20261121_131824780.webp){#fig-freshwater-33 fig-alt="A long wooden staircase with metal handrails climbs steeply up a scrubby slope, with a scaffolded building at the top and bare, windswept trees on the right."}
+
+![Looking back at the coloured sand cliffs of Alum Bay.](img/PXL_20261121_133220716.webp){#fig-freshwater-34 fig-alt="A high view across a curving bay of blue water to steep cliffs streaked in orange, cream and grey, topped with green fields, with a single yacht on the water and a clear blue sky."}
+
+![The lookout station on the headland above the Needles. You can't really see the Needles close-up due to the erosion and things being closed off.](img/PXL_20261121_134702892.webp){#fig-freshwater-35 fig-alt="A small stone lookout building with a pointed roof and a flagpole, surrounded by fencing and a tall metal mast, on a grassy headland above the sea under a large white cloud."}
+
+![Heading east along the Downs, with Tennyson Down ahead. You can just see the monument on the top. There's a big down between here and there.](img/PXL_20261121_135830902.webp){#fig-freshwater-36 fig-alt="A broad, grassy clifftop ridge runs towards a rounded hill with a white chalk edge, with the sea on the right and distant hills and puffy white clouds beyond."}
+
+![Looking north from the Downs towards the Solent.](img/PXL_20261121_141506435.webp){#fig-freshwater-37 fig-alt="Rough grass and low scrub in the foreground, with fields and a strip of blue water in the distance, under a bright blue sky with a long white cloud."}
+
+![The climb up Tennyson Down towards the monument. Most people are happy with a bench. Not sure why he needs a big slab of marble, but you can read about it [here](https://www.visitisleofwight.co.uk/things-to-do/tennyson-monument-p1068241).](img/PXL_20261121_141635249.webp){#fig-freshwater-38 fig-alt="A wide, close-cropped grassy slope rises to a low horizon with a tiny white monument on the summit, under a deep blue sky with a white cloud on the left and gorse on the right."}
+
+![Looking back west along the Downs to the Needles headland.](img/PXL_20261121_142154825.webp){#fig-freshwater-39 fig-alt="A broad grassy down slopes away to a narrow headland with the sea on both sides, the sun low on the left reflecting off the water, and large white clouds overhead."}
+
+![The afternoon sun on the sea from Tennyson Down.](img/PXL_20261121_143804789.webp){#fig-freshwater-40 fig-alt="A dark silhouetted hillside with a tiny figure on the skyline, below a sky of heavy grey and white cloud lit from behind, the sun reflecting on the sea, and a vapour trail high in the blue above."}
+
+![Coming down off Tennyson Down to Freshwater Bay.](img/PXL_20261121_143949843.webp){#fig-freshwater-41 fig-alt="A grassy path leads down a gentle slope towards a small bay with white chalk cliffs and houses, with a green hill and further cliffs beyond under blue sky and white cloud."}
+
+![I stood and watched this kestrel hunting for ages. I was able to get very close and it didn't seem to care. Not possible to get a decent photo with my phone though.](img/PXL_20261121_144350578.webp){#fig-freshwater-42 fig-alt="A small dark bird silhouetted in flight against a blue sky with white cloud, above a grassy hillside with low scrub on the skyline."}
+
+![Looking back over the cliffs above Freshwater Bay.](img/PXL_20261121_144431387.webp){#fig-freshwater-43 fig-alt="A grassy slope runs down to a white chalk cliff edge above a calm, silvery sea, with the coastline stretching away in the distance under towering white and grey clouds."}
+
+![St Agnes' Church at Freshwater Bay, the only thatched church on the Isle of Wight. I didn't have time to look inside or I'd have missed my bus.](img/PXL_20261121_145436137.webp){#fig-freshwater-44 fig-alt="A stone church with a thick, mossy thatched roof, a small bell turret with a cross, a timber porch and leaded windows, set behind a low stone wall beside a road, under a cloudy sky."}
+
+![St James' Church, back in Yarmouth for the ferry home. I did have a look around this one.](img/PXL_20261121_152631225.webp){#fig-freshwater-45 fig-alt="A stone church with a tall square crenellated tower with blue clock faces, on a street corner behind a stone wall, lit by low evening sun against a blue sky."}
+
+![Dusk over the Solent from the ferry. The ferry left at 1605 and sunset was at 1612.](img/PXL_20261121_161009092.webp){#fig-freshwater-46 fig-alt="Calm grey-blue water stretching to a dark wooded headland on the left, with a band of dark cloud and an orange glow on the horizon under a clear, fading blue sky with a vapour trail."}
+
+![Passing the other ferry on the crossing.](img/PXL_20261121_161729427.webp){#fig-freshwater-47 fig-alt="An orange inflatable rescue boat on the deck of a ferry in the foreground, framed by a white davit, with another ferry crossing the calm water beyond under an evening sky with an orange glow."}
+
+![Coming back into the Lymington River. Looking back towards the Island.](img/PXL_20261121_162729730.webp){#fig-freshwater-48 fig-alt="The view from the stern of a ferry over its wake across calm water, with channel marker posts, low marshy banks and a distant shoreline under a pale dusk sky."}
+
+![The marina at Lymington as the light faded and I waited for my train.](img/PXL_20261121_164012117.webp){#fig-freshwater-49 fig-alt="Many yachts with tall masts moored in a marina at dusk, reflected in dark blue water, with a chain barrier in the foreground and a deep blue sky fading to orange on the horizon."}
+
+------------------------------------------------------------------------
+
+[← Previous: Reading Green Park to Mortimer via Burghfield](../04-reading-green-park-to-mortimer/index.qmd) · [All walks](../index.qmd)

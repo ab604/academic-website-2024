@@ -1,0 +1,128 @@
+---
+title: "Reading Green Park to Mortimer via Burghfield"
+description: "Walk 4 of my Autumn and Winter Walks 2026/27: along the Kennet and Avon Canal and back to Burghfield, where I lived as a child, finishing at Mortimer."
+author:
+  - name: Alistair Bailey
+    url: https://ab604.uk
+date: 2026-11-14
+categories: [walks]
+citation:
+  url: https://ab604.uk/blog/2026-11-11-walks/04-reading-green-park-to-mortimer/
+draft: false
+toc: true
+image: img/rgp-to-mortimer-route.webp
+image-alt: "Ordnance Survey map of the route. It starts at Reading Green Park station near Pingewood, heads north to Southcote Mill, then west along the Holy Brook and Kennet and Avon Canal past Burghfield Mill and the lakes. It turns south under the M4 to Burghfield village, then south-west up Burghfield Hill, through Burghfield Common and the woods beyond, and finishes at Mortimer station in Stratfield Mortimer."
+resources:
+  - "gpx/*.gpx"
+---
+
+*Part of my [Autumn and Winter Walks 2026/27](../index.qmd).*
+
+**Saturday 14^th^ November 2026**
+
+Another personal walk. This one taking in [Burghfield](https://www.berkshirehistory.gowerweb.co.uk/villages/burghfield.html), where I lived until I was eight years old and the first school I attended. I also visited the Saint Mary's Church where my father was Rector from 1972 until 1981. My Mum's parents are buried in the churchyard there. And I walked past the house we used to live in.
+
+I left home at 0830 and got the train from Southampton Central to Reading Green Park via Basingstoke. Reading Green Park Station didn't exist when I was a child and is another great example of UK infrastructure planning and construction. Building was originally supposed to begin in 2009 and be completed in 2010. Of course it actually opened in 2023, a mere 13 years late. The station serves a business park and residential development on the southwestern outskirts of Reading, which all still feels very new.
+
+I had a coffee at [Esquires](https://maps.app.goo.gl/SAZiHNQ63cyLfvTo6) near the station before starting my walk at 1040. The route I plotted went along the Kennet and Avon Canal before crossing under the M4 motorway. After a rather tedious 20 minutes or so walking next to the M4 and 500 metres along a quiet, but fast road with no pavement, the route turns towards Burghfield Village. I ate my lunch in the recreation ground near the school before visiting the church.
+
+[St Mary's Burghfield](https://www.achurchnearyou.com/church/287/page/82731/view/) contains a 14^th^ century effigy of Sir Roger de Burghfield that was stolen in 1978 and eventually returned in 1982 after it was discovered in Belgium. I have vague memories of my Dad appearing on the TV programme Nationwide around the time it was stolen. Much of the church is the same, but they've built a new modern Annexe that is bigger than the original church. I documented my visit in the prayer book and lit a candle for my Dad. He died on the 25^th^ of April 2026 aged 89.
+
+I walked across the fields and was surprised to discover the hill we used to walk down to school is still as scary as I remember it being when I was 5. People still drive really fast and the pavement is narrow. I walked past our first house and peeked down the driveway, but didn't get too close. The final part of the walk goes through a wood I think I used to play in and down to Mortimer. I came out by the playground where I remember my Dad taking me because I got my fingers stuck between the wooden slats on the roundabout one time. Then it's about 15 minutes down to Mortimer station and I caught the 1520 train back to Basingstoke.
+
+I walked 19.5 km (12.12 miles) over 4.5 hours and got home at 1700.
+
+[OS Maps Reading Green Park to Mortimer](https://explore.osmaps.com/route/34513707/reading-green-park-to-mortimer-17k?lat=51.40752&lon=-1.07162&zoom=11.8860&style=Leisure&type=2d)
+
+[Download the GPX file](gpx/ReadingGreenParktoMortimer17k.gpx){download="ReadingGreenParktoMortimer17k.gpx"}
+
+![Map of route from Reading Green Park to Mortimer via Burghfield. Grey is the plotted route, with the orange showing where I deviated from the route.](img/rgp-to-mortimer-route.webp){#fig-burghfield-map fig-alt="Ordnance Survey map of the route. It starts at Reading Green Park station near Pingewood, heads north to Southcote Mill, then west along the Holy Brook and Kennet and Avon Canal past Burghfield Mill and the lakes. It turns south under the M4 to Burghfield village, then south-west up Burghfield Hill, through Burghfield Common and the woods beyond, and finishes at Mortimer station in Stratfield Mortimer."}
+
+![New flats beside the lake at Reading Green Park.](img/PXL_20261114_102206817.webp){#fig-burghfield-01 fig-alt="Modern curved apartment blocks with balconies stand behind reeds on the far side of a still lake, reflected in the water under a clear blue sky."}
+
+![A willow in the morning sun.](img/PXL_20261114_105948933.webp){#fig-burghfield-02 fig-alt="A large, many-stemmed willow with bare yellow-brown branches against a blue sky, standing among long grass and reeds."}
+
+![Frost on the path towards the canal.](img/PXL_20261114_110009782.webp){#fig-burghfield-03 fig-alt="A narrow trodden path through frosty long grass, leading towards trees and bushes under a bright blue sky, with bare branches overhanging the top of the frame."}
+
+![A frosty lock on the Kennet and Avon Canal.](img/PXL_20261114_110507749.webp){#fig-burghfield-04 fig-alt="The black and white balance beam of a canal lock gate numbered 104, with frost on the grass in front and a towpath and footbridge beyond among autumn trees."}
+
+![A narrowboat moored beside an old brick building, reflected in the canal.](img/PXL_20261114_110609407.webp){#fig-burghfield-05 fig-alt="A maroon narrowboat moored in front of a tall red-brick building with a gabled roof and balcony, both mirrored perfectly in the still water of the canal."}
+
+![A willow reflected in the still water.](img/PXL_20261114_111002369.webp){#fig-burghfield-06 fig-alt="A spreading bare willow leaning out over calm water, its branches and their mirror image forming a symmetrical pattern, with yellow leaves in the foreground."}
+
+![Moored narrowboats along the towpath.](img/PXL_20261114_111223668.webp){#fig-burghfield-07 fig-alt="A grassy towpath runs beside the canal, with a line of moored narrowboats in the distance and trees in green and gold reflected in the water."}
+
+![Open grassland with a vapour trail overhead.](img/PXL_20261114_114109822.webp){#fig-burghfield-08 fig-alt="A faint path runs across rough, pale grassland towards a line of trees, under a deep blue sky crossed by a single long vapour trail."}
+
+![Autumn colour along the water.](img/PXL_20261114_114806939.webp){#fig-burghfield-09 fig-alt="A straight, dark stretch of water between banks of trees and bushes in green, orange and gold, with fallen leaves floating on the surface."}
+
+![The M4, where the walk gets less pleasant.](img/PXL_20261114_115401367.LONG_EXPOSURE-01.COVER.webp){#fig-burghfield-10 fig-alt="Long-exposure photo looking up a scrubby bank to the motorway, where passing traffic is blurred into streaks beneath the back of a large road sign."}
+
+![One of the lakes south of the M4.](img/PXL_20261114_115640096.webp){#fig-burghfield-11 fig-alt="A wide, calm lake under a pale blue sky, with a flat rock and fallen leaves on the near shore and a line of trees and electricity pylons on the far side."}
+
+![A lane between the oaks on the way to Burghfield Village.](img/PXL_20261114_122447275.webp){#fig-burghfield-12 fig-alt="A narrow tarmac lane runs between grass verges and tall oak trees, with the sun shining through the branches on the right and a vapour trail in the sky."}
+
+![Fields on the way into Burghfield.](img/PXL_20261114_123001363.webp){#fig-burghfield-13 fig-alt="A broad field of young green crops stretching to a line of scattered trees on the horizon, under a blue sky criss-crossed with vapour trails."}
+
+![Yellow leaves against the blue with a Red Kite circling above. There were no Red Kites in Berkshire when I was a child.](img/PXL_20261114_123225704.webp){#fig-burghfield-14 fig-alt="Looking up at an oak with bright yellow autumn leaves on the left, against a clear blue sky with a vapour trail running diagonally across it and a red kite, a tiny dark silhouette, gliding beside the trail."}
+
+![Arriving in Burghfield.](img/PXL_20261114_123732899.webp){#fig-burghfield-15 fig-alt="A roadside village sign reading 30, Burghfield Village, Please drive carefully, mounted above a white wooden gate on a grass verge beside the road."}
+
+![Burghfield St Mary's, the school I first went to. The infants school was at the back which we entered by the side lane. This is the main building where we had assembly, did games and ate our school dinners. I remember taking home books that my Mum used to teach me to read.](img/PXL_20261114_124009687.webp){#fig-burghfield-16 fig-alt="A Victorian red-brick school building with a clock tower and steep gables, behind green railings hung with colourful banners, under a blue sky."}
+
+![St Mary's Church, Burghfield, in an old family photo. Not sure when this was taken.](img/IMG_20230803_0035.webp){#fig-burghfield-17 fig-alt="A faded colour photograph of a brick and stone church tower with arched openings, round windows and a pointed stone spire, lit by low sun."}
+
+![St Mary's Church, Burghfield, today.](img/PXL_20261114_132659228.webp){#fig-burghfield-18 fig-alt="A Victorian church of red and grey brick with a tall tower topped by an open belfry and pointed spire, behind a churchyard of gravestones under a blue sky with white clouds."}
+
+![The path to the church door.](img/PXL_20261114_132819320.webp){#fig-burghfield-19 fig-alt="A gravel path curves across the grassy churchyard to the arched entrance of the church, seen from the side with its tower on the right and a dark yew tree on the left."}
+
+![The back of the lychgate, decorated with poppies for Remembrance.](img/PXL_20261114_132845788.webp){#fig-burghfield-20 fig-alt="A dark timber lychgate with a steep, carved roof over a gravel path, with red knitted poppies tied to its posts, framed by trees."}
+
+![Looking through the front of the lychgate to the war memorial.](img/PXL_20261114_132902595.webp){#fig-burghfield-21 fig-alt="View through the timber lychgate from the other side, with a large red poppy hanging under the roof and a stone war memorial surrounded by poppies beyond."}
+
+![My Mum's parents' grave after the headstone was completed and my grandmother moved from London to Burghfield to join my grandfather. That's my Uncle Bill (my Mum's brother) and my Aunt Sue holding my cousin Katie, next to my brother. This must have been around 1980.](img/IMG_20230714_0006.webp){#fig-burghfield-22 fig-alt="A faded colour photograph of a family in summer clothes gathered around a dark headstone in long grass: a man standing on the left, a woman holding a toddler, and a boy crouching in front."}
+
+![My grandparents' grave today. All the white highlighting has worn away.](img/PXL_20261114_132946462.webp){#fig-burghfield-23 fig-alt="A round-topped slate headstone with a carved cross, inscribed david william upsdale 1907 to 1978 and his wife kathleen ella 1905 to 1958, standing in grass with fallen leaves."}
+
+![Inside St Mary's. There's a new floor and you can see a couple of the old wooden pews which have mostly been replaced with chairs. Presumably to make the space more flexible.](img/PXL_20261114_133125086.webp){#fig-burghfield-24 fig-alt="The nave of the church with a dark timber roof, pale tiled floor and rows of wooden chairs, looking towards a pointed arch and a carved altar screen, with stained glass windows on either side."}
+
+![The font I was baptised in!](img/PXL_20261114_133148872.webp){#fig-burghfield-25 fig-alt="A carved stone font on an octagonal stone base, with pointed arch decoration on its bowl, standing on a tiled floor among pews."}
+
+![The effigy of Sir Roger de Burghfield. It was stolen in 1978 and eventually returned in 1982 after it was discovered in Belgium. I have vague memories of my Dad appearing on the TV programme Nationwide around the time it was stolen.](img/PXL_20261114_133301667.webp){#fig-burghfield-26 fig-alt="A worn wooden effigy of a knight lying in a long glass case with a wooden frame, on a black and white chequered floor beneath a stone arch with an information notice."}
+
+![The St Mary the Virgin banner beside the effigy. I think this was there when I was a child.](img/PXL_20261114_133404917.webp){#fig-burghfield-27 fig-alt="An embroidered church banner reading St Mary the Virgin Burghfield, showing Mary holding the infant Jesus between white lilies, hanging in front of dark carved panelling, with the effigy's glass case on the left."}
+
+![The list of Rectors of Burghfield, including my Dad, Brian C Bailey, 1972 to 1981.](img/PXL_20261114_133528890.webp){#fig-burghfield-28 fig-alt="A framed printed list headed St Mary's Church Burghfield, Rectors of Burghfield, in three columns of names and dates from 1470 to the present, including Brian C Bailey, 1972 to 1981."}
+
+![I lit a candle for my Dad, born on 23^rd^ September 1936 and died on 25^th^ April 2026.](img/PXL_20261114_134151148.webp){#fig-burghfield-29 fig-alt="A wooden lectern holding an open book, beside a lit candle in a holder and an iron votive candle stand, in a corner by the pews."}
+
+![My Dad with the church choir. I am in this photo, but hiding. My brother is at the front, and Jean, who was the choir leader and also headteacher of our primary school, is at the back in purple.](img/IMG_20220718_0005.webp){#fig-burghfield-30 fig-alt="A faded colour photograph of a children's church choir in white robes, holding red hymn books, gathered in front of an arched stone porch, with a clergyman and a woman standing at the back."}
+
+![Fields on the way from the church up towards our old house.](img/PXL_20261114_134651432.webp){#fig-burghfield-31 fig-alt="A wide green field with a margin of fallen leaves in the foreground, framed by an oak branch, with trees on the horizon under a grey and white sky."}
+
+![Across the fields towards Burghfield Hill and Aldermaston Atomic Weapons Establishment. I'd never realised we lived quite so close to it. I remember it being a sort of scary place that meant we'd be targeted in a nuclear war. Along with HIV, nuclear war was the main threat during my childhood.](img/PXL_20261114_135412210.webp){#fig-burghfield-32 fig-alt="A flat field of young green crops with a telegraph pole and wires, a line of trees and distant buildings on the horizon, under a cloudy sky."}
+
+![The road up to Burghfield Common and our old house.](img/PXL_20261114_140124789.webp){#fig-burghfield-33 fig-alt="A two-lane road with a narrow pavement on the right climbs gently between tall autumn trees, past a sign reading Burghfield Common."}
+
+![Peeking down the drive to our first house.](img/PXL_20261114_140952008.webp){#fig-burghfield-34 fig-alt="A narrow tarmac drive running between a red-brick wall with railings and a fence, towards a modern brick house at the end, with a tile-hung house on the right."}
+
+![Mum and Dad in the back garden in Burghfield sometime between 1972 and 1981.](img/IMG_20230803_0042.webp){#fig-burghfield-35 fig-alt="A faded, red-tinted photograph of a smiling woman in a striped top and a man in a clerical collar sitting together on a white garden bench."}
+
+![Mum and me in the garden of our first house. Not sure how old I am in this photo.](img/IMG_20200809_163609.webp){#fig-burghfield-36 fig-alt="A faded colour photograph of a smiling woman in a cream blouse and red tartan skirt crouching on a lawn with a curly-haired toddler in red on her knee, in front of a brick house."}
+
+![Dad and me outside our house. I think this is my first day at school aged 5. I was very pleased with the orange piping on my satchel.](img/IMG_20230803_0029.webp){#fig-burghfield-37 fig-alt="A faded colour photograph of a small boy in a grey jumper holding a bag, standing against a brick wall beside a tall man with glasses wearing a black cassock and belt."}
+
+![Across Wokefield Common on my way to Mortimer.](img/PXL_20261114_142603849.webp){#fig-burghfield-38 fig-alt="A leaf-covered path leads into woodland of slender trees in yellow and green, with brown bracken on the right."}
+
+![Golden leaves overhead.](img/PXL_20261114_143027431.webp){#fig-burghfield-39 fig-alt="Looking up into the canopy of a tree with dense golden-yellow leaves and dark branches, with patches of pale sky showing through."}
+
+![Pines and bracken.](img/PXL_20261114_143723543.webp){#fig-burghfield-40 fig-alt="Tall, straight pine trunks rise above a dense layer of rust-brown bracken, with birch trees in yellow leaf among them."}
+
+![The playground in Mortimer. I can't believe this is the original, but I have distinct memories of this rocking horse or ones like it. It was green then, and I got my fingers stuck in the wooden slats on the old roundabout one time when I was here with my Dad.](img/PXL_20261114_145214889.webp){#fig-burghfield-41 fig-alt="A red, horse-shaped bench seat with a black horse's head and five black seats, in a playground with green railings and autumn trees behind."}
+
+![The last stretch towards Mortimer. I didn't have time to visit the church this time.](img/PXL_20261114_151319098.webp){#fig-burghfield-42 fig-alt="A green field beside a stream under a dramatic sky of grey and white cloud, with the low sun breaking through and a church spire on the horizon."}
+
+
+---
+
+[← Previous: Whitchurch to Andover](../03-whitchurch-to-andover/index.qmd) · [All walks](../index.qmd) · [Next: Yarmouth to Freshwater →](../05-yarmouth-to-freshwater/index.qmd)

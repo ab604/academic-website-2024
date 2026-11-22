@@ -2,66 +2,86 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://ab604.uk/blog/2026-11-11-walks/index.html</loc>
-    <lastmod>2026-11-15T11:10:46.710Z</lastmod>
+    <lastmod>2026-11-22T09:06:19.594Z</lastmod>
   </url>
   <url>
-    <loc>https://ab604.uk/blog/2025-12-19-EOY/index.html</loc>
-    <lastmod>2025-12-21T19:10:47.775Z</lastmod>
+    <loc>https://ab604.uk/blog/2026-11-11-walks/04-reading-green-park-to-mortimer/index.html</loc>
+    <lastmod>2026-11-22T10:15:04.936Z</lastmod>
   </url>
   <url>
-    <loc>https://ab604.uk/blog/2025-08-20-cathedral-trip/index.html</loc>
-    <lastmod>2025-08-31T16:12:19.617Z</lastmod>
+    <loc>https://ab604.uk/blog/2026-11-11-walks/02-east-meon-to-alresford/index.html</loc>
+    <lastmod>2026-11-22T10:15:04.859Z</lastmod>
   </url>
   <url>
-    <loc>https://ab604.uk/blog/2025-04-17-mopidy/index.html</loc>
-    <lastmod>2025-04-17T11:09:13.060Z</lastmod>
-  </url>
-  <url>
-    <loc>https://ab604.uk/blog/2025-01-23-TIL/index.html</loc>
-    <lastmod>2025-01-23T20:13:57.125Z</lastmod>
-  </url>
-  <url>
-    <loc>https://ab604.uk/blog/2025-01-05-TIL/index.html</loc>
-    <lastmod>2025-01-08T13:28:12.354Z</lastmod>
-  </url>
-  <url>
-    <loc>https://ab604.uk/blog.html</loc>
-    <lastmod>2026-11-11T20:33:30.488Z</lastmod>
-  </url>
-  <url>
-    <loc>https://ab604.uk/projects.html</loc>
-    <lastmod>2025-04-17T10:59:04.529Z</lastmod>
-  </url>
-  <url>
-    <loc>https://ab604.uk/index.html</loc>
-    <lastmod>2026-11-13T16:11:32.092Z</lastmod>
-  </url>
-  <url>
-    <loc>https://ab604.uk/research.html</loc>
-    <lastmod>2026-09-29T16:15:58.714Z</lastmod>
-  </url>
-  <url>
-    <loc>https://ab604.uk/how.html</loc>
-    <lastmod>2024-09-22T17:39:09.744Z</lastmod>
-  </url>
-  <url>
-    <loc>https://ab604.uk/blog/2024-12-11-TIL/index.html</loc>
-    <lastmod>2025-01-05T20:43:32.461Z</lastmod>
-  </url>
-  <url>
-    <loc>https://ab604.uk/blog/2025-01-30-TIL/index.html</loc>
-    <lastmod>2025-02-18T15:38:57.791Z</lastmod>
-  </url>
-  <url>
-    <loc>https://ab604.uk/blog/2025-02-18-TIL/index.html</loc>
-    <lastmod>2025-02-18T16:11:11.902Z</lastmod>
+    <loc>https://ab604.uk/blog/2025-12-22-IOW/index.html</loc>
+    <lastmod>2026-01-10T19:40:46.540Z</lastmod>
   </url>
   <url>
     <loc>https://ab604.uk/blog/2025-08-03-TIL/index.html</loc>
     <lastmod>2025-08-06T19:01:47.462Z</lastmod>
   </url>
   <url>
-    <loc>https://ab604.uk/blog/2025-12-22-IOW/index.html</loc>
-    <lastmod>2026-01-10T19:40:46.540Z</lastmod>
+    <loc>https://ab604.uk/blog/2025-02-18-TIL/index.html</loc>
+    <lastmod>2025-02-18T16:11:11.902Z</lastmod>
+  </url>
+  <url>
+    <loc>https://ab604.uk/blog/2025-01-30-TIL/index.html</loc>
+    <lastmod>2025-02-18T15:38:57.791Z</lastmod>
+  </url>
+  <url>
+    <loc>https://ab604.uk/blog/2024-12-11-TIL/index.html</loc>
+    <lastmod>2025-01-05T20:43:32.461Z</lastmod>
+  </url>
+  <url>
+    <loc>https://ab604.uk/how.html</loc>
+    <lastmod>2024-09-22T17:39:09.744Z</lastmod>
+  </url>
+  <url>
+    <loc>https://ab604.uk/research.html</loc>
+    <lastmod>2026-09-29T16:15:58.714Z</lastmod>
+  </url>
+  <url>
+    <loc>https://ab604.uk/index.html</loc>
+    <lastmod>2026-11-13T16:11:32.092Z</lastmod>
+  </url>
+  <url>
+    <loc>https://ab604.uk/projects.html</loc>
+    <lastmod>2025-04-17T10:59:04.529Z</lastmod>
+  </url>
+  <url>
+    <loc>https://ab604.uk/blog.html</loc>
+    <lastmod>2026-11-22T09:01:03.372Z</lastmod>
+  </url>
+  <url>
+    <loc>https://ab604.uk/blog/2025-01-05-TIL/index.html</loc>
+    <lastmod>2025-01-08T13:28:12.354Z</lastmod>
+  </url>
+  <url>
+    <loc>https://ab604.uk/blog/2025-01-23-TIL/index.html</loc>
+    <lastmod>2025-01-23T20:13:57.125Z</lastmod>
+  </url>
+  <url>
+    <loc>https://ab604.uk/blog/2025-04-17-mopidy/index.html</loc>
+    <lastmod>2025-04-17T11:09:13.060Z</lastmod>
+  </url>
+  <url>
+    <loc>https://ab604.uk/blog/2025-08-20-cathedral-trip/index.html</loc>
+    <lastmod>2025-08-31T16:12:19.617Z</lastmod>
+  </url>
+  <url>
+    <loc>https://ab604.uk/blog/2025-12-19-EOY/index.html</loc>
+    <lastmod>2025-12-21T19:10:47.775Z</lastmod>
+  </url>
+  <url>
+    <loc>https://ab604.uk/blog/2026-11-11-walks/01-upwey-to-weymouth/index.html</loc>
+    <lastmod>2026-11-22T09:05:48.716Z</lastmod>
+  </url>
+  <url>
+    <loc>https://ab604.uk/blog/2026-11-11-walks/03-whitchurch-to-andover/index.html</loc>
+    <lastmod>2026-11-22T10:15:04.898Z</lastmod>
+  </url>
+  <url>
+    <loc>https://ab604.uk/blog/2026-11-11-walks/05-yarmouth-to-freshwater/index.html</loc>
+    <lastmod>2026-11-22T10:15:15.136Z</lastmod>
   </url>
 </urlset>

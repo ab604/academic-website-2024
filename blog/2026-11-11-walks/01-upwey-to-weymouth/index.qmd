@@ -1,0 +1,62 @@
+---
+title: "Upwey to Weymouth"
+description: "Walk 1 of my Autumn and Winter Walks 2026/27: from Upwey along the South Dorset Ridgeway and the coast path to Weymouth."
+author:
+  - name: Alistair Bailey
+    url: https://ab604.uk
+date: 2026-10-16
+categories: [walks]
+citation:
+  url: https://ab604.uk/blog/2026-11-11-walks/01-upwey-to-weymouth/
+draft: false
+toc: true
+image: img/upwey-to-weymouth-route.webp
+image-alt: "Ordnance Survey map of the route. It starts at Upwey station, heads east along the ridgeway past Bincombe and above Osmington, drops south to the coast near Osmington Mills, then follows the coast path west past Redcliff Point and Bowleaze Cove and along Weymouth beach to the town centre."
+resources:
+  - "gpx/*.gpx"
+---
+
+*Part of my [Autumn and Winter Walks 2026/27](../index.qmd).*
+
+**Friday 16^th^ October 2026**
+
+Left home at 1040, and caught the train from Southampton Central to Upwey which is one-stop inland from Weymouth and takes about 1hr 30min. Walk to Weymouth via the ridgeway and coastal path. 17.20 km (10.69 miles) on the map, but I walked 19.29 km (11.99 miles) including a slight detour in about 4 hours and 20 minutes. Got back home at 2000.
+
+[OS Maps Upwey to Weymouth Route](https://explore.osmaps.com/route/34160523/upwey-to-weymouth?lat=50.64118&lon=-2.45015&zoom=12.3182&style=TopoAuto&type=2d)
+
+[Download the GPX file](gpx/UpweytoWeymouth.gpx){download="UpweytoWeymouth.gpx"}
+
+![Map of route from Upwey to Weymouth. Grey is the plotted route, with the yellow showing where I deviated from the route.](img/upwey-to-weymouth-route.webp){#fig-upwey-map fig-alt="Ordnance Survey map of the route. It starts at Upwey station, heads east along the ridgeway past Bincombe and above Osmington, drops south to the coast near Osmington Mills, then follows the coast path west past Redcliff Point and Bowleaze Cove and along Weymouth beach to the town centre."}
+
+![Heading out of Upwey towards the ridgeway.](img/PXL_20261016_120420860.webp){#fig-upwey-01 fig-alt="A tarmac footpath runs downhill between grassy banks towards a housing estate, with green downland beyond under a blue sky with small clouds."}
+
+![The church at Bincombe, with a forage harvester parked in the farmyard next door.](img/PXL_20261016_122959219.webp){#fig-upwey-02 fig-alt="The stone tower of a small village church beside a farmyard, with a large green forage harvester and a stack of old tyres."}
+
+![Inside the church at Bincombe.](img/PXL_20261016_123127455.webp){#fig-upwey-03 fig-alt="Inside a simple whitewashed church: wooden pews, dark roof beams and hanging lamps, with a stone arch leading to the altar and a small stained glass window."}
+
+![Looking back over the fields towards Weymouth from the ridgeway.](img/PXL_20261016_123911177.webp){#fig-upwey-04 fig-alt="View from the ridgeway down over sloping fields, where a tractor is working a ploughed field, towards the edge of Weymouth on the horizon."}
+
+![The view south from the ridgeway to the Isle of Portland. Where I had my lunch.](img/PXL_20261016_125916178.webp){#fig-upwey-05 fig-alt="Looking south from the ridgeway over a patchwork of green fields and hedges to the sea, with the Isle of Portland on the horizon under a bright, cloud-dotted sky."}
+
+![Sheep grazing on the ridgeway.](img/PXL_20261016_131737744.webp){#fig-upwey-06 fig-alt="Sheep grazing on a grassy hilltop, with fields and the sea in the distance under a blue sky."}
+
+![Thatched cottages in Osmington.](img/PXL_20261016_140710728.webp){#fig-upwey-07 fig-alt="A quiet village lane lined with thatched stone cottages, one covered in climbing plants, with cars parked along the left-hand side."}
+
+![Joining the coast path: 4½ miles to Weymouth.](img/PXL_20261016_143518606.webp){#fig-upwey-08 fig-alt="A wooden fingerpost by a fence, pointing to the South Dorset Ridgeway, Osmington 1 mile, and the Coast Path, Weymouth 4½ miles."}
+
+![The first sight of the sea from the coast path.](img/PXL_20261016_143825970.webp){#fig-upwey-09 fig-alt="Green fields slope down to a deep blue sea, with wind-bent pine trees and a low cliff along the coast."}
+
+![The sun behind a cloud over the coast path.](img/PXL_20261016_145225250.webp){#fig-upwey-10 fig-alt="The sun hidden behind a cumulus cloud, with rays fanning out around its edge, above a grassy headland and the sea."}
+
+![A long exposure of a wave on the shingle.](img/PXL_20261016_154157557.LONG_EXPOSURE-01.COVER.webp){#fig-upwey-11 fig-alt="Long-exposure photo of a wave washing over a golden shingle beach, the water blurred into soft white streaks."}
+
+![Looking back east along the beach.](img/PXL_20261016_154710213.webp){#fig-upwey-12 fig-alt="An empty shingle beach curving along a calm blue sea, with low cliffs at the far end under a clear sky."}
+
+![Late-afternoon sea swimmers at Weymouth.](img/PXL_20261016_161054415.webp){#fig-upwey-13 fig-alt="A group of five sea swimmers in calm water off a shingle beach in late afternoon light, with cliffs along the far side of the bay."}
+
+![The Jubilee Clock on Weymouth seafront, the end of the walk.](img/PXL_20261016_162212095.webp){#fig-upwey-14 fig-alt="Weymouth's ornate Victorian Jubilee Clock, painted red, blue and gold, on the seafront at dusk, with terraced houses behind it."}
+
+
+---
+
+[All walks](../index.qmd) · [Next: East Meon to Alresford via The Flower Pots Inn →](../02-east-meon-to-alresford/index.qmd)
