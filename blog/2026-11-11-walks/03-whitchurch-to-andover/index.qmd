@@ -1,6 +1,6 @@
 ---
 title: "Whitchurch to Andover"
-description: "Walk 3 of my Autumn and Winter Walks 2026/27: a Saturday Walkers Club route along the Test Way and through Harewood Forest from Whitchurch to Andover."
+description: "*Part of my [Autumn and Winter Walks 2026/27](../index.qmd).*"
 author:
   - name: Alistair Bailey
     url: https://ab604.uk
@@ -15,8 +15,6 @@ image-alt: "Ordnance Survey map of the route. It starts at Whitchurch station in
 resources:
   - "gpx/*.gpx"
 ---
-
-*Part of my [Autumn and Winter Walks 2026/27](../index.qmd).*
 
 **Saturday 7^th^ November 2026**
 

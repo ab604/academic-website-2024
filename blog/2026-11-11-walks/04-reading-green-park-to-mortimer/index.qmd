@@ -1,6 +1,6 @@
 ---
 title: "Reading Green Park to Mortimer via Burghfield"
-description: "Walk 4 of my Autumn and Winter Walks 2026/27: along the Kennet and Avon Canal and back to Burghfield, where I lived as a child, finishing at Mortimer."
+description: "*Part of my [Autumn and Winter Walks 2026/27](../index.qmd).*"
 author:
   - name: Alistair Bailey
     url: https://ab604.uk
@@ -15,8 +15,6 @@ image-alt: "Ordnance Survey map of the route. It starts at Reading Green Park st
 resources:
   - "gpx/*.gpx"
 ---
-
-*Part of my [Autumn and Winter Walks 2026/27](../index.qmd).*
 
 **Saturday 14^th^ November 2026**
 

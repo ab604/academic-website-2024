@@ -1,6 +1,6 @@
 ---
 title: "Yarmouth to Freshwater"
-description: "Walk 5 of my Autumn and Winter Walks 2026/27: on the Isle of Wight from Yarmouth along the coast to the Needles and over Tennyson Down to Freshwater."
+description: "*Part of my [Autumn and Winter Walks 2026/27](../index.qmd).*"
 author:
   - name: Alistair Bailey
     url: https://ab604.uk
@@ -15,8 +15,6 @@ image-alt: "Ordnance Survey map of the route on the western tip of the Isle of W
 resources:
   - "gpx/*.gpx"
 ---
-
-*Part of my [Autumn and Winter Walks 2026/27](../index.qmd).*
 
 **Saturday 21^st^ November 2026**
 

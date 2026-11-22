@@ -1,6 +1,6 @@
 ---
 title: "East Meon to Alresford via The Flower Pots Inn"
-description: "Walk 2 of my Autumn and Winter Walks 2026/27: from East Meon past the source of the River Itchen, via the Flower Pots Inn at Cheriton, to Alresford."
+description: "*Part of my [Autumn and Winter Walks 2026/27](../index.qmd).*"
 author:
   - name: Alistair Bailey
     url: https://ab604.uk
@@ -15,8 +15,6 @@ image-alt: "Ordnance Survey map of the route. It starts at East Meon in the sout
 resources:
   - "gpx/*.gpx"
 ---
-
-*Part of my [Autumn and Winter Walks 2026/27](../index.qmd).*
 
 **Friday 30^th^ October 2026**
 

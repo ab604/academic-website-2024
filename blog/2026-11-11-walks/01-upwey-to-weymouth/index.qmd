@@ -1,6 +1,6 @@
 ---
 title: "Upwey to Weymouth"
-description: "Walk 1 of my Autumn and Winter Walks 2026/27: from Upwey along the South Dorset Ridgeway and the coast path to Weymouth."
+description: "*Part of my [Autumn and Winter Walks 2026/27](../index.qmd).*"
 author:
   - name: Alistair Bailey
     url: https://ab604.uk
