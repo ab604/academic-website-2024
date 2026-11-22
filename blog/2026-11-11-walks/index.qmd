@@ -16,11 +16,8 @@ listing:
   id: walks
   contents: "*/index.qmd"
   sort: "date asc"
-  type: grid
-  grid-columns: 2
-  fields: [image, date, title, description]
-  date-format: "dddd D MMMM YYYY"
-  image-height: 300px
+  template: walks-list.ejs
+  date-format: "YYYY-MM-DD"
   sort-ui: false
   filter-ui: false
   categories: false
@@ -39,7 +36,7 @@ I've not included the distance walking to and from the train station in Southamp
 
 ## The walks {#the-walks}
 
-Each walk has its own page with photos, a route map and the GPX file. Click a walk below to open it.
+Each walk has its own page with photos, a route map and the GPX file. Click a walk below to open it:
 
 ::: {#walks}
 :::

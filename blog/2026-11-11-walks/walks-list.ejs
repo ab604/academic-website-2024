@@ -1,0 +1,5 @@
+<ol class="walks-list">
+<% for (const item of items) { %>
+  <li <%= metadataAttrs(item) %>><%= item.date %> <a href="<%- item.path %>"><%= item.title %></a></li>
+<% } %>
+</ol>

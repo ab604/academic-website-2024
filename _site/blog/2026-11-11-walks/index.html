@@ -89,9 +89,9 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-image','listing-date','listing-title','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      valueNames: ['listing-project','listing-execute','listing-website','listing-format','listing-engines','listing-language','listing-freeze','listing-title-block-banner','listing-toc','listing-toc-depth','listing-toc-location','listing-lightbox','listing-author','listing-title','listing-description','listing-date','listing-categories','listing-citation','listing-draft','listing-image','listing-image-alt','listing-resources','listing-path','listing-outputHref','listing-date-modified','listing-filename','listing-file-modified','listing-reading-time','listing-word-count',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-date-modified-sort'] },{ data: ['listing-file-modified-sort'] },{ data: ['listing-reading-time-sort'] },{ data: ['listing-word-count-sort'] }],
       
-      searchColumns: ["listing-title","listing-author","listing-date","listing-image","listing-description"],
+      searchColumns: ["listing-project","listing-execute","listing-website","listing-format","listing-engines","listing-language","listing-freeze","listing-title-block-banner","listing-toc","listing-toc-depth","listing-toc-location","listing-lightbox","listing-author","listing-title","listing-description","listing-date","listing-categories","listing-citation","listing-draft","listing-image","listing-image-alt","listing-resources","listing-path","listing-outputHref","listing-date-modified","listing-filename","listing-file-modified","listing-reading-time","listing-word-count"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -422,115 +422,25 @@ window.Quarto = {
 </section>
 <section id="the-walks" class="level2">
 <h2 class="anchored" data-anchor-id="the-walks">The walks</h2>
-<p>Each walk has its own page with photos, a route map and the GPX file. Click a walk below to open it.</p>
-<div id="listing-walks" class="quarto-listing quarto-listing-container-grid">
-<div class="list grid quarto-listing-cols-2">
-<div class="g-col-1" data-index="0" data-categories="d2Fsa3M=" data-listing-date-sort="1792105200000" data-listing-file-modified-sort="1795338348716" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="582">
-<a href="../../blog/2026-11-11-walks/01-upwey-to-weymouth/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="../../blog/2026-11-11-walks/01-upwey-to-weymouth/img/upwey-to-weymouth-route.webp" class="thumbnail-image card-img" style="height: 300px;" alt="Ordnance Survey map of the route. It starts at Upwey station, heads east along the ridgeway past Bincombe and above Osmington, drops south to the coast near Osmington Mills, then follows the coast path west past Redcliff Point and Bowleaze Cove and along Weymouth beach to the town centre.">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Upwey to Weymouth
-</h5>
-<div class="card-text listing-description delink">
-<p>Walk 1 of my Autumn and Winter Walks 2026/27: from Upwey along the South Dorset Ridgeway and the coast path to Weymouth.</p>
-</div>
-<div class="card-attribution card-text-small end">
-<div class="listing-date">
-Friday 16 October 2026
-</div>
-</div>
-</div>
-</div></a>
-</div>
-<div class="g-col-1" data-index="1" data-categories="d2Fsa3M=" data-listing-date-sort="1793318400000" data-listing-file-modified-sort="1795342504859" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4" data-listing-word-count-sort="620">
-<a href="../../blog/2026-11-11-walks/02-east-meon-to-alresford/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="../../blog/2026-11-11-walks/02-east-meon-to-alresford/img/east-meon-to-alresford-route.webp" class="thumbnail-image card-img" style="height: 300px;" alt="Ordnance Survey map of the route. It starts at East Meon in the south-east, heads west past Riplington and East End to West Meon, then turns north-west past Hinton Ampner to Cheriton, and continues north past Tichborne to finish in New Alresford.">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-East Meon to Alresford via The Flower Pots Inn
-</h5>
-<div class="card-text listing-description delink">
-<p>Walk 2 of my Autumn and Winter Walks 2026/27: from East Meon past the source of the River Itchen, via the Flower Pots Inn at Cheriton, to Alresford.</p>
-</div>
-<div class="card-attribution card-text-small end">
-<div class="listing-date">
-Friday 30 October 2026
-</div>
-</div>
-</div>
-</div></a>
-</div>
-<div class="g-col-1" data-index="2" data-categories="d2Fsa3M=" data-listing-date-sort="1794009600000" data-listing-file-modified-sort="1795342504898" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="533">
-<a href="../../blog/2026-11-11-walks/03-whitchurch-to-andover/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="../../blog/2026-11-11-walks/03-whitchurch-to-andover/img/whitchurch-to-andover-route.webp" class="thumbnail-image card-img" style="height: 300px;" alt="Ordnance Survey map of the route. It starts at Whitchurch station in the north-east, follows the River Test south-west past Tufton and Testcombe to Longparish, then turns west through Harewood Forest and over Cow Down to finish in Andover.">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Whitchurch to Andover
-</h5>
-<div class="card-text listing-description delink">
-<p>Walk 3 of my Autumn and Winter Walks 2026/27: a Saturday Walkers Club route along the Test Way and through Harewood Forest from Whitchurch to Andover.</p>
-</div>
-<div class="card-attribution card-text-small end">
-<div class="listing-date">
-Saturday 7 November 2026
-</div>
-</div>
-</div>
-</div></a>
-</div>
-<div class="g-col-1" data-index="3" data-categories="d2Fsa3M=" data-listing-date-sort="1794614400000" data-listing-file-modified-sort="1795342504936" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="12" data-listing-word-count-sort="2364">
-<a href="../../blog/2026-11-11-walks/04-reading-green-park-to-mortimer/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="../../blog/2026-11-11-walks/04-reading-green-park-to-mortimer/img/rgp-to-mortimer-route.webp" class="thumbnail-image card-img" style="height: 300px;" alt="Ordnance Survey map of the route. It starts at Reading Green Park station near Pingewood, heads north to Southcote Mill, then west along the Holy Brook and Kennet and Avon Canal past Burghfield Mill and the lakes. It turns south under the M4 to Burghfield village, then south-west up Burghfield Hill, through Burghfield Common and the woods beyond, and finishes at Mortimer station in Stratfield Mortimer.">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Reading Green Park to Mortimer via Burghfield
-</h5>
-<div class="card-text listing-description delink">
-<p>Walk 4 of my Autumn and Winter Walks 2026/27: along the Kennet and Avon Canal and back to Burghfield, where I lived as a child, finishing at Mortimer.</p>
-</div>
-<div class="card-attribution card-text-small end">
-<div class="listing-date">
-Saturday 14 November 2026
-</div>
-</div>
-</div>
-</div></a>
-</div>
-<div class="g-col-1" data-index="4" data-categories="d2Fsa3M=" data-listing-date-sort="1795219200000" data-listing-file-modified-sort="1795342961078" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="15" data-listing-word-count-sort="2869">
-<a href="../../blog/2026-11-11-walks/05-yarmouth-to-freshwater/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="../../blog/2026-11-11-walks/05-yarmouth-to-freshwater/img/yarmouth-to-freshwater-route.webp" class="thumbnail-image card-img" style="height: 300px;" alt="Ordnance Survey map of the route on the western tip of the Isle of Wight. It starts at Yarmouth, heads west along the coast past Fort Victoria and Fort Albert, then south along Colwell Bay and Totland Bay. It crosses Headon Warren to Alum Bay and the Needles, then turns east along the clifftops over Tennyson Down to Freshwater Bay, and finishes by heading north to Freshwater.">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Yarmouth to Freshwater
-</h5>
-<div class="card-text listing-description delink">
-<p>Walk 5 of my Autumn and Winter Walks 2026/27: on the Isle of Wight from Yarmouth along the coast to the Needles and over Tennyson Down to Freshwater.</p>
-</div>
-<div class="card-attribution card-text-small end">
-<div class="listing-date">
-Saturday 21 November 2026
-</div>
-</div>
-</div>
-</div></a>
-</div>
-</div>
+<p>Each walk has its own page with photos, a route map and the GPX file. Click a walk below to open it:</p>
+<div id="listing-walks" class="quarto-listing quarto-listing-container-custom">
+<ol class="walks-list">
+<li data-index="0" data-categories="d2Fsa3M=" data-listing-date-sort="1792105200000" data-listing-file-modified-sort="1795338348716" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="582">
+2026-10-16 <a href="../../blog/2026-11-11-walks/01-upwey-to-weymouth/index.html">Upwey to Weymouth</a>
+</li>
+<li data-index="1" data-categories="d2Fsa3M=" data-listing-date-sort="1793318400000" data-listing-file-modified-sort="1795342504859" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4" data-listing-word-count-sort="620">
+2026-10-30 <a href="../../blog/2026-11-11-walks/02-east-meon-to-alresford/index.html">East Meon to Alresford via The Flower Pots Inn</a>
+</li>
+<li data-index="2" data-categories="d2Fsa3M=" data-listing-date-sort="1794009600000" data-listing-file-modified-sort="1795342504898" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="533">
+2026-11-07 <a href="../../blog/2026-11-11-walks/03-whitchurch-to-andover/index.html">Whitchurch to Andover</a>
+</li>
+<li data-index="3" data-categories="d2Fsa3M=" data-listing-date-sort="1794614400000" data-listing-file-modified-sort="1795342504936" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="12" data-listing-word-count-sort="2364">
+2026-11-14 <a href="../../blog/2026-11-11-walks/04-reading-green-park-to-mortimer/index.html">Reading Green Park to Mortimer via Burghfield</a>
+</li>
+<li data-index="4" data-categories="d2Fsa3M=" data-listing-date-sort="1795219200000" data-listing-file-modified-sort="1795342961078" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="15" data-listing-word-count-sort="2869">
+2026-11-21 <a href="../../blog/2026-11-11-walks/05-yarmouth-to-freshwater/index.html">Yarmouth to Freshwater</a>
+</li>
+</ol>
 <div class="listing-no-matching d-none">No matching items</div>
 </div>
 <script>
