@@ -16,8 +16,6 @@ resources:
   - "gpx/*.gpx"
 ---
 
-*Part of my [Autumn and Winter Walks 2026/27](../index.qmd).*
-
 **Friday 16^th^ October 2026**
 
 Left home at 1040, and caught the train from Southampton Central to Upwey which is one-stop inland from Weymouth and takes about 1hr 30min. Walk to Weymouth via the ridgeway and coastal path. 17.20 km (10.69 miles) on the map, but I walked 19.29 km (11.99 miles) including a slight detour in about 4 hours and 20 minutes. Got back home at 2000.
